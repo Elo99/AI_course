@@ -1,0 +1,8 @@
+In this paper, we present our work participating in the BioCreative VII Track
+3 - automatic extraction of medication names in tweets, where we implemented a
+multi-task learning model that is jointly trained on text classification and
+sequence labelling. Our best system run achieved a strict F1 of 80.4, ranking
+first and more than 10 points higher than the average score of all
+participants. Our analyses show that the ensemble technique, multi-task
+learning, and data augmentation are all beneficial for medication detection in
+tweets.

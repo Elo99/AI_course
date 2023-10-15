@@ -1,0 +1,23 @@
+Multimodal sentiment analysis (MSA), which supposes to improve text-based
+sentiment analysis with associated acoustic and visual modalities, is an
+emerging research area due to its potential applications in Human-Computer
+Interaction (HCI). However, the existing researches observe that the acoustic
+and visual modalities contribute much less than the textual modality, termed as
+text-predominant. Under such circumstances, in this work, we emphasize making
+non-verbal cues matter for the MSA task. Firstly, from the resource
+perspective, we present the CH-SIMS v2.0 dataset, an extension and enhancement
+of the CH-SIMS. Compared with the original dataset, the CH-SIMS v2.0 doubles
+its size with another 2121 refined video segments with both unimodal and
+multimodal annotations and collects 10161 unlabelled raw video segments with
+rich acoustic and visual emotion-bearing context to highlight non-verbal cues
+for sentiment prediction. Secondly, from the model perspective, benefiting from
+the unimodal annotations and the unsupervised data in the CH-SIMS v2.0, the
+Acoustic Visual Mixup Consistent (AV-MC) framework is proposed. The designed
+modality mixup module can be regarded as an augmentation, which mixes the
+acoustic and visual modalities from different videos. Through drawing
+unobserved multimodal context along with the text, the model can learn to be
+aware of different non-verbal contexts for sentiment prediction. Our
+evaluations demonstrate that both CH-SIMS v2.0 and AV-MC framework enables
+further research for discovering emotion-bearing acoustic and visual cues and
+paves the path to interpretable end-to-end HCI applications for real-world
+scenarios.

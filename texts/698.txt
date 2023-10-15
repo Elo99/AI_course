@@ -1,0 +1,8 @@
+In this paper we present an abstract nonsmooth optimization problem for which
+we recall existence and uniqueness results. We show a numerical scheme to
+approximate its solution. The theory is later applied to a sample static
+contact problem describing an elastic body in frictional contact with a
+foundation. This problem leads to a hemivariational inequality which we solve
+numerically. Finally, we compare three computational methods of solving contact
+mechanical problems: direct optimization method, augmented Lagrangian method
+and primal-dual active set strategy.

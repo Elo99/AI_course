@@ -1,0 +1,24 @@
+Handling complicated text images (e.g., irregular structures, low resolution,
+heavy occlusion, and even illumination), existing supervised text recognition
+methods are data-hungry. Although these methods employ large-scale synthetic
+text images to reduce the dependence on annotated real images, the domain gap
+limits the recognition performance. Therefore, exploring the robust text
+feature representation on unlabeled real images by self-supervised learning is
+a good solution. However, existing self-supervised text recognition methods
+only execute sequence-to-sequence representation learning by roughly splitting
+the visual features along the horizontal axis, which will damage the character
+structures. Besides, these sequential-level self-learning methods limit the
+availability of geometric-based data augmentation, as large-scale geometry
+augmentation leads to sequence-to-sequence inconsistency. To address the
+above-mentioned issues, we proposed a novel self-supervised
+character-to-character distillation method, CCD. Specifically, we delineate the
+character structures of unlabeled real images by designing a self-supervised
+character segmentation module, and further apply the segmentation results to
+build character-level representation learning.
+  CCD differs from prior works in that we propose a character-level pretext
+task to learn more fine-grained feature representations. Besides, compared with
+the inflexible augmentations of sequence-to-sequence models, our work satisfies
+character-to-character representation consistency, across various
+transformations (e.g., geometry and colour), to generate robust text features
+in the representative space. Experiments demonstrate that CCD achieves
+state-of-the-art performance on publicly available text recognition benchmarks.

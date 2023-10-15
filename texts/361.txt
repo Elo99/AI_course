@@ -1,0 +1,10 @@
+This paper describes our participation in SemEval-2023 Task 10, whose goal is
+the detection of sexism in social media. We explore some of the most popular
+transformer models such as BERT, DistilBERT, RoBERTa, and XLNet. We also study
+different data augmentation techniques to increase the training dataset. During
+the development phase, our best results were obtained by using RoBERTa and data
+augmentation for tasks B and C. However, the use of synthetic data does not
+improve the results for task C. We participated in the three subtasks. Our
+approach still has much room for improvement, especially in the two
+fine-grained classifications. All our code is available in the repository
+https://github.com/isegura/hulat_edos.

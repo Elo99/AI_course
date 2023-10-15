@@ -1,0 +1,23 @@
+Drawing and annotating comic illustrations is a complex and difficult
+process. No existing machine learning algorithms have been developed to create
+comic illustrations based on descriptions of illustrations, or the dialogue in
+comics. Moreover, it is not known if a generative adversarial network (GAN) can
+generate original comics that correspond to the dialogue and/or descriptions.
+GANs are successful in producing photo-realistic images, but this technology
+does not necessarily translate to generation of flawless comics. What is more,
+comic evaluation is a prominent challenge as common metrics such as Inception
+Score will not perform comparably, as they are designed to work on photos. In
+this paper: 1. We implement ComicGAN, a novel text-to-comic pipeline based on a
+text-to-image GAN that synthesizes comics according to text descriptions. 2. We
+describe an in-depth empirical study of the technical difficulties of comic
+generation using GAN's. ComicGAN has two novel features: (i) text description
+creation from labels via permutation and augmentation, and (ii) custom image
+encoding with Convolutional Neural Networks. We extensively evaluate the
+proposed ComicGAN in two scenarios, namely image generation from descriptions,
+and image generation from dialogue. Our results on 1000 Dilbert comic panels
+and 6000 descriptions show synthetic comic panels from text inputs resemble
+original Dilbert panels. Novel methods for text description creation and custom
+image encoding brought improvements to Frechet Inception Distance, detail, and
+overall image quality over baseline algorithms. Generating illustrations from
+descriptions provided clear comics including characters and colours that were
+specified in the descriptions.

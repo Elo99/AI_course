@@ -1,0 +1,15 @@
+Data augmentation is a key component of CNN based image recognition tasks
+like object detection. However, it is relatively less explored for 3D object
+detection. Many standard 2D object detection data augmentation techniques do
+not extend to 3D box. Extension of these data augmentations for 3D object
+detection requires adaptation of the 3D geometry of the input scene and
+synthesis of new viewpoints. This requires accurate depth information of the
+scene which may not be always available. In this paper, we evaluate existing 2D
+data augmentations and propose two novel augmentations for monocular 3D
+detection without a requirement for novel view synthesis. We evaluate these
+augmentations on the RTM3D detection model firstly due to the shorter training
+times . We obtain a consistent improvement by 4% in the 3D AP (@IoU=0.7) for
+cars, ~1.8% scores 3D AP (@IoU=0.25) for pedestrians & cyclists, over the
+baseline on KITTI car detection dataset. We also demonstrate a rigorous
+evaluation of the mAP scores by re-weighting them to take into account the
+class imbalance in the KITTI validation dataset.

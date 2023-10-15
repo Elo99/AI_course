@@ -1,0 +1,17 @@
+Referring Image Segmentation (RIS) aims to connect image and language via
+outputting the corresponding object masks given a text description, which is a
+fundamental vision-language task. Despite lots of works that have achieved
+considerable progress for RIS, in this work, we explore an essential question,
+"what if the description is wrong or misleading of the text description?". We
+term such a sentence as a negative sentence. However, we find that existing
+works cannot handle such settings. To this end, we propose a novel formulation
+of RIS, named Robust Referring Image Segmentation (R-RIS). It considers the
+negative sentence inputs besides the regularly given text inputs. We present
+three different datasets via augmenting the input negative sentences and a new
+metric to unify both input types. Furthermore, we design a new
+transformer-based model named RefSegformer, where we introduce a token-based
+vision and language fusion module. Such module can be easily extended to our
+R-RIS setting by adding extra blank tokens. Our proposed RefSegformer achieves
+the new state-of-the-art results on three regular RIS datasets and three R-RIS
+datasets, which serves as a new solid baseline for further research. The
+project page is at \url{https://lxtgh.github.io/project/robust_ref_seg/}.

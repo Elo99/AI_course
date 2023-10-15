@@ -1,0 +1,13 @@
+This paper presents a far-field text-dependent speaker verification database
+named HI-MIA. We aim to meet the data requirement for far-field microphone
+array based speaker verification since most of the publicly available databases
+are single channel close-talking and text-independent. The database contains
+recordings of 340 people in rooms designed for the far-field scenario.
+Recordings are captured by multiple microphone arrays located in different
+directions and distance to the speaker and a high-fidelity close-talking
+microphone. Besides, we propose a set of end-to-end neural network based
+baseline systems that adopt single-channel data for training. Moreover, we
+propose a testing background aware enrollment augmentation strategy to further
+enhance the performance. Results show that the fusion systems could achieve
+3.29% EER in the far-field enrollment far field testing task and 4.02% EER in
+the close-talking enrollment and far-field testing task.

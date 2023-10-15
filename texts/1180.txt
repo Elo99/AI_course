@@ -1,0 +1,15 @@
+This paper proposes a new sparse array source enumeration algorithm for
+underdetermined scenarios with more sources than sensors. The proposed
+algorithm decomposes the wideband signals into multiple uncorrelated frequency
+bands, computes the narrowband spatial periodograms and then averages
+periodograms to reinforce the sources' spectral information. The inverse
+spatial Fourier transform of the wideband periodogram estimates the spatial
+correlation function, which then populates the diagonals of a Hermitian
+Toeplitz augmented covariance matrix (ACM) after lag redundancy averaging. A
+modified minimum description length (MDL) criteria, termed MDLgap, is proposed
+for source enumeration using the eigenvalues of the constructed ACM. MDLgap
+provably never overestimates the number of sources present, and is
+asymptotically consistent when the signals present span a limited dynamic
+range. Numerical simulations show that the proposed MDLgap algorithm achieves
+improved performance over existing approaches for underdetermined source
+enumeration, especially in low snapshot scenarios.

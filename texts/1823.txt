@@ -1,0 +1,15 @@
+The Vision Transformer (ViT) architecture has recently achieved competitive
+performance across a variety of computer vision tasks. One of the motivations
+behind ViTs is weaker inductive biases, when compared to convolutional neural
+networks (CNNs). However this also makes ViTs more difficult to train. They
+require very large training datasets, heavy regularization, and strong data
+augmentations. The data augmentation strategies used to train ViTs have largely
+been inherited from CNN training, despite the significant differences between
+the two architectures. In this work, we empirical evaluated how different data
+augmentation strategies performed on CNN (e.g., ResNet) versus ViT
+architectures for image classification. We introduced a style transfer data
+augmentation, termed StyleAug, which worked best for training ViTs, while
+RandAugment and Augmix typically worked best for training CNNs. We also found
+that, in addition to a classification loss, using a consistency loss between
+multiple augmentations of the same image was especially helpful when training
+ViTs.

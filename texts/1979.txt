@@ -1,0 +1,7 @@
+The augmented Iwasawa algebra of a p-adic Lie group is a generalisation of
+the Iwasawa algebra of a compact p-adic Lie group. We prove that a
+split-semisimple group over a p-adic field has a coherent augmented Iwasawa
+algebra if and only if its root system is of rank one. We deduce that the
+general linear group of degree n has a coherent augmented Iwasawa algebra
+precisely when n is at most two. We also characterise when certain solvable
+p-adic Lie groups have a coherent augmented Iwasawa algebra.

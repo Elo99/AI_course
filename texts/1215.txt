@@ -1,0 +1,8 @@
+We present COVID-SEE, a system for medical literature discovery based on the
+concept of information exploration, which builds on several distinct text
+analysis and natural language processing methods to structure and organise
+information in publications, and augments search by providing a visual overview
+supporting exploration of a collection to identify key articles of interest. We
+developed this system over COVID-19 literature to help medical professionals
+and researchers explore the literature evidence, and improve findability of
+relevant information. COVID-SEE is available at http://covid-see.com.

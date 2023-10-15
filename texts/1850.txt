@@ -1,0 +1,19 @@
+Data augmentations are important in training high-performance 3D object
+detectors for point clouds. Despite recent efforts on designing new data
+augmentations, perhaps surprisingly, most state-of-the-art 3D detectors only
+use a few simple data augmentations. In particular, different from 2D image
+data augmentations, 3D data augmentations need to account for different
+representations of input data and require being customized for different
+models, which introduces significant overhead. In this paper, we resort to a
+search-based approach, and propose LidarAugment, a practical and effective data
+augmentation strategy for 3D object detection. Unlike previous approaches where
+all augmentation policies are tuned in an exponentially large search space, we
+propose to factorize and align the search space of each data augmentation,
+which cuts down the 20+ hyperparameters to 2, and significantly reduces the
+search complexity. We show LidarAugment can be customized for different model
+architectures with different input representations by a simple 2D grid search,
+and consistently improve both convolution-based UPillars/StarNet/RSN and
+transformer-based SWFormer. Furthermore, LidarAugment mitigates overfitting and
+allows us to scale up 3D detectors to much larger capacity. In particular, by
+combining with latest 3D detectors, our LidarAugment achieves a new
+state-of-the-art 74.8 mAPH L2 on Waymo Open Dataset.

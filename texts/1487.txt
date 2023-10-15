@@ -1,0 +1,15 @@
+Data augmentation has been widely used in machine learning for natural
+language processing and computer vision tasks to improve model performance.
+However, little research has studied data augmentation on graph neural
+networks, particularly using augmentation at both train- and test-time.
+Inspired by the success of augmentation in other domains, we have designed a
+method for social influence prediction using graph neural networks with train-
+and test-time augmentation, which can effectively generate multiple augmented
+graphs for social networks by utilising a variational graph autoencoder in both
+scenarios. We have evaluated the performance of our method on predicting user
+influence on multiple social network datasets. Our experimental results show
+that our end-to-end approach, which jointly trains a graph autoencoder and
+social influence behaviour classification network, can outperform
+state-of-the-art approaches, demonstrating the effectiveness of train- and
+test-time augmentation on graph neural networks for social influence
+prediction. We observe that this is particularly effective on smaller graphs.

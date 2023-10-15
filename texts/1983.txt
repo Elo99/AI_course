@@ -1,0 +1,16 @@
+In this work, we present linear exact repair schemes for one or two erasures
+in decreasing monomial-Cartesian codes DM-CC, a family of codes which provides
+a framework for polar codes. In the case of two erasures, the positions of the
+erasures should satisfy a certain restriction. We present families of augmented
+Reed-Muller (ARM) and augmented Cartesian codes (ACar) which are families of
+evaluation codes obtained by strategically adding vectors to Reed-Muller and
+Cartesian codes, respectively. We develop repair schemes for one or two
+erasures for these families of augmented codes. Unlike the repair scheme for
+two erasures of DM-CC, the repair scheme for two erasures for the augmented
+codes has no restrictions on the positions of the erasures. When the dimension
+and base field are fixed, we give examples where ARM and ACar codes provide a
+lower bandwidth (resp., bitwidth) in comparison with Reed-Solomon (resp.,
+Hermitian) codes. When the length and base field are fixed, we give examples
+where ACar codes provide a lower bandwidth in comparison with ARM. Finally, we
+analyze the asymptotic behavior when the augmented codes achieve the maximum
+rate.

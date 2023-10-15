@@ -1,0 +1,11 @@
+Providing situational awareness in light of severe coordinated cyber-attacks
+on power grids, where many measurements may be untrusted, is necessary for
+reliable monitoring and resilient operation of the grid. In this scenario, the
+set of good measurements is by itself insufficient for state estimation due to
+loss of observability. In this paper, we present a resilient state estimation
+algorithm, based on output clustering. By augmenting the measurement set by
+respective cluster variables, the system observability is regained, and a
+reliable state estimate can be computed. We show the numerical performance of
+our proposed algorithm and its ability to successfully replace corrupted
+measurements using cluster variables through an example on the IEEE 24-bus
+power system.

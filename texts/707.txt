@@ -1,0 +1,10 @@
+This study presents a new approach to metaphorical paraphrase generation by
+masking literal tokens of literal sentences and unmasking them with
+metaphorical language models. Unlike similar studies, the proposed algorithm
+does not only focus on verbs but also on nouns and adjectives. Despite the fact
+that the transfer rate for the former is the highest (56%), the transfer of the
+latter is feasible (24% and 31%). Human evaluation showed that our
+system-generated metaphors are considered more creative and metaphorical than
+human-generated ones while when using our transferred metaphors for data
+augmentation improves the state of the art in metaphorical sentence
+classification by 3% in F1.

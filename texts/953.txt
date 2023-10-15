@@ -1,0 +1,12 @@
+We develop the framework for augmented homotopical algebraic geometry. This
+is an extension of homotopical algebraic geometry, which itself is a
+homotopification of classical algebraic geometry. To do so, we define the
+notion of augmentation categories, which are a special class of generalised
+Reedy categories. For an augmentation category, we prove the existence of a
+closed Quillen model structure on the presheaf category which is compatible
+with the Kan-Quillen model structure on simplicial sets. Moreover, we use the
+concept of augmented hypercovers to define a local model structure on the
+category of augmented presheaves. We prove that crossed simplicial groups, and
+the planar rooted tree category are examples of augmentation categories.
+Finally, we introduce a method for generating new examples from old via a
+categorical pushout construction.

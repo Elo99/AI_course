@@ -1,0 +1,10 @@
+Existing class-incremental lifelong learning studies only the data is with
+single-label, which limits its adaptation to multi-label data. This paper
+studies Lifelong Multi-Label (LML) classification, which builds an online
+class-incremental classifier in a sequential multi-label classification data
+stream. Training on the data with Partial Labels in LML classification may
+result in more serious Catastrophic Forgetting in old classes. To solve the
+problem, the study proposes an Augmented Graph Convolutional Network (AGCN)
+with a built Augmented Correlation Matrix (ACM) across sequential partial-label
+tasks. The results of two benchmarks show that the method is effective for LML
+classification and reducing forgetting.

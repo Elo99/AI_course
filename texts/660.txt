@@ -1,0 +1,14 @@
+Zero-shot stance detection is challenging because it requires detecting the
+stance of previously unseen targets in the inference phase. The ability to
+learn transferable target-invariant features is critical for zero-shot stance
+detection. In this work, we propose a stance detection approach that can
+efficiently adapt to unseen targets, the core of which is to capture
+target-invariant syntactic expression patterns as transferable knowledge.
+Specifically, we first augment the data by masking the topic words of
+sentences, and then feed the augmented data to an unsupervised contrastive
+learning module to capture transferable features. Then, to fit a specific
+target, we encode the raw texts as target-specific features. Finally, we adopt
+an attention mechanism, which combines syntactic expression patterns with
+target-specific features to obtain enhanced features for predicting previously
+unseen targets. Experiments demonstrate that our model outperforms competitive
+baselines on four benchmark datasets.

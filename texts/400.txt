@@ -1,0 +1,17 @@
+Previous research has proposed a machine speech chain to enable automatic
+speech recognition (ASR) and text-to-speech synthesis (TTS) to assist each
+other in semi-supervised learning and to avoid the need for a large amount of
+paired speech and text data. However, that framework still requires a large
+amount of unpaired (speech or text) data. A prototype multimodal machine chain
+was then explored to further reduce the need for a large amount of unpaired
+data, which could improve ASR or TTS even when no more speech or text data were
+available. Unfortunately, this framework relied on the image retrieval (IR)
+model, and thus it was limited to handling only those images that were already
+known during training. Furthermore, the performance of this framework was only
+investigated with single-speaker artificial speech data. In this study, we
+revamp the multimodal machine chain framework with image generation (IG) and
+investigate the possibility of augmenting image data for ASR and TTS using
+single-loop and dual-loop architectures on multispeaker natural speech data.
+Experimental results revealed that both single-loop and dual-loop multimodal
+chain frameworks enabled ASR and TTS to improve their performance using an
+image-only dataset.

@@ -1,0 +1,19 @@
+To investigate the role of linguistic knowledge in data augmentation (DA) for
+Natural Language Processing (NLP), we designed two adapted DA programs and
+applied them to LCQMC (a Large-scale Chinese Question Matching Corpus) for a
+binary Chinese question matching classification task. The two DA programs
+produce augmented texts by five simple text editing operations (or DA
+techniques), largely irrespective of language generation rules, but one is
+enhanced with a pre-trained n-gram language model to fuse it with prior
+linguistic knowledge. We then trained four neural network models (BOW, CNN,
+LSTM, and GRU) and a pre-trained model (ERNIE-Gram) on the LCQMCs train sets of
+varying size as well as the related augmented train sets produced by the two DA
+programs. The results show that there are no significant performance
+differences between the models trained on the two types of augmented train
+sets, both when the five DA techniques are applied together or separately.
+Moreover, due to the inability of the five DA techniques to make strictly
+paraphrastic augmented texts, the results indicate the need of sufficient
+amounts of training examples for the classification models trained on them to
+mediate the negative impact of false matching augmented text pairs and improve
+performance, a limitation of random text editing perturbations used as a DA
+approach. Similar results were also obtained for English.

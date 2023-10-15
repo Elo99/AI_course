@@ -1,0 +1,13 @@
+Class imbalance naturally exists when train and test models in different
+domains. Unsupervised domain adaptation (UDA) augments model performance with
+only accessible annotations from the source domain and unlabeled data from the
+target domain. However, existing state-of-the-art UDA models learn
+domain-invariant representations and evaluate primarily on class-balanced data
+across domains. In this work, we propose an unsupervised domain adaptation
+approach via reinforcement learning that jointly leverages feature variants and
+imbalanced labels across domains. We experiment with the text classification
+task for its easily accessible datasets and compare the proposed method with
+five baselines. Experiments on three datasets prove that our proposed method
+can effectively learn robust domain-invariant representations and successfully
+adapt text classifiers on imbalanced classes over domains. The code is
+available at https://github.com/woqingdoua/ImbalanceClass.

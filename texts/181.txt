@@ -1,0 +1,18 @@
+In this paper, we propose a three-stage training methodology to improve the
+speech recognition accuracy of low-resource languages. We explore and propose
+an effective combination of techniques such as transfer learning, encoder
+freezing, data augmentation using Text-To-Speech (TTS), and Semi-Supervised
+Learning (SSL). To improve the accuracy of a low-resource Italian ASR, we
+leverage a well-trained English model, unlabeled text corpus, and unlabeled
+audio corpus using transfer learning, TTS augmentation, and SSL respectively.
+In the first stage, we use transfer learning from a well-trained English model.
+This primarily helps in learning the acoustic information from a resource-rich
+language. This stage achieves around 24% relative Word Error Rate (WER)
+reduction over the baseline. In stage two, We utilize unlabeled text data via
+TTS data-augmentation to incorporate language information into the model. We
+also explore freezing the acoustic encoder at this stage. TTS data augmentation
+helps us further reduce the WER by ~ 21% relatively. Finally, In stage three we
+reduce the WER by another 4% relative by using SSL from unlabeled audio data.
+Overall, our two-pass speech recognition system with a Monotonic Chunkwise
+Attention (MoChA) in the first pass and a full-attention in the second pass
+achieves a WER reduction of ~ 42% relative to the baseline.

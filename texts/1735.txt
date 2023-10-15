@@ -1,0 +1,19 @@
+Automatic eye gaze estimation is an important problem in vision based
+assistive technology with use cases in different emerging topics such as
+augmented reality, virtual reality and human-computer interaction. Over the
+past few years, there has been an increasing interest in unsupervised and
+self-supervised learning paradigms as it overcomes the requirement of large
+scale annotated data. In this paper, we propose RAZE, a Region guided
+self-supervised gAZE representation learning framework which leverage from
+non-annotated facial image data. RAZE learns gaze representation via auxiliary
+supervision i.e. pseudo-gaze zone classification where the objective is to
+classify visual field into different gaze zones (i.e. left, right and center)
+by leveraging the relative position of pupil-centers. Thus, we automatically
+annotate pseudo gaze zone labels of 154K web-crawled images and learn feature
+representations via `Ize-Net' framework. `Ize-Net' is a capsule layer based CNN
+architecture which can efficiently capture rich eye representation. The
+discriminative behaviour of the feature representation is evaluated on four
+benchmark datasets: CAVE, TabletGaze, MPII and RT-GENE. Additionally, we
+evaluate the generalizability of the proposed network on two other downstream
+task (i.e. driver gaze estimation and visual attention estimation) which
+demonstrate the effectiveness of the learnt eye gaze representation.

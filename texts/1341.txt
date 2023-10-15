@@ -1,0 +1,14 @@
+In this paper we introduce SiamMask, a framework to perform both visual
+object tracking and video object segmentation, in real-time, with the same
+simple method. We improve the offline training procedure of popular
+fully-convolutional Siamese approaches by augmenting their losses with a binary
+segmentation task. Once the offline training is completed, SiamMask only
+requires a single bounding box for initialization and can simultaneously carry
+out visual object tracking and segmentation at high frame-rates. Moreover, we
+show that it is possible to extend the framework to handle multiple object
+tracking and segmentation by simply re-using the multi-task model in a cascaded
+fashion. Experimental results show that our approach has high processing
+efficiency, at around 55 frames per second. It yields real-time
+state-of-the-art results on visual-object tracking benchmarks, while at the
+same time demonstrating competitive performance at a high speed for video
+object segmentation benchmarks.

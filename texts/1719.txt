@@ -1,0 +1,21 @@
+Gaussian graphical regression is a powerful means that regresses the
+precision matrix of a Gaussian graphical model on covariates, permitting the
+numbers of the response variables and covariates to far exceed the sample size.
+Model fitting is typically carried out via separate node-wise lasso
+regressions, ignoring the network-induced structure among these regressions.
+Consequently, the error rate is high, especially when the number of nodes is
+large. We propose a multi-task learning estimator for fitting Gaussian
+graphical regression models; we design a cross-task group sparsity penalty and
+a within task element-wise sparsity penalty, which govern the sparsity of
+active covariates and their effects on the graph, respectively. For
+computation, we consider an efficient augmented Lagrangian algorithm, which
+solves subproblems with a semi-smooth Newton method. For theory, we show that
+the error rate of the multi-task learning based estimates has much improvement
+over that of the separate node-wise lasso estimates, because the cross-task
+penalty borrows information across tasks. To address the main challenge that
+the tasks are entangled in a complicated correlation structure, we establish a
+new tail probability bound for correlated heavy-tailed (sub-exponential)
+variables with an arbitrary correlation structure, a useful theoretical result
+in its own right. Finally, the utility of our method is demonstrated through
+simulations as well as an application to a gene co-expression network study
+with brain cancer patients.

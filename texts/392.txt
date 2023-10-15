@@ -1,0 +1,10 @@
+We study contextual bandit (CB) problems, where the user can sometimes
+respond with the best action in a given context. Such an interaction arises,
+for example, in text prediction or autocompletion settings, where a poor
+suggestion is simply ignored and the user enters the desired text instead.
+Crucially, this extra feedback is user-triggered on only a subset of the
+contexts. We develop a new framework to leverage such signals, while being
+robust to their biased nature. We also augment standard CB algorithms to
+leverage the signal, and show improved regret guarantees for the resulting
+algorithms under a variety of conditions on the helpfulness of and bias
+inherent in this feedback.

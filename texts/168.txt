@@ -1,0 +1,11 @@
+This paper presents a novel data augmentation technique for text-to-speech
+(TTS), that allows to generate new (text, audio) training examples without
+requiring any additional data. Our goal is to increase diversity of text
+conditionings available during training. This helps to reduce overfitting,
+especially in low-resource settings. Our method relies on substituting text and
+audio fragments in a way that preserves syntactical correctness. We take
+additional measures to ensure that synthesized speech does not contain
+artifacts caused by combining inconsistent audio samples. The perceptual
+evaluations show that our method improves speech quality over a number of
+datasets, speakers, and TTS architectures. We also demonstrate that it greatly
+improves robustness of attention-based TTS models.

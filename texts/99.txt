@@ -1,0 +1,17 @@
+Self-training (ST) has prospered again in language understanding by
+augmenting the fine-tuning of pre-trained language models when labeled data is
+insufficient. However, it remains challenging to incorporate ST into
+attribute-controllable language generation. Augmented by only self-generated
+pseudo text, generation models over-emphasize exploitation of the previously
+learned space, suffering from a constrained generalization boundary. We revisit
+ST and propose a novel method, DuNST to alleviate this problem. DuNST jointly
+models text generation and classification with a shared Variational AutoEncoder
+and corrupts the generated pseudo text by two kinds of flexible noise to
+disturb the space. In this way, our model could construct and utilize both
+pseudo text from given labels and pseudo labels from available unlabeled text,
+which are gradually refined during the ST process. We theoretically demonstrate
+that DuNST can be regarded as enhancing exploration towards the potential real
+text space, providing a guarantee of improved performance. Experiments on three
+controllable generation tasks show that DuNST could significantly boost control
+accuracy while maintaining comparable generation fluency and diversity against
+several strong baselines.

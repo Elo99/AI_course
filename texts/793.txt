@@ -1,0 +1,16 @@
+Scene text detection based on deep neural networks have progressed
+substantially over the past years. However, previous state-of-the-art methods
+may still fall short when dealing with challenging public benchmarks because
+the performances of algorithm are determined by the robust features extraction
+and components in network architecture. To address this issue, we will present
+a network architecture derived from the loss to maximize conditional
+log-likelihood by optimizing the lower bound with a proper approximate
+posterior that has shown impressive performance in several generative models.
+In addition, by extending the layer of latent variables to multiple layers, the
+network is able to learn robust features on scale with no task-specific
+regularization or data augmentation. We provide a detailed analysis and show
+the results on three public benchmark datasets to confirm the efficiency and
+reliability of the proposed algorithm. In experiments, the proposed algorithm
+significantly outperforms state-of-the-art methods in terms of both recall and
+precision. Specifically, it achieves an H-mean of 95.12 and 96.78 on ICDAR 2011
+and ICDAR 2013, respectively.

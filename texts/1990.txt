@@ -1,0 +1,15 @@
+Voice conversion (VC) could be used to improve speech recognition systems in
+low-resource languages by using it to augment limited training data. However,
+VC has not been widely used for this purpose because of practical issues such
+as compute speed and limitations when converting to and from unseen speakers.
+Moreover, it is still unclear whether a VC model trained on one well-resourced
+language can be applied to speech from another low-resource language for the
+aim of data augmentation. In this work we assess whether a VC system can be
+used cross-lingually to improve low-resource speech recognition. We combine
+several recent techniques to design and train a practical VC system in English,
+and then use this system to augment data for training speech recognition models
+in several low-resource languages. When using a sensible amount of VC augmented
+data, speech recognition performance is improved in all four low-resource
+languages considered. We also show that VC-based augmentation is superior to
+SpecAugment (a widely used signal processing augmentation method) in the
+low-resource languages considered.

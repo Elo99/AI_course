@@ -1,0 +1,14 @@
+We study in this paper the problem of adaptive trajectory tracking control
+for a class of nonlinear systems with parametric uncertainties. We propose to
+use a modular approach, where we first design a robust nonlinear state feedback
+which renders the closed loop input-to-state stable (ISS), where the input is
+considered to be the estimation error of the uncertain parameters, and the
+state is considered to be the closed-loop output tracking error. Next, we
+augment this robust ISS controller with a model-free learning algorithm to
+estimate the model uncertainties. We implement this method with two different
+learning approaches. The first one is a model-free multi-parametric extremum
+seeking (MES) method and the second is a Bayesian optimization-based method
+called Gaussian Process Upper Confidence Bound (GP-UCB). The combination of the
+ISS feedback and the learning algorithms gives a learning-based modular
+indirect adaptive controller. We show the efficiency of this approach on a
+two-link robot manipulator example.

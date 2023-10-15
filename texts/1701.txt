@@ -1,0 +1,24 @@
+Self-supervised learning (SSL) has become a popular method for generating
+invariant representations without the need for human annotations. Nonetheless,
+the desired invariant representation is achieved by utilising prior online
+transformation functions on the input data. As a result, each SSL framework is
+customised for a particular data type, e.g., visual data, and further
+modifications are required if it is used for other dataset types. On the other
+hand, autoencoder (AE), which is a generic and widely applicable framework,
+mainly focuses on dimension reduction and is not suited for learning invariant
+representation. This paper proposes a generic SSL framework based on a
+constrained self-labelling assignment process that prevents degenerate
+solutions. Specifically, the prior transformation functions are replaced with a
+self-transformation mechanism, derived through an unsupervised training process
+of adversarial training, for imposing invariant representations. Via the
+self-transformation mechanism, pairs of augmented instances can be generated
+from the same input data. Finally, a training objective based on contrastive
+learning is designed by leveraging both the self-labelling assignment and the
+self-transformation mechanism. Despite the fact that the self-transformation
+process is very generic, the proposed training strategy outperforms a majority
+of state-of-the-art representation learning methods based on AE structures. To
+validate the performance of our method, we conduct experiments on four types of
+data, namely visual, audio, text, and mass spectrometry data, and compare them
+in terms of four quantitative metrics. Our comparison results indicate that the
+proposed method demonstrate robustness and successfully identify patterns
+within the datasets.

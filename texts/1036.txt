@@ -1,0 +1,16 @@
+Approximate matrix factorization techniques with both nonnegativity and
+orthogonality constraints, referred to as orthogonal nonnegative matrix
+factorization (ONMF), have been recently introduced and shown to work
+remarkably well for clustering tasks such as document classification. In this
+paper, we introduce two new methods to solve ONMF. First, we show athematical
+equivalence between ONMF and a weighted variant of spherical k-means, from
+which we derive our first method, a simple EM-like algorithm. This also allows
+us to determine when ONMF should be preferred to k-means and spherical k-means.
+Our second method is based on an augmented Lagrangian approach. Standard ONMF
+algorithms typically enforce nonnegativity for their iterates while trying to
+achieve orthogonality at the limit (e.g., using a proper penalization term or a
+suitably chosen search direction). Our method works the opposite way:
+orthogonality is strictly imposed at each step while nonnegativity is
+asymptotically obtained, using a quadratic penalty. Finally, we show that the
+two proposed approaches compare favorably with standard ONMF algorithms on
+synthetic, text and image data sets.

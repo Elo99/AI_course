@@ -1,0 +1,22 @@
+We present U-Note, an augmented teaching and learning system leveraging the
+advantages of paper while letting teachers and pupils benefit from the richness
+that digital media can bring to a lecture. U-Note provides automatic linking
+between the notes of the pupils' notebooks and various events that occurred
+during the class (such as opening digital documents, changing slides, writing
+text on an interactive whiteboard...). Pupils can thus explore their notes in
+conjunction with the digital documents that were presented by the teacher
+during the lesson. Additionally, they can also listen to what the teacher was
+saying when a given note was written. Finally, they can add their own comments
+and documents to their notebooks to extend their lecture notes. We interviewed
+teachers and deployed questionnaires to identify both teachers and pupils'
+habits: most of the teachers use (or would like to use) digital documents in
+their lectures but have problems in sharing these resources with their pupils.
+The results of this study also show that paper remains the primary medium used
+for knowledge keeping, sharing and editing by the pupils. Based on these
+observations, we designed U-Note, which is built on three modules. U-Teach
+captures the context of the class: audio recordings, the whiteboard contents,
+together with the web pages, videos and slideshows displayed during the lesson.
+U-Study binds pupils' paper notes (taken with an Anoto digital pen) with the
+data coming from U-Teach and lets pupils access the class materials at home,
+through their notebooks. U-Move lets pupils browse lecture materials on their
+smartphone when they are not in front of a computer.

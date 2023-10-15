@@ -1,0 +1,23 @@
+Embedding based product recommendations have gained popularity in recent
+years due to its ability to easily integrate to large-scale systems and
+allowing nearest neighbor searches in real-time. The bulk of studies in this
+area has predominantly been focused on similar item recommendations. Research
+on complementary item recommendations, on the other hand, still remains
+considerably under-explored. We define similar items as items that are
+interchangeable in terms of their utility and complementary items as items that
+serve different purposes, yet are compatible when used with one another. In
+this paper, we apply a novel approach to finding complementary items by
+leveraging dual embedding representations for products. We demonstrate that the
+notion of relatedness discovered in NLP for skip-gram negative sampling (SGNS)
+models translates effectively to the concept of complementarity when training
+item representations using co-purchase data. Since sparsity of purchase data is
+a major challenge in real-world scenarios, we further augment the model using
+synthetic samples to extend coverage. This allows the model to provide
+complementary recommendations for items that do not share co-purchase data by
+leveraging other abundantly available data modalities such as images, text,
+clicks etc. We establish the effectiveness of our approach in improving both
+coverage and quality of recommendations on real world data for a major online
+retail company. We further show the importance of task specific hyperparameter
+tuning in training SGNS. Our model is effective yet simple to implement, making
+it a great candidate for generating complementary item recommendations at any
+e-commerce website.

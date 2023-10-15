@@ -1,0 +1,14 @@
+Recently, end-to-end speech translation (ST) has gained significant attention
+as it avoids error propagation. However, the approach suffers from data
+scarcity. It heavily depends on direct ST data and is less efficient in making
+use of speech transcription and text translation data, which is often more
+easily available. In the related field of multilingual text translation,
+several techniques have been proposed for zero-shot translation. A main idea is
+to increase the similarity of semantically similar sentences in different
+languages. We investigate whether these ideas can be applied to speech
+translation, by building ST models trained on speech transcription and text
+translation data. We investigate the effects of data augmentation and auxiliary
+loss function. The techniques were successfully applied to few-shot ST using
+limited ST data, with improvements of up to +12.9 BLEU points compared to
+direct end-to-end ST and +3.1 BLEU points compared to ST models fine-tuned from
+ASR model.

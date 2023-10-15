@@ -1,0 +1,10 @@
+We propose a framework called inverse augmented reality (IAR) which describes
+the scenario that a virtual agent living in the virtual world can observe both
+virtual objects and real objects. This is different from the traditional
+augmented reality. The traditional virtual reality, mixed reality and augmented
+reality are all generated for humans, i.e., they are human-centered frameworks.
+On the contrary, the proposed inverse augmented reality is a virtual
+agent-centered framework, which represents and analyzes the reality from a
+virtual agent's perspective. In this paper, we elaborate the framework of
+inverse augmented reality to argue the equivalence of the virtual world and the
+physical world regarding the whole physical structure.

@@ -1,0 +1,19 @@
+Temporal action segmentation tags action labels for every frame in an input
+untrimmed video containing multiple actions in a sequence. For the task of
+temporal action segmentation, we propose an encoder-decoder-style architecture
+named C2F-TCN featuring a "coarse-to-fine" ensemble of decoder outputs. The
+C2F-TCN framework is enhanced with a novel model agnostic temporal feature
+augmentation strategy formed by the computationally inexpensive strategy of the
+stochastic max-pooling of segments. It produces more accurate and
+well-calibrated supervised results on three benchmark action segmentation
+datasets. We show that the architecture is flexible for both supervised and
+representation learning. In line with this, we present a novel unsupervised way
+to learn frame-wise representation from C2F-TCN. Our unsupervised learning
+approach hinges on the clustering capabilities of the input features and the
+formation of multi-resolution features from the decoder's implicit structure.
+Further, we provide the first semi-supervised temporal action segmentation
+results by merging representation learning with conventional supervised
+learning. Our semi-supervised learning scheme, called
+``Iterative-Contrastive-Classify (ICC)'', progressively improves in performance
+with more labeled data. The ICC semi-supervised learning in C2F-TCN, with 40%
+labeled videos, performs similar to fully supervised counterparts.

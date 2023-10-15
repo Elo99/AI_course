@@ -1,0 +1,23 @@
+Numerous online stock image libraries offer high quality yet copyright free
+images for use in marketing campaigns. To assist advertisers in navigating such
+third party libraries, we study the problem of automatically fetching relevant
+ad images given the ad text (via a short textual query for images). Motivated
+by our observations in logged data on ad image search queries (given ad text),
+we formulate a keyword extraction problem, where a keyword extracted from the
+ad text (or its augmented version) serves as the ad image query. In this
+context, we propose VisualTextRank: an unsupervised method to (i) augment input
+ad text using semantically similar ads, and (ii) extract the image query from
+the augmented ad text. VisualTextRank builds on prior work on graph based
+context extraction (biased TextRank in particular) by leveraging both the text
+and image of similar ads for better keyword extraction, and using advertiser
+category specific biasing with sentence-BERT embeddings. Using data collected
+from the Verizon Media Native (Yahoo Gemini) ad platform's stock image search
+feature for onboarding advertisers, we demonstrate the superiority of
+VisualTextRank compared to competitive keyword extraction baselines (including
+an $11\%$ accuracy lift over biased TextRank). For the case when the stock
+image library is restricted to English queries, we show the effectiveness of
+VisualTextRank on multilingual ads (translated to English) while leveraging
+semantically similar English ads. Online tests with a simplified version of
+VisualTextRank led to a 28.7% increase in the usage of stock image search, and
+a 41.6% increase in the advertiser onboarding rate in the Verizon Media Native
+ad platform.

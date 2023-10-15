@@ -1,0 +1,18 @@
+In this paper, with the aim of addressing the stringent computing and
+quality-of-service (QoS) requirements of recently introduced advanced
+multimedia services, we consider a cell-free massive MIMO-enabled mobile edge
+network. In particular, benefited from the reliable cell-free links to offload
+intensive computation to the edge server, resource-constrained end-users can
+augment on-board (local) processing with edge computing. To this end, we
+formulate a joint communication and computing resource allocation (JCCRA)
+problem to minimize the total energy consumption of the users, while meeting
+the respective user-specific deadlines. To tackle the problem, we propose a
+fully distributed solution approach based on cooperative multi-agent
+reinforcement learning framework, wherein each user is implemented as a
+learning agent to make joint resource allocation relying on local information
+only. The simulation results demonstrate that the performance of the proposed
+distributed approach outperforms the heuristic baselines, converging to a
+centralized target benchmark, without resorting to large overhead. Moreover, we
+showed that the proposed algorithm has performed significantly better in
+cell-free system as compared with the cellular MEC systems, e.g., a small
+cell-based MEC system.

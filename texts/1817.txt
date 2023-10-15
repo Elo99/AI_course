@@ -1,0 +1,19 @@
+Recent powerful vision classifiers are biased towards textures, while shape
+information is overlooked by the models. A simple attempt by augmenting
+training images using the artistic style transfer method, called Stylized
+ImageNet, can reduce the texture bias. However, Stylized ImageNet approach has
+two drawbacks in fidelity and diversity. First, the generated images show low
+image quality due to the significant semantic gap betweeen natural images and
+artistic paintings. Also, Stylized ImageNet training samples are pre-computed
+before training, resulting in showing the lack of diversity for each sample. We
+propose a StyleAugment by augmenting styles from the mini-batch. StyleAugment
+does not rely on the pre-defined style references, but generates augmented
+images on-the-fly by natural images in the mini-batch for the references.
+Hence, StyleAugment let the model observe abundant confounding cues for each
+image by on-the-fly the augmentation strategy, while the augmented images are
+more realistic than artistic style transferred images. We validate the
+effectiveness of StyleAugment in the ImageNet dataset with robustness
+benchmarks, such as texture de-biased accuracy, corruption robustness, natural
+adversarial samples, and occlusion robustness. StyleAugment shows better
+generalization performances than previous unsupervised de-biasing methods and
+state-of-the-art data augmentation methods in our experiments.

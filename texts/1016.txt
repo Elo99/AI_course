@@ -1,0 +1,16 @@
+In recent years, the incidence of depression is rising rapidly worldwide, but
+large-scale depression screening is still challenging. Gait analysis provides a
+non-contact, low-cost, and efficient early screening method for depression.
+However, the early screening of depression based on gait analysis lacks
+sufficient effective sample data. In this paper, we propose a skeleton data
+augmentation method for assessing the risk of depression. First, we propose
+five techniques to augment skeleton data and apply them to depression and
+emotion datasets. Then, we divide augmentation methods into two types
+(non-noise augmentation and noise augmentation) based on the mutual information
+and the classification accuracy. Finally, we explore which augmentation
+strategies can capture the characteristics of human skeleton data more
+effectively. Experimental results show that the augmented training data set
+that retains more of the raw skeleton data properties determines the
+performance of the detection model. Specifically, rotation augmentation and
+channel mask augmentation make the depression detection accuracy reach 92.15%
+and 91.34%, respectively.

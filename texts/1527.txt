@@ -1,0 +1,22 @@
+Augmented reality technology is one of the leading technologies in the
+context of Industry 4.0. The promising potential application of augmented
+reality in industrial production systems has received much attention, which led
+to the concept of industrial augmented reality. On the one hand, this
+technology provides a suitable platform that facilitates the registration of
+information and access to them to help make decisions and allows concurrent
+training for the user while executing the production processes. This leads to
+increased work speed and accuracy of the user as a process operator and
+consequently offers economic benefits to the companies. Moreover, recent
+advances in the internet of things, smart sensors, and advanced algorithms have
+increased the possibility of widespread and more effective use of augmented
+reality. Currently, many research pieces are being done to expand the
+application of augmented reality and increase its effectiveness in industrial
+production processes. This research demonstrates the influence of augmented
+reality in Industry 4.0 while critically reviewing the industrial augmented
+reality history. Afterward, the paper discusses the critical role of industrial
+augmented reality by analyzing some use cases and their prospects. With a
+systematic analysis, this paper discusses the main future directions for
+industrial augmented reality applications in industry 4.0. The article
+investigates various areas of application for this technology and its impact on
+improving production conditions. Finally, the challenges that this technology
+faces and its research opportunities are discussed.

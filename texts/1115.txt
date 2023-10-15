@@ -1,0 +1,9 @@
+We propose a block Krylov subspace version of the GCRO-DR method proposed in
+[Parks et al. SISC 2005], which is an iterative method allowing for the
+efficient minimization of the the residual over an augmented block Krylov
+subspace. We offer a clean derivation of the method and discuss methods of
+selecting recycling subspaces at restart as well as implementation decisions in
+the context of high-performance computing. Numerical experiments are split into
+those demonstrating convergence properties and those demonstrating the data
+movement and cache efficiencies of the dominant operations of the method,
+measured using processor monitoring code from Intel.

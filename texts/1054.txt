@@ -1,0 +1,10 @@
+Ba2ScSbO6 (BSS) has been synthesized in polycrystalline form by solid state
+reaction. Structural characterization of the compound was done through X-ray
+diffraction (XRD) followed by Riedvelt analysis of the XRD pattern. The crystal
+structure is cubic, space group Fm-3m (No. 225. Optical band-gap of the present
+system has been calculated using the UV-Vis Spectroscopy to be 4.2eV. A
+detailed study of the electronic properties has also been carried out using the
+Full-Potential Linear Augmented Plane Wave (FPLAPW) as implemented in WIEN2k.
+BSS is found to be a large band-gap insulator with potential technological
+applications, such as dielectric resonators and filers in microwave
+applications

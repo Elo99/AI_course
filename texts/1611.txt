@@ -1,0 +1,20 @@
+Knowledge-graph-based reasoning has drawn a lot of attention due to its
+interpretability. However, previous methods suffer from the incompleteness of
+the knowledge graph, namely the interested link or entity that can be missing
+in the knowledge graph(explicit missing). Also, most previous models assume the
+distance between the target and source entity is short, which is not true on a
+real-world KG like Freebase(implicit missing). The sensitivity to the
+incompleteness of KG and the incapability to capture the long-distance link
+between entities have limited the performance of these models on large KG. In
+this paper, we propose a model that leverages the text corpus to cure such
+limitations, either the explicit or implicit missing links. We model the
+question answering on KG as a cooperative task between two agents, a knowledge
+graph reasoning agent and an information extraction agent. Each agent learns
+its skill to complete its own task, hopping on KG or select knowledge from the
+corpus, via maximizing the reward for correctly answering the question. The
+reasoning agent decides how to find an equivalent path for the given entity and
+relation. The extraction agent provide shortcut for long-distance target entity
+or provide missing relations for explicit missing links with messages from the
+reasoning agent. Through such cooperative reward design, our model can augment
+the incomplete KG strategically while not introduce much unnecessary noise that
+could enlarge the search space and lower the performance.

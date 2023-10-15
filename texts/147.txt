@@ -1,0 +1,3 @@
+For a certain field $K$, we construct a valuation-algebraic valuation on the
+polynomial ring $K[x]$, whose Maclane--Vaqui\'e chain consists of an infinite
+(countable) number of limit augmentations

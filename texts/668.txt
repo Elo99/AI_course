@@ -1,0 +1,14 @@
+This paper proposes an approach to build a high-quality text-to-speech (TTS)
+system for technical domains using data augmentation. An end-to-end (E2E)
+system is trained on hidden Markov model (HMM) based synthesized speech and
+further fine-tuned with studio-recorded TTS data to improve the timbre of the
+synthesized voice. The motivation behind the work is that issues of word skips
+and repetitions are usually absent in HMM systems due to their ability to model
+the duration distribution of phonemes accurately. Context-dependent pentaphone
+modeling, along with tree-based clustering and state-tying, takes care of
+unseen context and out-of-vocabulary words. A language model is also employed
+to reduce synthesis errors further. Subjective evaluations indicate that speech
+produced using the proposed system is superior to the baseline E2E synthesis
+approach in terms of intelligibility when combining complementing attributes
+from HMM and E2E frameworks. The further analysis highlights the proposed
+approach's efficacy in low-resource scenarios.

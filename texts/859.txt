@@ -1,0 +1,20 @@
+Nigerian English adaptation, Pidgin, has evolved over the years through
+multi-language code switching, code mixing and linguistic adaptation. While
+Pidgin preserves many of the words in the normal English language corpus, both
+in spelling and pronunciation, the fundamental meaning of these words have
+changed significantly. For example,'ginger' is not a plant but an expression of
+motivation and 'tank' is not a container but an expression of gratitude. The
+implication is that the current approach of using direct English sentiment
+analysis of social media text from Nigeria is sub-optimal, as it will not be
+able to capture the semantic variation and contextual evolution in the
+contemporary meaning of these words. In practice, while many words in Nigerian
+Pidgin adaptation are the same as the standard English, the full English
+language based sentiment analysis models are not designed to capture the full
+intent of the Nigerian pidgin when used alone or code-mixed. By augmenting
+scarce human labelled code-changed text with ample synthetic code-reformatted
+text and meaning, we achieve significant improvements in sentiment scoring. Our
+research explores how to understand sentiment in an intrasentential code mixing
+and switching context where there has been significant word localization.This
+work presents a 300 VADER lexicon compatible Nigerian Pidgin sentiment tokens
+and their scores and a 14,000 gold standard Nigerian Pidgin tweets and their
+sentiments labels.

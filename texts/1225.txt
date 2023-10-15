@@ -1,0 +1,14 @@
+We introduce Mem2Mem, a memory-to-memory mechanism for hierarchical recurrent
+neural network based encoder decoder architectures and we explore its use for
+abstractive document summarization. Mem2Mem transfers "memories" via
+readable/writable external memory modules that augment both the encoder and
+decoder. Our memory regularization compresses an encoded input article into a
+more compact set of sentence representations. Most importantly, the memory
+compression step performs implicit extraction without labels, sidestepping
+issues with suboptimal ground-truth data and exposure bias of hybrid
+extractive-abstractive summarization techniques. By allowing the decoder to
+read/write over the encoded input memory, the model learns to read salient
+information about the input article while keeping track of what has been
+generated. Our Mem2Mem approach yields results that are competitive with state
+of the art transformer based summarization methods, but with 16 times fewer
+parameters

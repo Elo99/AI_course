@@ -1,0 +1,11 @@
+The absence of large labeled datasets remains a significant challenge in many
+application areas of deep learning. Researchers and practitioners typically
+resort to transfer learning and data augmentation to alleviate this issue. We
+study these strategies in the context of audio retrieval with natural language
+queries (Task 6b of the DCASE 2022 Challenge). Our proposed system uses
+pre-trained embedding models to project recordings and textual descriptions
+into a shared audio-caption space in which related examples from different
+modalities are close. We employ various data augmentation techniques on audio
+and text inputs and systematically tune their corresponding hyperparameters
+with sequential model-based optimization. Our results show that the used
+augmentations strategies reduce overfitting and improve retrieval performance.

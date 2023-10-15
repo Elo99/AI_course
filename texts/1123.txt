@@ -1,0 +1,11 @@
+This paper introduces a high frequency trade execution model to evaluate the
+economic impact of supervised machine learners. Extending the concept of a
+confusion matrix, we present a 'trade information matrix' to attribute the
+expected profit and loss of the high frequency strategy under execution
+constraints, such as fill probabilities and position dependent trade rules, to
+correct and incorrect predictions. We apply the trade execution model and trade
+information matrix to Level II E-mini S&P 500 futures history and demonstrate
+an estimation approach for measuring the sensitivity of the P&L to the error of
+a Recurrent Neural Network. Our approach directly evaluates the performance
+sensitivity of a market making strategy to prediction error and augments
+traditional market simulation based testing.

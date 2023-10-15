@@ -1,0 +1,18 @@
+The design of symbol detectors in digital communication systems has
+traditionally relied on statistical channel models that describe the relation
+between the transmitted symbols and the observed signal at the receiver. Here
+we review a data-driven framework to symbol detection design which combines
+machine learning (ML) and model-based algorithms. In this hybrid approach,
+well-known channel-model-based algorithms such as the Viterbi method, BCJR
+detection, and multiple-input multiple-output (MIMO) soft interference
+cancellation (SIC) are augmented with ML-based algorithms to remove their
+channel-model-dependence, allowing the receiver to learn to implement these
+algorithms solely from data. The resulting data-driven receivers are most
+suitable for systems where the underlying channel models are poorly understood,
+highly complex, or do not well-capture the underlying physics. Our approach is
+unique in that it only replaces the channel-model-based computations with
+dedicated neural networks that can be trained from a small amount of data,
+while keeping the general algorithm intact. Our results demonstrate that these
+techniques can yield near-optimal performance of model-based algorithms without
+knowing the exact channel input-output statistical relationship and in the
+presence of channel state information uncertainty.

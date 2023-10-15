@@ -1,0 +1,21 @@
+Algorithmic content moderation manages an explosive number of user-created
+content shared online everyday. Despite a massive number of 3D designs that are
+free to be downloaded, shared, and 3D printed by the users, detecting
+sensitivity with transparency and fairness has been controversial. Although
+sensitive 3D content might have a greater impact than other media due to its
+possible reproducibility and replicability without restriction, prevailed
+unawareness resulted in proliferation of sensitive 3D models online and a lack
+of discussion on transparent and fair 3D content moderation. As the 3D content
+exists as a document on the web mainly consisting of text and images, we first
+study the existing algorithmic efforts based on text and images and the prior
+endeavors to encompass transparency and fairness in moderation, which can also
+be useful in a 3D printing domain. At the same time, we identify 3D specific
+features that should be addressed to advance a 3D specialized algorithmic
+moderation. As a potential solution, we suggest a human-in-the-loop pipeline
+using augmented learning, powered by various stakeholders with different
+backgrounds and perspectives in understanding the content. Our pipeline aims to
+minimize personal biases by enabling diverse stakeholders to be vocal in
+reflecting various factors to interpret the content. We add our initial
+proposal for redesigning metadata of open 3D repositories, to invoke users'
+responsible actions of being granted consent from the subject upon sharing
+contents for free in the public spaces.

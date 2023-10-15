@@ -1,0 +1,15 @@
+Automated data augmentation, which aims at engineering augmentation policy
+automatically, recently draw a growing research interest. Many previous
+auto-augmentation methods utilized a Density Matching strategy by evaluating
+policies in terms of the test-time augmentation performance. In this paper, we
+theoretically and empirically demonstrated the inconsistency between the train
+and validation set of small-scale medical image datasets, referred to as
+in-domain sampling bias. Next, we demonstrated that the in-domain sampling bias
+might cause the inefficiency of Density Matching. To address the problem, an
+improved augmentation search strategy, named Augmented Density Matching, was
+proposed by randomly sampling policies from a prior distribution for training.
+Moreover, an efficient automatical machine learning(AutoML) algorithm was
+proposed by unifying the search on data augmentation and neural architecture.
+Experimental results indicated that the proposed methods outperformed
+state-of-the-art approaches on MedMNIST, a pioneering benchmark designed for
+AutoML in medical image analysis.

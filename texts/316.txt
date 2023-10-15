@@ -1,0 +1,6 @@
+Leveraging unlabelled data through weak or distant supervision is a
+compelling approach to developing more effective text classification models.
+This paper proposes a simple but effective data augmentation method, which
+leverages the idea of pseudo-labelling to select samples from noisy distant
+supervision annotation datasets. The result shows that the proposed method
+improves the accuracy of biased news detection models.

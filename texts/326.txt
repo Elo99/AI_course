@@ -1,0 +1,8 @@
+The standard Gibbs sampler of Mixed Multinomial Logit (MMNL) models involves
+sampling from conditional densities of utility parameters using
+Metropolis-Hastings (MH) algorithm due to unavailability of conjugate prior for
+logit kernel. To address this non-conjugacy concern, we propose the application
+of P\'olygamma data augmentation (PG-DA) technique for the MMNL estimation. The
+posterior estimates of the augmented and the default Gibbs sampler are similar
+for two-alternative scenario (binary choice), but we encounter empirical
+identification issues in the case of more alternatives ($J \geq 3$).

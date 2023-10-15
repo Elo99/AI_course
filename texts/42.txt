@@ -1,0 +1,13 @@
+In the text classification problem, the imbalance of labels in datasets
+affect the performance of the text-classification models. Practically, the data
+about user comments on social networking sites not altogether appeared - the
+administrators often only allow positive comments and hide negative comments.
+Thus, when collecting the data about user comments on the social network, the
+data is usually skewed about one label, which leads the dataset to become
+imbalanced and deteriorate the model's ability. The data augmentation
+techniques are applied to solve the imbalance problem between classes of the
+dataset, increasing the prediction model's accuracy. In this paper, we
+performed augmentation techniques on the VLSP2019 Hate Speech Detection on
+Vietnamese social texts and the UIT - VSFC: Vietnamese Students' Feedback
+Corpus for Sentiment Analysis. The result of augmentation increases by about
+1.5% in the F1-macro score on both corpora.

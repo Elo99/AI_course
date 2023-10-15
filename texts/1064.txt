@@ -1,0 +1,8 @@
+The muon capture on 3H leading to muonic neutrino and three neutrons in the
+final state is studied under full inclusion of final state interactions.
+Predictions for the three-body break-up of 3H are calculated with the AV18
+potential, augmented by the Urbana IX three-nucleon force. Our results are
+based on the single nucleon weak current operator comprising the dominant
+relativistic corrections. This work is a natural extension of our
+investigations of the muon capture on 3He leading to 3H or n+d or n+n+p and
+muonic neutrino in the final state, presented in Phys. Rev. C90, 024001 (2014).

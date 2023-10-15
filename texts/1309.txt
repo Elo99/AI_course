@@ -1,0 +1,8 @@
+The large data rates at the LHC require an online trigger system to select
+relevant collisions. Rather than compressing individual events, we propose to
+compress an entire data set at once. We use a normalizing flow as a deep
+generative model to learn the probability density of the data online. The
+events are then represented by the generative neural network and can be
+inspected offline for anomalies or used for other analysis purposes. We
+demonstrate our new approach for a toy model and a correlation-enhanced bump
+hunt.

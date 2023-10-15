@@ -1,0 +1,20 @@
+Tremendous progress has been witnessed in artificial intelligence where
+neural network backed deep learning systems have been used, with applications
+in almost every domain. As a representative deep learning framework, Generative
+Adversarial Network (GAN) has been widely used for generating artificial
+images, text-to-image or image augmentation across areas of science, arts and
+video games. However, GANs are computationally expensive, sometimes
+computationally prohibitive. Furthermore, training GANs may suffer from
+convergence failure and modal collapse. Aiming at the acceleration of use cases
+for practical quantum computers, we propose QuGAN, a quantum GAN architecture
+that provides stable convergence, quantum-state based gradients and
+significantly reduced parameter sets. The QuGAN architecture runs both the
+discriminator and the generator purely on quantum state fidelity and utilizes
+the swap test on qubits to calculate the values of quantum-based loss
+functions. Built on quantum layers, QuGAN achieves similar performance with a
+94.98% reduction on the parameter set when compared to classical GANs. With the
+same number of parameters, additionally, QuGAN outperforms state-of-the-art
+quantum based GANs in the literature providing a 48.33% improvement in system
+performance compared to others attaining less than 0.5% in terms of similarity
+between generated distributions and original data sets. QuGAN code is released
+at https://github.com/yingmao/Quantum-Generative-Adversarial-Network

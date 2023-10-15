@@ -1,0 +1,16 @@
+Recent neural text-to-speech (TTS) models with fine-grained latent features
+enable precise control of the prosody of synthesized speech. Such models
+typically incorporate a fine-grained variational autoencoder (VAE) structure,
+extracting latent features at each input token (e.g., phonemes). However,
+generating samples with the standard VAE prior often results in unnatural and
+discontinuous speech, with dramatic prosodic variation between tokens. This
+paper proposes a sequential prior in a discrete latent space which can generate
+more naturally sounding samples. This is accomplished by discretizing the
+latent features using vector quantization (VQ), and separately training an
+autoregressive (AR) prior model over the result. We evaluate the approach using
+listening tests, objective metrics of automatic speech recognition (ASR)
+performance, and measurements of prosody attributes. Experimental results show
+that the proposed model significantly improves the naturalness in random sample
+generation. Furthermore, initial experiments demonstrate that randomly sampling
+from the proposed model can be used as data augmentation to improve the ASR
+performance.

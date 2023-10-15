@@ -1,0 +1,15 @@
+Bias-measuring datasets play a critical role in detecting biased behavior of
+language models and in evaluating progress of bias mitigation methods. In this
+work, we focus on evaluating gender bias through coreference resolution, where
+previous datasets are either hand-crafted or fail to reliably measure an
+explicitly defined bias. To overcome these shortcomings, we propose a novel
+method to collect diverse, natural, and minimally distant text pairs via
+counterfactual generation, and construct Counter-GAP, an annotated dataset
+consisting of 4008 instances grouped into 1002 quadruples. We further identify
+a bias cancellation problem in previous group-level metrics on Counter-GAP, and
+propose to use the difference between inconsistency across genders and within
+genders to measure bias at a quadruple level. Our results show that four
+pre-trained language models are significantly more inconsistent across
+different gender groups than within each group, and that a name-based
+counterfactual data augmentation method is more effective to mitigate such bias
+than an anonymization-based method.

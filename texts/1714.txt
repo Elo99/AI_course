@@ -1,0 +1,22 @@
+Graph clustering discovers groups or communities within networks. Deep
+learning methods such as autoencoders (AE) extract effective clustering and
+downstream representations but cannot incorporate rich structural information.
+While Graph Neural Networks (GNN) have shown great success in encoding graph
+structure, typical GNNs based on convolution or attention variants suffer from
+over-smoothing, noise, heterophily, are computationally expensive and typically
+require the complete graph being present. Instead, we propose Self-Supervised
+Contrastive Graph Clustering (SCGC), which imposes graph-structure via
+contrastive loss signals to learn discriminative node representations and
+iteratively refined soft cluster labels. We also propose SCGC*, with a more
+effective, novel, Influence Augmented Contrastive (IAC) loss to fuse richer
+structural information, and half the original model parameters. SCGC(*) is
+faster with simple linear units, completely eliminate convolutions and
+attention of traditional GNNs, yet efficiently incorporates structure. It is
+impervious to layer depth and robust to over-smoothing, incorrect edges and
+heterophily. It is scalable by batching, a limitation in many prior GNN models,
+and trivially parallelizable. We obtain significant improvements over
+state-of-the-art on a wide range of benchmark graph datasets, including images,
+sensor data, text, and citation networks efficiently. Specifically, 20% on ARI
+and 18% on NMI for DBLP; overall 55% reduction in training time and overall,
+81% reduction on inference time. Our code is available at :
+https://github.com/gayanku/SCGC

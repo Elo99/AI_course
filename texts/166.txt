@@ -1,0 +1,18 @@
+The diverse nature, scale, and specificity of podcasts present a unique
+challenge to content discovery systems. Listeners often rely on text
+descriptions of episodes provided by the podcast creators to discover new
+content. Some factors like the presentation style of the narrator and
+production quality are significant indicators of subjective user preference but
+are difficult to quantify and not reflected in the text descriptions provided
+by the podcast creators. We propose the automated creation of podcast audio
+summaries to aid in content discovery and help listeners to quickly preview
+podcast content before investing time in listening to an entire episode. In
+this paper, we present a method to automatically construct a podcast summary
+via guidance from the text-domain. Our method performs two key steps, namely,
+audio to text transcription and text summary generation. Motivated by a lack of
+datasets for this task, we curate an internal dataset, find an effective scheme
+for data augmentation, and design a protocol to gather summaries from
+annotators. We fine-tune a PreSumm[10] model with our augmented dataset and
+perform an ablation study. Our method achieves ROUGE-F(1/2/L) scores of
+0.63/0.53/0.63 on our dataset. We hope these results may inspire future
+research in this direction.

@@ -1,0 +1,13 @@
+We consider the problem of estimating the topology of multiple networks from
+nodal observations, where these networks are assumed to be drawn from the same
+(unknown) random graph model. We adopt a graphon as our random graph model,
+which is a nonparametric model from which graphs of potentially different sizes
+can be drawn. The versatility of graphons allows us to tackle the joint
+inference problem even for the cases where the graphs to be recovered contain
+different number of nodes and lack precise alignment across the graphs. Our
+solution is based on combining a maximum likelihood penalty with graphon
+estimation schemes and can be used to augment existing network inference
+methods. The proposed joint network and graphon estimation is further enhanced
+with the introduction of a robust method for noisy graph sampling information.
+We validate our proposed approach by comparing its performance against
+competing methods in synthetic and real-world datasets.

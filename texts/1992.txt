@@ -1,0 +1,13 @@
+Data augmentation is an important technique to reduce overfitting and improve
+learning performance, but existing works on data augmentation for 3D point
+cloud data are based on heuristics. In this work, we instead propose to
+automatically learn a data augmentation strategy using bilevel optimization. An
+augmentor is designed in a similar fashion to a conditional generator and is
+optimized by minimizing a base model's loss on a validation set when the
+augmented input is used for training the model. This formulation provides a
+more principled way to learn data augmentation on 3D point clouds. We evaluate
+our approach on standard point cloud classification tasks and a more
+challenging setting with pose misalignment between training and validation/test
+sets. The proposed strategy achieves competitive performance on both tasks and
+we provide further insight into the augmentor's ability to learn the validation
+set distribution.

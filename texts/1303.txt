@@ -1,0 +1,12 @@
+We consider parametric Markov decision processes (pMDPs) that are augmented
+with unknown probability distributions over parameter values. The problem is to
+compute the probability to satisfy a temporal logic specification with any
+concrete MDP that corresponds to a sample from these distributions. As solving
+this problem precisely is infeasible, we resort to sampling techniques that
+exploit the so-called scenario approach. Based on a finite number of samples of
+the parameters, the proposed method yields high-confidence bounds on the
+probability of satisfying the specification. The number of samples required to
+obtain a high confidence on these bounds is independent of the number of states
+and the number of random parameters. Experiments on a large set of benchmarks
+show that several thousand samples suffice to obtain tight and high-confidence
+lower and upper bounds on the satisfaction probability.

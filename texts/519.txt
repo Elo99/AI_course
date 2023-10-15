@@ -1,0 +1,17 @@
+This paper addresses the problem of robust process and sensor fault
+reconstruction for nonlinear systems. The proposed method augments the system
+dynamics with an approximated internal linear model of the combined
+contribution of known nonlinearities and unknown faults -- leading to an
+approximated linear model in the augmented state. We exploit the broad modeling
+power of ultra-local models to characterize this internal dynamics. We use a
+linear filter to reconstruct the augmented state (simultaneously estimating the
+state of the original system and the sum of nonlinearities and faults). Having
+this combined estimate, we can simply subtract the analytic expression of
+nonlinearities from that of the corresponding estimate to reconstruct the fault
+vector. Because the nonlinearity does not play a role in the filter dynamics
+(it is only used as a static nonlinear output to estimate the fault), we can
+avoid standard restrictive assumptions like globally (one-sided) Lipschitz
+nonlinearities and/or the need for Lipschitz constants to carry out the filter
+design. The filter synthesis is posed as a mixed H2/Hinf optimization problem
+where the effect of disturbances and model mismatches is minimized in the Hinf
+sense, for an acceptable H2 performance with respect to measurement noise.

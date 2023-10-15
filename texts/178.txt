@@ -1,0 +1,17 @@
+Advanced neural network models have penetrated Automatic Speech Recognition
+(ASR) in recent years, however, in language modeling many systems still rely on
+traditional Back-off N-gram Language Models (BNLM) partly or entirely. The
+reason for this are the high cost and complexity of training and using neural
+language models, mostly possible by adding a second decoding pass (rescoring).
+In our recent work we have significantly improved the online performance of a
+conversational speech transcription system by transferring knowledge from a
+Recurrent Neural Network Language Model (RNNLM) to the single pass BNLM with
+text generation based data augmentation. In the present paper we analyze the
+amount of transferable knowledge and demonstrate that the neural augmented LM
+(RNN-BNLM) can help to capture almost 50% of the knowledge of the RNNLM yet by
+dropping the second decoding pass and making the system real-time capable. We
+also systematically compare word and subword LMs and show that subword-based
+neural text augmentation can be especially beneficial in under-resourced
+conditions. In addition, we show that using the RNN-BNLM in the first pass
+followed by a neural second pass, offline ASR results can be even significantly
+improved.

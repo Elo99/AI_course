@@ -1,0 +1,17 @@
+In this paper we consider finding an approximate second-order stationary
+point (SOSP) of general nonconvex conic optimization that minimizes a twice
+differentiable function subject to nonlinear equality constraints and also a
+convex conic constraint. In particular, we propose a Newton-conjugate gradient
+(Newton-CG) based barrier-augmented Lagrangian method for finding an
+approximate SOSP of this problem. Under some mild assumptions, we show that our
+method enjoys a total inner iteration complexity of $\widetilde{\cal
+O}(\epsilon^{-11/2})$ and an operation complexity of $\widetilde{\cal
+O}(\epsilon^{-11/2}\min\{n,\epsilon^{-5/4}\})$ for finding an
+$(\epsilon,\sqrt{\epsilon})$-SOSP of general nonconvex conic optimization with
+high probability. Moreover, under a constraint qualification, these complexity
+bounds are improved to $\widetilde{\cal O}(\epsilon^{-7/2})$ and
+$\widetilde{\cal O}(\epsilon^{-7/2}\min\{n,\epsilon^{-3/4}\})$, respectively.
+To the best of our knowledge, this is the first study on the complexity of
+finding an approximate SOSP of general nonconvex conic optimization.
+Preliminary numerical results are presented to demonstrate superiority of the
+proposed method over first-order methods in terms of solution quality.

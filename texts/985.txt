@@ -1,0 +1,14 @@
+Are end-to-end text-to-speech (TTS) models over-parametrized? To what extent
+can these models be pruned, and what happens to their synthesis capabilities?
+This work serves as a starting point to explore pruning both spectrogram
+prediction networks and vocoders. We thoroughly investigate the tradeoffs
+between sparsity and its subsequent effects on synthetic speech. Additionally,
+we explored several aspects of TTS pruning: amount of finetuning data versus
+sparsity, TTS-Augmentation to utilize unspoken text, and combining knowledge
+distillation and pruning. Our findings suggest that not only are end-to-end TTS
+models highly prunable, but also, perhaps surprisingly, pruned TTS models can
+produce synthetic speech with equal or higher naturalness and intelligibility,
+with similar prosody. All of our experiments are conducted on publicly
+available models, and findings in this work are backed by large-scale
+subjective tests and objective measures. Code and 200 pruned models are made
+available to facilitate future research on efficiency in TTS.

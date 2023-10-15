@@ -1,0 +1,14 @@
+Current natural language interaction for self-tracking tools largely depends
+on bespoke implementation optimized for a specific tracking theme and data
+format, which is neither generalizable nor scalable to a tremendous design
+space of self-tracking. However, training machine learning models in the
+context of self-tracking is challenging due to the wide variety of tracking
+topics and data formats. In this paper, we propose a novel NLP task for
+self-tracking that extracts close- and open-ended information from a
+retrospective activity log described as a plain text, and a domain-agnostic,
+GPT-3-based NLU framework that performs this task. The framework augments the
+prompt using synthetic samples to transform the task into 10-shot learning, to
+address a cold-start problem in bootstrapping a new tracking topic. Our
+preliminary evaluation suggests that our approach significantly outperforms the
+baseline QA models. Going further, we discuss future application domains toward
+which the NLP and HCI researchers can collaborate.

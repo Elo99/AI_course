@@ -1,0 +1,17 @@
+This survey concerns subspace recycling methods, a popular class of iterative
+methods that enable effective reuse of subspace information in order to speed
+up convergence and find good initial guesses over a sequence of linear systems
+with slowly changing coefficient matrices, multiple right-hand sides, or both.
+The subspace information that is recycled is usually generated during the run
+of an iterative method (usually a Krylov subspace method) on one or more of the
+systems. Following introduction of definitions and notation, we examine the
+history of early augmentation schemes along with deflation preconditioning
+schemes and their influence on the development of recycling methods. We then
+discuss a general residual constraint framework through which many augmented
+Krylov and recycling methods can both be viewed. We review several augmented
+and recycling methods within this framework. We then discuss some known
+effective strategies for choosing subspaces to recycle before taking the reader
+through more recent developments that have generalized recycling for (sequences
+of) shifted linear systems, some of them with multiple right-hand sides in
+mind. We round out our survey with a brief review of application areas that
+have seen benefit from subspace recycling methods.

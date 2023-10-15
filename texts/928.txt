@@ -1,0 +1,21 @@
+Alignment between real and virtual objects is a challenging task required for
+the deployment of Mixed Reality (MR) into manufacturing, medical, and
+construction applications. To face this challenge, a series of methods have
+been proposed. While many approaches use dynamic augmentations such as
+animations, arrows, or text to assist users, they require tracking the position
+of real objects. In contrast, when tracking of the real objects is not
+available or desired, alternative approaches use virtual replicas of real
+objects to allow for interactive, perceptual virtual-to-real, and/or
+real-to-virtual alignment. In these cases, the accuracy achieved strongly
+depends on the quality of the perceptual information provided to the user. This
+paper proposes a novel set of perceptual alignment concepts that go beyond the
+use of traditional visualization of virtual replicas, introducing the concept
+of COMPLEMENTARY TEXTURES to improve interactive alignment in MR applications.
+To showcase the advantages of using COMPLEMENTARY TEXTURES, we describe three
+different implementations that provide highly salient visual cues when
+misalignment is observed; or present semantic augmentations that, when combined
+with a real object, provide contextual information that can be used during the
+alignment process. The authors aim to open new paths for the community to
+explore rather than describing end-to-end solutions. The objective is to show
+the multitude of opportunities such concepts could provide for further research
+and development.

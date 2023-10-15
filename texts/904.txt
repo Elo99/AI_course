@@ -1,0 +1,21 @@
+Local governments still depend on traditional town halls for community
+consultation, despite problems such as a lack of inclusive participation for
+attendees and difficulty for civic organizers to capture attendees' feedback in
+reports. Building on a formative study with 66 town hall attendees and 20
+organizers, we designed and developed CommunityClick, a communitysourcing
+system that captures attendees' feedback in an inclusive manner and enables
+organizers to author more comprehensive reports. During the meeting, in
+addition to recording meeting audio to capture vocal attendees' feedback, we
+modify iClickers to give voice to reticent attendees by allowing them to
+provide real-time feedback beyond a binary signal. This information then
+automatically feeds into a meeting transcript augmented with attendees'
+feedback and organizers' tags. The augmented transcript along with a
+feedback-weighted summary of the transcript generated from text analysis
+methods is incorporated into an interactive authoring tool for organizers to
+write reports. From a field experiment at a town hall meeting, we demonstrate
+how CommunityClick can improve inclusivity by providing multiple avenues for
+attendees to share opinions. Additionally, interviews with eight expert
+organizers demonstrate CommunityClick's utility in creating more comprehensive
+and accurate reports to inform critical civic decision-making. We discuss the
+possibility of integrating CommunityClick with town hall meetings in the future
+as well as expanding to other domains.

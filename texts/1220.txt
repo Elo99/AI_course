@@ -1,0 +1,12 @@
+Sentence fusion is the task of joining related sentences into coherent text.
+Current training and evaluation schemes for this task are based on single
+reference ground-truths and do not account for valid fusion variants. We show
+that this hinders models from robustly capturing the semantic relationship
+between input sentences. To alleviate this, we present an approach in which
+ground-truth solutions are automatically expanded into multiple references via
+curated equivalence classes of connective phrases. We apply this method to a
+large-scale dataset and use the augmented dataset for both model training and
+evaluation. To improve the learning of semantic representation using multiple
+references, we enrich the model with auxiliary discourse classification tasks
+under a multi-tasking framework. Our experiments highlight the improvements of
+our approach over state-of-the-art models.

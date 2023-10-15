@@ -1,0 +1,22 @@
+With the exponential increase in mobile users, the mobile data demand has
+grown tremendously. To meet these demands, cellular operators are constantly
+innovating to enhance the capacity of cellular systems. Consequently, operators
+have been reusing the licensed spectrum spatially, by deploying 4G/LTE small
+cells (e.g., Femto Cells) in the past. However, despite the use of small cells,
+licensed spectrum will be unable to meet the consistently rising data traffic
+because of data-intensive applications such as augmented reality or virtual
+reality (AR/VR) and on-the-go high-definition video streaming. Applications
+such AR/VR and online gaming not only place extreme data demands on the
+network, but are also latency-critical. To meet the QoS guarantees, cellular
+operators have begun leveraging the unlicensed spectrum by coexisting with
+Wi-Fi in the 5 GHz band. The standardizing body 3GPP, has prescribed cellular
+standards for fair unlicensed coexistence with Wi-Fi, namely LTE Licensed
+Assisted Access (LAA), New Radio in unlicensed (NR-U), and NR in Millimeter.
+The rapid roll-out of LAA deployments in developed nations like the US, offers
+an opportunity to study and analyze the performance of unlicensed coexistence
+networks through real-world ground truth. Thus, this paper presents a
+high-level overview of past, present, and future of the research in small cell
+and unlicensed coexistence communication technologies. It outlines the vision
+for future research work in the recently allocated unlicensed spectrum: The 6
+GHz band, where the latest Wi-Fi standard, IEEE 802.11ax, will coexist with the
+latest cellular technology, 5G New Radio (NR) in unlicensed.

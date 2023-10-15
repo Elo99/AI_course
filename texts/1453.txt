@@ -1,0 +1,21 @@
+LSTMs promise much to financial time-series analysis, temporal and
+cross-sectional inference, but we find that they do not deliver in a real-world
+financial management task. We examine an alternative called Continual Learning
+(CL), a memory-augmented approach, which can provide transparent explanations,
+i.e. which memory did what and when. This work has implications for many
+financial applications including credit, time-varying fairness in decision
+making and more. We make three important new observations. Firstly, as well as
+being more explainable, time-series CL approaches outperform LSTMs as well as a
+simple sliding window learner using feed-forward neural networks (FFNN).
+Secondly, we show that CL based on a sliding window learner (FFNN) is more
+effective than CL based on a sequential learner (LSTM). Thirdly, we examine how
+real-world, time-series noise impacts several similarity approaches used in CL
+memory addressing. We provide these insights using an approach called Continual
+Learning Augmentation (CLA) tested on a complex real-world problem, emerging
+market equities investment decision making. CLA provides a test-bed as it can
+be based on different types of time-series learners, allowing testing of LSTM
+and FFNN learners side by side. CLA is also used to test several distance
+approaches used in a memory recall-gate: Euclidean distance (ED), dynamic time
+warping (DTW), auto-encoders (AE) and a novel hybrid approach, warp-AE. We find
+that ED under-performs DTW and AE but warp-AE shows the best overall
+performance in a real-world financial task.

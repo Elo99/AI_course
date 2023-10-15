@@ -1,0 +1,22 @@
+We previously proposed contextual spelling correction (CSC) to correct the
+output of end-to-end (E2E) automatic speech recognition (ASR) models with
+contextual information such as name, place, etc. Although CSC has achieved
+reasonable improvement in the biasing problem, there are still two drawbacks
+for further accuracy improvement. First, due to information limitation in text
+only hypothesis or weak performance of ASR model on rare domains, the CSC model
+may fail to correct phrases with similar pronunciation or anti-context cases
+where all biasing phrases are not present in the utterance. Second, there is a
+discrepancy between the training and inference of CSC. The bias list in
+training is randomly selected but in inference there may be more similarity
+between ground truth phrase and other phrases. To solve above limitations, in
+this paper we propose an improved non-autoregressive (NAR) spelling correction
+model for contextual biasing in E2E neural transducer-based ASR systems to
+improve the previous CSC model from two perspectives: Firstly, we incorporate
+acoustics information with an external attention as well as text hypotheses
+into CSC to better distinguish target phrase from dissimilar or irrelevant
+phrases. Secondly, we design a semantic aware data augmentation schema in
+training phrase to reduce the mismatch between training and inference to
+further boost the biasing accuracy. Experiments show that the improved method
+outperforms the baseline ASR+Biasing system by as much as 20.3% relative name
+recall gain and achieves stable improvement compared to the previous CSC method
+over different bias list name coverage ratio.

@@ -1,0 +1,20 @@
+Recently, advances in differential volumetric rendering enabled significant
+breakthroughs in the photo-realistic and fine-detailed reconstruction of
+complex 3D scenes, which is key for many virtual reality applications. However,
+in the context of augmented reality, one may also wish to effect semantic
+manipulations or augmentations of objects within a scene. To this end, we
+propose a volumetric framework for (i) disentangling or separating, the
+volumetric representation of a given foreground object from the background, and
+(ii) semantically manipulating the foreground object, as well as the
+background. Our framework takes as input a set of 2D masks specifying the
+desired foreground object for training views, together with the associated 2D
+views and poses, and produces a foreground-background disentanglement that
+respects the surrounding illumination, reflections, and partial occlusions,
+which can be applied to both training and novel views. Our method enables the
+separate control of pixel color and depth as well as 3D similarity
+transformations of both the foreground and background objects. We subsequently
+demonstrate the applicability of our framework on a number of downstream
+manipulation tasks including object camouflage, non-negative 3D object
+inpainting, 3D object translation, 3D object inpainting, and 3D text-based
+object manipulation. Full results are given in our project webpage at
+https://sagiebenaim.github.io/volumetric-disentanglement/

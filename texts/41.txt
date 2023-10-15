@@ -1,0 +1,9 @@
+Natural scene text detection is an important aspect of scene understanding
+and could be a useful tool in building engaging augmented reality applications.
+In this work, we address the problem of false positives in text spotting. We
+propose improving the performace of sliding window text spotters by looking for
+character pairs (bigrams) rather than single characters. An efficient
+convolutional neural network is designed and trained to detect bigrams. The
+proposed detector reduces false positive rate by 28.16% on the ICDAR 2015
+dataset. We demonstrate that detecting bigrams is a computationally inexpensive
+way to improve sliding window text spotters.

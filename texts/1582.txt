@@ -1,0 +1,21 @@
+The paper is focused on temporal logics for the description of the behaviour
+of real-time pushdown reactive systems. The paper is motivated to bridge
+tractable logics specialized for expressing separately dense-time real-time
+properties and context-free properties by ensuring decidability and
+tractability in the combined setting. To this end we introduce two real-time
+linear temporal logics for specifying quantitative timing context-free
+requirements in a pointwise semantics setting: Event-Clock Nested Temporal
+Logic (ECNTL) and Nested Metric Temporal Logic (NMTL). The logic ECNTL is an
+extension of both the logic CARET (a context-free extension of standard LTL)
+and Event-Clock Temporal Logic (a tractable real-time logical framework related
+to the class of Event-Clock automata). We prove that satisfiability of ECNTL
+and visibly model-checking of Visibly Pushdown Timed Automata VPTA against
+ECNTL are decidable and EXPTIME-complete. The other proposed logic NMTL is a
+context-free extension of standard Metric Temporal Logic (MTL). It is well
+known that satisfiability of future MTL is undecidable when interpreted over
+infinite timed words but decidable over finite timed words. On the other hand,
+we show that by augmenting future MTL with future context-free temporal
+operators, the satisfiability problem turns out to be undecidable also for
+finite timed words. On the positive side, we devise a meaningful and decidable
+fragment of the logic NMTL which is expressively equivalent to ECNTL and for
+which satisfiability and visibly model-checking of VPTA are EXPTIME-complete.

@@ -1,0 +1,15 @@
+The shortest augmenting path technique is one of the fundamental ideas used
+in maximum matching and maximum flow algorithms. Since being introduced by
+Edmonds and Karp in 1972, it has been widely applied in many different
+settings. Surprisingly, despite this extensive usage, it is still not well
+understood even in the simplest case: online bipartite matching problem on
+trees. In this problem a bipartite tree $T=(W \uplus B, E)$ is being revealed
+online, i.e., in each round one vertex from $B$ with its incident edges
+arrives. It was conjectured by Chaudhuri et. al. [K. Chaudhuri, C. Daskalakis,
+R. D. Kleinberg, and H. Lin. Online bipartite perfect matching with
+augmentations. In INFOCOM 2009] that the total length of all shortest
+augmenting paths found is $O(n \log n)$. In this paper, we prove a tight $O(n
+\log n)$ upper bound for the total length of shortest augmenting paths for
+trees improving over $O(n \log^2 n)$ bound [B. Bosek, D. Leniowski, P.
+Sankowski, and A. Zych. Shortest augmenting paths for online matchings on
+trees. In WAOA 2015].

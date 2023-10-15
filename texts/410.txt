@@ -1,0 +1,19 @@
+Retrieval augmented language models have recently become the standard for
+knowledge intensive tasks. Rather than relying purely on latent semantics
+within the parameters of large neural models, these methods enlist a
+semi-parametric memory to encode an index of knowledge for the model to
+retrieve over. Most prior work has employed text passages as the unit of
+knowledge, which has high coverage at the cost of interpretability,
+controllability, and efficiency. The opposite properties arise in other methods
+which have instead relied on knowledge base (KB) facts. At the same time, more
+recent work has demonstrated the effectiveness of storing and retrieving from
+an index of Q-A pairs derived from text \citep{lewis2021paq}. This approach
+yields a high coverage knowledge representation that maintains KB-like
+properties due to its representations being more atomic units of information.
+In this work we push this line of research further by proposing a
+question-answer augmented encoder-decoder model and accompanying pretraining
+strategy. This yields an end-to-end system that not only outperforms prior QA
+retrieval methods on single-hop QA tasks but also enables compositional
+reasoning, as demonstrated by strong performance on two multi-hop QA datasets.
+Together, these methods improve the ability to interpret and control the model
+while narrowing the performance gap with passage retrieval systems.

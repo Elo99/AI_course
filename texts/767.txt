@@ -1,0 +1,14 @@
+There is significant growth and interest in the use of synthetic data as an
+enabler for machine learning in environments where the release of real data is
+restricted due to privacy or availability constraints. Despite a large number
+of methods for synthetic data generation, there are comparatively few results
+on the statistical properties of models learnt on synthetic data, and fewer
+still for situations where a researcher wishes to augment real data with
+another party's synthesised data. We use a Bayesian paradigm to characterise
+the updating of model parameters when learning in these settings, demonstrating
+that caution should be taken when applying conventional learning algorithms
+without appropriate consideration of the synthetic data generating process and
+learning task. Recent results from general Bayesian updating support a novel
+and robust approach to Bayesian synthetic-learning founded on decision theory
+that outperforms standard approaches across repeated experiments on supervised
+learning and inference problems.

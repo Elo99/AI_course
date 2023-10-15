@@ -1,0 +1,11 @@
+We apply augmentations to our dataset to enhance the quality of our
+predictions and make our final models more resilient to noisy data and domain
+drifts. Yet the question remains, how are these augmentations going to perform
+with different hyper-parameters? In this study we evaluate the sensitivity of
+augmentations with regards to the model's hyper parameters along with their
+consistency and influence by performing a Local Surrogate (LIME) interpretation
+on the impact of hyper-parameters when different augmentations are applied to a
+machine learning model. We have utilized Linear regression coefficients for
+weighing each augmentation. Our research has proved that there are some
+augmentations which are highly sensitive to hyper-parameters and others which
+are more resilient and reliable.

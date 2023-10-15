@@ -1,0 +1,10 @@
+The recent advances in Natural Language Processing have been a boon for
+well-represented languages in terms of available curated data and research
+resources. One of the challenges for low-resourced languages is clear
+guidelines on the collection, curation and preparation of datasets for
+different use-cases. In this work, we take on the task of creation of two
+datasets that are focused on news headlines (i.e short text) for Setswana and
+Sepedi and creation of a news topic classification task. We document our work
+and also present baselines for classification. We investigate an approach on
+data augmentation, better suited to low resource languages, to improve the
+performance of the classifiers

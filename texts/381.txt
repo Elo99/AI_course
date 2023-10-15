@@ -1,0 +1,16 @@
+Developing Automatic Speech Recognition (ASR) for low-resource languages is a
+challenge due to the small amount of transcribed audio data. For many such
+languages, audio and text are available separately, but not audio with
+transcriptions. Using text, speech can be synthetically produced via
+text-to-speech (TTS) systems. However, many low-resource languages do not have
+quality TTS systems either. We propose an alternative: produce synthetic audio
+by running text from the target language through a trained TTS system for a
+higher-resource pivot language. We investigate when and how this technique is
+most effective in low-resource settings. In our experiments, using several
+thousand synthetic TTS text-speech pairs and duplicating authentic data to
+balance yields optimal results. Our findings suggest that searching over a set
+of candidate pivot languages can lead to marginal improvements and that,
+surprisingly, ASR performance can by harmed by increases in measured TTS
+quality. Application of these findings improves ASR by 64.5\% and 45.0\%
+character error reduction rate (CERR) respectively for two low-resource
+languages: Guaran\'i and Suba.

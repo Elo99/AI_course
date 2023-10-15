@@ -1,0 +1,10 @@
+Contrastive learning is a promising approach to unsupervised learning, as it
+inherits the advantages of well-studied deep models without a dedicated and
+complex model design. In this paper, based on bidirectional encoder
+representations from transformers, we propose self-supervised contrastive
+learning (SCL) as well as few-shot contrastive learning (FCL) with unsupervised
+data augmentation (UDA) for text clustering. SCL outperforms state-of-the-art
+unsupervised clustering approaches for short texts and those for long texts in
+terms of several clustering evaluation measures. FCL achieves performance close
+to supervised learning, and FCL with UDA further improves the performance for
+short texts.

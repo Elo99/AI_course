@@ -1,0 +1,18 @@
+In this paper, we present a theoretical formulation of magnetization dynamics
+in disordered binary alloys based on Kubo linear response theory interfaced
+with the combination of seamlessly three approaches; density functional based
+tight-binding linear muffin-tin orbitals, generalized recursion and Augmented
+space formalism. We apply this method to study the magnetization dynamics in
+chemically disordered Fe$_x$Co$_{1-x}$ ($x$ = 0.2, 0.5, 0.8) alloys. We
+reported that the magnon energies decrease with an increase in Co
+concentration. Significant magnon softening has been observed in
+Fe$_{20}$Co$_{80}$ at the Brillouin zone boundary. The magnon-electron
+scattering increases with increasing Co content which in turn modifies the
+hybridization between the Fe and Co atoms. This reduces the exchange energy
+between the atoms and soften down the magnon energy. The lowest magnon lifetime
+in found in Fe$_{50}$Co$_{50}$, where disorder is maximum. This clearly
+indicates that the damping of magnon energies in Fe$_x$Co$_{1-x}$ is governed
+by the hybridization between Fe and Co whereas the magnon lifetime is
+controlled by disorder configuration. Our atomistic spin dynamics simulations
+show a reasonable agreement with our theoretical approach in magnon dispersion
+for different alloy compositions.

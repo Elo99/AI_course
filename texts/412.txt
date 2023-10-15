@@ -1,0 +1,13 @@
+The minimum amount of resources to recognize a nonregular language is a
+fundamental research topic in theoretical computer science which has been
+examined for different kinds of resources and many different models. In this
+note, we focus on unary languages and space complexity on counters. Our model
+is two-way one-counter automaton with quantum and classical states (2QCCA),
+which is a two-way finite automaton with one-counter (2DCA) augmented with a
+fixed size quantum register or a two-way finite automaton with quantum and
+classical states (2QCFA) augmented with a classical counter. It is known that
+any 2DCA using a sublinear space on its counter can recognize only regular
+languages \cite{DG82B}. In this note, we show that bounded-error 2QCCAs can
+recognize a non-regular unary language by using logarithmic space on its
+counters for the members. Note that it is still an open problem whether
+bounded-error 2QCFA can recognize a non-regular unary language.

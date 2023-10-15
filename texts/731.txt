@@ -1,0 +1,24 @@
+Zero-shot learning (ZSL) tackles the novel class recognition problem by
+transferring semantic knowledge from seen classes to unseen ones. Existing
+attention-based models have struggled to learn inferior region features in a
+single image by solely using unidirectional attention, which ignore the
+transferability and discriminative attribute localization of visual features.
+In this paper, we propose a cross attribute-guided Transformer network, termed
+TransZero++, to refine visual features and learn accurate attribute
+localization for semantic-augmented visual embedding representations in ZSL.
+TransZero++ consists of an attribute$\rightarrow$visual Transformer sub-net
+(AVT) and a visual$\rightarrow$attribute Transformer sub-net (VAT).
+Specifically, AVT first takes a feature augmentation encoder to alleviate the
+cross-dataset problem, and improves the transferability of visual features by
+reducing the entangled relative geometry relationships among region features.
+Then, an attribute$\rightarrow$visual decoder is employed to localize the image
+regions most relevant to each attribute in a given image for attribute-based
+visual feature representations. Analogously, VAT uses the similar feature
+augmentation encoder to refine the visual features, which are further applied
+in visual$\rightarrow$attribute decoder to learn visual-based attribute
+features. By further introducing semantical collaborative losses, the two
+attribute-guided transformers teach each other to learn semantic-augmented
+visual embeddings via semantical collaborative learning. Extensive experiments
+show that TransZero++ achieves the new state-of-the-art results on three
+challenging ZSL benchmarks. The codes are available at:
+\url{https://github.com/shiming-chen/TransZero_pp}.

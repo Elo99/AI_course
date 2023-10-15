@@ -1,0 +1,14 @@
+In medical image diagnosis, pathology image analysis using semantic
+segmentation becomes important for efficient screening as a field of digital
+pathology. The spatial augmentation is ordinary used for semantic segmentation.
+Tumor images under malignant are rare and to annotate the labels of nuclei
+region takes much time-consuming. We require an effective use of dataset to
+maximize the segmentation accuracy. It is expected that some augmentation to
+transform generalized images influence the segmentation performance. We propose
+a synthetic augmentation using label-to-image translation, mapping from a
+semantic label with the edge structure to a real image. Exactly this paper deal
+with stain slides of nuclei in tumor. Actually, we demonstrate several
+segmentation algorithms applied to the initial dataset that contains real
+images and labels using synthetic augmentation in order to add their
+generalized images. We computes and reports that a proposed synthetic
+augmentation procedure improve their accuracy.

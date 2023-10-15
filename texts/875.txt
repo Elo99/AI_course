@@ -1,0 +1,18 @@
+To extract accurate speaker information for text-independent speaker
+verification, temporal dynamic CNNs (TDY-CNNs) adapting kernels to each time
+bin was proposed. However, model size of TDY-CNN is too large and the adaptive
+kernel's degree of freedom is limited. To address these limitations, we propose
+decomposed temporal dynamic CNNs (DTDY-CNNs) which forms time-adaptive kernel
+by combining static kernel with dynamic residual based on matrix decomposition.
+Proposed DTDY-ResNet-34(x0.50) using attentive statistical pooling without data
+augmentation shows EER of 0.96%, which is better than other state-of-the-art
+methods. DTDY-CNNs are successful upgrade of TDY-CNNs, reducing the model size
+by 64% and enhancing the performance. We showed that DTDY-CNNs extract more
+accurate frame-level speaker embeddings as well compared to TDY-CNNs. Detailed
+behaviors of DTDY-ResNet-34(x0.50) on extraction of speaker information were
+analyzed using speaker activation map (SAM) produced by modified
+gradient-weighted class activation mapping (Grad-CAM) for speaker verification.
+DTDY-ResNet-34(x0.50) effectively extracts speaker information from not only
+formant frequencies but also high frequency information of unvoiced phonemes,
+thus explaining its outstanding performance on text-independent speaker
+verification.

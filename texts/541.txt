@@ -1,0 +1,13 @@
+Text matching is a fundamental problem in natural language processing. Neural
+models using bidirectional LSTMs for sentence encoding and inter-sentence
+attention mechanisms perform remarkably well on several benchmark datasets. We
+propose REGMAPR - a simple and general architecture for text matching that does
+not use inter-sentence attention. Starting from a Siamese architecture, we
+augment the embeddings of the words with two features based on exact and para-
+phrase match between words in the two sentences. We train the model using three
+types of regularization on datasets for textual entailment, paraphrase
+detection and semantic related- ness. REGMAPR performs comparably or better
+than more complex neural models or models using a large number of handcrafted
+features. REGMAPR achieves state-of-the-art results for paraphrase detection on
+the SICK dataset and for textual entailment on the SNLI dataset among models
+that do not use inter-sentence attention.

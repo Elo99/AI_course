@@ -1,0 +1,15 @@
+Generalization is a central problem in machine learning, especially when data
+is limited. Using prior information to enforce constraints is the principled
+way of encouraging generalization. In this work, we propose to leverage the
+prior information embedded in pretrained language models (LM) to improve
+generalization for intent classification and slot labeling tasks with limited
+training data. Specifically, we extract prior knowledge from pretrained LM in
+the form of synthetic data, which encode the prior implicitly. We fine-tune the
+LM to generate an augmented language, which contains not only text but also
+encodes both intent labels and slot labels. The generated synthetic data can be
+used to train a classifier later. Since the generated data may contain noise,
+we rephrase the learning from generated data as learning with noisy labels. We
+then utilize the mixout regularization for the classifier and prove its
+effectiveness to resist label noise in generated data. Empirically, our method
+demonstrates superior performance and outperforms the baseline by a large
+margin.

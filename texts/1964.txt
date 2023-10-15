@@ -1,0 +1,13 @@
+We propose a robust and efficient augmented Lagrangian-type preconditioner
+for solving linearizations of the Oseen-Frank model arising in cholesteric
+liquid crystals. By applying the augmented Lagrangian method, the Schur
+complement of the director block can be better approximated by the weighted
+mass matrix of the Lagrange multiplier, at the cost of making the augmented
+director block harder to solve. In order to solve the augmented director block,
+we develop a robust multigrid algorithm which includes an additive Schwarz
+relaxation that captures a pointwise version of the kernel of the semi-definite
+term. Furthermore, we prove that the augmented Lagrangian term improves the
+discrete enforcement of the unit-length constraint. Numerical experiments
+verify the efficiency of the algorithm and its robustness with respect to
+problem-related parameters (Frank constants and cholesteric pitch) and the mesh
+size.

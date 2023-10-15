@@ -1,0 +1,14 @@
+Fine-grained sentiment analysis attempts to extract sentiment holders,
+targets and polar expressions and resolve the relationship between them, but
+progress has been hampered by the difficulty of annotation. Targeted sentiment
+analysis, on the other hand, is a more narrow task, focusing on extracting
+sentiment targets and classifying their polarity.In this paper, we explore
+whether incorporating holder and expression information can improve target
+extraction and classification and perform experiments on eight English
+datasets. We conclude that jointly predicting target and polarity BIO labels
+improves target extraction, and that augmenting the input text with gold
+expressions generally improves targeted polarity classification. This
+highlights the potential importance of annotating expressions for fine-grained
+sentiment datasets. At the same time, our results show that performance of
+current models for predicting polar expressions is poor, hampering the benefit
+of this information in practice.

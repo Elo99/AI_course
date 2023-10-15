@@ -1,0 +1,2 @@
+We study the pullback of the stable and augmented base locus under a finite
+surjective morphism between normal varieties over a perfect field.

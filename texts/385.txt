@@ -1,0 +1,24 @@
+Text-based speech editing allows users to edit speech by intuitively cutting,
+copying, and pasting text to speed up the process of editing speech. In the
+previous work, CampNet (context-aware mask prediction network) is proposed to
+realize text-based speech editing, significantly improving the quality of
+edited speech. This paper aims at a new task: adding emotional effect to the
+editing speech during the text-based speech editing to make the generated
+speech more expressive. To achieve this task, we propose Emo-CampNet (emotion
+CampNet), which can provide the option of emotional attributes for the
+generated speech in text-based speech editing and has the one-shot ability to
+edit unseen speakers' speech. Firstly, we propose an end-to-end
+emotion-selectable text-based speech editing model. The key idea of the model
+is to control the emotion of generated speech by introducing additional emotion
+attributes based on the context-aware mask prediction network. Secondly, to
+prevent the emotion of the generated speech from being interfered by the
+emotional components in the original speech, a neutral content generator is
+proposed to remove the emotion from the original speech, which is optimized by
+the generative adversarial framework. Thirdly, two data augmentation methods
+are proposed to enrich the emotional and pronunciation information in the
+training set, which can enable the model to edit the unseen speaker's speech.
+The experimental results that 1) Emo-CampNet can effectively control the
+emotion of the generated speech in the process of text-based speech editing;
+And can edit unseen speakers' speech. 2) Detailed ablation experiments further
+prove the effectiveness of emotional selectivity and data augmentation methods.
+The demo page is available at https://hairuo55.github.io/Emo-CampNet/

@@ -1,0 +1,12 @@
+This work evaluates and analyzes the combination of imitation learning (IL)
+and differentiable model predictive control (MPC) for the application of
+human-like autonomous driving. We combine MPC with a hierarchical
+learning-based policy, and measure its performance in open-loop and closed-loop
+with metrics related to safety, comfort and similarity to human driving
+characteristics. We also demonstrate the value of augmenting open-loop
+behavioral cloning with closed-loop training for a more robust learning,
+approximating the policy gradient through time with the state space model used
+by the MPC. We perform experimental evaluations on a lane keeping control
+system, learned from demonstrations collected on a fixed-base driving
+simulator, and show that our imitative policies approach the human driving
+style preferences.

@@ -1,0 +1,8 @@
+Let $X$ be a normal projective variety with only klt singularities, and $L_X$
+a strictly nef $\mathbb{Q}$-divisor on $X$. In this paper, we study the
+singular version of Serrano's conjecture, i.e., the ampleness of $K_X+t L_X$
+for sufficiently large $t\gg 1$. We show that, if $X$ is assumed to be a
+$\mathbb{Q}$-factorial Gorenstein terminal threefold, then $K_X+tL_X$ is ample
+for $t\gg 1$ unless $X$ is a weak Calabi-Yau variety (i.e., the canonical
+divisor $K_X\sim_\mathbb{Q}0$ and the augmented irregularity $q^\circ(X)=0$)
+with $L_X\cdot c_2(X)=0$.

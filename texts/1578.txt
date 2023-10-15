@@ -1,0 +1,16 @@
+Existing object pose estimation datasets are related to generic object types
+and there is so far no dataset for fine-grained object categories. In this
+work, we introduce a new large dataset to benchmark pose estimation for
+fine-grained objects, thanks to the availability of both 2D and 3D fine-grained
+data recently. Specifically, we augment two popular fine-grained recognition
+datasets (StanfordCars and CompCars) by finding a fine-grained 3D CAD model for
+each sub-category and manually annotating each object in images with 3D pose.
+We show that, with enough training data, a full perspective model with
+continuous parameters can be estimated using 2D appearance information alone.
+We achieve this via a framework based on Faster/Mask R-CNN. This goes beyond
+previous works on category-level pose estimation, which only estimate
+discrete/continuous viewpoint angles or recover rotation matrices often with
+the help of key points. Furthermore, with fine-grained 3D models available, we
+incorporate a dense 3D representation named as location field into the
+CNN-based pose estimation framework to further improve the performance. The new
+dataset is available at www.umiacs.umd.edu/~wym/3dpose.html

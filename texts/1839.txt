@@ -1,0 +1,16 @@
+Image augmentations are quintessential for effective visual representation
+learning across self-supervised learning techniques. While augmentation
+strategies for natural imaging have been studied extensively, medical images
+are vastly different from their natural counterparts. Thus, it is unknown
+whether common augmentation strategies employed in Siamese representation
+learning generalize to medical images and to what extent. To address this
+challenge, in this study, we systematically assess the effect of various
+augmentations on the quality and robustness of the learned representations. We
+train and evaluate Siamese Networks for abnormality detection on chest X-Rays
+across three large datasets (MIMIC-CXR, CheXpert and VinDR-CXR). We investigate
+the efficacy of the learned representations through experiments involving
+linear probing, fine-tuning, zero-shot transfer, and data efficiency. Finally,
+we identify a set of augmentations that yield robust representations that
+generalize well to both out-of-distribution data and diseases, while
+outperforming supervised baselines using just zero-shot transfer and linear
+probes by up to 20%.

@@ -1,0 +1,14 @@
+Is it possible to leverage large scale raw and raw parallel corpora to build
+a general learned metric? Existing learned metrics have gaps to human
+judgements, are model-dependent or are limited to the domains or tasks where
+human ratings are available. In this paper, we propose SEScore2, a model-based
+metric pretrained over million-scale synthetic dataset constructed by our novel
+retrieval augmented data synthesis pipeline. SEScore2 achieves high correlation
+to human judgements without any human rating supervisions. Importantly, our
+unsupervised SEScore2 can outperform supervised metrics, which are trained on
+the News human ratings, at the TED domain. We evaluate SEScore2 over four text
+generation tasks across three languages. SEScore2 outperforms all prior
+unsupervised evaluation metrics in machine translation, speech translation,
+data-to-text and dialogue generation, with average Kendall improvements 0.158.
+SEScore2 even outperforms SOTA supervised BLEURT at data-to-text, dialogue
+generation and overall correlation.

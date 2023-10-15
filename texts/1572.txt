@@ -1,0 +1,19 @@
+Our proposal for selective subjects especially those involving intensive
+problem-solving assignments and/or tutorials, such as Introduction to
+Algorithms and Data structures, Discrete Mathematics, Coding Theory, Number
+theory, Combinatorics and Graph Theory (CGT), Automata theory, is to supplement
+lectures with a moderated online forum against an intranet portal. By way of
+illustration we take the example of a restricted view of OEIS
+(http://oeis.org). The restriction can be w.r.t. sequences in OEIS that are
+directly relevant to say CGT. N.J.A.Sloane's OEIS is a collection of over
+2,39,147 integer sequences and their properties. In particular OEIS contains
+definitions of many combinatorial structures, dense range of interpretations,
+generating functions and conjectured ones, cross references within OEIS and to
+outside resources, references to texts and technical articles, codes in Maple,
+Mathematica etc. For organizing courses such as the above mentioned, a first
+task is to partially create an OEIS-like instructor-moderated portal in a
+university intranet. During the course of lectures and tutorials students are
+invited to contribute to the portal and these may be augmented/approved by
+instructors suitably, to find a place in the portal. By this many concepts can
+be conveyed to the students in an interesting way with the desired results. In
+the arguments presented, examples related to CGT are given.

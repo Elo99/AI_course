@@ -1,0 +1,19 @@
+Deep learning usually relies on training large-scale data samples to achieve
+better performance. However, over-fitting based on training data always remains
+a problem. Scholars have proposed various strategies, such as feature dropping
+and feature mixing, to improve the generalization continuously. For the same
+purpose, we subversively propose a novel training method, Feature Weaken, which
+can be regarded as a data augmentation method. Feature Weaken constructs the
+vicinal data distribution with the same cosine similarity for model training by
+weakening features of the original samples. In especially, Feature Weaken
+changes the spatial distribution of samples, adjusts sample boundaries, and
+reduces the gradient optimization value of back-propagation. This work can not
+only improve the classification performance and generalization of the model,
+but also stabilize the model training and accelerate the model convergence. We
+conduct extensive experiments on classical deep convolution neural models with
+five common image classification datasets and the Bert model with four common
+text classification datasets. Compared with the classical models or the
+generalization improvement methods, such as Dropout, Mixup, Cutout, and CutMix,
+Feature Weaken shows good compatibility and performance. We also use
+adversarial samples to perform the robustness experiments, and the results show
+that Feature Weaken is effective in improving the robustness of the model.

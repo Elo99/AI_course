@@ -1,0 +1,19 @@
+Data augmentation has been highly effective in narrowing the data gap and
+reducing the cost for human annotation, especially for tasks where ground truth
+labels are difficult and expensive to acquire. In face recognition, large pose
+and illumination variation of face images has been a key factor for performance
+degradation. However, human annotation for the various face understanding tasks
+including face landmark localization, face attributes classification and face
+recognition under these challenging scenarios are highly costly to acquire.
+Therefore, it would be desirable to perform data augmentation for these cases.
+But simple 2D data augmentation techniques on the image domain are not able to
+satisfy the requirement of these challenging cases. As such, 3D face modeling,
+in particular, single image 3D face modeling, stands a feasible solution for
+these challenging conditions beyond 2D based data augmentation. To this end, we
+propose a method that produces realistic 3D augmented images from multiple
+viewpoints with different illumination conditions through 3D face modeling,
+each associated with geometrically accurate face landmarks, attributes and
+identity information. Experiments demonstrate that the proposed 3D data
+augmentation method significantly improves the performance and robustness of
+various face understanding tasks while achieving state-of-arts on multiple
+benchmarks.

@@ -1,0 +1,11 @@
+Data augmentation is a popular pre-processing trick to improve generalization
+accuracy. It is believed that by processing augmented inputs in tandem with the
+original ones, the model learns a more robust set of features which are shared
+between the original and augmented counterparts. However, we show that is not
+the case even for the best augmentation technique. In this work, we take a
+Domain Generalization viewpoint of augmentation based methods. This new
+perspective allowed for probing overfitting and delineating avenues for
+improvement. Our exploration with the state-of-art augmentation method provides
+evidence that the learned representations are not as robust even towards
+distortions used during training. This suggests evidence for the untapped
+potential of augmented examples.

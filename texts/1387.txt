@@ -1,0 +1,17 @@
+Granular jamming has recently become popular in soft robotics with widespread
+applications including industrial gripping, surgical robotics and haptics.
+Previous work has investigated the use of various techniques that exploit the
+nature of granular physics to improve jamming performance, however this is
+generally underrepresented in the literature compared to its potential impact.
+We present the first research that exploits vibration-based fluidisation
+actively (e.g., during a grip) to elicit bespoke performance from granular
+jamming grippers. We augment a conventional universal gripper with a
+computer-controllled audio exciter, which is attached to the gripper via a 3D
+printed mount, and build an automated test rig to allow large-scale data
+collection to explore the effects of active vibration. We show that vibration
+in soft jamming grippers can improve holding strength. In a series of studies,
+we show that frequency and amplitude of the waveforms are key determinants to
+performance, and that jamming performance is also dependent on temporal
+properties of the induced waveform. We hope to encourage further study focused
+on active vibrational control of jamming in soft robotics to improve
+performance and increase diversity of potential applications.

@@ -1,0 +1,16 @@
+With the large rising of complex data, the nonconvex models such as nonconvex
+loss function and nonconvex regularizer are widely used in machine learning and
+pattern recognition. In this paper, we propose a class of mini-batch stochastic
+ADMMs (alternating direction method of multipliers) for solving large-scale
+nonconvex nonsmooth problems. We prove that, given an appropriate mini-batch
+size, the mini-batch stochastic ADMM without variance reduction (VR) technique
+is convergent and reaches a convergence rate of $O(1/T)$ to obtain a stationary
+point of the nonconvex optimization, where $T$ denotes the number of
+iterations. Moreover, we extend the mini-batch stochastic gradient method to
+both the nonconvex SVRG-ADMM and SAGA-ADMM proposed in our initial manuscript
+\cite{huang2016stochastic}, and prove these mini-batch stochastic ADMMs also
+reaches the convergence rate of $O(1/T)$ without condition on the mini-batch
+size. In particular, we provide a specific parameter selection for step size
+$\eta$ of stochastic gradients and penalty parameter $\rho$ of augmented
+Lagrangian function. Finally, extensive experimental results on both simulated
+and real-world data demonstrate the effectiveness of the proposed algorithms.

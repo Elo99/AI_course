@@ -1,0 +1,11 @@
+We introduce AugLy, a data augmentation library with a focus on adversarial
+robustness. AugLy provides a wide array of augmentations for multiple
+modalities (audio, image, text, & video). These augmentations were inspired by
+those that real users perform on social media platforms, some of which were not
+already supported by existing data augmentation libraries. AugLy can be used
+for any purpose where data augmentations are useful, but it is particularly
+well-suited for evaluating robustness and systematically generating adversarial
+attacks. In this paper we present how AugLy works, benchmark it compared
+against existing libraries, and use it to evaluate the robustness of various
+state-of-the-art models to showcase AugLy's utility. The AugLy repository can
+be found at https://github.com/facebookresearch/AugLy.

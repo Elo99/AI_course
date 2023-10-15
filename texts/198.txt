@@ -1,0 +1,14 @@
+As an effective way to integrate the information contained in multiple
+medical images under different modalities, medical image synthesis and fusion
+have emerged in various clinical applications such as disease diagnosis and
+treatment planning. In this paper, an invertible and variable augmented network
+(iVAN) is proposed for medical image synthesis and fusion. In iVAN, the channel
+number of the network input and output is the same through variable
+augmentation technology, and data relevance is enhanced, which is conducive to
+the generation of characterization information. Meanwhile, the invertible
+network is used to achieve the bidirectional inference processes. Due to the
+invertible and variable augmentation schemes, iVAN can not only be applied to
+the mappings of multi-input to one-output and multi-input to multi-output, but
+also be applied to one-input to multi-output. Experimental results demonstrated
+that the proposed method can obtain competitive or superior performance in
+comparison to representative medical image synthesis and fusion methods.

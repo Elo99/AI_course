@@ -1,0 +1,5 @@
+We describe our approach for SemEval-2021 task 6 on detection of persuasion
+techniques in multimodal content (memes). Our system combines pretrained
+multimodal models (CLIP) and chained classifiers. Also, we propose to enrich
+the data by a data augmentation technique. Our submission achieves a rank of
+8/16 in terms of F1-micro and 9/16 with F1-macro on the test set.

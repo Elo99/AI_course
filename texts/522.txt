@@ -1,0 +1,19 @@
+Automatic text tagging is an important component in higher level analysis of
+text corpora, and its output can be used in many natural language processing
+applications. In languages like Turkish or Finnish, with agglutinative
+morphology, morphological disambiguation is a very crucial process in tagging,
+as the structures of many lexical forms are morphologically ambiguous. This
+paper describes a POS tagger for Turkish text based on a full-scale two-level
+specification of Turkish morphology that is based on a lexicon of about 24,000
+root words. This is augmented with a multi-word and idiomatic construct
+recognizer, and most importantly morphological disambiguator based on local
+neighborhood constraints, heuristics and limited amount of statistical
+information. The tagger also has functionality for statistics compilation and
+fine tuning of the morphological analyzer, such as logging erroneous
+morphological parses, commonly used roots, etc. Preliminary results indicate
+that the tagger can tag about 98-99\% of the texts accurately with very minimal
+user intervention. Furthermore for sentences morphologically disambiguated with
+the tagger, an LFG parser developed for Turkish, generates, on the average,
+50\% less ambiguous parses and parses almost 2.5 times faster. The tagging
+functionality is not specific to Turkish, and can be applied to any language
+with a proper morphological analysis interface.

@@ -1,0 +1,22 @@
+There is a lack of research on the analysis of per-user traffic in cellular
+networks, for deriving and following traffic-aware network management.
+\textcolor{black}{In fact, the legacy design approach, in which resource
+provisioning and operation control are performed based on the cell-aggregated
+traffic scenarios, are not so energy- and cost-efficient and need to be
+substituted with user-centric predictive analysis of mobile network traffic and
+proactive network resource management.} Here, we shed light on this problem by
+designing traffic prediction tools that utilize standard machine learning (ML)
+tools, including long short-term memory (LSTM) and autoregressive integrated
+moving average (ARIMA) on top of per-user data. We present an expansive
+empirical evaluation of the designed solutions over a real network traffic
+dataset. Within this analysis, the impact of different parameters, such as the
+time granularity, the length of future predictions, and feature selection are
+investigated. As a potential application of these solutions, we present an
+ML-powered Discontinuous reception (DRX) scheme for energy saving. Towards this
+end, we leverage the derived ML models for dynamic DRX parameter adaptation to
+user traffic. The performance evaluation results demonstrate the superiority of
+LSTM over ARIMA in general, especially when the length of the training time
+series is high enough, and it is augmented by a \textit{wisely}-selected set of
+features. Furthermore, the results show that adaptation of DRX parameters by
+online prediction of future traffic provides much more energy-saving at low
+latency cost in comparison with the legacy cell-wide DRX parameter adaptation.

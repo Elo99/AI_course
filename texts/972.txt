@@ -1,0 +1,17 @@
+Previously, a machine speech chain, which is based on sequence-to-sequence
+deep learning, was proposed to mimic speech perception and production behavior.
+Such chains separately processed listening and speaking by automatic speech
+recognition (ASR) and text-to-speech synthesis (TTS) and simultaneously enabled
+them to teach each other in semi-supervised learning when they received
+unpaired data. Unfortunately, this speech chain study is limited to speech and
+textual modalities. In fact, natural communication is actually multimodal and
+involves both auditory and visual sensory systems. Although the said speech
+chain reduces the requirement of having a full amount of paired data, in this
+case we still need a large amount of unpaired data. In this research, we take a
+further step and construct a multimodal chain and design a closely knit chain
+architecture that combines ASR, TTS, image captioning, and image production
+models into a single framework. The framework allows the training of each
+component without requiring a large number of parallel multimodal data. Our
+experimental results also show that an ASR can be further trained without
+speech and text data and cross-modal data augmentation remains possible through
+our proposed chain, which improves the ASR performance.

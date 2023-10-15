@@ -1,0 +1,13 @@
+Recent literature in self-supervised has demonstrated significant progress in
+closing the gap between supervised and unsupervised methods in the image and
+text domains. These methods rely on domain-specific augmentations that are not
+directly amenable to the tabular domain. Instead, we introduce Contrastive
+Mixup, a semi-supervised learning framework for tabular data and demonstrate
+its effectiveness in limited annotated data settings. Our proposed method
+leverages Mixup-based augmentation under the manifold assumption by mapping
+samples to a low dimensional latent space and encourage interpolated samples to
+have high a similarity within the same labeled class. Unlabeled samples are
+additionally employed via a transductive label propagation method to further
+enrich the set of similar and dissimilar pairs that can be used in the
+contrastive loss term. We demonstrate the effectiveness of the proposed
+framework on public tabular datasets and real-world clinical datasets.

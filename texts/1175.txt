@@ -1,0 +1,13 @@
+We propose a novel model for a topic-aware chatbot by combining the
+traditional Recurrent Neural Network (RNN) encoder-decoder model with a topic
+attention layer based on Nonnegative Matrix Factorization (NMF). After learning
+topic vectors from an auxiliary text corpus via NMF, the decoder is trained so
+that it is more likely to sample response words from the most correlated topic
+vectors. One of the main advantages in our architecture is that the user can
+easily switch the NMF-learned topic vectors so that the chatbot obtains desired
+topic-awareness. We demonstrate our model by training on a single
+conversational data set which is then augmented with topic matrices learned
+from different auxiliary data sets. We show that our topic-aware chatbot not
+only outperforms the non-topic counterpart, but also that each topic-aware
+model qualitatively and contextually gives the most relevant answer depending
+on the topic of question.

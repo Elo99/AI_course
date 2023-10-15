@@ -1,0 +1,9 @@
+Matrices can be augmented by adding additional columns such that a
+partitioning of the matrix in blocks of rows defines mutually orthogonal
+subspaces. This augmented system can then be solved efficiently by a sum of
+projections onto these subspaces. The equivalence to the original linear system
+is ensured by adding additional rows to the matrix in a specific form. The
+resulting solution method is known as the augmented block Cimmino method. Here
+this method is extended to full rank underdetermined systems and to
+overdetermined systems. In the latter case, rows of the matrix, not columns,
+must be suitably augmented. The article presents an analysis of these methods.

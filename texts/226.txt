@@ -1,0 +1,16 @@
+Extracting cybersecurity entities such as attackers and vulnerabilities from
+unstructured network texts is an important part of security analysis. However,
+the sparsity of intelligence data resulted from the higher frequency variations
+and the randomness of cybersecurity entity names makes it difficult for current
+methods to perform well in extracting security-related concepts and entities.
+To this end, we propose a semantic augmentation method which incorporates
+different linguistic features to enrich the representation of input tokens to
+detect and classify the cybersecurity names over unstructured text. In
+particular, we encode and aggregate the constituent feature, morphological
+feature and part of speech feature for each input token to improve the
+robustness of the method. More than that, a token gets augmented semantic
+information from its most similar K words in cybersecurity domain corpus where
+an attentive module is leveraged to weigh differences of the words, and from
+contextual clues based on a large-scale general field corpus. We have conducted
+experiments on the cybersecurity datasets DNRTI and MalwareTextDB, and the
+results demonstrate the effectiveness of the proposed method.

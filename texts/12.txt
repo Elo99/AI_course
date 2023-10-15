@@ -1,0 +1,10 @@
+We present three large-scale experiments on binary text matching
+classification task both in Chinese and English to evaluate the effectiveness
+and generalizability of random text perturbations as a data augmentation
+approach for NLP. It is found that the augmentation can bring both negative and
+positive effects to the test set performance of three neural classification
+models, depending on whether the models train on enough original training
+examples. This remains true no matter whether five random text editing
+operations, used to augment text, are applied together or separately. Our study
+demonstrates with strong implication that the effectiveness of random text
+perturbations is task specific and not generally positive.

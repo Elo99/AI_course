@@ -1,0 +1,20 @@
+Binaural audio gives the listener an immersive experience and can enhance
+augmented and virtual reality. However, recording binaural audio requires
+specialized setup with a dummy human head having microphones in left and right
+ears. Such a recording setup is difficult to build and setup, therefore mono
+audio has become the preferred choice in common devices. To obtain the same
+impact as binaural audio, recent efforts have been directed towards lifting
+mono audio to binaural audio conditioned on the visual input from the scene.
+Such approaches have not used an important cue for the task: the distance of
+different sound producing objects from the microphones. In this work, we argue
+that depth map of the scene can act as a proxy for inducing distance
+information of different objects in the scene, for the task of audio
+binauralization. We propose a novel encoder-decoder architecture with a
+hierarchical attention mechanism to encode image, depth and audio feature
+jointly. We design the network on top of state-of-the-art transformer networks
+for image and depth representation. We show empirically that the proposed
+method outperforms state-of-the-art methods comfortably for two challenging
+public datasets FAIR-Play and MUSIC-Stereo. We also demonstrate with
+qualitative results that the method is able to focus on the right information
+required for the task. The project details are available at
+\url{https://krantiparida.github.io/projects/bmonobinaural.html}

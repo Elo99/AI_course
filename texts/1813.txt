@@ -1,0 +1,11 @@
+Augmenting the body with artificial limbs controlled concurrently to the
+natural limbs has long appeared in science fiction, but recent technological
+and neuroscientific advances have begun to make this vision possible. By
+allowing individuals to achieve otherwise impossible actions, this movement
+augmentation could revolutionize medical and industrial applications and
+profoundly change the way humans interact with their environment. Here, we
+construct a movement augmentation taxonomy through what is augmented and how it
+is achieved. With this framework, we analyze augmentation that extends the
+number of degrees-of-freedom, discuss critical features of effective
+augmentation such as physiological control signals, sensory feedback and
+learning, and propose a vision for the field.

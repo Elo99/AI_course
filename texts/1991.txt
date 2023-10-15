@@ -1,0 +1,19 @@
+Automatic brain tumor segmentation from Magnetic Resonance Imaging (MRI) data
+plays an important role in assessing tumor response to therapy and personalized
+treatment stratification.Manual segmentation is tedious and
+subjective.Deep-learning-based algorithms for brain tumor segmentation have the
+potential to provide objective and fast tumor segmentation.However, the
+training of such algorithms requires large datasets which are not always
+available. Data augmentation techniques may reduce the need for large
+datasets.However current approaches are mostly parametric and may result in
+suboptimal performance.We introduce two non-parametric methods of data
+augmentation for brain tumor segmentation: the mixed structure regularization
+(MSR) and shuffle pixels noise (SPN).We evaluated the added value of the MSR
+and SPN augmentation on the brain tumor segmentation (BraTS) 2018 challenge
+dataset with the encoder-decoder nnU-Net architecture as the segmentation
+algorithm.Both MSR and SPN improve the nnU-Net segmentation accuracy compared
+to parametric Gaussian noise augmentation.Mean dice score increased from 80% to
+82% and p-values=0.0022, 0.0028 when comparing MSR to non-parametric
+augmentation for the tumor core and whole tumor experiments respectively.The
+proposed MSR and SPN augmentations have the potential to improve
+neural-networks performance in other tasks as well.

@@ -1,0 +1,21 @@
+Next-generation distributed computing networks (e.g., edge and fog computing)
+enable the efficient delivery of delay-sensitive, compute-intensive
+applications by facilitating access to computation resources in close proximity
+to end users. Many of these applications (e.g., augmented/virtual reality) are
+also data-intensive: in addition to user-specific (live) data streams, they
+require access to (static) digital objects (e.g., image database) to complete
+the required processing tasks. When required objects are not available at the
+servers hosting the associated service functions, they must be fetched from
+other edge locations, incurring additional communication cost and latency. In
+such settings, overall service delivery performance shall benefit from jointly
+optimized decisions around (i) routing paths and processing locations for live
+data streams, together with (ii) cache selection and distribution paths for
+associated digital objects. In this paper, we address the problem of dynamic
+control of data-intensive services over edge cloud networks. We characterize
+the network stability region and design the first throughput-optimal control
+policy that coordinates processing and routing decisions for both live and
+static data-streams. Numerical results demonstrate the superior performance
+(e.g., throughput, delay, and resource consumption) obtained via the novel
+multi-pipeline flow control mechanism of the proposed policy, compared with
+state-of-the-art algorithms that lack integrated stream processing and data
+distribution control.

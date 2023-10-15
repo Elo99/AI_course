@@ -1,0 +1,10 @@
+Dermatological classification algorithms developed without sufficiently
+diverse training data may generalize poorly across populations. While
+intentional data collection and annotation offer the best means for improving
+representation, new computational approaches for generating training data may
+also aid in mitigating the effects of sampling bias. In this paper, we show
+that DALL$\cdot$E 2, a large-scale text-to-image diffusion model, can produce
+photorealistic images of skin disease across skin types. Using the Fitzpatrick
+17k dataset as a benchmark, we demonstrate that augmenting training data with
+DALL$\cdot$E 2-generated synthetic images improves classification of skin
+disease overall and especially for underrepresented groups.

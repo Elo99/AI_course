@@ -1,0 +1,17 @@
+The aim of this work is to thoroughly investigate Buchi automata augmented
+with spatial constraints. The input trees of such an automaton are infinite
+k-ary Sigma-trees, with the nodes standing for time points, and Sigma
+including, additionally to its uses in classical k-ary Sigma-trees, the
+description of the snapshot of an n-object spatial scene of interest. The
+constraints, from an RCC8-like spatial Relation Algebra (RA) x, are used to
+impose spatial constraints on objects of the spatial scene, eventually at
+different nodes of the input trees. We show that a Buchi alternating automaton
+augmented with spatial constraints can be simulated with a classical Buchi
+nondeterministic automaton of the same type, augmented with spatial
+constraints. We then provide a nondeterministic doubly depth-first polynomial
+space algorithm for the emptiness problem of the latter automaton. Our main
+motivation came from another work, also submitted to this conference, which
+defines a spatio-temporalisation of the well-known family ALC(D) of description
+logics with a concrete domain: together, the two works provide an effective
+solution to the satisfiability problem of a concept of the
+spatio-temporalisation with respect to a weakly cyclic TBox.

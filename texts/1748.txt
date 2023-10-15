@@ -1,0 +1,21 @@
+This paper is on soft prompt learning for Vision \& Language (V&L) models.
+Similarly to their NLP counterparts, V\&L models can be adapted to a downstream
+task by learning soft continuous prompts using a few training examples. Current
+methods learn the soft prompts by minimizing a cross-entropy loss using as
+class weights the features obtained by passing the prompts plus the class names
+through the text encoder. Such methods, however, significantly overfit the
+training data suffering from large accuracy degradation when tested on unseen
+classes from the same domain. Our main contribution, in this paper, is a
+surprisingly simple approach to alleviate this problem: we use a second cross
+entropy loss to minimize the distance between the learned soft prompts and a
+set of hand-engineered manual prompts (obtained by prompt engineering). The
+proposed loss can be interpreted in multiple ways including as a regularizer,
+as a means for language-based augmentation, and as a way of learning more
+discriminative class centroids. Importantly, our formulation is inherently
+amenable to including, during training, virtual classes, i.e. class names for
+which no visual samples are available, further increasing the robustness of the
+learned prompts. Through extensive evaluations on 11 datasets, we show that our
+approach (a) significantly outperforms all prior works on soft prompting, and
+(b) matches and surpasses, for the first time, the accuracy on novel classes
+obtained by hand-crafted prompts and CLIP for the majority of the test
+datasets. Code will be made available.

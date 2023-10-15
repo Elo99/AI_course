@@ -1,0 +1,8 @@
+We consider a simple Preferential Attachment graph process, which begins with
+a finite graph, and in which a new $(t+1)$st vertex is added at each subsequent
+time step $t$, and connected to each previous vertex $u \leq t$ with
+probability $\frac{d_u(t)}{t}$ where $d_u(t)$ is the degree of $u$ at time $t$.
+We analyse the graph obtained as the infinite limit of this process, and show
+that so long as the initial finite graph is neither edgeless nor complete, with
+probability 1 the outcome will be a copy of the Rado graph augmented with a
+finite number of either isolated or universal vertices.

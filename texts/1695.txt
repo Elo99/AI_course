@@ -1,0 +1,12 @@
+A reinforcement learning (RL) control policy could fail in a new/perturbed
+environment that is different from the training environment, due to the
+presence of dynamic variations. For controlling systems with continuous state
+and action spaces, we propose an add-on approach to robustifying a pre-trained
+RL policy by augmenting it with an $\mathcal{L}_{1}$ adaptive controller
+($\mathcal{L}_{1}$AC). Leveraging the capability of an $\mathcal{L}_{1}$AC for
+fast estimation and active compensation of dynamic variations, the proposed
+approach can improve the robustness of an RL policy which is trained either in
+a simulator or in the real world without consideration of a broad class of
+dynamic variations. Numerical and real-world experiments empirically
+demonstrate the efficacy of the proposed approach in robustifying RL policies
+trained using both model-free and model-based methods.

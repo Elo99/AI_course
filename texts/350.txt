@@ -1,0 +1,12 @@
+The recently developed pitch-controllable text-to-speech (TTS) model, i.e.
+FastPitch, was conditioned for the pitch contours. However, the quality of the
+synthesized speech degraded considerably for pitch values that deviated
+significantly from the average pitch; i.e. the ability to control pitch was
+limited. To address this issue, we propose two algorithms to improve the
+robustness of FastPitch. First, we propose a novel timbre-preserving
+pitch-shifting algorithm for natural pitch augmentation. Pitch-shifted speech
+samples sound more natural when using the proposed algorithm because the
+speaker's vocal timbre is maintained. Moreover, we propose a training algorithm
+that defines FastPitch using pitch-augmented speech datasets with different
+pitch ranges for the same sentence. The experimental results demonstrate that
+the proposed algorithms improve the pitch controllability of FastPitch.

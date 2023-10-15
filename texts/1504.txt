@@ -1,0 +1,17 @@
+Machine learning models are intrinsically vulnerable to domain shift between
+training and testing data, resulting in poor performance in novel domains.
+Domain generalization (DG) aims to overcome the problem by leveraging multiple
+source domains to learn a domain-generalizable model. In this paper, we propose
+a novel augmentation-based DG approach, dubbed AugLearn. Different from
+existing data augmentation methods, our AugLearn views a data augmentation
+module as hyper-parameters of a classification model and optimizes the module
+together with the model via meta-learning. Specifically, at each training step,
+AugLearn (i) divides source domains into a pseudo source and a pseudo target
+set, and (ii) trains the augmentation module in such a way that the augmented
+(synthetic) images can make the model generalize well on the pseudo target set.
+Moreover, to overcome the expensive second-order gradient computation during
+meta-learning, we formulate an efficient joint training algorithm, for both the
+augmentation module and the classification model, based on the implicit
+function theorem. With the flexibility of augmenting data in both time and
+frequency spaces, AugLearn shows effectiveness on three standard DG benchmarks,
+PACS, Office-Home and Digits-DG.

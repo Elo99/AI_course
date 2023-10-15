@@ -1,0 +1,14 @@
+This paper is interested in investigating whether human gaze signals can be
+leveraged to improve state-of-the-art search engine performance and how to
+incorporate this new input signal marked by human attention into existing
+neural retrieval models. In this paper, we propose GazBy ({\bf Gaz}e-based {\bf
+B}ert model for document relevanc{\bf y}), a light-weight joint model that
+integrates human gaze fixation estimation into transformer models to predict
+document relevance, incorporating more nuanced information about cognitive
+processing into information retrieval (IR). We evaluate our model on the Text
+Retrieval Conference (TREC) Deep Learning (DL) 2019 and 2020 Tracks. Our
+experiments show encouraging results and illustrate the effective and
+ineffective entry points for using human gaze to help with transformer-based
+neural retrievers. With the rise of virtual reality (VR) and augmented reality
+(AR), human gaze data will become more available. We hope this work serves as a
+first step exploring using gaze signals in modern neural search engines.

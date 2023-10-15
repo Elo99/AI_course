@@ -1,0 +1,13 @@
+The recent precise measurement of the $W$-mass by the CDF II collaboration is
+indicative of new physics beyond the Standard Model. On the other hand, a
+resolution of the longstanding muon $g-2$ anomaly also calls for additional
+dynamics. In this work, we accommodate the two aforementioned anomalies in an
+extension of the minimal Type-II seesaw model. That is, the minimal Type-II
+model is augmented with an additional doubly charged scalar and vector leptons.
+While a chirality-flip of the vector leptons can predict the observed value of
+muon $g-2$, the value of the recently reported $W$-mass can also be
+simultaneously achieved through the oblique parameters of the model. In
+addition, we further show that the parameter region allowing for the
+simultaneous resolution of the two anomalies complies with the neutrino mass
+data, lepton flavour violation and electroweak vacuum stability up to the
+Planck scale.

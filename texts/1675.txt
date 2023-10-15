@@ -1,0 +1,18 @@
+After learning basic quantum computing concepts, it is desirable to reinforce
+the learning using an important and relatively complex algorithm through which
+the students can observe and appreciate how the qubits evolve and interact with
+each other. Harrow-Hassidim-Lloyd (HHL) quantum algorithm, which can solve
+Linear System Problems with exponential speed-up over the classical method and
+is the basic of many important quantum computing algorithms, is used to serve
+this purpose. The HHL algorithm is explained analytically followed by a 4-qubit
+numerical example in bra-ket notation. Matlab code corresponding to the
+numerical example is available for students to gain a deeper understanding of
+the HHL algorithm from a pure matrix point of view. A quantum circuit
+programmed using qiskit is also provided which can be used for real hardware
+execution in IBM quantum computers. After going through the material, students
+are expected to have a better appreciation of the concepts such as basis
+transformation, bra-ket and matrix representations, superposition,
+entanglement, controlled operations, measurement, Quantum Fourier
+Transformation, Quantum Phase Estimation, and quantum programming. To help
+readers review these basic concepts, brief explanations augmented by the HHL
+numerical examples in the main text are provided in the Appendix.

@@ -1,0 +1,14 @@
+Model-based single image dehazing algorithms restore haze-free images with
+sharp edges and rich details for real-world hazy images at the expense of low
+PSNR and SSIM values for synthetic hazy images. Data-driven ones restore
+haze-free images with high PSNR and SSIM values for synthetic hazy images but
+with low contrast, and even some remaining haze for real world hazy images. In
+this paper, a novel single image dehazing algorithm is introduced by combining
+model-based and data-driven approaches. Both transmission map and atmospheric
+light are first estimated by the model-based methods, and then refined by
+dual-scale generative adversarial networks (GANs) based approaches. The
+resultant algorithm forms a neural augmentation which converges very fast while
+the corresponding data-driven approach might not converge. Haze-free images are
+restored by using the estimated transmission map and atmospheric light as well
+as the Koschmiederlaw. Experimental results indicate that the proposed
+algorithm can remove haze well from real-world and synthetic hazy images.

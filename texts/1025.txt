@@ -1,0 +1,11 @@
+The effective potential for radiatively broken electroweak symmetry in the
+single Higgs doublet Standard Model is explored to four sequentially subleading
+logarithm-summation levels (5-loops) in the dominant Higgs self-interaction
+couplant $\lambda$. We augment these results with all contributing leading
+logarithms in the remaining large but sub-dominant Standard Model couplants
+(t-quark, QCD and $SU(2)\otimes U(1)$ gauge couplants) as well as next to
+leading logarithm contributions from the largest of these, the t-quark and QCD
+couplants. Order-by-order stability is demonstrated for earlier leading
+logarithm predictions of an order 220 GeV Higgs boson mass in conjunction with
+fivefold enhancement of the value for $\lambda$ over that anticipated from
+conventional spontaneous symmetry breaking.

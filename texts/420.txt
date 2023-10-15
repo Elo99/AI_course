@@ -1,0 +1,16 @@
+Neural Machine Translation (NMT) has become a popular technology in recent
+years, and the encoder-decoder framework is the mainstream among all the
+methods. It's obvious that the quality of the semantic representations from
+encoding is very crucial and can significantly affect the performance of the
+model. However, existing unidirectional source-to-target architectures may
+hardly produce a language-independent representation of the text because they
+rely heavily on the specific relations of the given language pairs. To
+alleviate this problem, in this paper, we propose a novel Bi-Decoder Augmented
+Network (BiDAN) for the neural machine translation task. Besides the original
+decoder which generates the target language sequence, we add an auxiliary
+decoder to generate back the source language sequence at the training time.
+Since each decoder transforms the representations of the input text into its
+corresponding language, jointly training with two target ends can make the
+shared encoder has the potential to produce a language-independent semantic
+space. We conduct extensive experiments on several NMT benchmark datasets and
+the results demonstrate the effectiveness of our proposed approach.

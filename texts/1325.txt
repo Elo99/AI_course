@@ -1,0 +1,13 @@
+Harmful or abusive online content has been increasing over time, raising
+concerns for social media platforms, government agencies, and policymakers.
+Such harmful or abusive content can have major negative impact on society,
+e.g., cyberbullying can lead to suicides, rumors about COVID-19 can cause
+vaccine hesitance, promotion of fake cures for COVID-19 can cause health harms
+and deaths. The content that is posted and shared online can be textual,
+visual, or a combination of both, e.g., in a meme. Here, we describe our
+experiments in detecting the roles of the entities (hero, villain, victim) in
+harmful memes, which is part of the CONSTRAINT-2022 shared task, as well as our
+system for the task. We further provide a comparative analysis of different
+experimental settings (i.e., unimodal, multimodal, attention, and
+augmentation). For reproducibility, we make our experimental code publicly
+available. \url{https://github.com/robi56/harmful_memes_block_fusion}

@@ -1,0 +1,15 @@
+Graph Contrastive Learning (GCL) has shown promising performance in graph
+representation learning (GRL) without the supervision of manual annotations.
+GCL can generate graph-level embeddings by maximizing the Mutual Information
+(MI) between different augmented views of the same graph (positive pairs).
+However, the GCL is limited by dimensional collapse, i.e., embedding vectors
+only occupy a low-dimensional subspace. In this paper, we show that the
+smoothing effect of the graph pooling and the implicit regularization of the
+graph convolution are two causes of the dimensional collapse in GCL. To
+mitigate the above issue, we propose a non-maximum removal graph contrastive
+learning approach (nmrGCL), which removes "prominent'' dimensions (i.e.,
+contribute most in similarity measurement) for positive pair in the pre-text
+task. Comprehensive experiments on various benchmark datasets are conducted to
+demonstrate the effectiveness of nmrGCL, and the results show that our model
+outperforms the state-of-the-art methods. Source code will be made publicly
+available.

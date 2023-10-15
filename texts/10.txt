@@ -1,0 +1,8 @@
+Natural Language Processing (NLP) relies heavily on training data.
+Transformers, as they have gotten bigger, have required massive amounts of
+training data. To satisfy this requirement, text augmentation should be looked
+at as a way to expand your current dataset and to generalize your models. One
+text augmentation we will look at is translation augmentation. We take an
+English sentence and translate it to another language before translating it
+back to English. In this paper, we look at the effect of 108 different language
+back translations on various metrics and text embeddings.

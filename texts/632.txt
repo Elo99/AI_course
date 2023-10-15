@@ -1,0 +1,17 @@
+In this study, we investigate self-supervised representation learning for
+speaker verification (SV). First, we examine a simple contrastive learning
+approach (SimCLR) with a momentum contrastive (MoCo) learning framework, where
+the MoCo speaker embedding system utilizes a queue to maintain a large set of
+negative examples. We show that better speaker embeddings can be learned by
+momentum contrastive learning. Next, alternative augmentation strategies are
+explored to normalize extrinsic speaker variabilities of two random segments
+from the same speech utterance. Specifically, augmentation in the waveform
+largely improves the speaker representations for SV tasks. The proposed MoCo
+speaker embedding is further improved when a prototypical memory bank is
+introduced, which encourages the speaker embeddings to be closer to their
+assigned prototypes with an intermediate clustering step. In addition, we
+generalize the self-supervised framework to a semi-supervised scenario where
+only a small portion of the data is labeled. Comprehensive experiments on the
+Voxceleb dataset demonstrate that our proposed self-supervised approach
+achieves competitive performance compared with existing techniques, and can
+approach fully supervised results with partially labeled data.

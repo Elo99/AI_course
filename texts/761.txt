@@ -1,0 +1,10 @@
+We generalize the virial theorem to the warped DGP brane world scenario and
+consider its implications on the virail mass. In this theory the four
+dimensional scalar curvature term is included in the bulk action and the
+resulting four dimensional effective Einstein equation is augmented with extra
+terms which can be interpreted as geometrical mass, contributing to the
+gravitational energy. Estimating the geometrical mass using the observational
+data, we show that these geometric terms may account for the virial mass
+discrepancy in clusters of galaxies. Finally, we obtain the radial velocity
+dispersion of galaxy clusters and show that it is compatible with the radial
+velocity dispersion profle of such clusters.

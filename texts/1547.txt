@@ -1,0 +1,18 @@
+Social information networks, such as YouTube, contains traces of both
+explicit online interaction (such as "like", leaving a comment, or subscribing
+to video feed), and latent interactions (such as quoting, or remixing parts of
+a video). We propose visual memes, or frequently re-posted short video
+segments, for tracking such latent video interactions at scale. Visual memes
+are extracted by scalable detection algorithms that we develop, with high
+accuracy. We further augment visual memes with text, via a statistical model of
+latent topics. We model content interactions on YouTube with visual memes,
+defining several measures of influence and building predictive models for meme
+popularity. Experiments are carried out on with over 2 million video shots from
+more than 40,000 videos on two prominent news events in 2009: the election in
+Iran and the swine flu epidemic. In these two events, a high percentage of
+videos contain remixed content, and it is apparent that traditional news media
+and citizen journalists have different roles in disseminating remixed content.
+We perform two quantitative evaluations for annotating visual memes and
+predicting their popularity. The joint statistical model of visual memes and
+words outperform a concurrence model, and the average error is ~2% for
+predicting meme volume and ~17% for their lifespan.

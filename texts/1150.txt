@@ -1,0 +1,15 @@
+Prediction of user traffic in cellular networks has attracted profound
+attention for improving resource utilization. In this paper, we study the
+problem of network traffic traffic prediction and classification by employing
+standard machine learning and statistical learning time series prediction
+methods, including long short-term memory (LSTM) and autoregressive integrated
+moving average (ARIMA), respectively. We present an extensive experimental
+evaluation of the designed tools over a real network traffic dataset. Within
+this analysis, we explore the impact of different parameters to the
+effectiveness of the predictions. We further extend our analysis to the problem
+of network traffic classification and prediction of traffic bursts. The
+results, on the one hand, demonstrate superior performance of LSTM over ARIMA
+in general, especially when the length of the training time series is high
+enough, and it is augmented by a wisely-selected set of features. On the other
+hand, the results shed light on the circumstances in which, ARIMA performs
+close to the optimal with lower complexity.

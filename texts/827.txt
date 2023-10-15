@@ -1,0 +1,17 @@
+the substantial increase in the number of online human-human conversations
+and the usefulness of multimodal transcripts, there is a rising need for
+automated multimodal transcription systems to help us better understand the
+conversations. In this paper, we evaluated three methods to perform multimodal
+transcription. They were (1) Jefferson -- an existing manual system used widely
+by the linguistics community, (2) MONAH -- a system that aimed to make
+multimodal transcripts accessible and automated, (3) MONAH+ -- a system that
+builds on MONAH that visualizes machine attention. Based on 104 participants
+responses, we found that (1) all text-based methods significantly reduced the
+amount of information for the human users, (2) MONAH was found to be more
+usable than Jefferson, (3) Jefferson's relative strength was in chronemics
+(pace / delay) and paralinguistics (pitch / volume) annotations, whilst MONAH's
+relative strength was in kinesics (body language) annotations, (4) enlarging
+words' font-size based on machine attention was confusing human users as
+loudness. These results pose considerations for researchers designing a
+multimodal annotation system for the masses who would like a fully-automated or
+human-augmented conversational analysis system.

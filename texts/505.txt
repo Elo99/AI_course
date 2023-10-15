@@ -1,0 +1,20 @@
+Fluid-structure interaction (FSI) of thin flexible fins coupled with
+convective heat transfer has applications in energy harvesting and in
+understanding functioning of several biological systems. We numerically
+investigate FSI of the thin flexible fins involving large-scale flow-induced
+deformation as a potential heat transfer enhancement technique. An in-house,
+strongly-coupled fluid-structure interaction (FSI) solver is employed in which
+flow and structure solvers are based on sharp-interface immersed boundary and
+finite element method, respectively. We consider twin flexible fins in a heated
+channel with laminar pulsating cross flow. The vortex ring past the fin sweep
+higher sources of vorticity generated on the channel walls out into the
+downstream - promoting the mixing of the fluid. The moving fin assists in
+convective mixing, augmenting convection in bulk and at the walls; and thereby
+reducing thermal boundary layer thickness and improving heat transfer at the
+channel walls. The thermal augmentation is quantified in term of instantaneous
+Nusselt number at the wall. Results are presented for two limiting cases of
+thermal conductivity of the fin - an insulated fin and a highly conductive fin.
+We discuss feasibility of flexible fins and effect of flow cycle-to-cycle
+variation on the Nusselt number. Finally, we investigate the effect of
+important problem parameters - Young's Modulus, flow frequency and Prandtl
+number - on the thermal augmentation.

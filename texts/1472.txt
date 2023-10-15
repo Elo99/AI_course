@@ -1,0 +1,17 @@
+There is a common belief that the successful training of deep neural networks
+requires many annotated training samples, which are often expensive and
+difficult to obtain especially in the biomedical imaging field. While it is
+often easy for researchers to use data augmentation to expand the size of
+training sets, constructing and generating generic augmented data that is able
+to teach the network the desired invariance and robustness properties using
+traditional data augmentation techniques is challenging in practice. In this
+paper, we propose a novel automatic data augmentation method that uses
+generative adversarial networks to learn augmentations that enable machine
+learning based method to learn the available annotated samples more
+efficiently. The architecture consists of a coarse-to-fine generator to capture
+the manifold of the training sets and generate generic augmented data. In our
+experiments, we show the efficacy of our approach on a Magnetic Resonance
+Imaging (MRI) image, achieving improvements of 3.5% Dice coefficient on the
+BRATS15 Challenge dataset as compared to traditional augmentation approaches.
+Also, our proposed method successfully boosts a common segmentation network to
+reach the state-of-the-art performance on the BRATS15 Challenge.

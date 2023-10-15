@@ -1,0 +1,18 @@
+Code-switching (CS) poses several challenges to NLP tasks, where data
+sparsity is a main problem hindering the development of CS NLP systems. In this
+paper, we investigate data augmentation techniques for synthesizing Dialectal
+Arabic-English CS text. We perform lexical replacements using parallel corpora
+and alignments where CS points are either randomly chosen or learnt using a
+sequence-to-sequence model. We evaluate the effectiveness of data augmentation
+on language modeling (LM), machine translation (MT), and automatic speech
+recognition (ASR) tasks. Results show that in the case of using 1-1 alignments,
+using trained predictive models produces more natural CS sentences, as
+reflected in perplexity. By relying on grow-diag-final alignments, we then
+identify aligning segments and perform replacements accordingly. By replacing
+segments instead of words, the quality of synthesized data is greatly improved.
+With this improvement, random-based approach outperforms using trained
+predictive models on all extrinsic tasks. Our best models achieve 33.6%
+improvement in perplexity, +3.2-5.6 BLEU points on MT task, and 7% relative
+improvement on WER for ASR task. We also contribute in filling the gap in
+resources by collecting and publishing the first Arabic English CS-English
+parallel corpus.

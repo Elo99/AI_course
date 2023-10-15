@@ -1,0 +1,11 @@
+Balancing methods for single-label data cannot be applied to multi-label
+problems as they would also resample the samples with high occurrences. We
+propose to reformulate this problem as an optimization problem in order to
+balance multi-label data. We apply this balancing algorithm to training
+datasets for detecting isolated facial movements, so-called Action Units.
+Several Action Units can describe combined emotions or physical states such as
+pain. As datasets in this area are limited and mostly imbalanced, we show how
+optimized balancing and then augmentation can improve Action Unit detection. At
+the IEEE Conference on Face and Gesture Recognition 2020, we ranked third in
+the Affective Behavior Analysis in-the-wild (ABAW) challenge for the Action
+Unit detection task.

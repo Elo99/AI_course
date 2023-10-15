@@ -1,0 +1,15 @@
+Deep learning approaches deliver state-of-the-art performance in recognition
+of spatiotemporal human motion data. However, one of the main challenges in
+these recognition tasks is limited available training data. Insufficient
+training data results in over-fitting and data augmentation is one approach to
+address this challenge. Existing data augmentation strategies, such as
+transformations including scaling, shifting and interpolating, require
+hyperparameter optimization that can easily cost hundreds of GPU hours. In this
+paper, we present a novel automatic data augmentation model, the Imaginative
+Generative Adversarial Network (GAN) that approximates the distribution of the
+input data and samples new data from this distribution. It is automatic in that
+it requires no data inspection and little hyperparameter tuning and therefore
+it is a low-cost and low-effort approach to generate synthetic data. The
+proposed data augmentation strategy is fast to train and the synthetic data
+leads to higher recognition accuracy than using data augmented with a classical
+approach.

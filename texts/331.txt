@@ -1,0 +1,14 @@
+Recently, a more challenging state tracking task, Audio-Video Scene-Aware
+Dialogue (AVSD), is catching an increasing amount of attention among
+researchers. Different from purely text-based dialogue state tracking, the
+dialogue in AVSD contains a sequence of question-answer pairs about a video and
+the final answer to the given question requires additional understanding of the
+video. This paper interprets the AVSD task from an open-domain Question
+Answering (QA) point of view and proposes a multimodal open-domain QA system to
+deal with the problem. The proposed QA system uses common encoder-decoder
+framework with multimodal fusion and attention. Teacher forcing is applied to
+train a natural language generator. We also propose a new data augmentation
+approach specifically under QA assumption. Our experiments show that our model
+and techniques bring significant improvements over the baseline model on the
+DSTC7-AVSD dataset and demonstrate the potentials of our data augmentation
+techniques.

@@ -1,0 +1,13 @@
+Emotion Classification based on text is a task with many applications which
+has received growing interest in recent years. This paper presents a
+preliminary study with the goal to help researchers and practitioners gain
+insight into relatively new datasets as well as emotion classification in
+general. We focus on three datasets that were recently presented in the related
+literature, and we explore the performance of traditional as well as
+state-of-the-art deep learning models in the presence of different
+characteristics in the data. We also explore the use of data augmentation in
+order to improve performance. Our experimental work shows that state-of-the-art
+models such as RoBERTa perform the best for all cases. We also provide
+observations and discussion that highlight the complexity of emotion
+classification in these datasets and test out the applicability of the models
+to actual social media posts we collected and labeled.

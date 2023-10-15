@@ -1,0 +1,18 @@
+This paper proposes to perform online clustering by conducting twin
+contrastive learning (TCL) at the instance and cluster level. Specifically, we
+find that when the data is projected into a feature space with a dimensionality
+of the target cluster number, the rows and columns of its feature matrix
+correspond to the instance and cluster representation, respectively. Based on
+the observation, for a given dataset, the proposed TCL first constructs
+positive and negative pairs through data augmentations. Thereafter, in the row
+and column space of the feature matrix, instance- and cluster-level contrastive
+learning are respectively conducted by pulling together positive pairs while
+pushing apart the negatives. To alleviate the influence of intrinsic
+false-negative pairs and rectify cluster assignments, we adopt a
+confidence-based criterion to select pseudo-labels for boosting both the
+instance- and cluster-level contrastive learning. As a result, the clustering
+performance is further improved. Besides the elegant idea of twin contrastive
+learning, another advantage of TCL is that it could independently predict the
+cluster assignment for each instance, thus effortlessly fitting online
+scenarios. Extensive experiments on six widely-used image and text benchmarks
+demonstrate the effectiveness of TCL. The code will be released on GitHub.

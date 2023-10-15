@@ -1,0 +1,14 @@
+The addressing of a particular qubit within a quantum register is a key
+prerequisite for scalable quantum computing. In general, executing a quantum
+gate with a single qubit, or a subset of qubits, affects the quantum states of
+all other qubits. This reduced fidelity of the whole quantum register could
+prevent the application of quantum error correction protocols and thus preclude
+scalability. We demonstrate addressing of individual qubits within a quantum
+byte (eight qubits) and measure the error induced in all non-addressed qubits
+(cross-talk) associated with the application of single-qubit gates. The quantum
+byte is implemented using microwave-driven hyperfine qubits of $^{171}$Yb$^+$
+ions confined in a Paul trap augmented with a magnetic gradient field. The
+measured cross-talk is on the order of $10^{-5}$ and therefore below the
+threshold commonly agreed sufficient to efficiently realize fault-tolerant
+quantum computing. Hence, our results demonstrate how this threshold can be
+overcome with respect to cross-talk.

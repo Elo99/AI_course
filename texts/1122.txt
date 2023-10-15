@@ -1,0 +1,14 @@
+With an exponentially growing number of scientific papers published each
+year, advanced tools for exploring and discovering publications of interest are
+becoming indispensable. To empower users beyond a simple keyword search
+provided e.g. by Google Scholar, we present the novel web application PubVis.
+Powered by a variety of machine learning techniques, it combines essential
+features to help researchers find the content most relevant to them. An
+interactive visualization of a large collection of scientific publications
+provides an overview of the field and encourages the user to explore articles
+beyond a narrow research focus. This is augmented by personalized content based
+article recommendations as well as an advanced full text search to discover
+relevant references. The open sourced implementation of the app can be easily
+set up and run locally on a desktop computer to provide access to content
+tailored to the specific needs of individual users. Additionally, a PubVis demo
+with access to a collection of 10,000 papers can be tested online.

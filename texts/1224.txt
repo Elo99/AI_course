@@ -1,0 +1,9 @@
+The present work introduces new scalar and fermionic degrees of freedom to
+the Standard Model. While the scalar sector is augmented by a complex scalar
+triplet and a doubly charged scalar singlet, the fermionic sector is extended
+by two copies of vector-like leptons. Of these, one copy is an $SU(2)_L$
+singlet while the other, an $SU(2)_L$ doublet. We explain how this combination
+can offer a solution to the muon g-2 anomaly and also lead to non-zero neutrino
+masses. In addition, it is also shown that the parameter regions compliant with
+the two aforementioned issues can stabilise the electroweak vacuum till the
+Planck scale, something not possible within the Standard Model alone.

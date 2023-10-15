@@ -1,0 +1,14 @@
+Coreference resolution is an important component in analyzing narrative text
+from administrative data (e.g., clinical or police sources). However, existing
+coreference models trained on general language corpora suffer from poor
+transferability due to domain gaps, especially when they are applied to
+gender-inclusive data with lesbian, gay, bisexual, and transgender (LGBT)
+individuals. In this paper, we analyzed the challenges of coreference
+resolution in an exemplary form of administrative text written in English:
+violent death narratives from the USA's Centers for Disease Control's (CDC)
+National Violent Death Reporting System. We developed a set of data
+augmentation rules to improve model performance using a probabilistic data
+programming framework. Experiments on narratives from an administrative
+database, as well as existing gender-inclusive coreference datasets,
+demonstrate the effectiveness of data augmentation in training coreference
+models that can better handle text data about LGBT individuals.

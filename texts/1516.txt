@@ -1,0 +1,12 @@
+Using augmented reality in education is already a common concept, as it has
+the potential to turn learning into a motivational learning experience.
+However, current research only covers the students site of learning. Almost no
+research focuses on the teachers' site and whether augmented reality could
+potentially improve his/her workflow of teaching the students or not. Many
+researchers do not differentiate between multiple user roles, like a student
+and a teacher. To allow investigation into these lacks of research, a teaching
+system "Augmentix" is presented, which includes a differentiation between the
+two user roles "teacher" and "student" to potentially enhances the teachers
+workflow by using augmented reality. In this system's setting the student can
+explore a virtual city in virtual reality and the teacher can guide him with
+augmented reality.

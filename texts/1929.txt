@@ -1,0 +1,18 @@
+Automatic recognition of disordered speech remains a highly challenging task
+to date. The underlying neuro-motor conditions, often compounded with
+co-occurring physical disabilities, lead to the difficulty in collecting large
+quantities of impaired speech required for ASR system development. To this end,
+data augmentation techniques play a vital role in current disordered speech
+recognition systems. In contrast to existing data augmentation techniques only
+modifying the speaking rate or overall shape of spectral contour, fine-grained
+spectro-temporal differences between disordered and normal speech are modelled
+using deep convolutional generative adversarial networks (DCGAN) during data
+augmentation to modify normal speech spectra into those closer to disordered
+speech. Experiments conducted on the UASpeech corpus suggest the proposed
+adversarial data augmentation approach consistently outperformed the baseline
+augmentation methods using tempo or speed perturbation on a state-of-the-art
+hybrid DNN system. An overall word error rate (WER) reduction up to 3.05\%
+(9.7\% relative) was obtained over the baseline system using no data
+augmentation. The final learning hidden unit contribution (LHUC) speaker
+adapted system using the best adversarial augmentation approach gives an
+overall WER of 25.89% on the UASpeech test set of 16 dysarthric speakers.

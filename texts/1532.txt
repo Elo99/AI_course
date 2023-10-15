@@ -1,0 +1,22 @@
+This paper systematically investigates the effectiveness of various
+augmentations for contrastive self-supervised learning of electrocardiogram
+(ECG) signals and identifies the best parameters. The baseline of our proposed
+self-supervised framework consists of two main parts: the contrastive learning
+and the downstream task. In the first stage, we train an encoder using a number
+of augmentations to extract generalizable ECG signal representations. We then
+freeze the encoder and finetune a few linear layers with different amounts of
+labelled data for downstream arrhythmia detection. We then experiment with
+various augmentations techniques and explore a range of parameters. Our
+experiments are done on PTB-XL, a large and publicly available 12-lead ECG
+dataset. The results show that applying augmentations in a specific range of
+complexities works better for self-supervised contrastive learning. For
+instance, when adding Gaussian noise, a sigma in the range of 0.1 to 0.2
+achieves better results, while poor training occurs when the added noise is too
+small or too large (outside of the specified range). A similar trend is
+observed with other augmentations, demonstrating the importance of selecting
+the optimum level of difficulty for the added augmentations, as augmentations
+that are too simple will not result in effective training, while augmentations
+that are too difficult will also prevent the model from effective learning of
+generalized representations. Our work can influence future research on
+self-supervised contrastive learning on bio-signals and aid in selecting
+optimum parameters for different augmentations.

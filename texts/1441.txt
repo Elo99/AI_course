@@ -1,0 +1,16 @@
+In recent years, many data augmentation techniques have been proposed to
+increase the diversity of input data and reduce the risk of overfitting on deep
+neural networks. In this work, we propose an easy-to-implement and model-free
+data augmentation method called Local Magnification (LOMA). Different from
+other geometric data augmentation methods that perform global transformations
+on images, LOMA generates additional training data by randomly magnifying a
+local area of the image. This local magnification results in geometric changes
+that significantly broaden the range of augmentations while maintaining the
+recognizability of objects. Moreover, we extend the idea of LOMA and random
+cropping to the feature space to augment the feature map, which further boosts
+the classification accuracy considerably. Experiments show that our proposed
+LOMA, though straightforward, can be combined with standard data augmentation
+to significantly improve the performance on image classification and object
+detection. And further combination with our feature augmentation techniques,
+termed LOMA_IF&FO, can continue to strengthen the model and outperform advanced
+intensity transformation methods for data augmentation.

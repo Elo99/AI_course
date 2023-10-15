@@ -1,0 +1,12 @@
+I give a very brief review of aspects of internal dynamics that affect the
+global shape of a galaxy, focusing on triaxiality, bars and warps. There is
+general agreement that large central masses can destroy triaxial shapes, but
+recent simulations of this process seem to suffer from numerical difficulties.
+Central black holes alone are probably not massive enough to destroy global
+triaxiality, but when augmented by star and gas concentrations in barred
+galaxies, the global shape may be affected. Even though we do not understand
+the origin of bars in galaxies, they are very useful as probes of the dark
+matter density of the inner halo. Finally, I note that dynamical friction acts
+to reduce a misalignment between the spin axes of the disk and halo, producing
+a nice warp in the outer disk which has many of the properties of observed
+galactic warps.

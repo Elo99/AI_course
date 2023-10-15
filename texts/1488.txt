@@ -1,0 +1,6 @@
+Inner relations are derived between partial augmentations of certain elements
+(units or idempotents) in group rings.
+Documents with greatest Cosine Similarity: (1047, 1078), Similarity: 0.948933290132833
+Documents with greatest Jaccard Similarity: (1047, 1078), Similarity: 0.8725490196078431
+Documents with smallest Cosine Similarity: (111, 1488), Similarity: 0.0
+Documents with smallest Jaccard Similarity: (111, 1488), Similarity: 0.0

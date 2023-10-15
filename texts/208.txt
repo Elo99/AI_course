@@ -1,0 +1,15 @@
+Deep learning models have demonstrated superior performance in various
+healthcare applications. However, the major limitation of these deep models is
+usually the lack of high-quality training data due to the private and sensitive
+nature of this field. In this study, we propose a novel textual data
+augmentation method to generate artificial clinical notes in patients'
+Electronic Health Records (EHRs) that can be used as additional training data
+for patient outcomes prediction. Essentially, we fine-tune the generative
+language model GPT-2 to synthesize labeled text with the original training
+data. More specifically, We propose a teacher-student framework where we first
+pre-train a teacher model on the original data, and then train a student model
+on the GPT-augmented data under the guidance of the teacher. We evaluate our
+method on the most common patient outcome, i.e., the 30-day readmission rate.
+The experimental results show that deep models can improve their predictive
+performance with the augmented data, indicating the effectiveness of the
+proposed architecture.

@@ -1,0 +1,6 @@
+We propose a minimal extention of the Standard Model where neutrino masses
+are generated radiatively at one-loop level via Scotogenic scanario. The model
+is augmented with $A_4$ modular symmetry as a scotogenic and flavor symmetry.
+With minimal number of parameters, the model makes predictions for neutrino
+oscillation data, Majorana and Dirac phases, dark matter characteristics, and
+neutrinoless double beta decay.

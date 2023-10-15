@@ -1,0 +1,13 @@
+Reinforcement learning and probabilistic reasoning algorithms aim at learning
+from interaction experiences and reasoning with probabilistic contextual
+knowledge respectively. In this research, we develop algorithms for robot task
+completions, while looking into the complementary strengths of reinforcement
+learning and probabilistic reasoning techniques. The robots learn from
+trial-and-error experiences to augment their declarative knowledge base, and
+the augmented knowledge can be used for speeding up the learning process in
+potentially different tasks. We have implemented and evaluated the developed
+algorithms using mobile robots conducting dialog and navigation tasks. From the
+results, we see that our robot's performance can be improved by both reasoning
+with human knowledge and learning from task-completion experience. More
+interestingly, the robot was able to learn from navigation tasks to improve its
+dialog strategies.

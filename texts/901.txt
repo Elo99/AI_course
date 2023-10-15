@@ -1,0 +1,18 @@
+Satellite image classification is a challenging problem that lies at the
+crossroads of remote sensing, computer vision, and machine learning. Due to the
+high variability inherent in satellite data, most of the current object
+classification approaches are not suitable for handling satellite datasets. The
+progress of satellite image analytics has also been inhibited by the lack of a
+single labeled high-resolution dataset with multiple class labels. In a
+preliminary version of this work, we introduced two new high resolution
+satellite imagery datasets (SAT-4 and SAT-6) and proposed DeepSat framework for
+classification based on "handcrafted" features and a deep belief network (DBN).
+The present paper is an extended version, we present an end-to-end framework
+leveraging an improved architecture that augments a convolutional neural
+network (CNN) with handcrafted features (instead of using DBN-based
+architecture) for classification. Our framework, having access to fused spatial
+information obtained from handcrafted features as well as CNN feature maps,
+have achieved accuracies of 99.90% and 99.84% respectively, on SAT-4 and SAT-6,
+surpassing all the other state-of-the-art results. A statistical analysis based
+on Distribution Separability Criterion substantiates the robustness of our
+approach in learning better representations for satellite imagery.

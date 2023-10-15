@@ -1,0 +1,16 @@
+RGB-based 3D hand pose estimation has been successful for decades thanks to
+large-scale databases and deep learning. However, the hand pose estimation
+network does not operate well for hand pose images whose characteristics are
+far different from the training data. This is caused by various factors such as
+illuminations, camera angles, diverse backgrounds in the input images, etc.
+Many existing methods tried to solve it by supplying additional large-scale
+unconstrained/target domain images to augment data space; however collecting
+such large-scale images takes a lot of labors. In this paper, we present a
+simple image-free domain generalization approach for the hand pose estimation
+framework that uses only source domain data. We try to manipulate the image
+features of the hand pose estimation network by adding the features from text
+descriptions using the CLIP (Contrastive Language-Image Pre-training) model.
+The manipulated image features are then exploited to train the hand pose
+estimation network via the contrastive learning framework. In experiments with
+STB and RHD datasets, our algorithm shows improved performance over the
+state-of-the-art domain generalization approaches.

@@ -1,0 +1,10 @@
+Augmented reality have undergone considerable improvement in past years. Many
+special techniques and hardware devices were developed, but the crucial
+breakthrough came with the spread of intelligent mobile phones. This enabled
+mass spread of augmented reality applications. However mobile devices have
+limited hardware capabilities, which narrows down the methods usable for scene
+analysis. In this article we propose an augmented reality application which is
+using cloud computing to enable using of more complex computational methods
+such as neural networks. Our goal is to create an affordable augmented reality
+application suitable which will help car designers in by 'virtualizing' car
+modifications.

@@ -1,0 +1,20 @@
+One-class novelty detection is conducted to identify anomalous instances,
+with different distributions from the expected normal instances. In this paper,
+the Generative Adversarial Network based on the Encoder-Decoder-Encoder scheme
+(EDE-GAN) achieves state-of-the-art performance. The two factors bellow serve
+the above purpose: 1) The EDE-GAN calculates the distance between two latent
+vectors as the anomaly score, which is unlike the previous methods by utilizing
+the reconstruction error between images. 2) The model obtains best results when
+the batch size is set to 1. To illustrate their superiority, we design a new
+GAN architecture, and compare performances according to different batch sizes.
+Moreover, with experimentation leads to discovery, our result implies there is
+also evidence of just how beneficial constraint on the latent space are when
+engaging in model training. In an attempt to learn compact and fast models, we
+present a new technology, Progressive Knowledge Distillation with GANs
+(P-KDGAN), which connects two standard GANs through the designed distillation
+loss. Two-step progressive learning continuously augments the performance of
+student GANs with improved results over single-step approach. Our experimental
+results on CIFAR-10, MNIST, and FMNIST datasets illustrate that P-KDGAN
+improves the performance of the student GAN by 2.44%, 1.77%, and 1.73% when
+compressing the computationat ratios of 24.45:1, 311.11:1, and 700:1,
+respectively.

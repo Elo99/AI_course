@@ -1,0 +1,13 @@
+We propose a novel framework to evaluate the robustness of transformer-based
+form field extraction methods via form attacks. We introduce 14 novel form
+transformations to evaluate the vulnerability of the state-of-the-art field
+extractors against form attacks from both OCR level and form level, including
+OCR location/order rearrangement, form background manipulation and form
+field-value augmentation. We conduct robustness evaluation using real invoices
+and receipts, and perform comprehensive research analysis. Experimental results
+suggest that the evaluated models are very susceptible to form perturbations
+such as the variation of field-values (~15% drop in F1 score), the
+disarrangement of input text order(~15% drop in F1 score) and the disruption of
+the neighboring words of field-values(~10% drop in F1 score). Guided by the
+analysis, we make recommendations to improve the design of field extractors and
+the process of data collection.

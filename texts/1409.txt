@@ -1,0 +1,9 @@
+Though data augmentation has become a standard component of deep neural
+network training, the underlying mechanism behind the effectiveness of these
+techniques remains poorly understood. In practice, augmentation policies are
+often chosen using heuristics of either distribution shift or augmentation
+diversity. Inspired by these, we seek to quantify how data augmentation
+improves model generalization. To this end, we introduce interpretable and
+easy-to-compute measures: Affinity and Diversity. We find that augmentation
+performance is predicted not by either of these alone but by jointly optimizing
+the two.

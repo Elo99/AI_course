@@ -1,0 +1,14 @@
+This paper proposes a novel approach to tensor completion, which recovers
+missing entries of data represented by tensors. The approach is based on the
+tensor train (TT) rank, which is able to capture hidden information from
+tensors thanks to its definition from a well-balanced matricization scheme.
+Accordingly, new optimization formulations for tensor completion are proposed
+as well as two new algorithms for their solution. The first one called simple
+low-rank tensor completion via tensor train (SiLRTC-TT) is intimately related
+to minimizing a nuclear norm based on TT rank. The second one is from a
+multilinear matrix factorization model to approximate the TT rank of a tensor,
+and is called tensor completion by parallel matrix factorization via tensor
+train (TMac-TT). A tensor augmentation scheme of transforming a low-order
+tensor to higher-orders is also proposed to enhance the effectiveness of
+SiLRTC-TT and TMac-TT. Simulation results for color image and video recovery
+show the clear advantage of our method over all other methods.

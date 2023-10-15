@@ -1,0 +1,15 @@
+We present \textsc{P2PTFHH} (Peer--to--Peer Time--Faded Heavy Hitters) which,
+to the best of our knowledge, is the first distributed algorithm for mining
+time--faded heavy hitters on unstructured P2P networks. \textsc{P2PTFHH} is
+based on the \textsc{FDCMSS} (Forward Decay Count--Min Space-Saving) sequential
+algorithm, and efficiently exploits an averaging gossip protocol, by merging in
+each interaction the involved peers' underlying data structures. We formally
+prove the convergence and correctness properties of our distributed algorithm
+and show that it is fast and simple to implement. Extensive experimental
+results confirm that \textsc{P2PTFHH} retains the extreme accuracy and error
+bound provided by \textsc{FDCMSS} whilst showing excellent scalability. Our
+contributions are three-fold: (i) we prove that the averaging gossip protocol
+can be used jointly with our augmented sketch data structure for mining
+time--faded heavy hitters; (ii) we prove the error bounds on frequency
+estimation; (iii) we experimentally prove that \textsc{P2PTFHH} is extremely
+accurate and fast, allowing near real time processing of large datasets.

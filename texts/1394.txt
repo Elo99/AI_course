@@ -1,0 +1,17 @@
+Traditional screening practices for anxiety and depression pose an impediment
+to monitoring and treating these conditions effectively. However, recent
+advances in NLP and speech modelling allow textual, acoustic, and hand-crafted
+language-based features to jointly form the basis of future mental health
+screening and condition detection. Speech is a rich and readily available
+source of insight into an individual's cognitive state and by leveraging
+different aspects of speech, we can develop new digital biomarkers for
+depression and anxiety. To this end, we propose a multi-modal system for the
+screening of depression and anxiety from self-administered speech tasks. The
+proposed model integrates deep-learned features from audio and text, as well as
+hand-crafted features that are informed by clinically-validated domain
+knowledge. We find that augmenting hand-crafted features with deep-learned
+features improves our overall classification F1 score comparing to a baseline
+of hand-crafted features alone from 0.58 to 0.63 for depression and from 0.54
+to 0.57 for anxiety. The findings of our work suggest that speech-based
+biomarkers for depression and anxiety hold significant promise in the future of
+digital health.

@@ -1,0 +1,17 @@
+Recently Deep Transformer models have proven to be particularly powerful in
+language modeling tasks for ASR. Their high complexity, however, makes them
+very difficult to apply in the first (single) pass of an online system. Recent
+studies showed that a considerable part of the knowledge of neural network
+Language Models (LM) can be transferred to traditional n-grams by using neural
+text generation based data augmentation. In our paper, we pre-train a GPT-2
+Transformer LM on a general text corpus and fine-tune it on our Hungarian
+conversational call center ASR task. We show that although data augmentation
+with Transformer-generated text works well for isolating languages, it causes a
+vocabulary explosion in a morphologically rich language. Therefore, we propose
+a new method called subword-based neural text augmentation, where we retokenize
+the generated text into statistically derived subwords. We compare Morfessor
+and BPE statistical subword tokenizers and show that both methods can
+significantly improve the WER while greatly reducing vocabulary size and memory
+requirements. Finally, we also demonstrate that subword-based neural text
+augmentation outperforms the word-based approach not only in terms of overall
+WER but also in recognition of OOV words.

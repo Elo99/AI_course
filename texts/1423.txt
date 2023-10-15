@@ -1,0 +1,13 @@
+Random data augmentation is a critical technique to avoid overfitting in
+training deep neural network models. However, data augmentation and network
+training are usually treated as two isolated processes, limiting the
+effectiveness of network training. Why not jointly optimize the two? We propose
+adversarial data augmentation to address this limitation. The main idea is to
+design an augmentation network (generator) that competes against a target
+network (discriminator) by generating `hard' augmentation operations online.
+The augmentation network explores the weaknesses of the target network, while
+the latter learns from `hard' augmentations to achieve better performance. We
+also design a reward/penalty strategy for effective joint training. We
+demonstrate our approach on the problem of human pose estimation and carry out
+a comprehensive experimental analysis, showing that our method can
+significantly improve state-of-the-art models without additional data efforts.

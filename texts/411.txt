@@ -1,0 +1,21 @@
+Multi-label text classification (MLTC) is one of the key tasks in natural
+language processing. It aims to assign multiple target labels to one document.
+Due to the uneven popularity of labels, the number of documents per label
+follows a long-tailed distribution in most cases. It is much more challenging
+to learn classifiers for data-scarce tail labels than for data-rich head
+labels. The main reason is that head labels usually have sufficient
+information, e.g., a large intra-class diversity, while tail labels do not. In
+response, we propose a Pairwise Instance Relation Augmentation Network (PIRAN)
+to augment tailed-label documents for balancing tail labels and head labels.
+PIRAN consists of a relation collector and an instance generator. The former
+aims to extract the document pairwise relations from head labels. Taking these
+relations as perturbations, the latter tries to generate new document instances
+in high-level feature space around the limited given tailed-label instances.
+Meanwhile, two regularizers (diversity and consistency) are designed to
+constrain the generation process. The consistency-regularizer encourages the
+variance of tail labels to be close to head labels and further balances the
+whole datasets. And diversity-regularizer makes sure the generated instances
+have diversity and avoids generating redundant instances. Extensive
+experimental results on three benchmark datasets demonstrate that PIRAN
+consistently outperforms the SOTA methods, and dramatically improves the
+performance of tail labels.

@@ -1,0 +1,13 @@
+Although neural end-to-end text-to-speech models can synthesize highly
+natural speech, there is still room for improvements to its efficiency and
+naturalness. This paper proposes a non-autoregressive neural text-to-speech
+model augmented with a variational autoencoder-based residual encoder. This
+model, called \emph{Parallel Tacotron}, is highly parallelizable during both
+training and inference, allowing efficient synthesis on modern parallel
+hardware. The use of the variational autoencoder relaxes the one-to-many
+mapping nature of the text-to-speech problem and improves naturalness. To
+further improve the naturalness, we use lightweight convolutions, which can
+efficiently capture local contexts, and introduce an iterative spectrogram loss
+inspired by iterative refinement. Experimental results show that Parallel
+Tacotron matches a strong autoregressive baseline in subjective evaluations
+with significantly decreased inference time.

@@ -1,0 +1,17 @@
+Turn-taking, aiming to decide when the next speaker can start talking, is an
+essential component in building human-robot spoken dialogue systems. Previous
+studies indicate that multimodal cues can facilitate this challenging task.
+However, due to the paucity of public multimodal datasets, current methods are
+mostly limited to either utilizing unimodal features or simplistic multimodal
+ensemble models. Besides, the inherent class imbalance in real scenario, e.g.
+sentence ending with short pause will be mostly regarded as the end of turn,
+also poses great challenge to the turn-taking decision. In this paper, we first
+collect a large-scale annotated corpus for turn-taking with over 5,000 real
+human-robot dialogues in speech and text modalities. Then, a novel gated
+multimodal fusion mechanism is devised to utilize various information
+seamlessly for turn-taking prediction. More importantly, to tackle the data
+imbalance issue, we design a simple yet effective data augmentation method to
+construct negative instances without supervision and apply contrastive learning
+to obtain better feature representations. Extensive experiments are conducted
+and the results demonstrate the superiority and competitiveness of our model
+over several state-of-the-art baselines.

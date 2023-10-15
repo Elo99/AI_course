@@ -1,0 +1,20 @@
+In many classification problems, we want a classifier that is robust to a
+range of non-semantic transformations. For example, a human can identify a dog
+in a picture regardless of the orientation and pose in which it appears. There
+is substantial evidence that this kind of invariance can significantly improve
+the accuracy and generalization of machine learning models. A common technique
+to teach a model geometric invariances is to augment training data with
+transformed inputs. However, which invariances are desired for a given
+classification task is not always known. Determining an effective data
+augmentation policy can require domain expertise or extensive data
+pre-processing. Recent efforts like AutoAugment optimize over a parameterized
+search space of data augmentation policies to automate the augmentation
+process. While AutoAugment and similar methods achieve state-of-the-art
+classification accuracy on several common datasets, they are limited to
+learning one data augmentation policy. Often times different classes or
+features call for different geometric invariances. We introduce Dynamic Network
+Augmentation (DNA), which learns input-conditional augmentation policies.
+Augmentation parameters in our model are outputs of a neural network and are
+implicitly learned as the network weights are updated. Our model allows for
+dynamic augmentation policies and performs well on data with geometric
+transformations conditional on input features.

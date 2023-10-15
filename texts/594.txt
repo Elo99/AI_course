@@ -1,0 +1,9 @@
+The augmented space formalism coupled with the recursion method and a
+tight-binding linear Muffin-tin orbitals basis has been applied to study the
+effects of roughness on the properties of (001) surfaces of body-centered cubic
+Fe and face-centered cubic Co and Ni. The formalism is also proposed for the
+study of smooth surface. Comparisons have been made for three types of
+surfaces: a smooth surface, the surface with a rough top layer, and a more
+realistic model with several rough top layers converging into a crystalline
+bulk. Comparisons have been made between the magnetic moments, work function
+and electronic density of states in the three models described above.

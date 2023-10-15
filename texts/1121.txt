@@ -1,0 +1,14 @@
+Technological advancement in Wireless Sensor Networks (WSN) has made it
+become an invaluable component of a reliable environmental monitoring system;
+they form the digital skin' through which to 'sense' and collect the context of
+the surroundings and provides information on the process leading to complex
+events such as drought. However, these environmental properties are measured by
+various heterogeneous sensors of different modalities in distributed locations
+making up the WSN, using different abstruse terms and vocabulary in most cases
+to denote the same observed property, causing data heterogeneity. Adding
+semantics and understanding the relationships that exist between the observed
+properties, and augmenting it with local indigenous knowledge is necessary for
+an accurate drought forecasting system. In this paper, we propose the framework
+for the semantic representation of sensor data and integration with indigenous
+knowledge on drought using a middleware for an efficient drought forecasting
+system.

@@ -1,0 +1,18 @@
+Deep learning models with large learning capacities often overfit to medical
+imaging datasets. This is because training sets are often relatively small due
+to the significant time and financial costs incurred in medical data
+acquisition and labelling. Data augmentation is therefore often used to expand
+the availability of training data and to increase generalization. However,
+augmentation strategies are often chosen on an ad-hoc basis without
+justification. In this paper, we present an augmentation policy search method
+with the goal of improving model classification performance. We include in the
+augmentation policy search additional transformations that are often used in
+medical image analysis and evaluate their performance. In addition, we extend
+the augmentation policy search to include non-linear mixed-example data
+augmentation strategies. Using these learned policies, we show that principled
+data augmentation for medical image model training can lead to significant
+improvements in ultrasound standard plane detection, with an an average
+F1-score improvement of 7.0% overall over naive data augmentation strategies in
+ultrasound fetal standard plane classification. We find that the learned
+representations of ultrasound images are better clustered and defined with
+optimized data augmentation.

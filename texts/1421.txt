@@ -1,0 +1,6 @@
+We introduce augmented biracks and define a (co)homology theory associated to
+augmented biracks. The new homology theory extends the previously studied
+Yang-Baxter homology with a combinatorial formulation for the boundary map and
+specializes to $N$-reduced rack homology when the birack is a rack. We
+introduce augmented birack 2-cocycle invariants of classical and virtual knots
+and links and provide examples.

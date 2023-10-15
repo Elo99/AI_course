@@ -1,0 +1,13 @@
+We present PFDCMSS, a novel message-passing based parallel algorithm for
+mining time-faded heavy hitters. The algorithm is a parallel version of the
+recently published FDCMSS sequential algorithm. We formally prove its
+correctness by showing that the underlying data structure, a sketch augmented
+with a Space Saving stream summary holding exactly two counters, is mergeable.
+Whilst mergeability of traditional sketches derives immediately from theory, we
+show that merging our augmented sketch is non trivial. Nonetheless, the
+resulting parallel algorithm is fast and simple to implement. To the best of
+our knowledge, PFDCMSS is the first parallel algorithm solving the problem of
+mining time-faded heavy hitters on message-passing parallel architectures.
+Extensive experimental results confirm that PFDCMSS retains the extreme
+accuracy and error bound provided by FDCMSS whilst providing excellent parallel
+scalability.

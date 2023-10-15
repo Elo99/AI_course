@@ -1,0 +1,20 @@
+Most existing text-video retrieval methods focus on cross-modal matching
+between the visual content of offline videos and textual query sentences.
+However, in real scenarios, online videos are frequently accompanied by
+relevant text information such as titles, tags, and even subtitles, which can
+be utilized to match textual queries. This inspires us to generate associated
+captions from offline videos to help with existing text-video retrieval
+methods. To do so, we propose to use the zero-shot video captioner with
+knowledge of pre-trained web-scale models (e.g., CLIP and GPT-2) to generate
+captions for offline videos without any training. Given the captions, one
+question naturally arises: what can auxiliary captions do for text-video
+retrieval? In this paper, we present a novel framework Cap4Video, which makes
+use of captions from three aspects: i) Input data: The video and captions can
+form new video-caption pairs as data augmentation for training. ii) Feature
+interaction: We perform feature interaction between video and caption to yield
+enhanced video representations. iii) Output score: The Query-Caption matching
+branch can be complementary to the original Query-Video matching branch for
+text-video retrieval. We conduct thorough ablation studies to demonstrate the
+effectiveness of our method. Without any post-processing, our Cap4Video
+achieves state-of-the-art performance on MSR-VTT (51.4%), VATEX (66.6%), MSVD
+(51.8%), and DiDeMo (52.0%).

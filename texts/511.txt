@@ -1,0 +1,18 @@
+Rain fills the atmosphere with water particles, which breaks the common
+assumption that light travels unaltered from the scene to the camera. While it
+is well-known that rain affects computer vision algorithms, quantifying its
+impact is difficult. In this context, we present a rain rendering pipeline that
+enables the systematic evaluation of common computer vision algorithms to
+controlled amounts of rain. We present three different ways to add synthetic
+rain to existing images datasets: completely physic-based; completely
+data-driven; and a combination of both. The physic-based rain augmentation
+combines a physical particle simulator and accurate rain photometric modeling.
+We validate our rendering methods with a user study, demonstrating our rain is
+judged as much as 73% more realistic than the state-of-theart. Using our
+generated rain-augmented KITTI, Cityscapes, and nuScenes datasets, we conduct a
+thorough evaluation of object detection, semantic segmentation, and depth
+estimation algorithms and show that their performance decreases in degraded
+weather, on the order of 15% for object detection, 60% for semantic
+segmentation, and 6-fold increase in depth estimation error. Finetuning on our
+augmented synthetic data results in improvements of 21% on object detection,
+37% on semantic segmentation, and 8% on depth estimation.

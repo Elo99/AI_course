@@ -1,0 +1,23 @@
+Learning models are highly dependent on data to work effectively, and they
+give a better performance upon training on big datasets. Massive research
+exists in the literature to address the dataset adequacy issue. One promising
+approach for solving dataset adequacy issues is the data augmentation (DA)
+approach. In DA, the amount of training data instances is increased by making
+different transformations on the available data instances to generate new
+correct and representative data instances. DA increases the dataset size and
+its variability, which enhances the model performance and its prediction
+accuracy. DA also solves the class imbalance problem in the classification
+learning techniques. Few studies have recently considered DA in the Arabic
+language. These studies rely on traditional augmentation approaches, such as
+paraphrasing by using rules or noising-based techniques. In this paper, we
+propose a new Arabic DA method that employs the recent powerful modeling
+technique, namely the AraGPT-2, for the augmentation process. The generated
+sentences are evaluated in terms of context, semantics, diversity, and novelty
+using the Euclidean, cosine, Jaccard, and BLEU distances. Finally, the AraBERT
+transformer is used on sentiment classification tasks to evaluate the
+classification performance of the augmented Arabic dataset. The experiments
+were conducted on four sentiment Arabic datasets, namely AraSarcasm, ASTD, ATT,
+and MOVIE. The selected datasets vary in size, label number, and unbalanced
+classes. The results show that the proposed methodology enhanced the Arabic
+sentiment text classification on all datasets with an increase in F1 score by
+4% in AraSarcasm, 6% in ASTD, 9% in ATT, and 13% in MOVIE.

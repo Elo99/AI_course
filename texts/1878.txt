@@ -1,0 +1,7 @@
+Augmented reality is the art to seamlessly fuse virtual objects into real
+ones. In this short note, we address the opposite problem, the inverse
+augmented reality, that is, given a perfectly augmented reality scene where
+human is unable to distinguish real objects from virtual ones, how the machine
+could help do the job. We show by structure from motion (SFM), a simple 3D
+reconstruction technique from images in computer vision, the real and virtual
+objects can be easily separated in the reconstructed 3D scene.

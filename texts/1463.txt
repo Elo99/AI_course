@@ -1,0 +1,21 @@
+Semantic image segmentation aims to obtain object labels with precise
+boundaries, which usually suffers from overfitting. Recently, various data
+augmentation strategies like regional dropout and mix strategies have been
+proposed to address the problem. These strategies have proved to be effective
+for guiding the model to attend on less discriminative parts. However, current
+strategies operate at the image level, and objects and the background are
+coupled. Thus, the boundaries are not well augmented due to the fixed semantic
+scenario. In this paper, we propose ObjectAug to perform object-level
+augmentation for semantic image segmentation. ObjectAug first decouples the
+image into individual objects and the background using the semantic labels.
+Next, each object is augmented individually with commonly used augmentation
+methods (e.g., scaling, shifting, and rotation). Then, the black area brought
+by object augmentation is further restored using image inpainting. Finally, the
+augmented objects and background are assembled as an augmented image. In this
+way, the boundaries can be fully explored in the various semantic scenarios. In
+addition, ObjectAug can support category-aware augmentation that gives various
+possibilities to objects in each category, and can be easily combined with
+existing image-level augmentation methods to further boost performance.
+Comprehensive experiments are conducted on both natural image and medical image
+datasets. Experiment results demonstrate that our ObjectAug can evidently
+improve segmentation performance.

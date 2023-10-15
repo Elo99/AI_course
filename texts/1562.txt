@@ -1,0 +1,14 @@
+Properties of hot dense ultrarelativistic spinor matter in a slab of finite
+width, placed in a transverse uniform magnetic field, are studied. The
+admissible set of boundary conditions is determined by the requirement that
+spinor matter be confined inside the slab. In thermal equilibrium, the chiral
+separation effect in the slab is shown to depend on both temperature and
+chemical potential; this is distinct from the unrealistic case of the magnetic
+field filling the unbounded (infinite) medium, when the effect is temperature
+independent. In the realistic case of the slab, a stepwise behaviour of the
+axial current density at zero temperature is smoothed out as temperature
+increases, turning into a linear behaviour at infinitely large temperature. A
+choice of boundary conditions can facilitate either augmentation or attenuation
+of the chiral separation effect; in particular, the effect can persist even at
+zero chemical potential, if temperature is finite. Thus the boundary condition
+can serve as a source that is additional to the spinor matter density.

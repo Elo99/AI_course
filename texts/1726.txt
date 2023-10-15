@@ -1,0 +1,17 @@
+Articulatory features are inherently invariant to acoustic signal distortion
+and have been successfully incorporated into automatic speech recognition (ASR)
+systems designed for normal speech. Their practical application to atypical
+task domains such as elderly and disordered speech across languages is often
+limited by the difficulty in collecting such specialist data from target
+speakers. This paper presents a cross-domain and cross-lingual A2A inversion
+approach that utilizes the parallel audio and ultrasound tongue imaging (UTI)
+data of the 24-hour TaL corpus in A2A model pre-training before being
+cross-domain and cross-lingual adapted to three datasets across two languages:
+the English DementiaBank Pitt and Cantonese JCCOCC MoCA elderly speech corpora;
+and the English TORGO dysarthric speech data, to produce UTI based articulatory
+features. Experiments conducted on three tasks suggested incorporating the
+generated articulatory features consistently outperformed the baseline TDNN and
+Conformer ASR systems constructed using acoustic features only by statistically
+significant word or character error rate reductions up to 4.75%, 2.59% and
+2.07% absolute (14.69%, 10.64% and 22.72% relative) after data augmentation,
+speaker adaptation and cross system multi-pass decoding were applied.

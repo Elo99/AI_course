@@ -1,0 +1,15 @@
+Dense retrievers have made significant strides in obtaining state-of-the-art
+results on text retrieval and open-domain question answering (ODQA). Yet most
+of these achievements were made possible with the help of large annotated
+datasets, unsupervised learning for dense retrieval models remains an open
+problem. In this work, we explore two categories of methods for creating pseudo
+query-document pairs, named query extraction (QExt) and transferred query
+generation (TQGen), to augment the retriever training in an annotation-free and
+scalable manner. Specifically, QExt extracts pseudo queries by document
+structures or selecting salient random spans, and TQGen utilizes generation
+models trained for other NLP tasks (e.g., summarization) to produce pseudo
+queries. Extensive experiments show that dense retrievers trained with
+individual augmentation methods can perform comparably well with multiple
+strong baselines, and combining them leads to further improvements, achieving
+state-of-the-art performance of unsupervised dense retrieval on both BEIR and
+ODQA datasets.

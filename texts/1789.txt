@@ -1,0 +1,12 @@
+The definition of the augmented reality concept is based on the analysis of
+scientific publications. It is noted that online experiments with augmented
+reality provide students with the opportunity to observe and describe the
+operation with real systems by changing their parameters, and also partially
+replace experimental installations with objects of augmented reality. The
+scheme for realizing the augmented reality is considered. The possibilities of
+working with augmented reality objects in teaching physics is highlighted. It
+is indicated that the use of the augmented reality tools allows to increase the
+realness of the research; provides emotional and cognitive experience, helps
+attract students to systematic training; provides correct information about the
+installation in the process of experimentation; creates new ways of
+representing real objects in the learning process.

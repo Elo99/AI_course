@@ -1,0 +1,15 @@
+Recently, a variety of regularization techniques have been widely applied in
+deep neural networks, such as dropout, batch normalization, data augmentation,
+and so on. These methods mainly focus on the regularization of weight
+parameters to prevent overfitting effectively. In addition, label
+regularization techniques such as label smoothing and label disturbance have
+also been proposed with the motivation of adding a stochastic perturbation to
+labels. In this paper, we propose a novel adaptive label regularization method,
+which enables the neural network to learn from the erroneous experience and
+update the optimal label representation online. On the other hand, compared
+with knowledge distillation, which learns the correlation of categories using
+teacher network, our proposed method requires only a minuscule increase in
+parameters without cumbersome teacher network. Furthermore, we evaluate our
+method on CIFAR-10/CIFAR-100/ImageNet datasets for image recognition tasks and
+AGNews/Yahoo/Yelp-Full datasets for text classification tasks. The empirical
+results show significant improvement under all experimental settings.

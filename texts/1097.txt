@@ -1,0 +1,9 @@
+Generative Adversarial Networks (GAN) have gained a lot of popularity from
+their introduction in 2014 till present. Research on GAN is rapidly growing and
+there are many variants of the original GAN focusing on various aspects of deep
+learning. GAN are perceived as the most impactful direction of machine learning
+in the last decade. This paper focuses on the application of GAN in autonomous
+driving including topics such as advanced data augmentation, loss function
+learning, semi-supervised learning, etc. We formalize and review key
+applications of adversarial techniques and discuss challenges and open problems
+to be addressed.

@@ -1,0 +1,20 @@
+In recent years, long short-term memory neural networks (LSTMs) have been
+applied quite successfully to problems in handwritten text recognition.
+However, their strength is more located in handling sequences of variable
+length than in handling geometric variability of the image patterns.
+Furthermore, the best results for LSTMs are often based on large-scale training
+of an ensemble of network instances. In this paper, an end-to-end convolutional
+LSTM Neural Network is used to handle both geometric variation and sequence
+variability. We show that high performances can be reached on a common
+benchmark set by using proper data augmentation for just five such networks
+using a proper coding scheme and a proper voting scheme. The networks have
+similar architectures (Convolutional Neural Network (CNN): five layers,
+bidirectional LSTM (BiLSTM): three layers followed by a connectionist temporal
+classification (CTC) processing step). The approach assumes differently-scaled
+input images and different feature map sizes. Two datasets are used for
+evaluation of the performance of our algorithm: A standard benchmark RIMES
+dataset (French), and a historical handwritten dataset KdK (Dutch). Final
+performance obtained for the word-recognition test of RIMES was 96.6%, a clear
+improvement over other state-of-the-art approaches. On the KdK dataset, our
+approach also shows good results. The proposed approach is deployed in the Monk
+search engine for historical-handwriting collections.

@@ -1,0 +1,16 @@
+Data Augmentation (DA) is frequently used to automatically provide additional
+training data without extra human annotation. However, data augmentation may
+introduce noisy data that impairs training. To guarantee the quality of
+augmented data, existing methods either assume no noise exists in the augmented
+data and adopt consistency training or use simple heuristics such as training
+loss and diversity constraints to filter out ``noisy'' data. However, those
+filtered examples may still contain useful information, and dropping them
+completely causes loss of supervision signals. In this paper, based on the
+assumption that the original dataset is cleaner than the augmented data, we
+propose an on-the-fly denoising technique for data augmentation that learns
+from soft augmented labels provided by an organic teacher model trained on the
+cleaner original data. A simple self-regularization module is applied to force
+the model prediction to be consistent across two distinct dropouts to further
+prevent overfitting on noisy labels. Our method can be applied to augmentation
+techniques in general and can consistently improve the performance on both text
+classification and question-answering tasks.

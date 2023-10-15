@@ -1,0 +1,8 @@
+We consider a class of semi-Markov processes (SMP) such that the embedded
+discrete time Markov chain may be non-homogeneous. The corresponding augmented
+processes are represented as semi-martingales using stochastic integral
+equation involving a Poisson random measure. The existence and uniqueness of
+the equation are established. Subsequently, we show that the solution is indeed
+a SMP with desired transition rate. Finally, we derive the law of the bivariate
+process obtained from two solutions of the equation having two different
+initial conditions.

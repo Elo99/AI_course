@@ -1,0 +1,15 @@
+Data augmentations have been widely studied to improve the accuracy and
+robustness of classifiers. However, the potential of image augmentation in
+improving GAN models for image synthesis has not been thoroughly investigated
+in previous studies. In this work, we systematically study the effectiveness of
+various existing augmentation techniques for GAN training in a variety of
+settings. We provide insights and guidelines on how to augment images for both
+vanilla GANs and GANs with regularizations, improving the fidelity of the
+generated images substantially. Surprisingly, we find that vanilla GANs attain
+generation quality on par with recent state-of-the-art results if we use
+augmentations on both real and generated images. When this GAN training is
+combined with other augmentation-based regularization techniques, such as
+contrastive loss and consistency regularization, the augmentations further
+improve the quality of generated images. We provide new state-of-the-art
+results for conditional generation on CIFAR-10 with both consistency loss and
+contrastive loss as additional regularizations.

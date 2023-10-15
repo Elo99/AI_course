@@ -1,0 +1,14 @@
+When establishing a visual connection between a virtual reality user and an
+augmented reality user, it is important to consider whether the augmented
+reality user faces a surplus of information. Augmented reality, compared to
+virtual reality, involves two, not one, planes of information: the physical and
+the virtual. We propose SelectVisAR, a selective visualisation system of
+virtual environments in augmented reality. Our system enables an augmented
+reality spectator to perceive a co-located virtual reality user in the context
+of four distinct visualisation conditions: Interactive, Proximity, Everything,
+and Dollhouse. We explore an additional two conditions, Context and Spotlight,
+in a follow-up study. Our design uses a human-centric approach to information
+filtering, selectively visualising only parts of the virtual environment
+related to the interactive possibilities of a virtual reality user. The
+research investigates how selective visualisations can be helpful or trivial
+for the augmented reality user when observing a virtual reality user.

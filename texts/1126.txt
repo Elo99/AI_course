@@ -1,0 +1,14 @@
+We study authomorphisms of $Ind$-groups of polynomial automorphisms (wich are
+singular) via tame approximations. Such objects were pioneeered in research by
+B.I.Plotkin
+  We obtain a number of properties of $Aut(Aut(A))$, where $A$ is the
+polynomial or free associative algebra over the base field $K$. We prove that
+all $Ind$-scheme automorphisms of $Aut(K[x_1,\dots,x_n])$ are inner for $n\ge
+3$, and all $Ind$-scheme automorphisms of $Aut(K\langle x_1,\dots, x_n\rangle)$
+are semi-inner.
+  As an application, we prove that $Aut(K[x_1,\dots,x_n])$ cannot be embedded
+into $Aut(K\langle x_1,\dots,x_n\rangle)$ by the natural abelianization. In
+other words, the {\it Automorphism Group Lifting Problem} has a negative
+solution. We explore close connection between the above results and the
+Jacobian conjecture type questions, formulate the Jacobian conjecture for
+fields of any characteristic.

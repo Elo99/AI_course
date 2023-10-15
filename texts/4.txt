@@ -1,0 +1,12 @@
+Traditional data augmentation aims to increase the coverage of the input
+distribution by generating augmented examples that strongly resemble original
+samples in an online fashion where augmented examples dominate training. In
+this paper, we propose an alternative perspective -- a multi-task view (MTV) of
+data augmentation -- in which the primary task trains on original examples and
+the auxiliary task trains on augmented examples. In MTV data augmentation, both
+original and augmented samples are weighted substantively during training,
+relaxing the constraint that augmented examples must resemble original data and
+thereby allowing us to apply stronger levels of augmentation. In empirical
+experiments using four common data augmentation techniques on three benchmark
+text classification datasets, we find that the MTV leads to higher and more
+robust performance improvements than traditional augmentation.

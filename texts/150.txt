@@ -1,0 +1,19 @@
+Pre-trained language models (PLMs) have made remarkable progress in
+table-to-text generation tasks. However, the topological gap between tabular
+data and text and the lack of domain-specific knowledge make it difficult for
+PLMs to produce faithful text, especially in real-world applications with
+limited resources. In this paper, we mitigate the above challenges by
+introducing a novel augmentation method: Prompt-based Adapter (PA), which
+targets table-to-text generation under few-shot conditions. The core insight
+design of the PA is to inject prompt templates for augmenting domain-specific
+knowledge and table-related representations into the model for bridging the
+structural gap between tabular data and descriptions through adapters. Such
+prompt-based knowledge augmentation method brings at least two benefits: (1)
+enables us to fully use the large amounts of unlabelled domain-specific
+knowledge, which can alleviate the PLMs' inherent shortcomings of lacking
+domain knowledge; (2) allows us to design different types of tasks supporting
+the generative challenge. Extensive experiments and analyses are conducted on
+three open-domain few-shot NLG datasets: Humans, Books, and Songs. Compared to
+previous state-of-the-art approaches, our model achieves superior performance
+in terms of both fluency and accuracy as judged by human and automatic
+evaluations.

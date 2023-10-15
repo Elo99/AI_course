@@ -1,0 +1,12 @@
+In this work, we address the issue of a virtual representation of objects of
+cultural heritage for haptic interaction. Our main focus is to provide haptic
+access to artistic objects of any physical scale to the differently-abled
+people. This is a low-cost system and, in conjunction with a stereoscopic
+visual display, gives a better immersive experience even to the sighted
+persons. To achieve this, we propose a simple multilevel, proxy-based
+hapto-visual rendering technique for point cloud data, which includes the
+much-desired scalability feature which enables the users to change the scale of
+the objects adaptively during the haptic interaction. For the proposed haptic
+rendering technique, the proxy updation loop runs at a rate 100 times faster
+than the required haptic updation frequency of 1KHz. We observe that this
+functionality augments very well with the realism of the experience.

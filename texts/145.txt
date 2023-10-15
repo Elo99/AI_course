@@ -1,0 +1,15 @@
+Interest in automatic people re-identification systems has significantly
+grown in recent years, mainly for developing surveillance and smart shops
+software. Due to the variability in person posture, different lighting
+conditions, and occluded scenarios, together with the poor quality of the
+images obtained by different cameras, it is currently an unsolved problem. In
+machine learning-based computer vision applications with reduced data sets, one
+possibility to improve the performance of re-identification system is through
+the augmentation of the set of images or videos available for training the
+neural models. Currently, one of the most robust ways to generate synthetic
+information for data augmentation, whether it is video, images or text, are the
+generative adversarial networks. This article reviews the most relevant recent
+approaches to improve the performance of person re-identification models
+through data augmentation, using generative adversarial networks. We focus on
+three categories of data augmentation approaches: style transfer, pose
+transfer, and random generation.

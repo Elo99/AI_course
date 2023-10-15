@@ -1,0 +1,14 @@
+Researching bragging behavior on social media arouses interest of
+computational (socio) linguists. However, existing bragging classification
+datasets suffer from a serious data imbalance issue. Because labeling a
+data-balance dataset is expensive, most methods introduce external knowledge to
+improve model learning. Nevertheless, such methods inevitably introduce noise
+and non-relevance information from external knowledge. To overcome the
+drawback, we propose a novel bragging classification method with
+disentangle-based representation augmentation and domain-aware adversarial
+strategy. Specifically, model learns to disentangle and reconstruct
+representation and generate augmented features via disentangle-based
+representation augmentation. Moreover, domain-aware adversarial strategy aims
+to constrain domain of augmented features to improve their robustness.
+Experimental results demonstrate that our method achieves state-of-the-art
+performance compared to other methods.

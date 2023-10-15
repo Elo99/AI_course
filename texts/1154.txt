@@ -1,0 +1,16 @@
+We study the electronic structure of the Re(0001) surface by means of
+ab-initio techniques based on the Fully Relativistic (FR) Density Functional
+Theory (DFT) and the Projector Augmented-Wave (PAW) method. We identify the
+main surface states and resonances and study in detail their energy dispersion
+along the main symmetry lines of the SBZ. Moreover, we discuss the effect of
+spin-orbit coupling on the energy splittings and the spin-polarization of the
+main surface states and resonances. Whenever possible, we compare the results
+with previously studied heavy metals surfaces. We find empty resonances,
+located below a gap similar to the L-gap of the (111) fcc surfaces, that have a
+downward dispersion and cross the Fermi level, similarly to the recently
+studied Os(0001) surface. Their spin polarization at the Fermi level is similar
+to that predicted by the Rashba model, but the usual level crossing at
+$\bar{\Gamma}$ is not found with our slab thickness. Moreover, for selected
+states, we follow the spin polarization along the high symmetry lines,
+discussing its behavior with respect to ${\bf k}_{\parallel}$, the wave-vector
+parallel to the surface.

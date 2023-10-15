@@ -1,0 +1,13 @@
+Few-shot audio event detection is a task that detects the occurrence time of
+a novel sound class given a few examples. In this work, we propose a system
+based on segment-level metric learning for the DCASE 2022 challenge of few-shot
+bioacoustic event detection (task 5). We make better utilization of the
+negative data within each sound class to build the loss function, and use
+transductive inference to gain better adaptation on the evaluation set. For the
+input feature, we find the per-channel energy normalization concatenated with
+delta mel-frequency cepstral coefficients to be the most effective combination.
+We also introduce new data augmentation and post-processing procedures for this
+task. Our final system achieves an f-measure of 68.74 on the DCASE task 5
+validation set, outperforming the baseline performance of 29.5 by a large
+margin. Our system is fully open-sourced at
+https://github.com/haoheliu/DCASE_2022_Task_5.

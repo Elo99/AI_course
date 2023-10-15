@@ -1,0 +1,12 @@
+Turing machine and decision tree have developed independently for a long
+time. With the recent development of differentiable models, there is an
+intersection between them. Neural turing machine(NTM) opens door for the memory
+network. It use differentiable attention mechanism to read/write external
+memory bank. Differentiable forest brings differentiable properties to
+classical decision tree. In this short note, we show the deep connection
+between these two models. That is: differentiable forest is a special case of
+NTM. Differentiable forest is actually decision tree based neural turing
+machine. Based on this deep connection, we propose a response augmented
+differential forest (RaDF). The controller of RaDF is differentiable forest,
+the external memory of RaDF are response vectors which would be read/write by
+leaf nodes.

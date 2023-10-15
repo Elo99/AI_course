@@ -1,0 +1,18 @@
+Cognitive Behavioral Therapy (CBT) is a goal-oriented psychotherapy for
+mental health concerns implemented in a conversational setting with broad
+empirical support for its effectiveness across a range of presenting problems
+and client populations. The quality of a CBT session is typically assessed by
+trained human raters who manually assign pre-defined session-level behavioral
+codes. In this paper, we develop an end-to-end pipeline that converts speech
+audio to diarized and transcribed text and extracts linguistic features to code
+the CBT sessions automatically. We investigate both word-level and
+utterance-level features and propose feature fusion strategies to combine them.
+The utterance level features include dialog act tags as well as behavioral
+codes drawn from another well-known talk psychotherapy called Motivational
+Interviewing (MI). We propose a novel method to augment the word-based features
+with the utterance level tags for subsequent CBT code estimation. Experiments
+show that our new fusion strategy outperforms all the studied features, both
+when used individually and when fused by direct concatenation. We also find
+that incorporating a sentence segmentation module can further improve the
+overall system given the preponderance of multi-utterance conversational turns
+in CBT sessions.

@@ -1,0 +1,19 @@
+In dynamic topic modeling, the proportional contribution of a topic to a
+document depends on the temporal dynamics of that topic's overall prevalence in
+the corpus. We extend the Dynamic Topic Model of Blei and Lafferty (2006) by
+explicitly modeling document level topic proportions with covariates and
+dynamic structure that includes polynomial trends and periodicity. A Markov
+Chain Monte Carlo (MCMC) algorithm that utilizes Polya-Gamma data augmentation
+is developed for posterior inference. Conditional independencies in the model
+and sampling are made explicit, and our MCMC algorithm is parallelized where
+possible to allow for inference in large corpora. To address computational
+bottlenecks associated with Polya-Gamma sampling, we appeal to the Central
+Limit Theorem to develop a Gaussian approximation to the Polya-Gamma random
+variable. This approximation is fast and reliable for parameter values relevant
+in the text mining domain. Our model and inference algorithm are validated with
+multiple simulation examples, and we consider the application of modeling
+trends in PubMed abstracts. We demonstrate that sharing information across
+documents is critical for accurately estimating document-specific topic
+proportions. We also show that explicitly modeling polynomial and periodic
+behavior improves our ability to predict topic prevalence at future time
+points.

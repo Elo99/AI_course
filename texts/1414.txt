@@ -1,0 +1,9 @@
+Prior work has demonstrated that data augmentation is useful for improving
+dialogue state tracking. However, there are many types of user utterances,
+while the prior method only considered the simplest one for augmentation,
+raising the concern about poor generalization capability. In order to better
+cover diverse dialogue acts and control the generation quality, this paper
+proposes controllable user dialogue act augmentation (CUDA-DST) to augment user
+utterances with diverse behaviors. With the augmented data, different state
+trackers gain improvement and show better robustness, achieving the
+state-of-the-art performance on MultiWOZ 2.1

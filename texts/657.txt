@@ -1,0 +1,10 @@
+Keyphrase extraction is one of the essential tasks for document understanding
+in NLP. While the majority of the prior works are dedicated to the formal
+setting, e.g., books, news or web-blogs, informal texts such as video
+transcripts are less explored. To address this limitation, in this work we
+present a novel corpus and method for keyphrase extraction from the transcripts
+of the videos streamed on the Behance platform. More specifically, in this
+work, a novel data augmentation is proposed to enrich the model with the
+background knowledge about the keyphrase extraction task from other domains.
+Extensive experiments on the proposed dataset dataset show the effectiveness of
+the introduced method.

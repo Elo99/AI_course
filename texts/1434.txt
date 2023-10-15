@@ -1,0 +1,18 @@
+In network science, the null model is typically used to generate a series of
+graphs based on randomization as a term of comparison to verify whether a
+network in question displays some non-trivial features such as community
+structure. Since such non-trivial features play a significant role in graph
+classification, the null model could be useful for network data augmentation to
+enhance classification performance. In this paper, we propose a novel technique
+that combines the null model with data augmentation for graph classification.
+Moreover, we propose four standard null model-based augmentation methods and
+four approximate null model-based augmentation methods to verify and improve
+the performance of our graph classification technique. Our experiments
+demonstrate that the proposed augmentation technique has significantly achieved
+general improvement on the tested datasets. In addition, we find that the
+standard null model-based augmentation methods always outperform the
+approximate ones, depending on the design mechanisms of the null models. Our
+results indicate that the choice of non-trivial features is significant for
+increasing the performance of augmentation models for different network
+structures, which also provides a new perspective of data augmentation for
+studying various graph classification methods.

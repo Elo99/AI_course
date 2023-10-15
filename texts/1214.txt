@@ -1,0 +1,12 @@
+This paper describes our approach to the task of identifying offensive
+languages in a multilingual setting. We investigate two data augmentation
+strategies: using additional semi-supervised labels with different thresholds
+and cross-lingual transfer with data selection. Leveraging the semi-supervised
+dataset resulted in performance improvements compared to the baseline trained
+solely with the manually-annotated dataset. We propose a new metric,
+Translation Embedding Distance, to measure the transferability of instances for
+cross-lingual data selection. We also introduce various preprocessing steps
+tailored for social media text along with methods to fine-tune the pre-trained
+multilingual BERT (mBERT) for offensive language identification. Our
+multilingual systems achieved competitive results in Greek, Danish, and Turkish
+at OffensEval 2020.

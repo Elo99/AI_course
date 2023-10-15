@@ -1,0 +1,13 @@
+Sign language translation (SLT) is often decomposed into video-to-gloss
+recognition and gloss-to-text translation, where a gloss is a sequence of
+transcribed spoken-language words in the order in which they are signed. We
+focus here on gloss-to-text translation, which we treat as a low-resource
+neural machine translation (NMT) problem. However, unlike traditional
+low-resource NMT, gloss-to-text translation differs because gloss-text pairs
+often have a higher lexical overlap and lower syntactic overlap than pairs of
+spoken languages. We exploit this lexical overlap and handle syntactic
+divergence by proposing two rule-based heuristics that generate pseudo-parallel
+gloss-text pairs from monolingual spoken language text. By pre-training on the
+thus obtained synthetic data, we improve translation from American Sign
+Language (ASL) to English and German Sign Language (DGS) to German by up to
+3.14 and 2.20 BLEU, respectively.

@@ -1,0 +1,17 @@
+Artificial Intelligence (AI) / Machine Learning (ML)-based systems are widely
+sought-after commercial solutions that can automate and augment core business
+services. Intelligent systems can improve the quality of services offered and
+support scalability through automation. In this paper we describe our
+experience in engineering an exploratory system for assessing the quality of
+essays supplied by customers of a specialized recruitment support service. The
+problem domain is challenging because the open-ended customer-supplied source
+text has considerable scope for ambiguity and error, making models for analysis
+hard to build. There is also a need to incorporate specialized business domain
+knowledge into the intelligent processing systems. To address these challenges,
+we experimented with and exploited a number of cloud-based machine learning
+models and composed them into an application-specific processing pipeline. This
+design allows for modification of the underlying algorithms as more data and
+improved techniques become available. We describe our design, and the main
+challenges we faced, namely keeping a check on the quality control of the
+models, testing the software and deploying the computationally expensive ML
+models on the cloud.

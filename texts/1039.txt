@@ -1,0 +1,5 @@
+For quantum computer circuits, it is proposed that they have, besides the
+presently used compact graphs, an expanded system of subgraphs, in line with
+the quantum mechanics superposition axiom. The representation of each process
+by these suggested graphs is equivalent to the algebraic notation of the
+process.

@@ -1,0 +1,14 @@
+Despite advancements in deep reinforcement learning algorithms, developing an
+effective exploration strategy is still an open problem. Most existing
+exploration strategies either are based on simple heuristics, or require the
+model of the environment, or train additional deep neural networks to generate
+imagination-augmented paths. In this paper, a revolutionary algorithm, called
+Policy Augmentation, is introduced. Policy Augmentation is based on a newly
+developed inductive matrix completion method. The proposed algorithm augments
+the values of unexplored state-action pairs, helping the agent take actions
+that will result in high-value returns while the agent is in the early
+episodes. Training deep reinforcement learning algorithms with high-value
+rollouts leads to the faster convergence of deep reinforcement learning
+algorithms. Our experiments show the superior performance of Policy
+Augmentation. The code can be found at:
+https://github.com/arashmahyari/PolicyAugmentation.

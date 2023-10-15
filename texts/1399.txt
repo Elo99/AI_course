@@ -1,0 +1,14 @@
+Dense real-time tracking and mapping from RGB-D images is an important tool
+for many robotic applications, such as navigation and manipulation. The
+recently presented Directional Truncated Signed Distance Function (DTSDF) is an
+augmentation of the regular TSDF that shows potential for more coherent maps
+and improved tracking performance. In this work, we present methods for
+rendering depth- and color images from the DTSDF, making it a true drop-in
+replacement for the regular TSDF in established trackers. We evaluate the
+algorithm on well-established datasets and observe that our method improves
+tracking performance and increases re-usability of mapped scenes. Furthermore,
+we add color integration which notably improves color-correctness at adjacent
+surfaces. Our novel formulation of combined ICP with frame-to-keyframe
+photometric error minimization further improves tracking results. Lastly, we
+introduce Sim3 point-to-plane ICP for refining pose priors in a multi-sensor
+scenario with different scale factors.

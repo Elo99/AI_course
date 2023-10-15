@@ -1,0 +1,19 @@
+Building robust and general dialogue models for spoken conversations is
+challenging due to the gap in distributions of spoken and written data. This
+paper presents our approach to build generalized models for the
+Knowledge-grounded Task-oriented Dialogue Modeling on Spoken Conversations
+Challenge of DSTC-10. In order to mitigate the discrepancies between spoken and
+written text, we mainly employ extensive data augmentation strategies on
+written data, including artificial error injection and round-trip text-speech
+transformation. To train robust models for spoken conversations, we improve
+pre-trained language models, and apply ensemble algorithms for each sub-task.
+Typically, for the detection task, we fine-tune \roberta and ELECTRA, and run
+an error-fixing ensemble algorithm. For the selection task, we adopt a
+two-stage framework that consists of entity tracking and knowledge ranking, and
+propose a multi-task learning method to learn multi-level semantic information
+by domain classification and entity selection. For the generation task, we
+adopt a cross-validation data process to improve pre-trained generative
+language models, followed by a consensus decoding algorithm, which can add
+arbitrary features like relative \rouge metric, and tune associated feature
+weights toward \bleu directly. Our approach ranks third on the objective
+evaluation and second on the final official human evaluation.

@@ -1,0 +1,22 @@
+Stochastic epidemic models (SEMs) fit to incidence data are critical to
+elucidating outbreak dynamics, shaping response strategies, and preparing for
+future epidemics. SEMs typically represent counts of individuals in discrete
+infection states using Markov jump processes (MJPs), but are computationally
+challenging as imperfect surveillance, lack of subject-level information, and
+temporal coarseness of the data obscure the true epidemic. Analytic integration
+over the latent epidemic process is impossible, and integration via Markov
+chain Monte Carlo (MCMC) is cumbersome due to the dimensionality and
+discreteness of the latent state space. Simulation-based computational
+approaches can address the intractability of the MJP likelihood, but are
+numerically fragile and prohibitively expensive for complex models. A linear
+noise approximation (LNA) that approximates the MJP transition density with a
+Gaussian density has been explored for analyzing prevalence data in
+large-population settings, but requires modification for analyzing incidence
+counts without assuming that the data are normally distributed. We demonstrate
+how to reparameterize SEMs to appropriately analyze incidence data, and fold
+the LNA into a data augmentation MCMC framework that outperforms deterministic
+methods, statistically, and simulation-based methods, computationally. Our
+framework is computationally robust when the model dynamics are complex and
+applies to a broad class of SEMs. We evaluate our method in simulations that
+reflect Ebola, influenza, and SARS-CoV-2 dynamics, and apply our method to
+national surveillance counts from the 2013--2015 West Africa Ebola outbreak.

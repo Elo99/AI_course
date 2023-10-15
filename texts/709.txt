@@ -1,0 +1,9 @@
+This paper describes the system developed at the Universitat Polit\`ecnica de
+Catalunya for the Workshop on Machine Translation 2022 Sign Language
+Translation Task, in particular, for the sign-to-text direction. We use a
+Transformer model implemented with the Fairseq modeling toolkit. We have
+experimented with the vocabulary size, data augmentation techniques and
+pretraining the model with the PHOENIX-14T dataset. Our system obtains 0.50
+BLEU score for the test set, improving the organizers' baseline by 0.38 BLEU.
+We remark the poor results for both the baseline and our system, and thus, the
+unreliability of our findings.

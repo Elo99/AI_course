@@ -1,0 +1,15 @@
+Accurate localization and 3D maps are increasingly needed for various
+artificial intelligence based IoT applications such as augmented reality,
+intelligent transportation, crowd monitoring, robotics, etc. This article
+proposes a novel semantic 3D map change detection and update based on a
+smartphone visual positioning system (VPS) for the outdoor and indoor
+environments. The proposed method presents an alternate solution to SLAM for
+map update in terms of efficiency, cost, availability, and map reuse. Building
+on existing 3D maps of recent years, a system is designed to use artificial
+intelligence to identify high-level semantics in images for positioning and map
+change detection. Then, a virtual LIDAR that estimates the depth of objects in
+the 3D map is used to generate a compact point cloud to update changes in the
+scene. We present an excellent performance of localization with respect to
+other state-of-the-art smartphone positioning solutions to accurately update
+semantic 3D maps. It is shown that the proposed solution can position users
+within 1.9m, and update objects with an average error of 2.1m.

@@ -1,0 +1,12 @@
+Learning from imbalanced data is one of the most significant challenges in
+real-world classification tasks. In such cases, neural networks performance is
+substantially impaired due to preference towards the majority class. Existing
+approaches attempt to eliminate the bias through data re-sampling or
+re-weighting the loss in the learning process. Still, these methods tend to
+overfit the minority samples and perform poorly when the structure of the
+minority class is highly irregular. Here, we propose a novel deep meta-learning
+technique to augment a given imbalanced dataset with new minority instances.
+These additional data are incorporated in the classifier's deep-learning
+process, and their contributions are learned explicitly. The advantage of the
+proposed method is demonstrated on synthetic and real-world datasets with
+various imbalance ratios.

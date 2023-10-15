@@ -1,0 +1,14 @@
+For most intelligent assistant systems, it is essential to have a mechanism
+that detects out-of-domain (OOD) utterances automatically to handle noisy input
+properly. One typical approach would be introducing a separate class that
+contains OOD utterance examples combined with in-domain text samples into the
+classifier. However, since OOD utterances are usually unseen to the training
+datasets, the detection performance largely depends on the quality of the
+attached OOD text data with restricted sizes of samples due to computing
+limits. In this paper, we study how augmented OOD data based on sampling impact
+OOD utterance detection with a small sample size. We hypothesize that OOD
+utterance samples chosen randomly can increase the coverage of unknown OOD
+utterance space and enhance detection accuracy if they are more dispersed.
+Experiments show that given the same dataset with the same OOD sample size, the
+OOD utterance detection performance improves when OOD samples are more
+spread-out.

@@ -1,0 +1,21 @@
+The computational capabilities of recent mobile devices enable the processing
+of natural features for Augmented Reality (AR), but the scalability is still
+limited by the devices' computation power and available resources. In this
+paper, we propose EdgeXAR, a mobile AR framework that utilizes the advantages
+of edge computing through task offloading to support flexible camera-based AR
+interaction. We propose a hybrid tracking system for mobile devices that
+provides lightweight tracking with 6 Degrees of Freedom and hides the
+offloading latency from users' perception. A practical, reliable and unreliable
+communication mechanism is used to achieve fast response and consistency of
+crucial information. We also propose a multi-object image retrieval pipeline
+that executes fast and accurate image recognition tasks on the cloud and edge
+servers. Extensive experiments are carried out to evaluate the performance of
+EdgeXAR by building mobile AR Apps upon it. Regarding the Quality of Experience
+(QoE), the mobile AR Apps powered by EdgeXAR framework run on average at the
+speed of 30 frames per second with precise tracking of only 1~2 pixel errors
+and accurate image recognition of at least 97% accuracy. As compared to
+Vuforia, one of the leading commercial AR frameworks, EdgeXAR transmits 87%
+less data while providing a stable 30 FPS performance and reducing the
+offloading latency by 50 to 70% depending on the transmission medium. Our work
+facilitates the large-scale deployment of AR as the next generation of
+ubiquitous interfaces.

@@ -1,0 +1,23 @@
+We used the 8 June 2004 transit of Venus (ToV) as a surrogate to test
+observing methods, strategies and techniques that are being contemplated for
+future space missions to detect and characterize extrasolar terrestrial planets
+(ETPs) as they transit their host stars, notably NASA's Kepler mission planned
+for 2008. As an analog to "Kepler-like" photometric transit observations, we
+obtained (spatially unresolved) radiometric observations with the ACRIM 3
+instrument on ACRIMSAT to follow the effect of the ToV on the total solar
+irradiance (TSI). Contemporaneous high-resolution broadband imagery with NASA's
+TRACE spacecraft provided, directly, measures of the stellar (solar)
+astrophysical noise that can intrinsically limit such transit observations.
+During the ~ 5.5 h transit, the planet's angular diameter was approximately
+1/32 the solar diameter, thus covering ~ 0.1 of the stellar surface. With our
+ACRIM 3 data, we measure temporal changes in TSI with a 1 sigma per sample
+(unbinned) uncertainty of approximately 100 mW m^-2 (0.007%). A diminution in
+TSI of ~ 1.4 W m^-2 (~ 0.1%, closely corresponding to the geometrically
+occulted area of the photosphere) was measured at mid-transit compared with a
+mean pre/post transit TSI of ~ 1365.9 W m^-2. These observations serve as a
+surrogate to future photometric observations of ETPs such as Kepler will
+deliver. Detailed analysis of the ToV, a rare event within our own solar
+system, with time-resolved radiometry augmented with high-resolution imagery
+provides a useful analogue for investigating the detectability and
+characterization of ETPs from observations that are anticipated in the near
+future.

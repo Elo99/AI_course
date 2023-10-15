@@ -1,0 +1,14 @@
+The next-iterate operators and corresponding next-iterate root-sets and
+root-curves associated with the nullclines of a planar discrete map are
+introduced. How to augment standard phase portraits that include the nullclines
+and the direction field, by including the signs of the root-operators
+associated with their nullclines, thus producing an augmented phase portrait,
+is described. The sign of a next-iterate operator associated with a nullcline
+determines whether a point is mapped above or below the corresponding nullcline
+and can, for example, identify positively invariant regions. Using a
+Lotka-Volterra type competition model, we demonstrate how to construct the
+augmented phase portrait. We show that the augmented phase portrait provides an
+elementary, alternative approach for determining the complete global dynamics
+of this model. We further explore the limitations and potential of the
+augmented phase portrait by considering a Ricker competition model, a model
+involving mutualism, and a predator-prey model.

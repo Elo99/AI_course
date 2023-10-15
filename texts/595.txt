@@ -1,0 +1,11 @@
+In this paper we present a linear quadratic Gaussian (LQG) feedback control
+strategy for a class of linear non-Markovian quantum systems. The feedback
+control law is designed based on the estimated states of a whitening quantum
+filter for an augmented Markovian model of the non-Markovian open quantum
+systems. In this augmented Markovian model, an ancillary system plays the role
+of internal modes of the environment converting white noise into Lorentzian
+noise and a principal system obeys non-Markovian dynamics due to the direct
+interaction with the ancillary system. The simulation results show the LQG
+controller with the whitening filter obtains a better control performance than
+that with a Markovian filter in the problem of minimizing the photon numbers of
+the principal system when the ancillary system is disturbed by thermal noise.

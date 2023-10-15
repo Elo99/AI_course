@@ -1,0 +1,15 @@
+Bile, the central metabolic product of the liver, is secreted by hepatocytes
+into bile canaliculi (BC), tubular subcellular structures of 0.5-2 $\mu$m
+diameter which are formed by the apical membranes of juxtaposed hepatocytes. BC
+interconnect to build a highly ramified 3D network that collects and transports
+bile towards larger interlobular bile ducts (IBD). The transport mechanism of
+bile is of fundamental interest and the current text-book model of "osmotic
+canalicular bile flow", i.e. enforced by osmotic water influx, has recently
+been quantitatively verified based on flux measurements and BC contractility
+(Meyer et al., 2017) but challenged in the article entitled "Intravital dynamic
+and correlative imaging reveals diffusion-dominated canalicular and
+flow-augmented ductular bile flux" (Vartak et al., 2020). We feel compelled to
+share a series of arguments that question the key conclusions of this study
+(Vartak et al., 2020), particularly because it risks to be misinterpreted and
+misleading for the field in view of potential clinical applications. We
+summarized the arguments in the following 8 points.

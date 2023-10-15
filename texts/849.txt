@@ -1,0 +1,11 @@
+In text mining, topic models are a type of probabilistic generative models
+for inferring latent semantic topics from text corpus. One of the most popular
+inference approaches to topic models is perhaps collapsed Gibbs sampling (CGS),
+which typically samples one single topic label for each observed document-word
+pair. In this paper, we aim at improving the inference of CGS for topic models.
+We propose to leverage state augmentation technique by maximizing the number of
+topic samples to infinity, and then develop a new inference approach, called
+infinite latent state replication (ILR), to generate robust soft topic
+assignment for each given document-word pair. Experimental results on the
+publicly available datasets show that ILR outperforms CGS for inference of
+existing established topic models.

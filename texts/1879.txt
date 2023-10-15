@@ -1,0 +1,8 @@
+This is the preprint version of our paper on ICONIP. Outdoor augmented
+reality geographic information system (ARGIS) is the hot application of
+augmented reality over recent years. This paper concludes the key solutions of
+ARGIS, designs the mobile augmented reality pipeline prospect system (ARPPS),
+and respectively realizes the machine vision based pipeline prospect system
+(MVBPPS) and the sensor based pipeline prospect system (SBPPS). With the
+MVBPPS's realization, this paper studies the neural network based 3D features
+matching method.

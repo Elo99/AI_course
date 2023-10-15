@@ -1,0 +1,18 @@
+Nowadays, automatical personality inference is drawing extensive attention
+from both academia and industry. Conventional methods are mainly based on user
+generated contents, e.g., profiles, likes, and texts of an individual, on
+social media, which are actually not very reliable. In contrast, dyadic
+conversations between individuals can not only capture how one expresses
+oneself, but also reflect how one reacts to different situations. Rich
+contextual information in dyadic conversation can explain an individual's
+response during his or her conversation. In this paper, we propose a novel
+augmented Gated Recurrent Unit (GRU) model for learning unsupervised Personal
+Conversational Embeddings (PCE) based on dyadic conversations between
+individuals. We adjust the formulation of each layer of a conventional GRU with
+sequence to sequence learning and personal information of both sides of the
+conversation. Based on the learned PCE, we can infer the personality of each
+individual. We conduct experiments on the Movie Script dataset, which is
+collected from conversations between characters in movie scripts. We find that
+modeling dyadic conversations between individuals can significantly improve
+personality inference accuracy. Experimental results illustrate the successful
+performance of our proposed method.

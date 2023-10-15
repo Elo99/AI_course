@@ -1,0 +1,15 @@
+Recent progress in deep learning has led to the development of Optical
+Character Recognition (OCR) systems which perform remarkably well. Most
+research has been around recurrent networks as well as complex gated layers
+which make the overall solution complex and difficult to scale. In this paper,
+we present an Efficient And Scalable TExt Recognizer (EASTER) to perform
+optical character recognition on both machine printed and handwritten text. Our
+model utilises 1-D convolutional layers without any recurrence which enables
+parallel training with considerably less volume of data. We experimented with
+multiple variations of our architecture and one of the smallest variant (depth
+and number of parameter wise) performs comparably to RNN based complex choices.
+Our 20-layered deepest variant outperforms RNN architectures with a good margin
+on benchmarking datasets like IIIT-5k and SVT. We also showcase improvements
+over the current best results on offline handwritten text recognition task. We
+also present data generation pipelines with augmentation setup to generate
+synthetic datasets for both handwritten and machine printed text.

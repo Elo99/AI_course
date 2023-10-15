@@ -1,0 +1,15 @@
+In this paper, we introduce our approaches using Transformer-based models for
+different problems of the COLIEE 2021 automatic legal text processing
+competition. Automated processing of legal documents is a challenging task
+because of the characteristics of legal documents as well as the limitation of
+the amount of data. With our detailed experiments, we found that
+Transformer-based pretrained language models can perform well with automated
+legal text processing problems with appropriate approaches. We describe in
+detail the processing steps for each task such as problem formulation, data
+processing and augmentation, pretraining, finetuning. In addition, we introduce
+to the community two pretrained models that take advantage of parallel
+translations in legal domain, NFSP and NMSP. In which, NFSP achieves the
+state-of-the-art result in Task 5 of the competition. Although the paper
+focuses on technical reporting, the novelty of its approaches can also be an
+useful reference in automated legal document processing using Transformer-based
+models.

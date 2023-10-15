@@ -1,0 +1,21 @@
+The existence of completely aligned and paired multi-modal neuroimaging data
+has proved its effectiveness in the diagnosis of brain diseases. However,
+collecting the full set of well-aligned and paired data is impractical, since
+the practical difficulties may include high cost, long time acquisition, image
+corruption, and privacy issues. Previously, the misaligned unpaired
+neuroimaging data (termed as MUD) are generally treated as noisy label.
+However, such a noisy label-based method fail to accomplish well when
+misaligned data occurs distortions severely. For example, the angle of rotation
+is different. In this paper, we propose a novel federated self-supervised
+learning (FedMed) for brain image synthesis. An affine transform loss (ATL) was
+formulated to make use of severely distorted images without violating privacy
+legislation for the hospital. We then introduce a new data augmentation
+procedure for self-supervised training and fed it into three auxiliary heads,
+namely auxiliary rotation, auxiliary translation and auxiliary scaling heads.
+The proposed method demonstrates the advanced performance in both the quality
+of our synthesized results under a severely misaligned and unpaired data
+setting, and better stability than other GAN-based algorithms. The proposed
+method also reduces the demand for deformable registration while encouraging to
+leverage the misaligned and unpaired data. Experimental results verify the
+outstanding performance of our learning paradigm compared to other
+state-of-the-art approaches.

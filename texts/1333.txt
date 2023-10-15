@@ -1,0 +1,16 @@
+The timely delivery of resource-intensive and latency-sensitive services
+(e.g., industrial automation, augmented reality) over distributed computing
+networks (e.g., mobile edge computing) is drawing increasing attention.
+Motivated by the insufficiency of average delay performance guarantees provided
+by existing studies, we focus on the critical goal of delivering next
+generation real-time services ahead of corresponding deadlines on a per-packet
+basis, while minimizing overall cloud network resource cost. We introduce a
+novel queuing system that is able to track data packets' lifetime and formalize
+the optimal cloud network control problem with strict deadline constraints.
+After illustrating the main challenges in delivering packets to their
+destinations before getting dropped due to lifetime expiry, we construct an
+equivalent formulation, where relaxed flow conservation allows leveraging
+Lyapunov optimization to derive a provably near-optimal fully distributed
+algorithm for the original problem. Numerical results validate the theoretical
+analysis and show the superior performance of the proposed control policy
+compared with state-of-the-art cloud network control.

@@ -1,0 +1,22 @@
+A dynamical picture of phylogenetic evolution is given in terms of Markov
+models on a state space, comprising joint probability distributions for
+character types of taxonomic classes. Phylogenetic branching is a process which
+augments the number of taxa under consideration, and hence the rank of the
+underlying joint probability state tensor. We point out the combinatorial
+necessity for a second-quantised, or Fock space setting, incorporating discrete
+counting labels for taxa and character types, to allow for a description in the
+number basis. Rate operators describing both time evolution without branching,
+and also phylogenetic branching events, are identified. A detailed development
+of these ideas is given, using standard transcriptions from the microscopic
+formulation of nonequilibrium reaction-diffusion or birth-death processes.
+These give the relations between stochastic rate matrices, the matrix elements
+of the corresponding evolution operators representing them, and the integral
+kernels needed to implement these as path integrals. The `free' theory (without
+branching) is solved, and the correct trilinear `interaction' terms
+(representing branching events) are presented. The full model is developed in
+perturbation theory via the derivation of explicit Feynman rules which
+establish that the probabilities (pattern frequencies of leaf colourations)
+arising as matrix elements of the time evolution operator are identical with
+those computed via the standard analysis. Simple examples (phylogenetic trees
+with 2 or 3 leaves), are discussed in detail. Further implications for the work
+are briefly considered including the role of time reparametrisation covariance.

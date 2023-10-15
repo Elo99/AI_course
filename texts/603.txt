@@ -1,0 +1,13 @@
+This paper presents an augmented state observer design for the simultaneous
+estimation of charge state and crossover flux in disproportionation redox flow
+batteries, which exhibits exponential estimation error convergence to a bounded
+residual set. The crossover flux of vanadium through the porous separator is
+considered as an unknown function of the battery states, model-approximated as
+the output of a persistently excited linear system. This parametric model and
+the simple isothermal lumped parameter model of the battery are combined to
+form an augmented space state representation suitable for the observer design,
+which is carried out via Lyapunov stability theory including the
+error-uncertainty involved in the approximation of the crossover flux. The
+observer gain is calculated by solving a polytopic linear matrix inequality
+problem via convex optimization. The performance of this design is evaluated
+with a laboratory flow battery prototype undergoing self-discharge.

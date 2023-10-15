@@ -1,0 +1,20 @@
+Polyphonic sound event localization and detection (SELD) has many practical
+applications in acoustic sensing and monitoring. However, the development of
+real-time SELD has been limited by the demanding computational requirement of
+most recent SELD systems. In this work, we introduce SALSA-Lite, a fast and
+effective feature for polyphonic SELD using microphone array inputs. SALSA-Lite
+is a lightweight variation of a previously proposed SALSA feature for
+polyphonic SELD. SALSA, which stands for Spatial Cue-Augmented Log-Spectrogram,
+consists of multichannel log-spectrograms stacked channelwise with the
+normalized principal eigenvectors of the spectrotemporally corresponding
+spatial covariance matrices. In contrast to SALSA, which uses eigenvector-based
+spatial features, SALSA-Lite uses normalized inter-channel phase differences as
+spatial features, allowing a 30-fold speedup compared to the original SALSA
+feature. Experimental results on the TAU-NIGENS Spatial Sound Events 2021
+dataset showed that the SALSA-Lite feature achieved competitive performance
+compared to the full SALSA feature, and significantly outperformed the
+traditional feature set of multichannel log-mel spectrograms with generalized
+cross-correlation spectra. Specifically, using SALSA-Lite features increased
+localization-dependent F1 score and class-dependent localization recall by 15%
+and 5%, respectively, compared to using multichannel log-mel spectrograms with
+generalized cross-correlation spectra.

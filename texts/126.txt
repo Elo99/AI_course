@@ -1,0 +1,13 @@
+Data augmentation via voice conversion (VC) has been successfully applied to
+low-resource expressive text-to-speech (TTS) when only neutral data for the
+target speaker are available. Although the quality of VC is crucial for this
+approach, it is challenging to learn a stable VC model because the amount of
+data is limited in low-resource scenarios, and highly expressive speech has
+large acoustic variety. To address this issue, we propose a novel data
+augmentation method that combines pitch-shifting and VC techniques. Because
+pitch-shift data augmentation enables the coverage of a variety of pitch
+dynamics, it greatly stabilizes training for both VC and TTS models, even when
+only 1,000 utterances of the target speaker's neutral data are available.
+Subjective test results showed that a FastSpeech 2-based emotional TTS system
+with the proposed method improved naturalness and emotional similarity compared
+with conventional methods.

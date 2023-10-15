@@ -1,0 +1,8 @@
+Deep reinforcement learning (DRL) is a promising approach for adaptive robot
+control, but its current application to robotics is currently hindered by high
+sample requirements. We propose two novel data augmentation techniques for DRL
+in order to reuse more efficiently observed data. The first one called
+Kaleidoscope Experience Replay exploits reflectional symmetries, while the
+second called Goal-augmented Experience Replay takes advantage of lax goal
+definitions. Our preliminary experimental results show a large increase in
+learning speed.

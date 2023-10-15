@@ -1,0 +1,17 @@
+Intent classifiers are vital to the successful operation of virtual agent
+systems. This is especially so in voice activated systems where the data can be
+noisy with many ambiguous directions for user intents. Before operation begins,
+these classifiers are generally lacking in real-world training data. Active
+learning is a common approach used to help label large amounts of collected
+user input. However, this approach requires many hours of manual labeling work.
+We present the Nearest Neighbors Scores Improvement (NNSI) algorithm for
+automatic data selection and labeling. The NNSI reduces the need for manual
+labeling by automatically selecting highly-ambiguous samples and labeling them
+with high accuracy. This is done by integrating the classifier's output from a
+semantically similar group of text samples. The labeled samples can then be
+added to the training set to improve the accuracy of the classifier. We
+demonstrated the use of NNSI on two large-scale, real-life voice conversation
+systems. Evaluation of our results showed that our method was able to select
+and label useful samples with high accuracy. Adding these new samples to the
+training data significantly improved the classifiers and reduced error rates by
+up to 10%.

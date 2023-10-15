@@ -1,0 +1,9 @@
+We derive the non-linear dynamical equations for an augmented electromagnetic
+railgun, whose augmentation circuit is inductively coupled to the gun circuit.
+We solve these differential equations numerically using example parameter
+values. We find a complicated interaction between the augmentation circuit, gun
+circuit, and mechanical degrees of freedom, leading to a complicated
+optimization problem. For certain values of parameters, we find that an
+augmented electromagnetic railgun has an armature kinetic energy that is 42%
+larger than the same railgun with no augmentation circuit. Optimizing the
+parameters may lead to further increase in performance.

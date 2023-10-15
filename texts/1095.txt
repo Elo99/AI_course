@@ -1,0 +1,9 @@
+Assisted annihilation generates thermal sub-GeV dark matter through a novel
+annihilation between a pair of dark matter and standard-model-like states,
+called the "assister". We show that, depending on the mass hierarchy between
+the assister and dark matter, there can be either a suppression or a boost of
+the effective cross section. This augmentation enables the possibility of
+$\mathcal{O}(100)$ MeV scale dark matter with perturbative coupling that
+saturates the relic density estimates while being relatively insulated from
+cosmological constraints like big bang nucleosynthesis and cosmic microwave
+background.

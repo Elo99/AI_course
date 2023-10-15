@@ -1,0 +1,14 @@
+We propose the use of fractals as a means of efficient data augmentation.
+Specifically, we employ plasma fractals for adapting global image augmentation
+transformations into continuous local transforms. We formulate the diamond
+square algorithm as a cascade of simple convolution operations allowing
+efficient computation of plasma fractals on the GPU. We present the TorMentor
+image augmentation framework that is totally modular and deterministic across
+images and point-clouds. All image augmentation operations can be combined
+through pipelining and random branching to form flow networks of arbitrary
+width and depth. We demonstrate the efficiency of the proposed approach with
+experiments on document image segmentation (binarization) with the DIBCO
+datasets. The proposed approach demonstrates superior performance to
+traditional image augmentation techniques. Finally, we use extended synthetic
+binary text images in a self-supervision regiment and outperform the same model
+when trained with limited data and simple extensions.

@@ -1,0 +1,13 @@
+We are concerned with a worst-case scenario in model generalization, in the
+sense that a model aims to perform well on many unseen domains while there is
+only one single domain available for training. We propose Meta-Learning based
+Adversarial Domain Augmentation to solve this Out-of-Domain generalization
+problem. The key idea is to leverage adversarial training to create
+"fictitious" yet "challenging" populations, from which a model can learn to
+generalize with theoretical guarantees. To facilitate fast and desirable domain
+augmentation, we cast the model training in a meta-learning scheme and use a
+Wasserstein Auto-Encoder to relax the widely used worst-case constraint. We
+further improve our method by integrating uncertainty quantification for
+efficient domain generalization. Extensive experiments on multiple benchmark
+datasets indicate its superior performance in tackling single domain
+generalization.

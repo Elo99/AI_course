@@ -1,0 +1,14 @@
+In this paper, we propose a novel graph-based data augmentation method that
+can generally be applied to medical waveform data with graph structures. In the
+process of recording medical waveform data, such as electrocardiogram (ECG) or
+electroencephalogram (EEG), angular perturbations between the measurement leads
+exist due to discrepancies in lead positions. The data samples with large
+angular perturbations often cause inaccuracy in algorithmic prediction tasks.
+We design a graph-based data augmentation technique that exploits the inherent
+graph structures within the medical waveform data to improve both performance
+and robustness. In addition, we show that the performance gain from graph
+augmentation results from robustness by testing against adversarial attacks.
+Since the bases of performance gain are orthogonal, the graph augmentation can
+be used in conjunction with existing data augmentation techniques to further
+improve the final performance. We believe that our graph augmentation method
+opens up new possibilities to explore in data augmentation.

@@ -1,0 +1,13 @@
+Transformer models are powerful sequence-to-sequence architectures that are
+capable of directly mapping speech inputs to transcriptions or translations.
+However, the mechanism for modeling positions in this model was tailored for
+text modeling, and thus is less ideal for acoustic inputs. In this work, we
+adapt the relative position encoding scheme to the Speech Transformer, where
+the key addition is relative distance between input states in the
+self-attention network. As a result, the network can better adapt to the
+variable distributions present in speech data. Our experiments show that our
+resulting model achieves the best recognition result on the Switchboard
+benchmark in the non-augmentation condition, and the best published result in
+the MuST-C speech translation benchmark. We also show that this model is able
+to better utilize synthetic data than the Transformer, and adapts better to
+variable sentence segmentation quality for speech translation.

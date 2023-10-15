@@ -1,0 +1,17 @@
+Data augmentation has emerged as a powerful technique for improving the
+performance of deep neural networks and led to state-of-the-art results in
+computer vision. However, state-of-the-art data augmentation strongly distorts
+training images, leading to a disparity between examples seen during training
+and inference. In this work, we explore a recently proposed training paradigm
+in order to correct for this disparity: using an auxiliary BatchNorm for the
+potentially out-of-distribution, strongly augmented images. Our experiments
+then focus on how to define the BatchNorm parameters that are used at
+evaluation. To eliminate the train-test disparity, we experiment with using the
+batch statistics defined by clean training images only, yet surprisingly find
+that this does not yield improvements in model performance. Instead, we
+investigate using BatchNorm parameters defined by weak augmentations and find
+that this method significantly improves the performance of common image
+classification benchmarks such as CIFAR-10, CIFAR-100, and ImageNet. We then
+explore a fundamental trade-off between accuracy and robustness coming from
+using different BatchNorm parameters, providing greater insight into the
+benefits of data augmentation on model performance.

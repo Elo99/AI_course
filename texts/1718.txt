@@ -1,0 +1,20 @@
+Learning 3D point sets with rotational invariance is an important and
+challenging problem in machine learning. Through rotational invariant
+architectures, 3D point cloud neural networks are relieved from requiring a
+canonical global pose and from exhaustive data augmentation with all possible
+rotations. In this work, we introduce a rotational invariant neural network by
+combining recently introduced vector neurons with self-attention layers to
+build a point cloud vector neuron transformer network (VNT-Net). Vector neurons
+are known for their simplicity and versatility in representing SO(3) actions
+and are thereby incorporated in common neural operations. Similarly,
+Transformer architectures have gained popularity and recently were shown
+successful for images by applying directly on sequences of image patches and
+achieving superior performance and convergence. In order to benefit from both
+worlds, we combine the two structures by mainly showing how to adapt the
+multi-headed attention layers to comply with vector neurons operations. Through
+this adaptation attention layers become SO(3) and the overall network becomes
+rotational invariant. Experiments demonstrate that our network efficiently
+handles 3D point cloud objects in arbitrary poses. We also show that our
+network achieves higher accuracy when compared to related state-of-the-art
+methods and requires less training due to a smaller number of hyperparameters
+in common classification and segmentation tasks.

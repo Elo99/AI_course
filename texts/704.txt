@@ -1,0 +1,7 @@
+This report, commissioned by the WTW research network, investigates the use
+of AI in property risk assessment. It (i) reviews existing work on risk
+assessment in commercial and industrial properties and automated information
+extraction from building blueprints; and (ii) presents an exploratory 'proof-of
+concept-solution' exploring the feasibility of using machine learning for the
+automated extraction of information from building blueprints to support
+insurance risk assessment.

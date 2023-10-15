@@ -1,0 +1,17 @@
+In attempts to develop sample-efficient and interpretable algorithms,
+researcher have explored myriad mechanisms for collecting and exploiting
+feature feedback (or rationales) auxiliary annotations provided for training
+(but not test) instances that highlight salient evidence. Examples include
+bounding boxes around objects and salient spans in text. Despite its intuitive
+appeal, feature feedback has not delivered significant gains in practical
+problems as assessed on iid holdout sets. However, recent works on
+counterfactually augmented data suggest an alternative benefit of supplemental
+annotations, beyond interpretability: lessening sensitivity to spurious
+patterns and consequently delivering gains in out-of-domain evaluations. We
+speculate that while existing methods for incorporating feature feedback have
+delivered negligible in-sample performance gains, they may nevertheless provide
+out-of-domain benefits. Our experiments addressing sentiment analysis, show
+that feature feedback methods perform significantly better on various natural
+out-of-domain datasets despite comparable in-domain evaluations. By contrast,
+performance on natural language inference remains comparable. Finally, we
+compare those tasks where feature feedback does (and does not) help.

@@ -1,0 +1,15 @@
+The application of deep learning to build accurate predictive models from
+functional neuroimaging data is often hindered by limited dataset sizes. Though
+data augmentation can help mitigate such training obstacles, most data
+augmentation methods have been developed for natural images as in computer
+vision tasks such as CIFAR, not for medical images. This work helps to fills in
+this gap by proposing a method for generating new functional Magnetic Resonance
+Images (fMRI) with realistic brain morphology. This method is tested on a
+challenging task of predicting antidepressant treatment response from
+pre-treatment task-based fMRI and demonstrates a 26% improvement in performance
+in predicting response using augmented images. This improvement compares
+favorably to state-of-the-art augmentation methods for natural images. Through
+an ablative test, augmentation is also shown to substantively improve
+performance when applied before hyperparameter optimization. These results
+suggest the optimal order of operations and support the role of data
+augmentation method for improving predictive performance in tasks using fMRI.

@@ -1,0 +1,16 @@
+Data augmentation is usually adopted to increase the amount of training data,
+prevent overfitting and improve the performance of deep models. However, in
+practice, random data augmentation, such as random image cropping, is
+low-efficiency and might introduce many uncontrolled background noises. In this
+paper, we propose Weakly Supervised Data Augmentation Network (WS-DAN) to
+explore the potential of data augmentation. Specifically, for each training
+image, we first generate attention maps to represent the object's
+discriminative parts by weakly supervised learning. Next, we augment the image
+guided by these attention maps, including attention cropping and attention
+dropping. The proposed WS-DAN improves the classification accuracy in two
+folds. In the first stage, images can be seen better since more discriminative
+parts' features will be extracted. In the second stage, attention regions
+provide accurate location of object, which ensures our model to look at the
+object closer and further improve the performance. Comprehensive experiments in
+common fine-grained visual classification datasets show that our WS-DAN
+surpasses the state-of-the-art methods, which demonstrates its effectiveness.

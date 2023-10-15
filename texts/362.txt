@@ -1,0 +1,17 @@
+Augmenting the base neural model with a token-level symbolic datastore is a
+novel generation paradigm and has achieved promising results in machine
+translation (MT). In this paper, we introduce a unified framework kNN-BOX,
+which enables quick development and interactive analysis for this novel
+paradigm. kNN-BOX decomposes the datastore-augmentation approach into three
+modules: datastore, retriever and combiner, thus putting diverse kNN generation
+methods into a unified way. Currently, kNN-BOX has provided implementation of
+seven popular kNN-MT variants, covering research from performance enhancement
+to efficiency optimization. It is easy for users to reproduce these existing
+works or customize their own models. Besides, users can interact with their kNN
+generation systems with kNN-BOX to better understand the underlying inference
+process in a visualized way. In the experiment section, we apply kNN-BOX for
+machine translation and three other seq2seq generation tasks, namely, text
+simplification, paraphrase generation and question generation. Experiment
+results show that augmenting the base neural model with kNN-BOX leads to a
+large performance improvement in all these tasks. The code and document of
+kNN-BOX is available at https://github.com/NJUNLP/knn-box.

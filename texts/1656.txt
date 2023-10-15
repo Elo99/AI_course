@@ -1,0 +1,18 @@
+In this paper, at first, the impact of ImageNet pre-training on fine-grained
+Facial Emotion Recognition (FER) is investigated which shows that when enough
+augmentations on images are applied, training from scratch provides better
+result than fine-tuning on ImageNet pre-training. Next, we propose a method to
+improve fine-grained and in-the-wild FER, called Hybrid Multi-Task Learning
+(HMTL). HMTL uses Self-Supervised Learning (SSL) as an auxiliary task during
+classical Supervised Learning (SL) in the form of Multi-Task Learning (MTL).
+Leveraging SSL during training can gain additional information from images for
+the primary fine-grained SL task. We investigate how proposed HMTL can be used
+in the FER domain by designing two customized version of common pre-text task
+techniques, puzzling and in-painting. We achieve state-of-the-art results on
+the AffectNet benchmark via two types of HMTL, without utilizing pre-training
+on additional data. Experimental results on the common SSL pre-training and
+proposed HMTL demonstrate the difference and superiority of our work. However,
+HMTL is not only limited to FER domain. Experiments on two types of
+fine-grained facial tasks, i.e., head pose estimation and gender recognition,
+reveals the potential of using HMTL to improve fine-grained facial
+representation.

@@ -1,0 +1,16 @@
+When creating 3D city models, selecting relevant visualization techniques is
+a particularly difficult user interface design task. A first obstacle is that
+current geodata-oriented tools, e.g. ArcGIS, have limited 3D capabilities and
+limited sets of visualization techniques. Another important obstacle is the
+lack of unified description of information visualization techniques for 3D city
+models. If many techniques have been devised for different types of data or
+information (wind flows, air quality fields, historic or legal texts, etc.)
+they are generally described in articles, and not really formalized. In this
+paper we address the problem of visualizing information in (rich) 3D city
+models by presenting a model-based approach for the rapid prototyping of
+visualization techniques. We propose to represent visualization techniques as
+the composition of graph transformations. We show that these transformations
+can be specified with SPARQL construction operations over RDF graphs. These
+specifications can then be used in a prototype generator to produce 3D scenes
+that contain the 3D city model augmented with data represented using the
+desired technique.

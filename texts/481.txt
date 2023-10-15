@@ -1,0 +1,16 @@
+Query expansion with pseudo-relevance feedback (PRF) is a powerful approach
+to enhance the effectiveness in information retrieval. Recently, with the rapid
+advance of deep learning techniques, neural text generation has achieved
+promising success in many natural language tasks. To leverage the strength of
+text generation for information retrieval, in this article, we propose a novel
+approach which effectively integrates text generation models into PRF-based
+query expansion. In particular, our approach generates augmented query terms
+via neural text generation models conditioned on both the initial query and
+pseudo-relevance feedback. Moreover, in order to train the generative model, we
+adopt the conditional generative adversarial nets (CGANs) and propose the
+PRF-CGAN method in which both the generator and the discriminator are
+conditioned on the pseudo-relevance feedback. We evaluate the performance of
+our approach on information retrieval tasks using two benchmark datasets. The
+experimental results show that our approach achieves comparable performance or
+outperforms traditional query expansion methods on both the retrieval and
+reranking tasks.

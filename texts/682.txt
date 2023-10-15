@@ -1,0 +1,8 @@
+The following report introduces ideas augmenting standard Long Short Term
+Memory (LSTM) architecture with multiple memory cells per hidden unit in order
+to improve its generalization capabilities. It considers both deterministic and
+stochastic variants of memory operation. It is shown that the nondeterministic
+Array-LSTM approach improves state-of-the-art performance on character level
+text prediction achieving 1.402 BPC on enwik8 dataset. Furthermore, this report
+estabilishes baseline neural-based results of 1.12 BPC and 1.19 BPC for enwik9
+and enwik10 datasets respectively.

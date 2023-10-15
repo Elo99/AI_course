@@ -1,0 +1,19 @@
+This paper describes the NPU system submitted to Interspeech 2020 Far-Field
+Speaker Verification Challenge (FFSVC). We particularly focus on far-field
+text-dependent SV from single (task1) and multiple microphone arrays (task3).
+The major challenges in such scenarios are short utterance and cross-channel
+and distance mismatch for enrollment and test. With the belief that better
+speaker embedding can alleviate the effects from short utterance, we introduce
+a new speaker embedding architecture - ResNet-BAM, which integrates a
+bottleneck attention module with ResNet as a simple and efficient way to
+further improve the representation power of ResNet. This contribution brings up
+to 1% EER reduction. We further address the mismatch problem in three
+directions. First, domain adversarial training, which aims to learn
+domain-invariant features, can yield to 0.8% EER reduction. Second, front-end
+signal processing, including WPE and beamforming, has no obvious contribution,
+but together with data selection and domain adversarial training, can further
+contribute to 0.5% EER reduction. Finally, data augmentation, which works with
+a specifically-designed data selection strategy, can lead to 2% EER reduction.
+Together with the above contributions, in the middle challenge results, our
+single submission system (without multi-system fusion) achieves the first and
+second place on task 1 and task 3, respectively.

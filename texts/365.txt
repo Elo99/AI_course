@@ -1,0 +1,15 @@
+On social media, additional context is often present in the form of
+annotations and meta-data such as the post's author, mentions, Hashtags, and
+hyperlinks. We refer to these annotations as Non-Textual Units (NTUs). We posit
+that NTUs provide social context beyond their textual semantics and leveraging
+these units can enrich social media text representations. In this work we
+construct an NTU-centric social heterogeneous network to co-embed NTUs. We then
+principally integrate these NTU embeddings into a large pretrained language
+model by fine-tuning with these additional units. This adds context to noisy
+short-text social media. Experiments show that utilizing NTU-augmented text
+representations significantly outperforms existing text-only baselines by 2-5\%
+relative points on many downstream tasks highlighting the importance of context
+to social media NLP. We also highlight that including NTU context into the
+initial layers of language model alongside text is better than using it after
+the text embedding is generated. Our work leads to the generation of holistic
+general purpose social media content embedding.

@@ -1,0 +1,15 @@
+We propose a novel online multi-object visual tracker using a Gaussian
+mixture Probability Hypothesis Density (GM-PHD) filter and deep appearance
+learning. The GM-PHD filter has a linear complexity with the number of objects
+and observations while estimating the states and cardinality of time-varying
+number of objects, however, it is susceptible to miss-detections and does not
+include the identity of objects. We use visual-spatio-temporal information
+obtained from object bounding boxes and deeply learned appearance
+representations to perform estimates-to-tracks data association for target
+labeling as well as formulate an augmented likelihood and then integrate into
+the update step of the GM-PHD filter. We also employ additional unassigned
+tracks prediction after the data association step to overcome the
+susceptibility of the GM-PHD filter towards miss-detections caused by
+occlusion. Extensive evaluations on MOT16, MOT17 and HiEve benchmark datasets
+show that our tracker significantly outperforms several state-of-the-art
+trackers in terms of tracking accuracy and identification.

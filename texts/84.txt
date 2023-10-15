@@ -1,0 +1,11 @@
+In this paper, we propose two novel augmentation methods 1) audio-language
+MixGen (AL-MixGen) and 2) multi-level test-time augmentation (Multi-TTA) for
+audio-language learning. Inspired by MixGen, which is originally applied to
+vision-language learning, we introduce an augmentation method for the
+audio-language domain. We also explore the impact of test-time augmentations
+and present Multi-TTA which generalizes test-time augmentation over multiple
+layers of a deep learning model. Incorporating AL-MixGen and Multi-TTA into the
+baseline achieves 47.5 SPIDEr on audio captioning, which is an +18.2% over the
+baseline and outperforms the state-of-the-art approach with a 5x smaller model.
+In audio-text retrieval, the proposed methods surpass the baseline performance
+as well.

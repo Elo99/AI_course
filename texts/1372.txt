@@ -1,0 +1,17 @@
+The effectiveness of prompt learning has been demonstrated in different
+pre-trained language models. By formulating suitable template and choosing
+representative label mapping, prompt learning can be used as an efficient
+knowledge probe. However, finding suitable prompt in existing methods requires
+multiple experimental attempts or appropriate vector initialization on
+formulating suitable template and choosing representative label mapping, which
+it is more common in few-shot learning tasks. Motivating by PLM working
+process, we try to construct the prompt from task semantic perspective and thus
+propose the STPrompt -Semantic-guided and Task-driven Prompt model.
+Specifically, two novel prompts generated from the semantic dependency tree
+(Dep-prompt) and task-specific metadata description (Meta-prompt), are firstly
+constructed in a prompt augmented pool, and the proposed model would
+automatically select a suitable semantic prompt to motivating the prompt
+learning process. Our results show that the proposed model achieves the
+state-of-the-art performance in five different datasets of few-shot text
+classification tasks, which prove that more semantic and significant prompts
+could assume as a better knowledge proving tool.

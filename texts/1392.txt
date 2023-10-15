@@ -1,0 +1,15 @@
+Triplet extraction aims to extract entities and their corresponding relations
+in unstructured text. Most existing methods train an extraction model on
+high-quality training data, and hence are incapable of extracting relations
+that were not observed during training. Generalizing the model to unseen
+relations typically requires fine-tuning on synthetic training data which is
+often noisy and unreliable. In this paper, we argue that reducing triplet
+extraction to a template filling task over a pre-trained language model can
+equip the model with zero-shot learning capabilities and enable it to leverage
+the implicit knowledge in the language model. Embodying these ideas, we propose
+a novel framework, ZETT (ZEro-shot Triplet extraction by Template infilling),
+that is based on end-to-end generative transformers. Our experiments show that
+without any data augmentation or pipeline systems, ZETT can outperform previous
+state-of-the-art models with 25% less parameters. We further show that ZETT is
+more robust in detecting entities and can be incorporated with automatically
+generated templates for relations.

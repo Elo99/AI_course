@@ -1,0 +1,23 @@
+The promising performance of Deep Neural Networks (DNNs) in text
+classification, has attracted researchers to use them for fraud review
+detection. However, the lack of trusted labeled data has limited the
+performance of the current solutions in detecting fraud reviews. The Generative
+Adversarial Network (GAN) as a semi-supervised method has demonstrated to be
+effective for data augmentation purposes. The state-of-the-art solutions
+utilize GANs to overcome the data scarcity problem. However, they fail to
+incorporate the behavioral clues in fraud generation. Additionally,
+state-of-the-art approaches overlook the possible bot-generated reviews in the
+dataset. Finally, they also suffer from a common limitation in scalability and
+stability of the GAN, slowing down the training procedure. In this work, we
+propose ScoreGAN for fraud review detection that makes use of both review text
+and review rating scores in the generation and detection process. Scores are
+incorporated through Information Gain Maximization (IGM) into the loss function
+for three reasons. One is to generate score-correlated reviews based on the
+scores given to the generator. Second, the generated reviews are employed to
+train the discriminator, so the discriminator can correctly label the possible
+bot-generated reviews through joint representations learned from the
+concatenation of GLobal Vector for Word representation (GLoVe) extracted from
+the text and the score. Finally, it can be used to improve the stability and
+scalability of the GAN. Results show that the proposed framework outperformed
+the existing state-of-the-art framework, namely FakeGAN, in terms of AP by 7\%,
+and 5\% on the Yelp and TripAdvisor datasets, respectively.

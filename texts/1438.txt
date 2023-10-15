@@ -1,0 +1,19 @@
+Training generative adversarial networks (GANs) with limited data is valuable
+but challenging because discriminators are prone to over-fitting in such
+situations. Recently proposed differentiable data augmentation techniques for
+discriminators demonstrate improved data efficiency of training GANs. However,
+the naive data augmentation introduces undesired invariance to augmentation
+into the discriminator. The invariance may degrade the representation learning
+ability of the discriminator, thereby affecting the generative modeling
+performance of the generator. To mitigate the invariance while inheriting the
+benefits of data augmentation, we propose a novel augmentation-aware
+self-supervised discriminator that predicts the parameter of augmentation given
+the augmented and original data. Moreover, the prediction task is required to
+distinguishable between real data and generated data since they are different
+during training. We further encourage the generator to learn from the proposed
+discriminator by generating augmentation-predictable real data. We compare the
+proposed method with state-of-the-arts across the class-conditional BigGAN and
+unconditional StyleGAN2 architectures on CIFAR-10/100 and several low-shot
+datasets, respectively. Experimental results show a significantly improved
+generation performance of our method over competing methods for training
+data-efficient GANs.

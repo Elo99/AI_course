@@ -1,0 +1,14 @@
+Data augmentation is popular in the training of large neural networks;
+currently, however, there is no clear theoretical comparison between different
+algorithmic choices on how to use augmented data. In this paper, we take a step
+in this direction - we first present a simple and novel analysis for linear
+regression with label invariant augmentations, demonstrating that data
+augmentation consistency (DAC) is intrinsically more efficient than empirical
+risk minimization on augmented data (DA-ERM). The analysis is then extended to
+misspecified augmentations (i.e., augmentations that change the labels), which
+again demonstrates the merit of DAC over DA-ERM. Further, we extend our
+analysis to non-linear models (e.g., neural networks) and present
+generalization bounds. Finally, we perform experiments that make a clean and
+apples-to-apples comparison (i.e., with no extra modeling or data tweaks)
+between DAC and DA-ERM using CIFAR-100 and WideResNet; these together
+demonstrate the superior efficacy of DAC.

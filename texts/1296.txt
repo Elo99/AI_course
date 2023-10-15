@@ -1,0 +1,15 @@
+In recent years, the task of mining important information from social media
+posts during crises has become a focus of research for the purposes of
+assisting emergency response (ES). The TREC Incident Streams (IS) track is a
+research challenge organised for this purpose. The track asks participating
+systems to both classify a stream of crisis-related tweets into humanitarian
+aid related information types and estimate their importance regarding
+criticality. The former refers to a multi-label information type classification
+task and the latter refers to a priority estimation task. In this paper, we
+report on the participation of the University College Dublin School of Computer
+Science (UCD-CS) in TREC-IS 2021. We explored a variety of approaches,
+including simple machine learning algorithms, multi-task learning techniques,
+text augmentation, and ensemble approaches. The official evaluation results
+indicate that our runs achieve the highest scores in many metrics. To aid
+reproducibility, our code is publicly available at
+https://github.com/wangcongcong123/crisis-mtl.

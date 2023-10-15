@@ -1,0 +1,14 @@
+Despite the recent impressive breakthroughs in text-to-image generation,
+generative models have difficulty in capturing the data distribution of
+underrepresented attribute compositions while over-memorizing overrepresented
+attribute compositions, which raises public concerns about their robustness and
+fairness. To tackle this challenge, we propose ACTIG, an attribute-centric
+compositional text-to-image generation framework. We present an
+attribute-centric feature augmentation and a novel image-free training scheme,
+which greatly improves model's ability to generate images with underrepresented
+attributes. We further propose an attribute-centric contrastive loss to avoid
+overfitting to overrepresented attribute compositions. We validate our
+framework on the CelebA-HQ and CUB datasets. Extensive experiments show that
+the compositional generalization of ACTIG is outstanding, and our framework
+outperforms previous works in terms of image quality and text-image
+consistency.

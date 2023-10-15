@@ -1,0 +1,19 @@
+Covid-19 detection at an early stage can aid in an effective treatment and
+isolation plan to prevent its spread. Recently, transfer learning has been used
+for Covid-19 detection using X-ray, ultrasound, and CT scans. One of the major
+limitations inherent to these proposed methods is limited labeled dataset size
+that affects the reliability of Covid-19 diagnosis and disease progression. In
+this work, we demonstrate that how we can augment limited X-ray images data by
+using Contrast limited adaptive histogram equalization (CLAHE) to train the
+last layer of the pre-trained deep learning models to mitigate the bias of
+transfer learning for Covid-19 detection. We transfer learned various
+pre-trained deep learning models including AlexNet, ZFNet, VGG-16, ResNet-18,
+and GoogLeNet, and fine-tune the last layer by using CLAHE-augmented dataset.
+The experiment results reveal that the CLAHE-based augmentation to various
+pre-trained deep learning models significantly improves the model efficiency.
+The pre-trained VCG-16 model with CLAHEbased augmented images achieves a
+sensitivity of 95% using 15 epochs. AlexNet works show good sensitivity when
+trained on non-augmented data. Other models demonstrate a value of less than
+60% when trained on non-augmented data. Our results reveal that the sample bias
+can negatively impact the performance of transfer learning which is
+significantly improved by using CLAHE-based augmentation.

@@ -1,0 +1,19 @@
+Traditional neuron models use analog values for information representation
+and computation, while all-or-nothing spikes are employed in the spiking ones.
+With a more brain-like processing paradigm, spiking neurons are more promising
+for improvements on efficiency and computational capability. They extend the
+computation of traditional neurons with an additional dimension of time carried
+by all-or-nothing spikes. Could one benefit from both the accuracy of analog
+values and the time-processing capability of spikes? In this paper, we
+introduce a concept of augmented spikes to carry complementary information with
+spike coefficients in addition to spike latencies. New augmented spiking neuron
+model and synaptic learning rules are proposed to process and learn patterns of
+augmented spikes. We provide systematic insight into the properties and
+characteristics of our methods, including classification of augmented spike
+patterns, learning capacity, construction of causality, feature detection,
+robustness and applicability to practical tasks such as acoustic and visual
+pattern recognition. The remarkable results highlight the effectiveness and
+potential merits of our methods. Importantly, our augmented approaches are
+versatile and can be easily generalized to other spike-based systems,
+contributing to a potential development for them including neuromorphic
+computing.

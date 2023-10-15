@@ -1,0 +1,9 @@
+Predicting vehicle trajectories, angle and speed is important for safe and
+comfortable driving. We demonstrate the best predicted angle, speed, and best
+performance overall winning the top three places of the ICCV 2019 Learning to
+Drive challenge. Our key contributions are (i) a general neural network system
+architecture which embeds and fuses together multiple inputs by encoding, and
+decodes multiple outputs using neural networks, (ii) using pre-trained neural
+networks for augmenting the given input data with segmentation maps and
+semantic information, and (iii) leveraging the form and distribution of the
+expected output in the model.

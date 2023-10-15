@@ -1,0 +1,15 @@
+Data-Augmentation (DA) is known to improve performance across tasks and
+datasets. We propose a method to theoretically analyze the effect of DA and
+study questions such as: how many augmented samples are needed to correctly
+estimate the information encoded by that DA? How does the augmentation policy
+impact the final parameters of a model? We derive several quantities in
+close-form, such as the expectation and variance of an image, loss, and model's
+output under a given DA distribution. Those derivations open new avenues to
+quantify the benefits and limitations of DA. For example, we show that common
+DAs require tens of thousands of samples for the loss at hand to be correctly
+estimated and for the model training to converge. We show that for a training
+loss to be stable under DA sampling, the model's saliency map (gradient of the
+loss with respect to the model's input) must align with the smallest
+eigenvector of the sample variance under the considered DA augmentation,
+hinting at a possible explanation on why models tend to shift their focus from
+edges to textures.

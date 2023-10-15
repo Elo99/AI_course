@@ -1,0 +1,11 @@
+In many machine learning tasks, a large general dataset and a small
+specialized dataset are available. In such situations, various domain
+adaptation methods can be used to adapt a general model to the target dataset.
+We show that in the case of neural networks trained for handwriting recognition
+using CTC, simple finetuning with data augmentation works surprisingly well in
+such scenarios and that it is resistant to overfitting even for very small
+target domain datasets. We evaluated the behavior of finetuning with respect to
+augmentation, training data size, and quality of the pre-trained network, both
+in writer-dependent and writer-independent settings. On a large real-world
+dataset, finetuning provided an average relative CER improvement of 25 % with
+16 text lines for new writers and 50 % for 256 text lines.

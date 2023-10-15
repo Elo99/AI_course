@@ -1,0 +1,14 @@
+Data augmentation is a commonly used approach to improving the generalization
+of deep learning models. Recent works show that learned data augmentation
+policies can achieve better generalization than hand-crafted ones. However,
+most of these works use unified augmentation policies for all samples in a
+dataset, which is observed not necessarily beneficial for all labels in
+multi-label classification tasks, i.e., some policies may have negative impacts
+on some labels while benefitting the others. To tackle this problem, we propose
+a novel Label-Based AutoAugmentation (LB-Aug) method for multi-label scenarios,
+where augmentation policies are generated with respect to labels by an
+augmentation-policy network. The policies are learned via reinforcement
+learning using policy gradient methods, providing a mapping from instance
+labels to their optimal augmentation policies. Numerical experiments show that
+our LB-Aug outperforms previous state-of-the-art augmentation methods by large
+margins in multiple benchmarks on image and video classification.

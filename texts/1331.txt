@@ -1,0 +1,14 @@
+Automatic code review (ACR), aiming to relieve manual inspection costs, is an
+indispensable and essential task in software engineering. The existing works
+only use the source code fragments to predict the results, missing the
+exploitation of developer's comments. Thus, we present a Multi-Modal Apache
+Automatic Code Review dataset (MACR) for the Multi-Modal ACR task. The release
+of this dataset would push forward the research in this field. Based on it, we
+propose a Contrastive Learning based Multi-Modal Network (CLMN) to deal with
+the Multi-Modal ACR task. Concretely, our model consists of a code encoding
+module and a text encoding module. For each module, we use the dropout
+operation as minimal data augmentation. Then, the contrastive learning method
+is adopted to pre-train the module parameters. Finally, we combine the two
+encoders to fine-tune the CLMN to decide the results of Multi-Modal ACR.
+Experimental results on the MACR dataset illustrate that our proposed model
+outperforms the state-of-the-art methods.

@@ -1,0 +1,17 @@
+Counterfactual fairness methods address the question: How would the
+prediction change if the sensitive identity attributes referenced in the text
+instance were different? These methods are entirely based on generating
+counterfactuals for the given training and test set instances. Counterfactual
+instances are commonly prepared by replacing sensitive identity terms, i.e.,
+the identity terms present in the instance are replaced with other identity
+terms that fall under the same sensitive category. Therefore, the efficacy of
+these methods depends heavily on the quality and comprehensiveness of identity
+pairs. In this paper, we offer a two-step data augmentation process where (1)
+the former stage consists of a novel method for preparing a comprehensive list
+of identity pairs with word embeddings, and (2) the latter consists of
+leveraging prepared identity pairs list to enhance the training instances by
+applying three simple operations (namely identity pair replacement, identity
+term blindness, and identity pair swap). We empirically show that the two-stage
+augmentation process leads to diverse identity pairs and an enhanced training
+set, with an improved counterfactual token-based fairness metric score on two
+well-known text classification tasks.

@@ -1,0 +1,9 @@
+The objective of this paper is the proof of a conjecture of Kontsevich on the
+isomorphism between groups of polynomial symplectomorphisms and automorphisms
+of the corresponding Weyl algebra in characteristic zero. The proof is based on
+the study of topological properties of automorphism $\Ind$-varieties of the
+so-called augmented and skew augmented versions of Poisson and Weyl algebras.
+Approximation by tame automorphisms as well as a certain singularity analysis
+procedure is utilized in the construction of the lifting of augmented
+polynomial symplectomorphisms, after which specialization of the augmentation
+parameter is performed in order to obtain the main result.

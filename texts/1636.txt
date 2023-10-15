@@ -1,0 +1,19 @@
+We take advantage of the principal bundle geometry of the space of
+connections to obtain general results on the presymplectic structure of two
+classes of (pure) gauge theories: invariant theories, and non-invariant
+theories satisfying two restricting hypothesis. In particular, we derive the
+general field-dependent gauge transformations of the presymplectic potential
+and presymplectic 2-form in both cases. We point-out that a generalisation of
+the standard bundle geometry, called twisted geometry, arises naturally in the
+study of non-invariant gauge theories (e.g. non-Abelian Chern-Simons theory).
+These results prove that the well-known problem of associating a symplectic
+structure to a gauge theory over bounded regions is a generic feature of both
+classes. The edge modes strategy, recently introduced to address this issue,
+has been actively developed in various contexts by several authors. We draw
+attention to the dressing field method as the geometric framework underpinning,
+or rather encompassing, this strategy. The geometric insight afforded by the
+method both clarifies it and clearly delineates its potential shortcomings as
+well as its conditions of success. Applying our general framework to various
+examples allows to straightforwardly recover several results of the recent
+literature on edge modes and on the presymplectic structure of general
+relativity.

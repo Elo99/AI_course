@@ -1,0 +1,8 @@
+A brief introduction to the projector augmented wave method is given and
+recent developments are reviewed. The projector augmented wave method is an
+all-electron method for efficient ab-initio molecular dynamics simulations with
+the full wave functions. It extends and combines the traditions of existing
+augmented wave methods and the pseudopotential approach. Without sacrificing
+efficiency, the PAW method avoids transferability problems of the
+pseudopotential approach and it has been valuable to predict properties that
+depend on the full wave functions.

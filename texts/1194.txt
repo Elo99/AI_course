@@ -1,0 +1,12 @@
+While natural language understanding of long-form documents is still an open
+challenge, such documents often contain structural information that can inform
+the design of models for encoding them. Movie scripts are an example of such
+richly structured text - scripts are segmented into scenes, which are further
+decomposed into dialogue and descriptive components. In this work, we propose a
+neural architecture for encoding this structure, which performs robustly on a
+pair of multi-label tag classification datasets, without the need for
+handcrafted features. We add a layer of insight by augmenting an unsupervised
+"interpretability" module to the encoder, allowing for the extraction and
+visualization of narrative trajectories. Though this work specifically tackles
+screenplays, we discuss how the underlying approach can be generalized to a
+range of structured documents.

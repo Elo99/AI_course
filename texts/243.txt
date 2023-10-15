@@ -1,0 +1,14 @@
+Text entry is a common activity in virtual reality (VR) systems. There is a
+limited number of available hands-free techniques, which allow users to carry
+out text entry when users' hands are busy such as holding items or hand-based
+devices are not available. The most used hands-free text entry technique is
+DwellType, where a user selects a letter by dwelling over it for a specific
+period. However, its performance is limited due to the fixed dwell time for
+each character selection. In this paper, we explore two other hands-free text
+entry mechanisms in VR: BlinkType and NeckType, which leverage users' eye
+blinks and neck's forward and backward movements to select letters. With a user
+study, we compare the performance of the two techniques with DwellType. Results
+show that users can achieve an average text entry rate of 13.47, 11.18 and
+11.65 words per minute with BlinkType, NeckType, and DwellType, respectively.
+Users' subjective feedback shows BlinkType as the preferred technique for text
+entry in VR.

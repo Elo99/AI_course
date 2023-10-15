@@ -1,0 +1,11 @@
+Training segmentation networks requires large annotated datasets, which in
+medical imaging can be hard to obtain. Despite this fact, data augmentation has
+in our opinion not been fully explored for brain tumor segmentation. In this
+project we apply different types of data augmentation (flipping, rotation,
+scaling, brightness adjustment, elastic deformation) when training a standard
+3D U-Net, and demonstrate that augmentation significantly improves the
+network's performance in many cases. Our conclusion is that brightness
+augmentation and elastic deformation work best, and that combinations of
+different augmentation techniques do not provide further improvement compared
+to only using one augmentation technique. Our code is available at
+https://github.com/mdciri/3D-augmentation-techniques.

@@ -1,0 +1,20 @@
+Brain-computer interfaces (BCIs) use decoding algorithms to control
+prosthetic devices based on brain signals for restoration of lost function.
+Computer-brain interfaces (CBIs), on the other hand, use encoding algorithms to
+transform external sensory signals into neural stimulation patterns for
+restoring sensation or providing sensory feedback for closed-loop prosthetic
+control. In this article, we introduce brain co-processors, devices that
+combine decoding and encoding in a unified framework using artificial
+intelligence (AI) to supplement or augment brain function. Brain co-processors
+can be used for a range of applications, from inducing Hebbian plasticity for
+rehabilitation after brain injury to reanimating paralyzed limbs and enhancing
+memory. A key challenge is simultaneous multi-channel neural decoding and
+encoding for optimization of external behavioral or task-related goals. We
+describe a new framework for developing brain co-processors based on artificial
+neural networks, deep learning and reinforcement learning. These "neural
+co-processors" allow joint optimization of cost functions with the nervous
+system to achieve desired behaviors. By coupling artificial neural networks
+with their biological counterparts, neural co-processors offer a new way of
+restoring and augmenting the brain, as well as a new scientific tool for brain
+research. We conclude by discussing the potential applications and ethical
+implications of brain co-processors.

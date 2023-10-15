@@ -1,0 +1,19 @@
+We use Reinforcement Meta-Learning to optimize an adaptive integrated
+guidance, navigation, and control system suitable for exoatmospheric
+interception of a maneuvering target. The system maps observations consisting
+of strapdown seeker angles and rate gyro measurements directly to thruster
+on-off commands. Using a high fidelity six degree-of-freedom simulator, we
+demonstrate that the optimized policy can adapt to parasitic effects including
+seeker angle measurement lag, thruster control lag, the parasitic attitude loop
+resulting from scale factor errors and Gaussian noise on angle and rotational
+velocity measurements, and a time varying center of mass caused by fuel
+consumption and slosh. Importantly, the optimized policy gives good performance
+over a wide range of challenging target maneuvers. Unlike previous work that
+enhances range observability by inducing line of sight oscillations, our system
+is optimized to use only measurements available from the seeker and rate gyros.
+Through extensive Monte Carlo simulation of randomized exoatmospheric
+interception scenarios, we demonstrate that the optimized policy gives
+performance close to that of augmented proportional navigation with perfect
+knowledge of the full engagement state. The optimized system is computationally
+efficient and requires minimal memory, and should be compatible with today's
+flight processors.

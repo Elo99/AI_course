@@ -1,0 +1,7 @@
+In this article, associated to a (bordered) Legendrian graph, we study and
+show the equivalence between two categorical Legendrian isotopy invariants: the
+augmentation category, a unital $A_{\infty}$-category, which lifts the set of
+augmentations of the associated Chekanov-Eliashberg DGA, and a DG category of
+constructible sheaves on the front plane, with micro-support at contact
+infinity controlled by the (bordered) Legendrian graph. In other words,
+generalizing [21], we prove "augmentations are sheaves" in the singular case.

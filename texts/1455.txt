@@ -1,0 +1,23 @@
+Recognition of human poses and actions is crucial for autonomous systems to
+interact smoothly with people. However, cameras generally capture human poses
+in 2D as images and videos, which can have significant appearance variations
+across viewpoints that make the recognition tasks challenging. To address this,
+we explore recognizing similarity in 3D human body poses from 2D information,
+which has not been well-studied in existing works. Here, we propose an approach
+to learning a compact view-invariant embedding space from 2D body joint
+keypoints, without explicitly predicting 3D poses. Input ambiguities of 2D
+poses from projection and occlusion are difficult to represent through a
+deterministic mapping, and therefore we adopt a probabilistic formulation for
+our embedding space. Experimental results show that our embedding model
+achieves higher accuracy when retrieving similar poses across different camera
+views, in comparison with 3D pose estimation models. We also show that by
+training a simple temporal embedding model, we achieve superior performance on
+pose sequence retrieval and largely reduce the embedding dimension from
+stacking frame-based embeddings for efficient large-scale retrieval.
+Furthermore, in order to enable our embeddings to work with partially visible
+input, we further investigate different keypoint occlusion augmentation
+strategies during training. We demonstrate that these occlusion augmentations
+significantly improve retrieval performance on partial 2D input poses. Results
+on action recognition and video alignment demonstrate that using our embeddings
+without any additional training achieves competitive performance relative to
+other models specifically trained for each task.

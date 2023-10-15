@@ -1,0 +1,17 @@
+Hand-based interaction, such as using a handheld controller or making hand
+gestures, has been widely adopted as the primary method for interacting with
+both virtual reality (VR) and augmented reality (AR) head-mounted displays
+(HMDs). In contrast, hands-free interaction avoids the need for users' hands
+and although it can afford additional benefits, there has been limited research
+in exploring and evaluating hands-free techniques for these HMDs. As VR HMDs
+become ubiquitous, people will need to do text editing, which requires
+selecting text segments. Similar to hands-free interaction, text selection is
+underexplored. This research focuses on both, text selection via hands-free
+interaction. Our exploration involves a user study with 24 participants to
+investigate the performance, user experience, and workload of three hands-free
+selection mechanisms (Dwell, Blink, Voice) to complement head-based pointing.
+Results indicate that Blink outperforms Dwell and Voice in completion time.
+Users' subjective feedback also shows that Blink is the preferred technique for
+text selection. This work is the first to explore hands-free interaction for
+text selection in VR HMDs. Our results provide a solid platform for further
+research in this important area.

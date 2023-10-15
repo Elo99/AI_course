@@ -1,0 +1,12 @@
+A common problem in computer vision -- particularly in medical applications
+-- is a lack of sufficiently diverse, large sets of training data. These
+datasets often suffer from severe class imbalance. As a result, networks often
+overfit and are unable to generalize to novel examples. Generative Adversarial
+Networks (GANs) offer a novel method of synthetic data augmentation. In this
+work, we evaluate the use of GAN- based data augmentation to artificially
+expand the CheXpert dataset of chest radiographs. We compare performance to
+traditional augmentation and find that GAN-based augmentation leads to higher
+downstream performance for underrepresented classes. Furthermore, we see that
+this result is pronounced in low data regimens. This suggests that GAN-based
+augmentation a promising area of research to improve network performance when
+data collection is prohibitively expensive.

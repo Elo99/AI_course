@@ -1,0 +1,23 @@
+We develop two fundamental stochastic sketching techniques; Penalty Sketching
+(PS) and Augmented Lagrangian Sketching (ALS) for solving consistent linear
+systems. The proposed PS and ALS techniques extend and generalize the scope of
+Sketch & Project (SP) method by introducing Lagrangian penalty sketches. In
+doing so, we recover SP methods as special cases and furthermore develop a
+family of new stochastic iterative methods. By varying sketch parameters in the
+proposed PS method, we recover novel stochastic methods such as Penalty Newton
+Descent, Penalty Kaczmarz, Penalty Stochastic Descent, Penalty Coordinate
+Descent, Penalty Gaussian Pursuit, and Penalty Block Kaczmarz. Furthermore, the
+proposed ALS method synthesizes a wide variety of new stochastic methods such
+as Augmented Newton Descent, Augmented Kaczmarz, Augmented Stochastic Descent,
+Augmented Coordinate Descent, Augmented Gaussian Pursuit, and Augmented Block
+Kaczmarz into one framework. Moreover, we show that the developed PS and ALS
+frameworks can be used to reformulate the original linear system into
+equivalent stochastic optimization problems namely the Penalty Stochastic
+Reformulation and Augmented Stochastic Reformulation. We prove global
+convergence rates for the PS and ALS methods as well as sub-linear
+$\mathcal{O}(\frac{1}{k})$ rates for the Cesaro average of iterates. The
+proposed convergence results hold for a wide family of distributions of random
+matrices, which provides the opportunity of fine-tuning the randomness of the
+method suitable for specific applications. Finally, we perform computational
+experiments that demonstrate the efficiency of our methods compared to the
+existing SP methods.

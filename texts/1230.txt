@@ -1,0 +1,10 @@
+Dynamic Mode Decomposition (DMD) is a data based modeling tool that
+identifies a matrix to map a quantity at some time instant to the same quantity
+in future. We design a new version which we call Adaptive Dynamic Mode
+Decomposition (ADMD) that utilizes time delay coordinates, projection methods
+and filters as per the nature of the data to create a model for the available
+problem. Filters are very effective in reducing the rank of high-dimensional
+dataset. We have incorporated 'discrete Fourier transform' and 'augmented
+lagrangian multiplier' as filters in our method. The proposed ADMD is tested on
+several datasets of varying complexities and its performance appears to be
+promising.

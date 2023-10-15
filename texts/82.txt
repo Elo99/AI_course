@@ -1,0 +1,12 @@
+Data augmentation techniques have been proven useful in many applications in
+NLP fields. Most augmentations are task-specific, and cannot be used as a
+general-purpose tool. In our work, we present AugCSE, a unified framework to
+utilize diverse sets of data augmentations to achieve a better, general
+purpose, sentence embedding model. Building upon the latest sentence embedding
+models, our approach uses a simple antagonistic discriminator that
+differentiates the augmentation types. With the finetuning objective borrowed
+from domain adaptation, we show that diverse augmentations, which often lead to
+conflicting contrastive signals, can be tamed to produce a better and more
+robust sentence representation. Our methods achieve state-of-the-art results on
+downstream transfer tasks and perform competitively on semantic textual
+similarity tasks, using only unsupervised data.

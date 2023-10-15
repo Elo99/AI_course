@@ -1,0 +1,17 @@
+Goal-oriented generative script learning aims to generate subsequent steps
+based on a goal, which is an essential task to assist robots in performing
+stereotypical activities of daily life. We show that the performance of this
+task can be improved if historical states are not just captured by the
+linguistic instructions given to people, but are augmented with the additional
+information provided by accompanying images. Therefore, we propose a new task,
+Multimedia Generative Script Learning, to generate subsequent steps by tracking
+historical states in both text and vision modalities, as well as presenting the
+first benchmark containing 2,338 tasks and 31,496 steps with descriptive
+images. We aim to generate scripts that are visual-state trackable, inductive
+for unseen tasks, and diverse in their individual steps. We propose to encode
+visual state changes through a multimedia selective encoder, transferring
+knowledge from previously observed tasks using a retrieval-augmented decoder,
+and presenting the distinct information at each step by optimizing a
+diversity-oriented contrastive learning objective. We define metrics to
+evaluate both generation quality and inductive quality. Experiment results
+demonstrate that our approach significantly outperforms strong baselines.

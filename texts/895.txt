@@ -1,0 +1,16 @@
+The Leggett-Garg (LG) inequalities were introduced, as a temporal parallel of
+the Bell inequalities, to test macroscopic realism -- the view that a
+macroscopic system evolving in time possesses definite properties which can be
+determined without disturbing the future or past state. The original LG
+inequalities are only a necessary condition for macrorealism, and are therefore
+not a decisive test. We argue, for the case of measurements of a single
+dichotomic variable Q, that when the original four three-time LG inequalities
+are augmented with a set of twelve two-time inequalities also of the LG form,
+Fine's theorem applies and these augmented conditions are then both necessary
+and sufficient. A comparison is carried out with the alternative necessary and
+sufficient conditions for macrorealism based on no-signaling in time conditions
+which ensure that all probabilities for Q at one and two times are independent
+of whether earlier or intermediate measurements are made. We argue that the two
+tests differ in their implementation of the key requirement of non-invasive
+measurability so are testing different notions of macrorealism, and these
+notions are elucidated.

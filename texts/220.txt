@@ -1,0 +1,14 @@
+While recent neural text-to-speech (TTS) systems perform remarkably well,
+they typically require a substantial amount of recordings from the target
+speaker reading in the desired speaking style. In this work, we present a novel
+3-step methodology to circumvent the costly operation of recording large
+amounts of target data in order to build expressive style voices with as little
+as 15 minutes of such recordings. First, we augment data via voice conversion
+by leveraging recordings in the desired speaking style from other speakers.
+Next, we use that synthetic data on top of the available recordings to train a
+TTS model. Finally, we fine-tune that model to further increase quality. Our
+evaluations show that the proposed changes bring significant improvements over
+non-augmented models across many perceived aspects of synthesised speech. We
+demonstrate the proposed approach on 2 styles (newscaster and conversational),
+on various speakers, and on both single and multi-speaker models, illustrating
+the robustness of our approach.

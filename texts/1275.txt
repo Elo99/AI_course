@@ -1,0 +1,12 @@
+We present VPN - a content attribution method for recovering provenance
+information from videos shared online. Platforms, and users, often transform
+video into different quality, codecs, sizes, shapes, etc. or slightly edit its
+content such as adding text or emoji, as they are redistributed online. We
+learn a robust search embedding for matching such video, invariant to these
+transformations, using full-length or truncated video queries. Once matched
+against a trusted database of video clips, associated information on the
+provenance of the clip is presented to the user. We use an inverted index to
+match temporal chunks of video using late-fusion to combine both visual and
+audio features. In both cases, features are extracted via a deep neural network
+trained using contrastive learning on a dataset of original and augmented video
+clips. We demonstrate high accuracy recall over a corpus of 100,000 videos.

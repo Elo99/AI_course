@@ -1,0 +1,20 @@
+Activation functions play an important role in training artificial neural
+networks. The majority of currently used activation functions are deterministic
+in nature, with their fixed input-output relationship. In this work, we propose
+a novel probabilistic activation function, called ProbAct. ProbAct is
+decomposed into a mean and variance and the output value is sampled from the
+formed distribution, making ProbAct a stochastic activation function. The
+values of mean and variances can be fixed using known functions or trained for
+each element. In the trainable ProbAct, the mean and the variance of the
+activation distribution is trained within the back-propagation framework
+alongside other parameters. We show that the stochastic perturbation induced
+through ProbAct acts as a viable generalization technique for feature
+augmentation. In our experiments, we compare ProbAct with well-known activation
+functions on classification tasks on different modalities: Images(CIFAR-10,
+CIFAR-100, and STL-10) and Text (Large Movie Review). We show that ProbAct
+increases the classification accuracy by +2-3% compared to ReLU or other
+conventional activation functions on both original datasets and when datasets
+are reduced to 50% and 25% of the original size. Finally, we show that ProbAct
+learns an ensemble of models by itself that can be used to estimate the
+uncertainties associated with the prediction and provides robustness to noisy
+inputs.

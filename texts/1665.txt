@@ -1,0 +1,21 @@
+In order to apply Optical Character Recognition (OCR) to historical printings
+of Latin script fully automatically, we report on our efforts to construct a
+widely-applicable polyfont recognition model yielding text with a Character
+Error Rate (CER) around 2% when applied out-of-the-box. Moreover, we show how
+this model can be further finetuned to specific classes of printings with
+little manual and computational effort. The mixed or polyfont model is trained
+on a wide variety of materials, in terms of age (from the 15th to the 19th
+century), typography (various types of Fraktur and Antiqua), and languages
+(among others, German, Latin, and French). To optimize the results we combined
+established techniques of OCR training like pretraining, data augmentation, and
+voting. In addition, we used various preprocessing methods to enrich the
+training data and obtain more robust models. We also implemented a two-stage
+approach which first trains on all available, considerably unbalanced data and
+then refines the output by training on a selected more balanced subset.
+Evaluations on 29 previously unseen books resulted in a CER of 1.73%,
+outperforming a widely used standard model with a CER of 2.84% by almost 40%.
+Training a more specialized model for some unseen Early Modern Latin books
+starting from our mixed model led to a CER of 1.47%, an improvement of up to
+50% compared to training from scratch and up to 30% compared to training from
+the aforementioned standard model. Our new mixed model is made openly available
+to the community.

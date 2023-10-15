@@ -1,0 +1,15 @@
+Imaging and Image sensors is a field that is continuously evolving. There are
+new products coming into the market every day. Some of these have very severe
+Size, Weight and Power constraints whereas other devices have to handle very
+high computational loads. Some require both these conditions to be met
+simultaneously. Current imaging architectures and digital image processing
+solutions will not be able to meet these ever increasing demands. There is a
+need to develop novel imaging architectures and image processing solutions to
+address these requirements. In this work we propose analog signal processing as
+a solution to this problem. The analog processor is not suggested as a
+replacement to a digital processor but it will be used as an augmentation
+device which works in parallel with the digital processor, making the system
+faster and more efficient. In order to show the merits of analog processing two
+stereo correspondence algorithms are implemented. We propose novel
+modifications to the algorithms and new imaging architectures which,
+significantly reduces the computation time.

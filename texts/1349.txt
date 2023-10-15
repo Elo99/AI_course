@@ -1,0 +1,15 @@
+We investigate models that can generate arbitrary natural language text (e.g.
+all English sentences) from a bounded, convex and well-behaved control space.
+We call them universal vec2text models. Such models would allow making semantic
+decisions in the vector space (e.g. via reinforcement learning) while the
+natural language generation is handled by the vec2text model. We propose four
+desired properties: universality, diversity, fluency, and semantic structure,
+that such vec2text models should possess and we provide quantitative and
+qualitative methods to assess them. We implement a vec2text model by adding a
+bottleneck to a 250M parameters Transformer model and training it with an
+auto-encoding objective on 400M sentences (10B tokens) extracted from a massive
+web corpus. We propose a simple data augmentation technique based on round-trip
+translations and show in extensive experiments that the resulting vec2text
+model surprisingly leads to vector spaces that fulfill our four desired
+properties and that this model strongly outperforms both standard and denoising
+auto-encoders.

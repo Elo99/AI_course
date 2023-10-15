@@ -1,0 +1,10 @@
+We present updated results for $\varepsilon_K$ determined directly from the
+standard model (SM) with lattice QCD inputs such as $\hat{B}_K$, $|V_{cb}|$,
+$|V_{us}|$, $\xi_0$, $\xi_2$, $\xi_\text{LD}$, $f_K$, and $m_c$. We find that
+the standard model with exclusive $|V_{cb}|$ and other lattice QCD inputs
+describes only 65\% of the experimental value of $|\varepsilon_K|$ and does not
+explain its remaining 35\%, which leads to a strong tension in
+$|\varepsilon_K|$ at the $4.6\sigma \sim 4.2\sigma$ level between the SM theory
+and experiment. We also find that this tension disappears when we use the
+inclusive value of $|V_{cb}|$ obtained using the heavy quark expansion based on
+QCD sum rules.

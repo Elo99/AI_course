@@ -1,0 +1,5 @@
+This invited talk will present recent projection mapping technologies for
+augmented reality. First, fundamental technologies are briefly explained, which
+have been proposed to overcome the technical limitations of ordinary
+projectors. Second, augmented reality (AR) applications using projection
+mapping technologies are introduced.

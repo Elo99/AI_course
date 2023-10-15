@@ -1,0 +1,19 @@
+We address the problem of few-shot classification where the goal is to learn
+a classifier from a limited set of samples. While data-driven learning is shown
+to be effective in various applications, learning from less data still remains
+challenging. To address this challenge, existing approaches consider various
+data augmentation techniques for increasing the number of training samples.
+Pseudo-labeling is commonly used in a few-shot setup, where approximate labels
+are estimated for a large set of unlabeled images. We propose DiffAlign which
+focuses on generating images from class labels. Specifically, we leverage the
+recent success of the generative models (e.g., DALL-E and diffusion models)
+that can generate realistic images from texts. However, naive learning on
+synthetic images is not adequate due to the domain gap between real and
+synthetic images. Thus, we employ a maximum mean discrepancy (MMD) loss to
+align the synthetic images to the real images minimizing the domain gap. We
+evaluate our method on the standard few-shot classification benchmarks:
+CIFAR-FS, FC100, miniImageNet, tieredImageNet and a cross-domain few-shot
+classification benchmark: miniImageNet to CUB. The proposed approach
+significantly outperforms the stateof-the-art in both 5-shot and 1-shot setups
+on these benchmarks. Our approach is also shown to be effective in the
+zero-shot classification setup

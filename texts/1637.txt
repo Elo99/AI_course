@@ -1,0 +1,19 @@
+Emails are one of the most frequently used medium of communication in the
+present day across multiple domains including industry and educational
+institutions. Understanding sentiments being expressed in an email could have a
+considerable impact on the recipients' action or response to the email.
+However, it is difficult to interpret emotions of the sender from pure text in
+which emotions are not explicitly present. Researchers have tried to predict
+customer attrition by integrating emails in client-company environment with
+emotions. However, most of the existing works deal with static assessment of
+email emotions. Presenting sentiments of emails dynamically to the reader could
+help in understanding senders' emotion and as well have an impact on readers'
+action. Hence, in this paper, we present EmoG as a Google Chrome Extension
+which is intended to support university students. It augments emails with
+emojis based on the sentiment being conveyed in the email, which might also
+offer faster overview of email sentiments and act as tags that could help in
+automatic sorting and processing of emails. Currently, EmoG has been developed
+to support Gmail inbox on a Google Chrome browser, and could be extended to
+other inboxes and browsers with ease. We have conducted a user survey with 15
+university students to understand the usefulness of EmoG and received positive
+feedback.

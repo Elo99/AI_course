@@ -1,0 +1,23 @@
+Deep neural networks have recently been recognized as one of the powerful
+learning techniques in computer vision and medical image analysis. Trained deep
+neural networks need to be generalizable to new data that was not seen before.
+In practice, there is often insufficient training data available and
+augmentation is used to expand the dataset. Even though graph convolutional
+neural network (graph-CNN) has been widely used in deep learning, there is a
+lack of augmentation methods to generate data on graphs or surfaces. This study
+proposes two unbiased augmentation methods, Laplace-Beltrami eigenfunction Data
+Augmentation (LB-eigDA) and Chebyshev polynomial Data Augmentation (C-pDA), to
+generate new data on surfaces, whose mean is the same as that of real data.
+LB-eigDA augments data via the resampling of the LB coefficients. In parallel
+with LB-eigDA, we introduce a fast augmentation approach, C-pDA, that employs a
+polynomial approximation of LB spectral filters on surfaces. We design LB
+spectral bandpass filters by Chebyshev polynomial approximation and resample
+signals filtered via these filters to generate new data on surfaces. We first
+validate LB-eigDA and C-pDA via simulated data and demonstrate their use for
+improving classification accuracy. We then employ the brain images of
+Alzheimer's Disease Neuroimaging Initiative (ADNI) and extract cortical
+thickness that is represented on the cortical surface to illustrate the use of
+the two augmentation methods. We demonstrate that augmented cortical thickness
+has a similar pattern to real data. Second, we show that C-pDA is much faster
+than LB-eigDA. Last, we show that C-pDA can improve the AD classification
+accuracy of graph-CNN.

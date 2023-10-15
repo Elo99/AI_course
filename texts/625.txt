@@ -1,0 +1,14 @@
+BACKGROUND: Augmented reality (AR) is gaining popularity in varying field
+such as computer gaming and medical education fields. However, still few of
+applications in real surgeries. Orthopedic surgical applications are currently
+limited and underdeveloped. - METHODS: The clinic validation was prepared with
+the currently available AR equipment and software. A total of 1 Vertebroplasty,
+2 ORIF Pelvis fracture, 1 ORIF with PFN for Proximal Femoral Fracture, 1 CRIF
+for distal radius fracture and 2 ORIF for Tibia Fracture cases were performed
+with fluoroscopy combined with AR smart surgical glasses system. - RESULTS: A
+total of 1 Vertebroplasty, 2 ORIF Pelvis fracture, 1 ORIF with PFN for Proximal
+Femoral Fracture, 1 CRIF for distal radius fracture and 2 ORIF for Tibia
+Fracture cases are performed to evaluate the benefits of AR surgery. Among the
+AR surgeries, surgeons wear the smart surgical are lot reduce of eyes of turns
+to focus on the monitors. This paper shows the potential ability of augmented
+reality technology for trauma surgery.

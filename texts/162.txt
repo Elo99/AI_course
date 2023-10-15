@@ -1,0 +1,8 @@
+We propose an end-to-end ASR system that can be trained on transcribed speech
+data, text data, or a mixture of both. For text-only training, our extended ASR
+model uses an integrated auxiliary TTS block that creates mel spectrograms from
+the text. This block contains a conventional non-autoregressive
+text-to-mel-spectrogram generator augmented with a GAN enhancer to improve the
+spectrogram quality. The proposed system can improve the accuracy of the ASR
+model on a new domain by using text-only data, and allows to significantly
+surpass conventional audio-text training by using large text corpora.

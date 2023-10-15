@@ -1,0 +1,14 @@
+As a human choosing a supervised learning algorithm, it is natural to begin
+by reading a text description of the dataset and documentation for the
+algorithms you might use. We demonstrate that the same idea improves the
+performance of automated machine learning methods. We use language embeddings
+from modern NLP to improve state-of-the-art AutoML systems by augmenting their
+recommendations with vector embeddings of datasets and of algorithms. We use
+these embeddings in a neural architecture to learn the distance between
+best-performing pipelines. The resulting (meta-)AutoML framework improves on
+the performance of existing AutoML frameworks. Our zero-shot AutoML system
+using dataset metadata embeddings provides good solutions instantaneously,
+running in under one second of computation. Performance is competitive with
+AutoML systems OBOE, AutoSklearn, AlphaD3M, and TPOT when each framework is
+allocated a minute of computation. We make our data, models, and code publicly
+available.

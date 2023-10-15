@@ -1,0 +1,16 @@
+This paper proposes a new distributed control architecture for distributed
+generation units in heterogeneous DC islanded microgrids. Each unit is equipped
+with state-feedback baseline and augmenting $\mathcal{L}_1$ adaptive voltage
+controllers at the primary level of the microgrid control hierarchy. Local
+controller synthesis is scalable as it only requires information about
+corresponding units, couplings, and at most, the addition of state-predictor
+measurements of neighbouring controllers. Global asymptotic stability of the
+microgrid is guaranteed in a plug-and-play fashion by exploiting Lyapunov
+functions and algebraic Riccati equations. The performance of the proposed
+architecture is evaluated using a heterogeneous DC islanded microgrid that
+consists of 6 DC-DC boost converters configured in a radial and meshed
+topology. The use of $\mathcal{L}_1$ adaptive controllers achieves fast and
+robust microgrid voltage stability in the presence of plug-and-play operations,
+topology changes and unknown load changes. Finally, the distributed
+architecture is tested on a bus-connected islanded-microgrid consisting of
+linear resistive load and non-linear DC motor.

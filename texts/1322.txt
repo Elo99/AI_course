@@ -1,0 +1,10 @@
+Virtual Reality (VR) technology has been shown to achieve remarkable results
+in multiple fields. Due to the nature of the immersive medium of Virtual
+Reality it logically follows that it can be used as a high-quality educational
+tool as it offers potentially a higher bandwidth than other mediums such as
+text, pictures and videos. This short paper illustrates the development of a
+climate change educational awareness application for virtual reality to
+simulate virtual scenes of local scenery and sea level rising until 2100 using
+prediction data. The paper also reports on the current in progress work of
+porting the system to Augmented Reality (AR) and future work to evaluate the
+system.

@@ -1,0 +1,10 @@
+We review the attempt to construct massless gauge field theories in Minkowski
+spacetime that go under the name of HS-YM. We present their actions and their
+symmetries. We motivate their gravitational interpretation. In particular we
+show how to recover the local Lorentz invariance, which is absent in the
+original formulation of the theories. Then we propose a perturbative
+quantization in the so-called frozen momentum frame. We discuss physical and
+unphysical modes and show how to deal with them. Finally we uncover the gauge
+symmetry hidden under such unphysical modes. This requires a nonlocal
+reformulation of the theory, which is, however, characterized by an augmented
+degree of symmetry.

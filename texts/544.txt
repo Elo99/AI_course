@@ -1,0 +1,14 @@
+Scarcity of training data for task-oriented dialogue systems is a well known
+problem that is usually tackled with costly and time-consuming manual data
+annotation. An alternative solution is to rely on automatic text generation
+which, although less accurate than human supervision, has the advantage of
+being cheap and fast. Our contribution is twofold. First we show how to
+optimally train and control the generation of intent-specific sentences using a
+conditional variational autoencoder. Then we introduce a new protocol called
+query transfer that allows to leverage a large unlabelled dataset, possibly
+containing irrelevant queries, to extract relevant information. Comparison with
+two different baselines shows that this method, in the appropriate regime,
+consistently improves the diversity of the generated queries without
+compromising their quality. We also demonstrate the effectiveness of our
+generation method as a data augmentation technique for language modelling
+tasks.

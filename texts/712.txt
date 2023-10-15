@@ -1,0 +1,23 @@
+We introduce an evolutionary algorithm called recombinator-$k$-means for
+optimizing the highly non-convex kmeans problem. Its defining feature is that
+its crossover step involves all the members of the current generation,
+stochastically recombining them with a repurposed variant of the $k$-means++
+seeding algorithm. The recombination also uses a reweighting mechanism that
+realizes a progressively sharper stochastic selection policy and ensures that
+the population eventually coalesces into a single solution. We compare this
+scheme with state-of-the-art alternative, a more standard genetic algorithm
+with deterministic pairwise-nearest-neighbor crossover and an elitist selection
+policy, of which we also provide an augmented and efficient implementation.
+Extensive tests on large and challenging datasets (both synthetic and
+real-word) show that for fixed population sizes recombinator-$k$-means is
+generally superior in terms of the optimization objective, at the cost of a
+more expensive crossover step. When adjusting the population sizes of the two
+algorithms to match their running times, we find that for short times the
+(augmented) pairwise-nearest-neighbor method is always superior, while at
+longer times recombinator-$k$-means will match it and, on the most difficult
+examples, take over. We conclude that the reweighted whole-population
+recombination is more costly, but generally better at escaping local minima.
+Moreover, it is algorithmically simpler and more general (it could be applied
+even to $k$-medians or $k$-medoids, for example). Our implementations are
+publicly available at
+\href{https://github.com/carlobaldassi/RecombinatorKMeans.jl}{https://github.com/carlobaldassi/RecombinatorKMeans.jl}.

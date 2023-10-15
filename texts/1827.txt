@@ -1,0 +1,17 @@
+In this paper, a data augmentation method is proposed for depression
+detection from speech signals. Samples for data augmentation were created by
+changing the frame-width and the frame-shift parameters during the feature
+extraction process. Unlike other data augmentation methods (such as VTLP, pitch
+perturbation, or speed perturbation), the proposed method does not explicitly
+change acoustic parameters but rather the time-frequency resolution of
+frame-level features. The proposed method was evaluated using two different
+datasets, models, and input acoustic features. For the DAIC-WOZ (English)
+dataset when using the DepAudioNet model and mel-Spectrograms as input, the
+proposed method resulted in an improvement of 5.97% (validation) and 25.13%
+(test) when compared to the baseline. The improvements for the CONVERGE
+(Mandarin) dataset when using the x-vector embeddings with CNN as the backend
+and MFCCs as input features were 9.32% (validation) and 12.99% (test). Baseline
+systems do not incorporate any data augmentation. Further, the proposed method
+outperformed commonly used data-augmentation methods such as noise
+augmentation, VTLP, Speed, and Pitch Perturbation. All improvements were
+statistically significant.

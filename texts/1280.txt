@@ -1,0 +1,11 @@
+In this work, we propose Tiny-CRNN (Tiny Convolutional Recurrent Neural
+Network) models applied to the problem of wakeword detection, and augment them
+with scaled dot product attention. We find that, compared to Convolutional
+Neural Network models, False Accepts in a 250k parameter budget can be reduced
+by 25% with a 10% reduction in parameter size by using models based on the
+Tiny-CRNN architecture, and we can get up to 32% reduction in False Accepts at
+a 50k parameter budget with 75% reduction in parameter size compared to
+word-level Dense Neural Network models. We discuss solutions to the challenging
+problem of performing inference on streaming audio with this architecture, as
+well as differences in start-end index errors and latency in comparison to CNN,
+DNN, and DNN-HMM models.

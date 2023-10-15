@@ -1,0 +1,16 @@
+Modern Automatic Speech Recognition (ASR) systems can achieve high
+performance in terms of recognition accuracy. However, a perfectly accurate
+transcript still can be challenging to read due to disfluency, filter words,
+and other errata common in spoken communication. Many downstream tasks and
+human readers rely on the output of the ASR system; therefore, errors
+introduced by the speaker and ASR system alike will be propagated to the next
+task in the pipeline. In this work, we propose an ASR post-processing model
+that aims to transform the incorrect and noisy ASR output into a readable text
+for humans and downstream tasks. We leverage the Metadata Extraction (MDE)
+corpus to construct a task-specific dataset for our study. Since the dataset is
+small, we propose a novel data augmentation method and use a two-stage training
+strategy to fine-tune the RoBERTa pre-trained model. On the constructed test
+set, our model outperforms a production two-step pipeline-based post-processing
+method by a large margin of 13.26 on readability-aware WER (RA-WER) and 17.53
+on BLEU metrics. Human evaluation also demonstrates that our method can
+generate more human-readable transcripts than the baseline method.

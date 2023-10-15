@@ -1,0 +1,14 @@
+Data augmentation is an effective technique to improve the generalization of
+deep neural networks. Recently, AutoAugment proposed a well-designed search
+space and a search algorithm that automatically finds augmentation policies in
+a data-driven manner. However, AutoAugment is computationally intensive. In
+this paper, we propose an efficient gradient-based search algorithm, called
+Hypernetwork-Based Augmentation (HBA), which simultaneously learns model
+parameters and augmentation hyperparameters in a single training. Our HBA uses
+a hypernetwork to approximate a population-based training algorithm, which
+enables us to tune augmentation hyperparameters by gradient descent. Besides,
+we introduce a weight sharing strategy that simplifies our hypernetwork
+architecture and speeds up our search algorithm. We conduct experiments on
+CIFAR-10, CIFAR-100, SVHN, and ImageNet. Our results show that HBA is
+competitive to the state-of-the-art methods in terms of both search speed and
+accuracy.

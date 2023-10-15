@@ -1,0 +1,15 @@
+A key feature of neural models is that they can produce semantic vector
+representations of objects (texts, images, speech, etc.) ensuring that similar
+objects are close to each other in the vector space. While much work has
+focused on learning representations for other modalities, there are no aligned
+cross-modal representations for text and knowledge base (KB) elements. One
+challenge for learning such representations is the lack of parallel data, which
+we use contrastive training on heuristics-based datasets and data augmentation
+to overcome, training embedding models on (KB graph, text) pairs. On WebNLG, a
+cleaner manually crafted dataset, we show that they learn aligned
+representations suitable for retrieval. We then fine-tune on annotated data to
+create EREDAT (Ensembled Representations for Evaluation of DAta-to-Text), a
+similarity metric between English text and KB graphs. EREDAT outperforms or
+matches state-of-the-art metrics in terms of correlation with human judgments
+on WebNLG even though, unlike them, it does not require a reference text to
+compare against.

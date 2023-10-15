@@ -1,0 +1,15 @@
+The mental disorder of online users is determined using social media posts.
+The major challenge in this domain is to avail the ethical clearance for using
+the user generated text on social media platforms. Academic re searchers
+identified the problem of insufficient and unlabeled data for mental health
+classification. To handle this issue, we have studied the effect of data
+augmentation techniques on domain specific user generated text for mental
+health classification. Among the existing well established data augmentation
+techniques, we have identified Easy Data Augmentation (EDA), conditional BERT,
+and Back Translation (BT) as the potential techniques for generating additional
+text to improve the performance of classifiers. Further, three different
+classifiers Random Forest (RF), Support Vector Machine (SVM) and Logistic
+Regression (LR) are employed for analyzing the impact of data augmentation on
+two publicly available social media datasets. The experiments mental results
+show significant improvements in classifiers performance when trained on the
+augmented data.

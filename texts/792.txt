@@ -1,0 +1,13 @@
+Pseudo-labeling has recently shown promise in end-to-end automatic speech
+recognition (ASR). We study Iterative Pseudo-Labeling (IPL), a semi-supervised
+algorithm which efficiently performs multiple iterations of pseudo-labeling on
+unlabeled data as the acoustic model evolves. In particular, IPL fine-tunes an
+existing model at each iteration using both labeled data and a subset of
+unlabeled data. We study the main components of IPL: decoding with a language
+model and data augmentation. We then demonstrate the effectiveness of IPL by
+achieving state-of-the-art word-error rate on the Librispeech test sets in both
+standard and low-resource setting. We also study the effect of language models
+trained on different corpora to show IPL can effectively utilize additional
+text. Finally, we release a new large in-domain text corpus which does not
+overlap with the Librispeech training transcriptions to foster research in
+low-resource, semi-supervised ASR

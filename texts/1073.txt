@@ -1,0 +1,18 @@
+Unique challenges arise when testing mobile applications due to their
+prevailing event-driven nature and complex contextual features (e.g. sensors,
+notifications). Current automated input generation approaches for Android apps
+are typically not practical for developers to use due to required
+instrumentation or platform dependence and generally do not effectively
+exercise contextual features. To better support developers in mobile testing
+tasks, in this demo we present a novel, automated tool called CrashScope. This
+tool explores a given Android app using systematic input generation, according
+to several strategies informed by static and dynamic analyses, with the
+intrinsic goal of triggering crashes. When a crash is detected, CrashScope
+generates an augmented crash report containing screenshots, detailed crash
+reproduction steps, the captured exception stack trace, and a fully replayable
+script that automatically reproduces the crash on a target device(s). Results
+of preliminary studies show that CrashScope is able to uncover about as many
+crashes as other state of the art tools, while providing detailed useful crash
+reports and test scripts to developers. Website:
+www.crashscope-android.com/crashscope-home Video url:
+https://youtu.be/ii6S1JF6xDw

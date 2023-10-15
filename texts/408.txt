@@ -1,0 +1,21 @@
+Earnings call (EC), as a periodic teleconference of a publicly-traded
+company, has been extensively studied as an essential market indicator because
+of its high analytical value in corporate fundamentals. The recent emergence of
+deep learning techniques has shown great promise in creating automated
+pipelines to benefit the EC-supported financial applications. However, these
+methods presume all included contents to be informative without refining
+valuable semantics from long-text transcript and suffer from EC scarcity issue.
+Meanwhile, these black-box methods possess inherent difficulties in providing
+human-understandable explanations. To this end, in this paper, we propose a
+Multi-Domain Transformer-Based Counterfactual Augmentation, named MTCA, to
+address the above problems. Specifically, we first propose a transformer-based
+EC encoder to attentively quantify the task-inspired significance of critical
+EC content for market inference. Then, a multi-domain counterfactual learning
+framework is developed to evaluate the gradient-based variations after we
+perturb limited EC informative texts with plentiful cross-domain documents,
+enabling MTCA to perform unsupervised data augmentation. As a bonus, we
+discover a way to use non-training data as instance-based explanations for
+which we show the result with case studies. Extensive experiments on the
+real-world financial datasets demonstrate the effectiveness of interpretable
+MTCA for improving the volatility evaluation ability of the state-of-the-art by
+14.2\% in accuracy.

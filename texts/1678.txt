@@ -1,0 +1,17 @@
+Accurate recognition of slot values such as domain specific words or named
+entities by automatic speech recognition (ASR) systems forms the core of the
+Goal-oriented Dialogue Systems. Although it is a critical step with direct
+impact on downstream tasks such as language understanding, many domain agnostic
+ASR systems tend to perform poorly on domain specific or long tail words. They
+are often supplemented with slot error correcting systems but it is often hard
+for any neural model to directly output such rare entity words. To address this
+problem, we propose k-nearest neighbor (k-NN) search that outputs
+domain-specific entities from an explicit datastore. We improve error
+correction rate by conveniently augmenting a pretrained joint phoneme and text
+based transformer sequence to sequence model with k-NN search during inference.
+We evaluate our proposed approach on five different domains containing long
+tail slot entities such as full names, airports, street names, cities, states.
+Our best performing error correction model shows a relative improvement of 7.4%
+in word error rate (WER) on rare word entities over the baseline and also
+achieves a relative WER improvement of 9.8% on an out of vocabulary (OOV) test
+set.

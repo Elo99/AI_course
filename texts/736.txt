@@ -1,0 +1,26 @@
+Generating an image from a provided descriptive text is quite a challenging
+task because of the difficulty in incorporating perceptual information (object
+shapes, colors, and their interactions) along with providing high relevancy
+related to the provided text. Current methods first generate an initial
+low-resolution image, which typically has irregular object shapes, colors, and
+interaction between objects. This initial image is then improved by
+conditioning on the text. However, these methods mainly address the problem of
+using text representation efficiently in the refinement of the initially
+generated image, while the success of this refinement process depends heavily
+on the quality of the initially generated image, as pointed out in the DM-GAN
+paper. Hence, we propose a method to provide good initialized images by
+incorporating perceptual understanding in the discriminator module. We improve
+the perceptual information at the first stage itself, which results in
+significant improvement in the final generated image. In this paper, we have
+applied our approach to the novel StackGAN architecture. We then show that the
+perceptual information included in the initial image is improved while modeling
+image distribution at multiple stages. Finally, we generated realistic
+multi-colored images conditioned by text. These images have good quality along
+with containing improved basic perceptual information. More importantly, the
+proposed method can be integrated into the pipeline of other state-of-the-art
+text-based-image-generation models to generate initial low-resolution images.
+We also worked on improving the refinement process in StackGAN by augmenting
+the third stage of the generator-discriminator pair in the StackGAN
+architecture. Our experimental analysis and comparison with the
+state-of-the-art on a large but sparse dataset MS COCO further validate the
+usefulness of our proposed approach.

@@ -1,0 +1,19 @@
+Logical Natural Language Generation, i.e., generating textual descriptions
+that can be logically entailed by a structured table, has been a challenge due
+to the low fidelity of the generation. \citet{chen2020logic2text} have
+addressed this problem by annotating interim logical programs to control the
+generation contents and semantics, and presented the task of table-aware
+logical form to text (Logic2text) generation. However, although table instances
+are abundant in the real world, logical forms paired with textual descriptions
+require costly human annotation work, which limits the performance of neural
+models. To mitigate this, we propose topic-conditioned data augmentation
+(TopicDA), which utilizes GPT-2 to generate unpaired logical forms and textual
+descriptions directly from tables. We further introduce logical form generation
+(LG), a dual task of Logic2text that requires generating a valid logical form
+based on a text description of a table. We also propose a semi-supervised
+learning approach to jointly train a Logic2text and an LG model with both
+labeled and augmented data. The two models benefit from each other by providing
+extra supervision signals through back-translation. Experimental results on the
+Logic2text dataset and the LG task demonstrate that our approach can
+effectively utilize the augmented data and outperform supervised baselines by a
+substantial margin.

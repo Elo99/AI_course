@@ -1,0 +1,20 @@
+Recent progress in self-supervised learning has demonstrated promising
+results in multiple visual tasks. An important ingredient in high-performing
+self-supervised methods is the use of data augmentation by training models to
+place different augmented views of the same image nearby in embedding space.
+However, commonly used augmentation pipelines treat images holistically,
+ignoring the semantic relevance of parts of an image-e.g. a subject vs. a
+background-which can lead to the learning of spurious correlations. Our work
+addresses this problem by investigating a class of simple, yet highly effective
+"background augmentations", which encourage models to focus on
+semantically-relevant content by discouraging them from focusing on image
+backgrounds. Through a systematic investigation, we show that background
+augmentations lead to substantial improvements in performance across a spectrum
+of state-of-the-art self-supervised methods (MoCo-v2, BYOL, SwAV) on a variety
+of tasks, e.g. $\sim$+1-2% gains on ImageNet, enabling performance on par with
+the supervised baseline. Further, we find the improvement in limited-labels
+settings is even larger (up to 4.2%). Background augmentations also improve
+robustness to a number of distribution shifts, including natural adversarial
+examples, ImageNet-9, adversarial attacks, ImageNet-Renditions. We also make
+progress in completely unsupervised saliency detection, in the process of
+generating saliency masks used for background augmentations.

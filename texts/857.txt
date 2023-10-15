@@ -1,0 +1,11 @@
+In this paper we study the geometry of fully augmented link complements in
+the thickened torus and describe their geometric properties, generalizing the
+study of fully augmented links in $S^3$. We classify which fully augmented
+links in the thickened torus are hyperbolic, show that their complements in the
+thickened torus decompose into ideal right-angled torihedra, and that the edges
+of this decomposition are canonical. We also study volume density of fully
+augmented links in $S^3$, defined to be the ratio of its volume and the number
+of augmentations. We prove the Volume Density Conjecture for fully augmented
+links which states that the volume density of a sequence of fully augmented
+links in $S^3$ which diagrammatically converge to a biperiodic link, converges
+to the volume density of that biperiodic link.

@@ -1,0 +1,15 @@
+Relation extraction that is the task of predicting semantic relation type
+between entities in a sentence or document is an important task in natural
+language processing. Although there are many researches and datasets for
+English, Persian suffers from sufficient researches and comprehensive datasets.
+The only available Persian dataset for this task is PERLEX, which is a Persian
+expert-translated version of the SemEval-2010-Task-8 dataset. In this paper, we
+present our augmented dataset and the results and findings of our system,
+participated in the Persian relation Extraction shared task of NSURL 2021
+workshop. We use PERLEX as the base dataset and enhance it by applying some
+text preprocessing steps and by increasing its size via data augmentation
+techniques to improve the generalization and robustness of applied models. We
+then employ two different models including ParsBERT and multilingual BERT for
+relation extraction on the augmented PERLEX dataset. Our best model obtained
+64.67% of Macro-F1 on the test phase of the contest and it achieved 83.68% of
+Macro-F1 on the test set of PERLEX.

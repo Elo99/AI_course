@@ -1,0 +1,14 @@
+This work presents an application of the highly expressive Attribute-Based
+Encryption to implement Secure Zones for firearms. Within these zones,
+radio-transmitted local policies based on attributes of the user and the
+firearm are received by embedded hardware in the firearms, which then advises
+the user about safe operations. The Secure Zones utilize Attribute-Based
+Encryption to encode the policies and user attributes, and providing privacy
+and security through it cryptography. We describe a holistic approach to
+evolving the firearm to a cyber-physical system to aid in augmenting safety. We
+introduce a conceptual model for a firearm equipped with sensors and a
+context-aware software agent. Based on the information from the sensors, the
+agent can access the context and inform the user of potential unsafe
+operations. To support Secure Zones and the cyber-physical firearm model, we
+propose a Key Infrastructure Scheme for key generation, distribution, and
+management, and a Context-Aware Software Agent Framework for Firearms.

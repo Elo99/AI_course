@@ -1,0 +1,4 @@
+Let $A$ be a commutative augmented ring and $I$ be its augmentation ideal.
+This paper shows that the sequence $\{I^n/I^{n+1}\}$ becomes stationary up to
+isomorphism. The result yields stability in the associated graded ring of $A$
+along $I$.

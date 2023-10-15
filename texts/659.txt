@@ -1,0 +1,18 @@
+Graph neural networks (GNNs) have recently been popular in natural language
+and programming language processing, particularly in text and source code
+classification. Graph pooling which processes node representation into the
+entire graph representation, which can be used for multiple downstream tasks,
+e.g., graph classification, is a crucial component of GNNs. Recently, to
+enhance graph learning, Manifold Mixup, a data augmentation strategy that mixes
+the graph data vector after the pooling layer, has been introduced. However,
+since there are a series of graph pooling methods, how they affect the
+effectiveness of such a Mixup approach is unclear. In this paper, we take the
+first step to explore the influence of graph pooling methods on the
+effectiveness of the Mixup-based data augmentation approach. Specifically, 9
+types of hybrid pooling methods are considered in the study, e.g.,
+$\mathcal{M}_{sum}(\mathcal{P}_{att},\mathcal{P}_{max})$. The experimental
+results on both natural language datasets (Gossipcop, Politifact) and
+programming language datasets (Java250, Python800) demonstrate that hybrid
+pooling methods are more suitable for Mixup than the standard max pooling and
+the state-of-the-art graph multiset transformer (GMT) pooling, in terms of
+metric accuracy and robustness.

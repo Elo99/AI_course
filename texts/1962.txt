@@ -1,0 +1,10 @@
+Audio data augmentation is a key step in training deep neural networks for
+solving audio classification tasks. In this paper, we introduce Audiogmenter, a
+novel audio data augmentation library in MATLAB. We provide 15 different
+augmentation algorithms for raw audio data and 8 for spectrograms. We
+efficiently implemented several augmentation techniques whose usefulness has
+been extensively proved in the literature. To the best of our knowledge, this
+is the largest MATLAB audio data augmentation library freely available. We
+validate the efficiency of our algorithms evaluating them on the ESC-50
+dataset. The toolbox and its documentation can be downloaded at
+https://github.com/LorisNanni/Audiogmenter.

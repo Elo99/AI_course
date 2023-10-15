@@ -1,0 +1,18 @@
+Precise indoor localization is an increasingly demanding requirement for
+various emerging applications, like Virtual/Augmented reality and personalized
+advertising. Current indoor environments are equipped with pluralities of WiFi
+access points (APs), whose deployment is expected to be massive in the future
+enabling highly precise localization approaches. Though the conventional
+model-based localization schemes have achieved sub-meter level accuracy by
+fusing multiple channel state information (CSI) observations, the corresponding
+computational overhead is usually significant, especially in the current
+multiple-input multiple-output orthogonal frequency division multiplexing
+(MIMO-OFDM) systems. In order to address this issue, model-free localization
+techniques using deep learning frameworks have been lately proposed, where
+mainly classification methods were applied. In this paper, instead of
+classification based mechanism, we propose a logistic regression based scheme
+with the deep learning framework, combined with Cram\'er-Rao lower bound (CRLB)
+assisted robust training, which achieves more robust sub-meter level accuracy
+(0.97m median distance error) in the standard laboratory environment and
+maintains reasonable online prediction overhead under the single WiFi AP
+settings.

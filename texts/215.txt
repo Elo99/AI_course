@@ -1,0 +1,18 @@
+Text-to-SQL is a task to generate SQL queries from human utterances. However,
+due to the variation of natural language, two semantically equivalent
+utterances may appear differently in the lexical level. Likewise, user
+preferences (e.g., the choice of normal forms) can lead to dramatic changes in
+table structures when expressing conceptually identical schemas. Envisioning
+the general difficulty for text-to-SQL models to preserve prediction
+consistency against linguistic and schema variations, we propose MT-Teql, a
+Metamorphic Testing-based framework for systematically evaluating and
+augmenting the consistency of TExt-to-SQL models. Inspired by the principles of
+software metamorphic testing, MT-Teql delivers a model-agnostic framework which
+implements a comprehensive set of metamorphic relations (MRs) to conduct
+semantics-preserving transformations toward utterances and schemas. Model
+Inconsistency can be exposed when the original and transformed inputs induce
+different SQL queries. In addition, we leverage the transformed inputs to
+retrain models for further model robustness boost. Our experiments show that
+our framework exposes thousands of prediction errors from SOTA models and
+enriches existing datasets by order of magnitude, eliminating over 40%
+inconsistency errors without compromising standard accuracy.

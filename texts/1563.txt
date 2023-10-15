@@ -1,0 +1,21 @@
+The elastic collision between two H-like atoms utilizing an ab-initio
+static-exchange model (SEM) in the center of mass (CM) frame considering the
+system as a four-body Coulomb problem where all the Coulomb interaction terms
+in the direct and exchange channels are treated exactly, is studied thoroughly.
+A coupled-channel methodology in momentum space is used to solve
+Lippman-Schwinger equation following the integral approach. The new SEM code
+[1-5] in which the Born-Oppenheimer (BO) scattering amplitude acts as input to
+derive the SEM amplitude using partial wave analysis, is utilized to study the
+s-, p-, d- wave elastic phase shifts and the corresponding partial cross
+sections. An augmented-Born approximation is used to include the contribution
+of higher partial waves more accurately to determine the total/integrated
+elastic cross sections. The effective range theory is used to determine the
+scattering lengths and effective ranges in the s-wave elastic scattering. The
+systems studied are Ps-Ps, Ps-Mu, Ps-H, Ps-D, Ps-T, Mu-Mu, Mu-H, Mu-D, Mu-T,
+H-H, H-D, H-T, D-D, D-T, T-T. The SEM includes the non-adiabatic short-range
+effects due to exchange. The MSEM code [1] is used to study the effect of the
+long-range van der Waals interaction due to induced dipole polarizabilities of
+the atoms in H(1s)-H(1s) elastic collision. The dependence of scattering length
+on the reduced mass of the system and the dependence of scattering length on
+the strength of long-range van der Waals interaction that varies with the
+minimum interatomic distance are observed [3].

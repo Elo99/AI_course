@@ -1,0 +1,17 @@
+In Natural Language Processing (NLP), finding data augmentation techniques
+that can produce high-quality human-interpretable examples has always been
+challenging. Recently, leveraging kNN such that augmented examples are
+retrieved from large repositories of unlabelled sentences has made a step
+toward interpretable augmentation. Inspired by this paradigm, we introduce
+Minimax-kNN, a sample efficient data augmentation strategy tailored for
+Knowledge Distillation (KD). We exploit a semi-supervised approach based on KD
+to train a model on augmented data. In contrast to existing kNN augmentation
+techniques that blindly incorporate all samples, our method dynamically selects
+a subset of augmented samples that maximizes KL-divergence between the teacher
+and student models. This step aims to extract the most efficient samples to
+ensure our augmented data covers regions in the input space with maximum loss
+value. We evaluated our technique on several text classification tasks and
+demonstrated that Minimax-kNN consistently outperforms strong baselines. Our
+results show that Minimax-kNN requires fewer augmented examples and less
+computation to achieve superior performance over the state-of-the-art kNN-based
+augmentation techniques.

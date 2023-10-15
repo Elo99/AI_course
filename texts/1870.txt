@@ -1,0 +1,6 @@
+We study the Weighted Tree Augmentation Problem for general link costs. We
+show that the integrality gap of the ODD-LP relaxation for the (weighted) Tree
+Augmentation Problem for a $k$-level tree instance is at most $2 -
+\frac{1}{2^{k-1}}$. For 2- and 3-level trees, these ratios are $\frac32$ and
+$\frac74$ respectively. Our proofs are constructive and yield polynomial-time
+approximation algorithms with matching guarantees.

@@ -1,0 +1,14 @@
+State-of-the-art sign language generation frameworks lack expressivity and
+naturalness which is the result of only focusing manual signs, neglecting the
+affective, grammatical and semantic functions of facial expressions. The
+purpose of this work is to augment semantic representation of sign language
+through grounding facial expressions. We study the effect of modeling the
+relationship between text, gloss, and facial expressions on the performance of
+the sign generation systems. In particular, we propose a Dual Encoder
+Transformer able to generate manual signs as well as facial expressions by
+capturing the similarities and differences found in text and sign gloss
+annotation. We take into consideration the role of facial muscle activity to
+express intensities of manual signs by being the first to employ facial action
+units in sign language generation. We perform a series of experiments showing
+that our proposed model improves the quality of automatically generated sign
+language.

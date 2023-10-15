@@ -1,0 +1,18 @@
+This paper introduces a fast-slow encoder based transducer with streaming
+deliberation for end-to-end automatic speech recognition. We aim to improve the
+recognition accuracy of the fast-slow encoder based transducer while keeping
+its latency low by integrating a streaming deliberation model. Specifically,
+the deliberation model leverages partial hypotheses from the streaming fast
+encoder and implicitly learns to correct recognition errors. We modify the
+parallel beam search algorithm for fast-slow encoder based transducer to be
+efficient and compatible with the deliberation model. In addition, the
+deliberation model is designed to process streaming data. To further improve
+the deliberation performance, a simple text augmentation approach is explored.
+We also compare LSTM and Conformer models for encoding partial hypotheses.
+Experiments on Librispeech and in-house data show relative WER reductions
+(WERRs) from 3% to 5% with a slight increase in model size and negligible extra
+token emission latency compared with fast-slow encoder based transducer.
+Compared with vanilla neural transducers, the proposed deliberation model
+together with fast-slow encoder based transducer obtains relative 10-11% WERRs
+on Librispeech and around relative 6% WERR on in-house data with smaller
+emission delays.

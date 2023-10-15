@@ -1,0 +1,13 @@
+Sequence-to-Sequence (S2S) models recently started to show state-of-the-art
+performance for automatic speech recognition (ASR). With these large and deep
+models overfitting remains the largest problem, outweighing performance
+improvements that can be obtained from better architectures. One solution to
+the overfitting problem is increasing the amount of available training data and
+the variety exhibited by the training data with the help of data augmentation.
+In this paper we examine the influence of three data augmentation methods on
+the performance of two S2S model architectures. One of the data augmentation
+method comes from literature, while two other methods are our own development -
+a time perturbation in the frequency domain and sub-sequence sampling. Our
+experiments on Switchboard and Fisher data show state-of-the-art performance
+for S2S models that are trained solely on the speech training data and do not
+use additional text data.

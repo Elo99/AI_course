@@ -1,0 +1,13 @@
+Statutory article retrieval (SAR), the task of retrieving statute law
+articles relevant to a legal question, is a promising application of legal text
+processing. In particular, high-quality SAR systems can improve the work
+efficiency of legal professionals and provide basic legal assistance to
+citizens in need at no cost. Unlike traditional ad-hoc information retrieval,
+where each document is considered a complete source of information, SAR deals
+with texts whose full sense depends on complementary information from the
+topological organization of statute law. While existing works ignore these
+domain-specific dependencies, we propose a novel graph-augmented dense statute
+retriever (G-DSR) model that incorporates the structure of legislation via a
+graph neural network to improve dense retrieval performance. Experimental
+results show that our approach outperforms strong retrieval baselines on a
+real-world expert-annotated SAR dataset.

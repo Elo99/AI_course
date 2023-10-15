@@ -1,0 +1,10 @@
+Despite the advent of deep learning in computer vision, the general
+handwriting recognition problem is far from solved. Most existing approaches
+focus on handwriting datasets that have clearly written text and carefully
+segmented labels. In this paper, we instead focus on learning handwritten
+characters from maintenance logs, a constrained setting where data is very
+limited and noisy. We break the problem into two consecutive stages of word
+segmentation and word recognition respectively and utilize data augmentation
+techniques to train both stages. Extensive comparisons with popular baselines
+for scene-text detection and word recognition show that our system achieves a
+lower error rate and is more suited to handle noisy and difficult documents

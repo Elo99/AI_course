@@ -1,0 +1,15 @@
+Unconstrained handwritten text recognition remains an important challenge for
+deep neural networks. These last years, recurrent networks and more
+specifically Long Short-Term Memory networks have achieved state-of-the-art
+performance in this field. Nevertheless, they are made of a large number of
+trainable parameters and training recurrent neural networks does not support
+parallelism. This has a direct influence on the training time of such
+architectures, with also a direct consequence on the time required to explore
+various architectures. Recently, recurrence-free architectures such as Fully
+Convolutional Networks with gated mechanisms have been proposed as one possible
+alternative achieving competitive results. In this paper, we explore
+convolutional architectures and compare them to a CNN+BLSTM baseline. We
+propose an experimental study regarding different architectures on an offline
+handwriting recognition task using the RIMES dataset, and a modified version of
+it that consists of augmenting the images with notebook backgrounds that are
+printed grids.

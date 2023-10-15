@@ -1,0 +1,17 @@
+In this paper, a deep learning-based model for 3D human motion generation
+from the text is proposed via gesture action classification and an
+autoregressive model. The model focuses on generating special gestures that
+express human thinking, such as waving and nodding. To achieve the goal, the
+proposed method predicts expression from the sentences using a text
+classification model based on a pretrained language model and generates
+gestures using the gate recurrent unit-based autoregressive model. Especially,
+we proposed the loss for the embedding space for restoring raw motions and
+generating intermediate motions well. Moreover, the novel data augmentation
+method and stop token are proposed to generate variable length motions. To
+evaluate the text classification model and 3D human motion generation model, a
+gesture action classification dataset and action-based gesture dataset are
+collected. With several experiments, the proposed method successfully generates
+perceptually natural and realistic 3D human motion from the text. Moreover, we
+verified the effectiveness of the proposed method using a public-available
+action recognition dataset to evaluate cross-dataset generalization
+performance.

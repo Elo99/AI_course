@@ -1,0 +1,19 @@
+Automatically summarizing patients' main problems from daily progress notes
+using natural language processing methods helps to battle against information
+and cognitive overload in hospital settings and potentially assists providers
+with computerized diagnostic decision support. Problem list summarization
+requires a model to understand, abstract, and generate clinical documentation.
+In this work, we propose a new NLP task that aims to generate a list of
+problems in a patient's daily care plan using input from the provider's
+progress notes during hospitalization. We investigate the performance of T5 and
+BART, two state-of-the-art seq2seq transformer architectures, in solving this
+problem. We provide a corpus built on top of progress notes from publicly
+available electronic health record progress notes in the Medical Information
+Mart for Intensive Care (MIMIC)-III. T5 and BART are trained on general domain
+text, and we experiment with a data augmentation method and a domain adaptation
+pre-training method to increase exposure to medical vocabulary and knowledge.
+Evaluation methods include ROUGE, BERTScore, cosine similarity on sentence
+embedding, and F-score on medical concepts. Results show that T5 with domain
+adaptive pre-training achieves significant performance gains compared to a
+rule-based system and general domain pre-trained language models, indicating a
+promising direction for tackling the problem summarization task.

@@ -1,0 +1,13 @@
+Pointer-generator network is an extremely popular method of text
+summarization. More recent works in this domain still build on top of the
+baseline pointer generator by augmenting a content selection phase, or by
+decomposing the decoder into a contextual network and a language model.
+However, all such models that are based on the pointer-generator base
+architecture cannot generate novel words in the summary and mostly copy words
+from the source text. In our work, we first thoroughly investigate why the
+pointer-generator network is unable to generate novel words, and then address
+that by adding an Out-of-vocabulary (OOV) penalty. This enables us to improve
+the amount of novelty/abstraction significantly. We use normalized n-gram
+novelty scores as a metric for determining the level of abstraction. Moreover,
+we also report rouge scores of our model since most summarization models are
+evaluated with R-1, R-2, R-L scores.

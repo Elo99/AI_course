@@ -1,0 +1,9 @@
+Scene text recognition has made significant progress in recent years and has
+become an important part of the work-flow. The widespread use of mobile devices
+opens up wide possibilities for using OCR technologies in everyday life.
+However, lack of training data for new research in this area remains relevant.
+In this article, we present a new dataset consisting of real shots on
+smartphones and demonstrate the effectiveness of profile normalization in this
+task. In addition, the influence of various augmentations during the training
+of models for analyzing document images on smartphones is studied in detail.
+Our dataset is publicly available.

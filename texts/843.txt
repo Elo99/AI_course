@@ -1,0 +1,12 @@
+The advent of personalized reality has arrived. Rapid development in AR/MR/VR
+enables users to augment or diminish their perception of the physical world.
+Robust tooling for digital interface modification enables users to change how
+their software operates. As digital realities become an increasingly-impactful
+aspect of human lives, we investigate the design of a system that enables users
+to manipulate the perception of both their physical realities and digital
+realities. Users can inspect their view history from either reality, and
+generate interventions that can be interoperably rendered cross-reality in
+real-time. Personalized interventions can be generated with mask, text, and
+model hooks. Collaboration between users scales the availability of
+interventions. We verify our implementation against our design requirements
+with cognitive walkthroughs, personas, and scalability tests.

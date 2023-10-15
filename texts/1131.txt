@@ -1,0 +1,13 @@
+A new framework of loop quantization that assimilates conformal and scale
+invariance is constructed and is found to be applicable to a large class of
+physically important theories of gravity and gravity-matter systems. They
+include general relativity and scale-invariant scalar-tensor and dilaton
+theories. Consequently, matter to be coupled to such theories is restricted to
+be conformal or scale invariant. Standard model-type systems naturally fall
+into this category. The new loop quantization follows from a novel conformally
+generalized Holst action principle. In contrast to standard loop quantum
+gravity, the resulting quantum geometry is not beset by the Immirzi ambiguity
+and has no definitive area gaps within the considered large class of theories
+of gravitation. As an additional feature, the scale invariance gives rise to a
+conserved Weyl current and we discuss briefly its possible implication on the
+problem of time in quantum gravity.

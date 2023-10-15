@@ -1,0 +1,21 @@
+The security of the Person Re-identification(ReID) model plays a decisive
+role in the application of ReID. However, deep neural networks have been shown
+to be vulnerable, and adding undetectable adversarial perturbations to clean
+images can trick deep neural networks that perform well in clean images. We
+propose a ReID multi-modal data augmentation method with adversarial defense
+effect: 1) Grayscale Patch Replacement, it consists of Local Grayscale Patch
+Replacement(LGPR) and Global Grayscale Patch Replacement(GGPR). This method can
+not only improve the accuracy of the model, but also help the model defend
+against adversarial examples; 2) Multi-Modal Defense, it integrates three
+homogeneous modal images of visible, grayscale and sketch, and further
+strengthens the defense ability of the model. These methods fuse different
+modalities of homogeneous images to enrich the input sample variety, the
+variaty of samples will reduce the over-fitting of the ReID model to color
+variations and make the adversarial space of the dataset that the attack method
+can find difficult to align, thus the accuracy of model is improved, and the
+attack effect is greatly reduced. The more modal homogeneous images are fused,
+the stronger the defense capabilities is . The proposed method performs well on
+multiple datasets, and successfully defends the attack of MS-SSIM proposed by
+CVPR2020 against ReID [10], and increases the accuracy by 467 times(0.2% to
+93.3%).The code is available at
+https://github.com/finger-monkey/ReID_Adversarial_Defense.

@@ -1,0 +1,14 @@
+Speech translation (ST) is the task of directly translating acoustic speech
+signals in a source language into text in a foreign language. ST task has been
+addressed, for a long time, using a pipeline approach with two modules : first
+an Automatic Speech Recognition (ASR) in the source language followed by a
+text-to-text Machine translation (MT). In the past few years, we have seen a
+paradigm shift towards the end-to-end approaches using sequence-to-sequence
+deep neural network models. This paper presents our efforts towards the
+development of the first Broadcast News end-to-end Arabic to English speech
+translation system. Starting from independent ASR and MT LDC releases, we were
+able to identify about 92 hours of Arabic audio recordings for which the manual
+transcription was also translated into English at the segment level. These data
+was used to train and compare pipeline and end-to-end speech translation
+systems under multiple scenarios including transfer learning and data
+augmentation techniques.

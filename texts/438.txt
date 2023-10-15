@@ -1,0 +1,12 @@
+As a major social media platform, Twitter publishes a large number of
+user-generated text (tweets) on a daily basis. Mining such data can be used to
+address important social, public health, and emergency management issues that
+are infeasible through other means. An essential step in many text mining
+pipelines is named entity recognition (NER), which presents some special
+challenges for tweet data. Among them are nonstandard expressions, extreme
+imbalanced classes, and lack of context information, etc. The track 3 of
+BioCreative challenge VII (BC7) was organized to evaluate methods for detecting
+medication mentions in tweets. In this paper, we report our work on BC7 track
+3, where we explored a PubMedBERT-based classifier trained with a combination
+of multiple data augmentation approaches. Our method achieved an F1 score of
+0.762, which is substantially higher than the mean of all submissions (0.696).

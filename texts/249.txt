@@ -1,0 +1,17 @@
+As a challenging task, text-to-image generation aims to generate
+photo-realistic and semantically consistent images according to the given text
+descriptions. Existing methods mainly extract the text information from only
+one sentence to represent an image and the text representation effects the
+quality of the generated image well. However, directly utilizing the limited
+information in one sentence misses some key attribute descriptions, which are
+the crucial factors to describe an image accurately. To alleviate the above
+problem, we propose an effective text representation method with the
+complements of attribute information. Firstly, we construct an attribute memory
+to jointly control the text-to-image generation with sentence input. Secondly,
+we explore two update mechanisms, sample-aware and sample-joint mechanisms, to
+dynamically optimize a generalized attribute memory. Furthermore, we design an
+attribute-sentence-joint conditional generator learning scheme to align the
+feature embeddings among multiple representations, which promotes the
+cross-modal network training. Experimental results illustrate that the proposed
+method obtains substantial performance improvements on both the CUB (FID from
+14.81 to 8.57) and COCO (FID from 21.42 to 12.39) datasets.

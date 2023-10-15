@@ -1,0 +1,16 @@
+Recently, domain-specific PLMs have been proposed to boost the task
+performance of specific domains (e.g., biomedical and computer science) by
+continuing to pre-train general PLMs with domain-specific corpora. However,
+this Domain-Adaptive Pre-Training (DAPT; Gururangan et al. (2020)) tends to
+forget the previous general knowledge acquired by general PLMs, which leads to
+a catastrophic forgetting phenomenon and sub-optimal performance. To alleviate
+this problem, we propose a new framework of General Memory Augmented
+Pre-trained Language Model (G-MAP), which augments the domain-specific PLM by a
+memory representation built from the frozen general PLM without losing any
+general knowledge. Specifically, we propose a new memory-augmented layer, and
+based on it, different augmented strategies are explored to build the memory
+representation and then adaptively fuse it into the domain-specific PLM. We
+demonstrate the effectiveness of G-MAP on various domains (biomedical and
+computer science publications, news, and reviews) and different kinds (text
+classification, QA, NER) of tasks, and the extensive results show that the
+proposed G-MAP can achieve SOTA results on all tasks.

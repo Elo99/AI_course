@@ -1,0 +1,17 @@
+In this paper, we present CrudeOilNews, a corpus of English Crude Oil news
+for event extraction. It is the first of its kind for Commodity News and serve
+to contribute towards resource building for economic and financial text mining.
+This paper describes the data collection process, the annotation methodology
+and the event typology used in producing the corpus. Firstly, a seed set of 175
+news articles were manually annotated, of which a subset of 25 news were used
+as the adjudicated reference test set for inter-annotator and system
+evaluation. Agreement was generally substantial and annotator performance was
+adequate, indicating that the annotation scheme produces consistent event
+annotations of high quality. Subsequently the dataset is expanded through (1)
+data augmentation and (2) Human-in-the-loop active learning. The resulting
+corpus has 425 news articles with approximately 11k events annotated. As part
+of active learning process, the corpus was used to train basic event extraction
+models for machine labeling, the resulting models also serve as a validation or
+as a pilot study demonstrating the use of the corpus in machine learning
+purposes. The annotated corpus is made available for academic research purpose
+at https://github.com/meisin/CrudeOilNews-Corpus.

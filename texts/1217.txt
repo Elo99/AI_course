@@ -1,0 +1,15 @@
+Neural machine translation systems typically are trained on curated corpora
+and break when faced with non-standard orthography or punctuation. Resilience
+to spelling mistakes and typos, however, is crucial as machine translation
+systems are used to translate texts of informal origins, such as chat
+conversations, social media posts and web pages. We propose a simple generative
+noise model to generate adversarial examples of ten different types. We use
+these to augment machine translation systems' training data and show that, when
+tested on noisy data, systems trained using adversarial examples perform almost
+as well as when translating clean data, while baseline systems' performance
+drops by 2-3 BLEU points. To measure the robustness and noise invariance of
+machine translation systems' outputs, we use the average translation edit rate
+between the translation of the original sentence and its noised variants. Using
+this measure, we show that systems trained on adversarial examples on average
+yield 50% consistency improvements when compared to baselines trained on clean
+data.

@@ -1,0 +1,23 @@
+Automatically learned vector representations of words, also known as "word
+embeddings", are becoming a basic building block for more and more natural
+language processing algorithms. There are different ways and tools for
+constructing word embeddings. Most of the approaches rely on raw texts, the
+construction items being the word occurrences and/or letter n-grams. More
+elaborated research is using additional linguistic features extracted after
+text preprocessing. Morphology is clearly served by vector representations
+constructed from raw texts and letter n-grams. Syntax and semantics studies may
+profit more from the vector representations constructed with additional
+features such as lemma, part-of-speech, syntactic or semantic dependants
+associated with each word. One of the key objectives of the ReTeRom project is
+the development of advanced technologies for Romanian natural language
+processing, including morphological, syntactic and semantic analysis of text.
+As such, we plan to develop an open-access large library of ready-to-use word
+embeddings sets, each set being characterized by different parameters: used
+features (wordforms, letter n-grams, lemmas, POSes etc.), vector lengths,
+window/context size and frequency thresholds. To this end, the previously
+created sets of word embeddings (based on word occurrences) on the CoRoLa
+corpus (P\u{a}i\c{s} and Tufi\c{s}, 2018) are and will be further augmented
+with new representations learned from the same corpus by using specific
+features such as lemmas and parts of speech. Furthermore, in order to better
+understand and explore the vectors, graphical representations will be available
+by customized interfaces.

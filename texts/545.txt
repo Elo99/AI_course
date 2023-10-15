@@ -1,0 +1,13 @@
+This work examines the vulnerability of multimodal (image + text) models to
+adversarial threats similar to those discussed in previous literature on
+unimodal (image- or text-only) models. We introduce realistic assumptions of
+partial model knowledge and access, and discuss how these assumptions differ
+from the standard "black-box"/"white-box" dichotomy common in current
+literature on adversarial attacks. Working under various levels of these
+"gray-box" assumptions, we develop new attack methodologies unique to
+multimodal classification and evaluate them on the Hateful Memes Challenge
+classification task. We find that attacking multiple modalities yields stronger
+attacks than unimodal attacks alone (inducing errors in up to 73% of cases),
+and that the unimodal image attacks on multimodal classifiers we explored were
+stronger than character-based text augmentation attacks (inducing errors on
+average in 45% and 30% of cases, respectively).

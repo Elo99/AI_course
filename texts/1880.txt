@@ -1,0 +1,9 @@
+For semi-supervised learning on graphs, we study how initial kernels in a
+supervised learning regime can be augmented with additional information from
+known priors or from unsupervised learning outputs. These augmented kernels are
+constructed in a simple update scheme based on the Schur-Hadamard product of
+the kernel with additional feature kernels. As generators of the positive
+definite kernels we will focus on graph basis functions (GBF) that allow to
+include geometric information of the graph via the graph Fourier transform.
+Using a regularized least squares (RLS) approach for machine learning, we will
+test the derived augmented kernels for the classification of data on graphs.

@@ -1,0 +1,13 @@
+The availability of data in expressive styles across languages is limited,
+and recording sessions are costly and time consuming. To overcome these issues,
+we demonstrate how to build low-resource, neural text-to-speech (TTS) voices
+with only 1 hour of conversational speech, when no other conversational data
+are available in the same language. Assuming the availability of non-expressive
+speech data in that language, we propose a 3-step technology: 1) we train an
+F0-conditioned voice conversion (VC) model as data augmentation technique; 2)
+we train an F0 predictor to control the conversational flavour of the
+voice-converted synthetic data; 3) we train a TTS system that consumes the
+augmented data. We prove that our technology enables F0 controllability, is
+scalable across speakers and languages and is competitive in terms of
+naturalness over a state-of-the-art baseline model, another augmented method
+which does not make use of F0 information.

@@ -1,0 +1,17 @@
+Channel puncturing transforms a multiple-input multiple-output (MIMO) channel
+into a sparse lower-triangular form using the so-called WL decomposition scheme
+in order to reduce tree-based detection complexity. We propose computationally
+efficient soft-output detectors based on two forms of channel puncturing:
+augmented and two-sided. The augmented WL detector (AWLD) employs a punctured
+channel derived by triangularizing the true channel in augmented form, followed
+by leftsided Gaussian elimination. The two-sided WL detector (dubbed WLZ)
+employs right-sided reduction and left-sided elimination to puncture the
+channel. We prove that augmented channel puncturing is optimal in maximizing
+the lower-bound on the achievable information rate (AIR) based on a new
+mismatched detection model. We show that the AWLD decomposes into an MMSE
+prefilter and channel gain compensation stages, followed by a regular WL
+detector (WLD) that computes least-squares softdecision estimates. Similarly,
+WLZ decomposes into a pre-processing reduction step followed by WLD. AWLD
+attains the same performance as the existing AIR-based partial marginalization
+(PM) detector, but with less computational complexity. We empirically show that
+WLZ attains the best complexityperformance tradeoff among tree-based detectors.

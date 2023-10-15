@@ -1,0 +1,4 @@
+In this paper, we present Tate's theory of augmented cup products in
+profinite cohomology in a modern constructive style. As an application, we
+interpret pairings between groups associated to curves constructed by
+Lichtenbaum, in terms of augmented cup products.

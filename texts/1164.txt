@@ -1,0 +1,14 @@
+This paper addresses the problem of comprehending procedural commonsense
+knowledge. This is a challenging task as it requires identifying key entities,
+keeping track of their state changes, and understanding temporal and causal
+relations. Contrary to most of the previous work, in this study, we do not rely
+on strong inductive bias and explore the question of how multimodality can be
+exploited to provide a complementary semantic signal. Towards this end, we
+introduce a new entity-aware neural comprehension model augmented with external
+relational memory units. Our model learns to dynamically update entity states
+in relation to each other while reading the text instructions. Our experimental
+analysis on the visual reasoning tasks in the recently proposed RecipeQA
+dataset reveals that our approach improves the accuracy of the previously
+reported models by a large margin. Moreover, we find that our model learns
+effective dynamic representations of entities even though we do not use any
+supervision at the level of entity states.

@@ -1,0 +1,10 @@
+With a sharp rise in fluency and users of "Hinglish" in linguistically
+diverse country, India, it has increasingly become important to analyze social
+content written in this language in platforms such as Twitter, Reddit,
+Facebook. This project focuses on using deep learning techniques to tackle a
+classification problem in categorizing social content written in Hindi-English
+into Abusive, Hate-Inducing and Not offensive categories. We utilize
+bi-directional sequence models with easy text augmentation techniques such as
+synonym replacement, random insertion, random swap, and random deletion to
+produce a state of the art classifier that outperforms the previous work done
+on analyzing this dataset.

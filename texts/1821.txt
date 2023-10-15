@@ -1,0 +1,13 @@
+Data augmentation is a technique to improve the generalization ability of
+machine learning methods by increasing the size of the dataset. However, since
+every augmentation method is not equally effective for every dataset, you need
+to select an appropriate method carefully. We propose a neural network that
+dynamically selects the best combination of data augmentation methods using a
+mutually beneficial gating network and a feature consistency loss. The gating
+network is able to control how much of each data augmentation is used for the
+representation within the network. The feature consistency loss gives a
+constraint that augmented features from the same input should be in similar. In
+experiments, we demonstrate the effectiveness of the proposed method on the 12
+largest time-series datasets from 2018 UCR Time Series Archive and reveal the
+relationships between the data augmentation methods through analysis of the
+proposed method.

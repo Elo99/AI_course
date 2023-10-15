@@ -1,0 +1,16 @@
+Building Automatic Speech Recognition (ASR) systems for code-switched speech
+has recently gained renewed attention due to the widespread use of speech
+technologies in multilingual communities worldwide. End-to-end ASR systems are
+a natural modeling choice due to their ease of use and superior performance in
+monolingual settings. However, it is well known that end-to-end systems require
+large amounts of labeled speech. In this work, we investigate improving
+code-switched ASR in low resource settings via data augmentation using
+code-switched text-to-speech (TTS) synthesis. We propose two targeted
+techniques to effectively leverage TTS speech samples: 1) Mixup, an existing
+technique to create new training samples via linear interpolation of existing
+samples, applied to TTS and real speech samples, and 2) a new loss function,
+used in conjunction with TTS samples, to encourage code-switched predictions.
+We report significant improvements in ASR performance achieving absolute word
+error rate (WER) reductions of up to 5%, and measurable improvement in code
+switching using our proposed techniques on a Hindi-English code-switched ASR
+task.

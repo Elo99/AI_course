@@ -1,0 +1,6 @@
+We present a self-contained system for constructing natural language models
+for use in text compression. Our system improves upon previous neural network
+based models by utilizing recent advances in syntactic parsing -- Google's
+SyntaxNet -- to augment character-level recurrent neural networks. RNNs have
+proven exceptional in modeling sequence data such as text, as their
+architecture allows for modeling of long-term contextual information.

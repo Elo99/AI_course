@@ -1,0 +1,11 @@
+Data augmentation (DA) is fundamental against overfitting in large
+convolutional neural networks, especially with a limited training dataset. In
+images, DA is usually based on heuristic transformations, like geometric or
+color transformations. Instead of using predefined transformations, our work
+learns data augmentation directly from the training data by learning to
+transform images with an encoder-decoder architecture combined with a spatial
+transformer network. The transformed images still belong to the same class but
+are new, more complex samples for the classifier. Our experiments show that our
+approach is better than previous generative data augmentation methods, and
+comparable to predefined transformation methods when training an image
+classifier.

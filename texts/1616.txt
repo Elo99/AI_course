@@ -1,0 +1,17 @@
+Free energy perturbation (FEP) was proposed by Zwanzig more than six decades
+ago as a method to estimate free energy differences, and has since inspired a
+huge body of related methods that use it as an integral building block. Being
+an importance sampling based estimator, however, FEP suffers from a severe
+limitation: the requirement of sufficient overlap between distributions. One
+strategy to mitigate this problem, called Targeted Free Energy Perturbation,
+uses a high-dimensional mapping in configuration space to increase overlap of
+the underlying distributions. Despite its potential, this method has attracted
+only limited attention due to the formidable challenge of formulating a
+tractable mapping. Here, we cast Targeted FEP as a machine learning problem in
+which the mapping is parameterized as a neural network that is optimized so as
+to increase overlap. We develop a new model architecture that respects
+permutational and periodic symmetries often encountered in atomistic
+simulations and test our method on a fully-periodic solvation system. We
+demonstrate that our method leads to a substantial variance reduction in free
+energy estimates when compared against baselines, without requiring any
+additional data.

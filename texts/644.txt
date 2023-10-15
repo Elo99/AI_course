@@ -1,0 +1,18 @@
+The inception of modeling contextual information using models such as BERT,
+ELMo, and Flair has significantly improved representation learning for words.
+It has also given SOTA results in almost every NLP task - Machine Translation,
+Text Summarization and Named Entity Recognition, to name a few. In this work,
+in addition to using these dominant context-aware representations, we propose a
+Knowledge Aware Representation Learning (KARL) Network for Named Entity
+Recognition (NER). We discuss the challenges of using existing methods in
+incorporating world knowledge for NER and show how our proposed methods could
+be leveraged to overcome those challenges. KARL is based on a Transformer
+Encoder that utilizes large knowledge bases represented as fact triplets,
+converts them to a graph context, and extracts essential entity information
+residing inside to generate contextualized triplet representation for feature
+augmentation. Experimental results show that the augmentation done using KARL
+can considerably boost the performance of our NER system and achieve
+significantly better results than existing approaches in the literature on
+three publicly available NER datasets, namely CoNLL 2003, CoNLL++, and
+OntoNotes v5. We also observe better generalization and application to a
+real-world setting from KARL on unseen entities.

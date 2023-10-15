@@ -1,0 +1,19 @@
+A unifying graph theoretic framework for the modelling of metro
+transportation networks is proposed. This is achieved by first introducing a
+basic graph framework for the modelling of the London underground system from a
+diffusion law point of view. This forms a basis for the analysis of both
+station importance and their vulnerability, whereby the concept of graph vertex
+centrality plays a key role. We next explore k-edge augmentation of a graph
+topology, and illustrate its usefulness both for improving the network
+robustness and as a planning tool. Upon establishing the graph theoretic
+attributes of the underlying graph topology, we proceed to introduce models for
+processing data on such a metro graph. Commuter movement is shown to obey the
+Fick's law of diffusion, where the graph Laplacian provides an analytical model
+for the diffusion process of commuter population dynamics. Finally, we also
+explore the application of modern deep learning models, such as graph neural
+networks and hyper-graph neural networks, as general purpose models for the
+modelling and forecasting of underground data, especially in the context of the
+morning and evening rush hours. Comprehensive simulations including the
+passenger in- and out-flows during the morning rush hour in London demonstrates
+the advantages of the graph models in metro planning and traffic management, a
+formal mathematical approach with wide economic implications.

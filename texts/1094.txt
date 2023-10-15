@@ -1,0 +1,13 @@
+NASA and other astrophysical data of the Cassiopeia A supernova remnant have
+been rendered into a three-dimensional virtual reality (VR) and augmented
+reality (AR) program, the first of its kind. This data-driven experience of a
+supernova remnant allows viewers to walk inside the leftovers from the
+explosion of a massive star, select the parts of the supernova remnant to
+engage with, and access descriptive texts on what the materials are. The basis
+of this program is a unique 3D model of the 340-year old remains of a stellar
+explosion, made by combining data from the NASA Chandra X-ray Observatory,
+Spitzer Space Telescope, and ground-based facilities. A collaboration between
+the Smithsonian Astrophysical Observatory and Brown University allowed the 3D
+astronomical data collected on Cassiopeia A to be featured in the VR/AR
+program, which is an innovation in digital technologies with public, education,
+and research-based impacts.

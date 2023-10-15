@@ -1,0 +1,16 @@
+Acoustic environments affect acoustic characteristics of sound to be
+recognized by physically interacting with sound wave propagation. Thus,
+training acoustic models for audio and speech tasks requires regularization on
+various acoustic environments in order to achieve robust performance in real
+life applications. We propose FilterAugment, a data augmentation method for
+regularization of acoustic models on various acoustic environments.
+FilterAugment mimics acoustic filters by applying different weights on
+frequency bands, therefore enables model to extract relevant information from
+wider frequency region. It is an improved version of frequency masking which
+masks information on random frequency bands. FilterAugment improved sound event
+detection (SED) model performance by 6.50% while frequency masking only
+improved 2.13% in terms of polyphonic sound detection score (PSDS). It achieved
+equal error rate (EER) of 1.22% when applied to a text-independent speaker
+verification model, outperforming model used frequency masking with EER of
+1.26%. Prototype of FilterAugment was applied in our participation in DCASE
+2021 challenge task 4, and played a major role in achieving the 3rd rank.

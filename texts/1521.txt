@@ -1,0 +1,21 @@
+The purpose of the study is to justify the expediency of using the Blippar
+augmented reality browser for professional and practical training of future
+mechanical engineers. Tasks of the research: to analyze the expediency of using
+augmented reality tools in the professional training of bachelors of applied
+mechanics; to carry out the selection of augmented reality tools, which is
+expedient to use in the training of future engineer mechanics; to develop
+educational materials using the chosen augmented reality tools. The object of
+the study is the professional training of future mechanical engineers. The
+subject of the study is the use of the augmented reality tools in the
+professional training of bachelors of applied mechanics. The paper analyzes the
+relevance and expediency of the use of the augmented reality tools in the
+professional training of future mechanical engineers. It is determined that the
+augmented reality tools will promote the development of ICT competence and
+graphic competence of bachelors of applied mechanics The model of the use of
+the augmented reality tools in the training of future mechanical engineers is
+proposed. As the main tool, the Blippar browser and Blippbuilder's cloud-based
+script development tool are chosen. An example of the creation of markers and
+scenes of augmented reality using the selected tools is given. The advantages
+and disadvantages of used tools are indicated. The proposed learning tools and
+methods can be applied to vocational and practical training of mechanical
+engineers.

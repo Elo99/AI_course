@@ -1,0 +1,22 @@
+The increasing population of elderly people is associated with the need to
+meet their increasing requirements and to provide solutions that can improve
+their quality of life in a smart home. In addition to fear and anxiety towards
+interfacing with systems; cognitive disabilities, weakened memory, disorganized
+behavior and even physical limitations are some of the problems that elderly
+people tend to face with increasing age. The essence of providing
+technology-based solutions to address these needs of elderly people and to
+create smart and assisted living spaces for the elderly; lies in developing
+systems that can adapt by addressing their diversity and can augment their
+performances in the context of their day to day goals. Therefore, this work
+proposes a framework for development of a Personalized Intelligent Assistant to
+help elderly people perform Activities of Daily Living (ADLs) in a smart and
+connected Internet of Things (IoT) based environment. This Personalized
+Intelligent Assistant can analyze different tasks performed by the user and
+recommend activities by considering their daily routine, current affective
+state and the underlining user experience. To uphold the efficacy of this
+proposed framework, it has been tested on a couple of datasets for modelling an
+average user and a specific user respectively. The results presented show that
+the model achieves a performance accuracy of 73.12% when modelling a specific
+user, which is considerably higher than its performance while modelling an
+average user, this upholds the relevance for development and implementation of
+this proposed framework.

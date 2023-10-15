@@ -1,0 +1,14 @@
+We propose a new estimator for the average causal effects of a binary
+treatment with panel data in settings with general treatment patterns. Our
+approach augments the two-way-fixed-effects specification with the
+unit-specific weights that arise from a model for the assignment mechanism. We
+show how to construct these weights in various settings, including situations
+where units opt into the treatment sequentially. The resulting estimator
+converges to an average (over units and time) treatment effect under the
+correct specification of the assignment model. We show that our estimator is
+more robust than the conventional two-way estimator: it remains consistent if
+either the assignment mechanism or the two-way regression model is correctly
+specified and performs better than the two-way-fixed-effect estimator if both
+are locally misspecified. This strong double robustness property quantifies the
+benefits from modeling the assignment process and motivates using our estimator
+in practice.

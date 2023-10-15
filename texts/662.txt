@@ -1,0 +1,14 @@
+Unmanned aerial vehicles (UAVs) equipped with multiple complementary sensors
+have tremendous potential for fast autonomous or remote-controlled semantic
+scene analysis, e.g., for disaster examination. Here, we propose a UAV system
+for real-time semantic inference and fusion of multiple sensor modalities.
+Semantic segmentation of LiDAR scans and RGB images, as well as object
+detection on RGB and thermal images, run online onboard the UAV computer using
+lightweight CNN architectures and embedded inference accelerators. We follow a
+late fusion approach where semantic information from multiple sensor modalities
+augments 3D point clouds and image segmentation masks while also generating an
+allocentric semantic map. Label propagation on the semantic map allows for
+sensor-specific adaptation with cross-modality and cross-domain supervision.
+Our system provides augmented semantic images and point clouds with $\approx$ 9
+Hz. We evaluate the integrated system in real-world experiments in an urban
+environment and at a disaster test site.

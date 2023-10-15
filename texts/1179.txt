@@ -1,0 +1,15 @@
+This work-in-progress paper proposes a framework to generate and measure
+personalized patent claims. The objective is to help inventors conceive better
+inventions by learning from relevant inventors. Patent claim generation is a
+way of "augmented inventing." for inventors. Such patent claim generation
+leverages the recent transfer learning in the Deep Learning field, particularly
+the state-of-the-art Transformer-based models. In terms of system
+implementa-tion, it is planned to build an "auto-complete" function for patent
+claim drafting. The auto-complete function is analyzed from four different
+perspectives: extent of generation, generative direction, proximity of
+generation, and constraint in generation. Technically, the framework is
+composed of two Transformer models. One is for text generation and the other is
+for quality measurement. Specifically, the patent claim generation is based on
+GPT-2 model and the measurement of personalization is based on BERT model. The
+training data is inventor-centric and comes from the Inventors Endpoint API
+provided by the USPTO.

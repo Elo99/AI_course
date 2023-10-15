@@ -1,0 +1,11 @@
+A possibility of explaining the anomalies in the semileptonic $B$-meson decay
+$B \to K^{*} \mu \bar\mu$ has been explored in the framework of the gauged
+$U(1)_{\mu-\tau}$ symmetry. Apart from the muon anomalous magnetic moment and
+neutrino sector, we formulate the model starting with a valid Lagrangian and
+consider the constraints from the neutral meson mixings, the bounds on direct
+detection and the relic density of the bosonic dark matter candidate augmented
+to collider constraints. We search the parameter space, which accommodates the
+size of the anomaly of the $B \rightarrow K^* \mu \bar \mu$ decay, to satisfy
+all experimental constraints. We found the allowed region on the plane of the
+dark matter and $Z'$ masses is a rather narrow compared to the previous
+analysis.

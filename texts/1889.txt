@@ -1,0 +1,11 @@
+Internet of Things (IoT) technology has delivered new enablers for improving
+human abilities. These enablers promise an enhanced quality of life and
+professional efficiency; however, the synthesis of IoT and human augmentation
+technologies has also extended IoT-related challenges far beyond the current
+scope. These potential challenges associated with IoT-empowered Augmented Human
+(AH) have so far not been well-investigated. Thus, this article attempts to
+introduce readers to AH concept as well as summarize notable research
+challenges raised by such systems, in order to facilitate reader's further
+interest in this topic. The article considers emerging IoT applications for
+human augmentation, devices and design principles, connectivity demands, and
+security aspects.

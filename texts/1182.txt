@@ -1,0 +1,13 @@
+We analyze the vacuum stability in the inert Higgs doublet extension of the
+Standard Model (SM), augmented by right-handed neutrinos (RHNs) to explain
+neutrino masses at tree level by the seesaw mechanism. We make a comparative
+study of the high- and low-scale seesaw scenarios and the effect of the Dirac
+neutrino Yukawa couplings on the stability of the Higgs potential. Bounds on
+the scalar quartic couplings and Dirac Yukawa couplings are obtained from
+vacuum stability and perturbativity considerations. The regions corresponding
+to stability, metastability and instability of the electroweak vacuum are
+identified. These theoretical constraints give a very predictive parameter
+space for the couplings and masses of the new scalars and RHNs which can be
+tested at the LHC and future colliders. The lightest non-SM neutral CP-even/odd
+scalar can be a good dark matter candidate and the corresponding collider
+signatures are also predicted for the model.

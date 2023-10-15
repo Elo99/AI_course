@@ -1,0 +1,20 @@
+The goal of the Acoustic Question Answering (AQA) task is to answer a
+free-form text question about the content of an acoustic scene. It was inspired
+by the Visual Question Answering (VQA) task. In this paper, based on the
+previously introduced CLEAR dataset, we propose a new benchmark for AQA, namely
+CLEAR2, that emphasizes the specific challenges of acoustic inputs. These
+include handling of variable duration scenes, and scenes built with elementary
+sounds that differ between training and test set. We also introduce NAAQA, a
+neural architecture that leverages specific properties of acoustic inputs. The
+use of 1D convolutions in time and frequency to process 2D spectro-temporal
+representations of acoustic content shows promising results and enables
+reductions in model complexity. We show that time coordinate maps augment
+temporal localization capabilities which enhance performance of the network by
+~17 percentage points. On the other hand, frequency coordinate maps have little
+influence on this task. NAAQA achieves 79.5% of accuracy on the AQA task with
+~4 times fewer parameters than the previously explored VQA model. We evaluate
+the perfomance of NAAQA on an independent data set reconstructed from DAQA. We
+also test the addition of a MALiMo module in our model on both CLEAR2 and DAQA.
+We provide a detailed analysis of the results for the different question types.
+We release the code to produce CLEAR2 as well as NAAQA to foster research in
+this newly emerging machine learning task.

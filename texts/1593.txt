@@ -1,0 +1,21 @@
+Many optical networks face heterogeneous communication requests requiring
+topologies to be efficient and fault tolerant. For efficiency and distributed
+control, it is common in distributed systems and algorithms to group nodes into
+intersecting sets referred to as quorum sets. We show efficiency and
+distributed control can also be accomplished in optical network routing by
+applying the same established quorum set theory. Cycle-based optical network
+routing, whether using SONET rings or p-cycles, provides the sufficient
+reliability in the network. Light-trails forming a cycle allow broadcasts
+within a cycle to be used for efficient multicasts. Cyclic quorum sets also
+have all pairs of nodes occurring in one or more quorums, so efficient,
+arbitrary unicast communication can occur between any two nodes. Efficient
+broadcasts to all network nodes are possible by a node broadcasting to all
+quorum cycles to which it belongs (O(sqrt(N))). In this paper, we propose
+applying the distributed efficiency of the quorum sets to routing optical
+cycles based on light-trails. With this new method of topology construction,
+unicast and multicast communication requests do not need to be known or even
+modeled a priori. Additionally, in the presence of network link faults, greater
+than 99 % average coverage enables the continued operation of nearly all
+arbitrary unicast and multicast requests in the network. Finally, to further
+improve the fault coverage, an augmentation to the ECBRA cycle finding
+algorithm is proposed.

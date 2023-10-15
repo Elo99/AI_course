@@ -1,0 +1,12 @@
+In a pipeline speech translation system, automatic speech recognition (ASR)
+system will transmit errors in recognition to the downstream machine
+translation (MT) system. A standard machine translation system is usually
+trained on parallel corpus composed of clean text and will perform poorly on
+text with recognition noise, a gap well known in speech translation community.
+In this paper, we propose a training architecture which aims at making a neural
+machine translation model more robust against speech recognition errors. Our
+approach addresses the encoder and the decoder simultaneously using adversarial
+learning and data augmentation, respectively. Experimental results on IWSLT2018
+speech translation task show that our approach can bridge the gap between the
+ASR output and the MT input, outperforms the baseline by up to 2.83 BLEU on
+noisy ASR output, while maintaining close performance on clean text.

@@ -1,0 +1,15 @@
+Data augmentation is commonly used to help build a robust speaker
+verification system, especially in limited-resource case. However, conventional
+data augmentation methods usually focus on the diversity of acoustic
+environment, leaving the lexicon variation neglected. For text dependent
+speaker verification tasks, it's well-known that preparing training data with
+the target transcript is the most effectual approach to build a well-performing
+system, however collecting such data is time-consuming and expensive. In this
+work, we propose a unit selection synthesis based data augmentation method to
+leverage the abundant text-independent data resources. In this approach
+text-independent speeches of each speaker are firstly broke up to speech
+segments each contains one phone unit. Then segments that contain phonetics in
+the target transcript are selected to produce a speech with the target
+transcript by concatenating them in turn. Experiments are carried out on the
+AISHELL Speaker Verification Challenge 2019 database, the results and analysis
+shows that our proposed method can boost the system performance significantly.

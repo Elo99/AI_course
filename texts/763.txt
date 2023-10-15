@@ -1,0 +1,6 @@
+The Keiper--Li sequence $\{ \lambda_n \}$ is most sensitive to the Riemann
+Hypothesis asymptotically ($n \to \infty$), but highly elusive both
+analytically and numerically. We deform it to fully explicit sequences, simpler
+to analyze and to compute (up to $n=5 \cdot 10^5$ by G. Misguich). This also
+works on the Davenport--Heilbronn counterexamples, thus we can demonstrate
+explicit tests that selectively react to zeros off the critical line.

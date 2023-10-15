@@ -1,0 +1,16 @@
+Structured (tabular) data in the preclinical and clinical domains contains
+valuable information about individuals and an efficient table-to-text
+summarization system can drastically reduce manual efforts to condense this
+data into reports. However, in practice, the problem is heavily impeded by the
+data paucity, data sparsity and inability of the state-of-the-art natural
+language generation models (including T5, PEGASUS and GPT-Neo) to produce
+accurate and reliable outputs. In this paper, we propose a novel table-to-text
+approach and tackle these problems with a novel two-step architecture which is
+enhanced by auto-correction, copy mechanism and synthetic data augmentation.
+The study shows that the proposed approach selects salient biomedical entities
+and values from structured data with improved precision (up to 0.13 absolute
+increase) of copying the tabular values to generate coherent and accurate text
+for assay validation reports and toxicology reports. Moreover, we also
+demonstrate a light-weight adaptation of the proposed system to new datasets by
+fine-tuning with as little as 40\% training examples. The outputs of our model
+are validated by human experts in the Human-in-the-Loop scenario.

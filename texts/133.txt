@@ -1,0 +1,14 @@
+We present semi-supervised models with data augmentation (SMDA), a
+semi-supervised text classification system to classify interactive affective
+responses. SMDA utilizes recent transformer-based models to encode each
+sentence and employs back translation techniques to paraphrase given sentences
+as augmented data. For labeled sentences, we performed data augmentations to
+uniform the label distributions and computed supervised loss during training
+process. For unlabeled sentences, we explored self-training by regarding
+low-entropy predictions over unlabeled sentences as pseudo labels, assuming
+high-confidence predictions as labeled data for training. We further introduced
+consistency regularization as unsupervised loss after data augmentations on
+unlabeled data, based on the assumption that the model should predict similar
+class distributions with original unlabeled sentences as input and augmented
+sentences as input. Via a set of experiments, we demonstrated that our system
+outperformed baseline models in terms of F1-score and accuracy.

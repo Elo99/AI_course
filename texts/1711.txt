@@ -1,0 +1,23 @@
+With the growing popularity of robotic surgery, education becomes
+increasingly important and urgently needed for the sake of patient safety.
+However, experienced surgeons have limited accessibility due to their busy
+clinical schedule or working in a distant city, thus can hardly provide
+sufficient education resources for novices. Remote mentoring, as an effective
+way, can help solve this problem, but traditional methods are limited to plain
+text, audio, or 2D video, which are not intuitive nor vivid. Augmented reality
+(AR), a thriving technique being widely used for various education scenarios,
+is promising to offer new possibilities of visual experience and interactive
+teaching. In this paper, we propose a novel AR-based robotic surgery remote
+mentoring system with efficient 3D scene visualization and natural 3D hand
+interaction. Using a head-mounted display (i.e., HoloLens), the mentor can
+remotely monitor the procedure streamed from the trainee's operation side. The
+mentor can also provide feedback directly with hand gestures, which is in-turn
+transmitted to the trainee and viewed in surgical console as guidance. We
+comprehensively validate the system on both real surgery stereo videos and
+ex-vivo scenarios of common robotic training tasks (i.e., peg-transfer and
+suturing). Promising results are demonstrated regarding the fidelity of
+streamed scene visualization, the accuracy of feedback with hand interaction,
+and the low-latency of each component in the entire remote mentoring system.
+This work showcases the feasibility of leveraging AR technology for reliable,
+flexible and low-cost solutions to robotic surgical education, and holds great
+potential for clinical applications.

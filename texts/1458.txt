@@ -1,0 +1,26 @@
+In order to guarantee the safety of payload, crew, and structures, ships must
+exhibit good seakeeping, maneuverability, and structural-response performance,
+also when they operate in adverse weather conditions. In this context, the
+availability of forecasting methods to be included within model-predictive
+control approaches may represent a decisive factor. Here, a data-driven and
+equation-free modeling approach for forecasting of trajectories, motions, and
+forces of ships in waves is presented, based on dynamic mode decomposition
+(DMD). DMD is a data-driven modeling method, which provides a linear
+finite-dimensional representation of a possibly nonlinear system dynamics by
+means of a set of modes with associated frequencies. Its use for ship operating
+in waves has been little discussed and a systematic analysis of its forecasting
+capabilities is still needed in this context. Here, a statistical analysis of
+DMD forecasting capabilities is presented for ships in waves, including
+standard and augmented DMD. The statistical assessment uses multiple time
+series, studying the effects of the number of input/output waves, time steps,
+time derivatives, along with the use of time-shifted copies of time series by
+the Hankel matrix. The assessment of the forecasting capabilities is based on
+four metrics: normalized root mean square error, Pearson correlation
+coefficient, average angle measure, and normalized average minimum/maximum
+absolute error. Two test cases are used for the assessment: the course keeping
+of a self-propelled 5415M in irregular stern-quartering waves and the
+turning-circle of a free-running self-propelled KRISO Container Ship in regular
+waves. Results are overall promising and show how state augmentation (using
+from four to eight input waves, up to two time derivatives, and four
+time-shifted copies) improves the DMD forecasting capabilities up to two wave
+encounter periods in ...

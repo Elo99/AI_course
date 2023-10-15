@@ -1,0 +1,26 @@
+Fashion-image editing represents a challenging computer vision task, where
+the goal is to incorporate selected apparel into a given input image. Most
+existing techniques, known as Virtual Try-On methods, deal with this task by
+first selecting an example image of the desired apparel and then transferring
+the clothing onto the target person. Conversely, in this paper, we consider
+editing fashion images with text descriptions. Such an approach has several
+advantages over example-based virtual try-on techniques, e.g.: (i) it does not
+require an image of the target fashion item, and (ii) it allows the expression
+of a wide variety of visual concepts through the use of natural language.
+Existing image-editing methods that work with language inputs are heavily
+constrained by their requirement for training sets with rich attribute
+annotations or they are only able to handle simple text descriptions. We
+address these constraints by proposing a novel text-conditioned editing model,
+called FICE (Fashion Image CLIP Editing), capable of handling a wide variety of
+diverse text descriptions to guide the editing procedure. Specifically with
+FICE, we augment the common GAN inversion process by including semantic,
+pose-related, and image-level constraints when generating images. We leverage
+the capabilities of the CLIP model to enforce the semantics, due to its
+impressive image-text association capabilities. We furthermore propose a
+latent-code regularization technique that provides the means to better control
+the fidelity of the synthesized images. We validate FICE through rigorous
+experiments on a combination of VITON images and Fashion-Gen text descriptions
+and in comparison with several state-of-the-art text-conditioned image editing
+approaches. Experimental results demonstrate FICE generates highly realistic
+fashion images and leads to stronger editing performance than existing
+competing approaches.

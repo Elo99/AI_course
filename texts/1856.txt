@@ -1,0 +1,18 @@
+Image augmentation is a common mechanism to alleviate data scarcity in
+computer vision. Existing image augmentation methods often apply pre-defined
+transformations or mixup to augment the original image, but only locally vary
+the image. This makes them struggle to find a balance between maintaining
+semantic information and improving the diversity of augmented images. In this
+paper, we propose a Semantic-guided Image augmentation method with Pre-trained
+models (SIP). Specifically, SIP constructs prompts with image labels and
+captions to better guide the image-to-image generation process of the
+pre-trained Stable Diffusion model. The semantic information contained in the
+original images can be well preserved, and the augmented images still maintain
+diversity. Experimental results show that SIP can improve two commonly used
+backbones, i.e., ResNet-50 and ViT, by 12.60% and 2.07% on average over seven
+datasets, respectively. Moreover, SIP not only outperforms the best image
+augmentation baseline RandAugment by 4.46% and 1.23% on two backbones, but also
+further improves the performance by integrating naturally with the baseline. A
+detailed analysis of SIP is presented, including the diversity of augmented
+images, an ablation study on textual prompts, and a case study on the generated
+images.

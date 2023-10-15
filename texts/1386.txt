@@ -1,0 +1,12 @@
+The research on text summarization for low-resource Indian languages has been
+limited due to the availability of relevant datasets. This paper presents a
+summary of various deep-learning approaches used for the ILSUM 2022 Indic
+language summarization datasets. The ISUM 2022 dataset consists of news
+articles written in Indian English, Hindi, and Gujarati respectively, and their
+ground-truth summarizations. In our work, we explore different pre-trained
+seq2seq models and fine-tune those with the ILSUM 2022 datasets. In our case,
+the fine-tuned SoTA PEGASUS model worked the best for English, the fine-tuned
+IndicBART model with augmented data for Hindi, and again fine-tuned PEGASUS
+model along with a translation mapping-based approach for Gujarati. Our scores
+on the obtained inferences were evaluated using ROUGE-1, ROUGE-2, and ROUGE-4
+as the evaluation metrics.

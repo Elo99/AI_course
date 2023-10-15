@@ -1,0 +1,14 @@
+In current two-stage neural text-to-speech (TTS) paradigm, it is ideal to
+have a universal neural vocoder, once trained, which is robust to imperfect
+mel-spectrogram predicted from the acoustic model. To this end, we propose
+Robust MelGAN vocoder by solving the original multi-band MelGAN's metallic
+sound problem and increasing its generalization ability. Specifically, we
+introduce a fine-grained network dropout strategy to the generator. With a
+specifically designed over-smooth handler which separates speech signal intro
+periodic and aperiodic components, we only perform network dropout to the
+aperodic components, which alleviates metallic sounding and maintains good
+speaker similarity. To further improve generalization ability, we introduce
+several data augmentation methods to augment fake data in the discriminator,
+including harmonic shift, harmonic noise and phase noise. Experiments show that
+Robust MelGAN can be used as a universal vocoder, significantly improving sound
+quality in TTS systems built on various types of data.

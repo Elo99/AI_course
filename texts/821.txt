@@ -1,0 +1,9 @@
+We motivate and propose a suite of simple but effective improvements for
+concept-to-text generation called SAPPHIRE: Set Augmentation and Post-hoc
+PHrase Infilling and REcombination. We demonstrate their effectiveness on
+generative commonsense reasoning, a.k.a. the CommonGen task, through
+experiments using both BART and T5 models. Through extensive automatic and
+human evaluation, we show that SAPPHIRE noticeably improves model performance.
+An in-depth qualitative analysis illustrates that SAPPHIRE effectively
+addresses many issues of the baseline model generations, including lack of
+commonsense, insufficient specificity, and poor fluency.

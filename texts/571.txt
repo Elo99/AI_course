@@ -1,0 +1,15 @@
+Recent advances in unsupervised representation learning have demonstrated the
+impact of pretraining on large amounts of read speech. We adapt these
+techniques for domain adaptation in low-resource -- both in terms of data and
+compute -- conversational and broadcast domains. Moving beyond CTC, we pretrain
+state-of-the-art Conformer models in an unsupervised manner. While the
+unsupervised approach outperforms traditional semi-supervised training, the
+techniques are complementary. Combining the techniques is a 5% absolute
+improvement in WER, averaged over all conditions, compared to semi-supervised
+training alone. Additional text data is incorporated through external language
+models. By using CTC-based decoding, we are better able to take advantage of
+the additional text data. When used as a transcription model, it allows the
+Conformer model to better incorporate the knowledge from the language model
+through semi-supervised training than shallow fusion. Final performance is an
+additional 2% better absolute when using CTC-based decoding for semi-supervised
+training compared to shallow fusion.

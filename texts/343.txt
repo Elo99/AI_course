@@ -1,0 +1,15 @@
+Short-form digital storytelling has become a popular medium for millions of
+people to express themselves. Traditionally, this medium uses primarily 2D
+media such as text (e.g., memes), images (e.g., Instagram), gifs (e.g., Giphy),
+and videos (e.g., TikTok, Snapchat). To expand the modalities from 2D to 3D
+media, we present SceneAR, a smartphone application for creating sequential
+scene-based micro narratives in augmented reality (AR). What sets SceneAR apart
+from prior work is the ability to share the scene-based stories as AR content
+-- no longer limited to sharing images or videos, these narratives can now be
+experienced in people's own physical environments. Additionally, SceneAR
+affords users the ability to remix AR, empowering them to build-upon others'
+creations collectively. We asked 18 people to use SceneAR in a 3-day study.
+Based on user interviews, analysis of screen recordings, and the stories they
+created, we extracted three themes. From those themes and the study overall, we
+derived six strategies for designers interested in supporting short-form AR
+narratives.

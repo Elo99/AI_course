@@ -1,0 +1,18 @@
+Data scarcity is one of the main issues with the end-to-end approach for
+Speech Translation, as compared to the cascaded one. Although most data
+resources for Speech Translation are originally document-level, they offer a
+sentence-level view, which can be directly used during training. But this
+sentence-level view is single and static, potentially limiting the utility of
+the data. Our proposed data augmentation method SegAugment challenges this idea
+and aims to increase data availability by providing multiple alternative
+sentence-level views of a dataset. Our method heavily relies on an Audio
+Segmentation system to re-segment the speech of each document, after which we
+obtain the target text with alignment methods. The Audio Segmentation system
+can be parameterized with different length constraints, thus giving us access
+to multiple and diverse sentence-level views for each document. Experiments in
+MuST-C show consistent gains across 8 language pairs, with an average increase
+of 2.2 BLEU points, and up to 4.7 BLEU for lower-resource scenarios in mTEDx.
+Additionally, we find that SegAugment is also applicable to purely
+sentence-level data, as in CoVoST, and that it enables Speech Translation
+models to completely close the gap between the gold and automatic segmentation
+at inference time.

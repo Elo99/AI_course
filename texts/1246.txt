@@ -1,0 +1,15 @@
+Unsupervised attributed graph representation learning is challenging since
+both structural and feature information are required to be represented in the
+latent space. Existing methods concentrate on learning latent representation
+via reconstruction tasks, but cannot directly optimize representation and are
+prone to oversmoothing, thus limiting the applications on downstream tasks. To
+alleviate these issues, we propose a novel graph embedding framework named Deep
+Manifold Attributed Graph Embedding (DMAGE). A node-to-node geodesic similarity
+is proposed to compute the inter-node similarity between the data space and the
+latent space and then use Bergman divergence as loss function to minimize the
+difference between them. We then design a new network structure with fewer
+aggregation to alleviate the oversmoothing problem and incorporate graph
+structure augmentation to improve the representation's stability. Our proposed
+DMAGE surpasses state-of-the-art methods by a significant margin on three
+downstream tasks: unsupervised visualization, node clustering, and link
+prediction across four popular datasets.

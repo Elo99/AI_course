@@ -1,0 +1,16 @@
+Computability logic (see http://www.csc.villanova.edu/~japaridz/CL/) is a
+long-term project for redeveloping logic on the basis of a constructive game
+semantics, with games seen as abstract models of interactive computational
+problems. Among the fragments of this logic successfully axiomatized so far is
+CL12 --- a conservative extension of classical first-order logic, whose
+language augments that of classical logic with the so called choice sorts of
+quantifiers and connectives. This system has already found fruitful
+applications as a logical basis for constructive and complexity-oriented
+versions of Peano arithmetic, such as arithmetics for polynomial time
+computability, polynomial space computability, and beyond. The present paper
+introduces a third, indispensable complexity measure for interactive
+computations termed amplitude complexity, and establishes the adequacy of CL12
+with respect to A-amplitude, S-space and T-time computability under certain
+minimal conditions on the triples (A,S,T) of function classes. This result very
+substantially broadens the potential application areas of CL12. The paper is
+self-contained, and targets readers with no prior familiarity with the subject.

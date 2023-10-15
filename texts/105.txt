@@ -1,0 +1,9 @@
+In this paper we study a class of constrained minimax problems. In
+particular, we propose a first-order augmented Lagrangian method for solving
+them, whose subproblems turn out to be a much simpler structured minimax
+problem and are suitably solved by a first-order method recently developed in
+[26] by the authors. Under some suitable assumptions, an \emph{operation
+complexity} of ${\cal O}(\varepsilon^{-4}\log\varepsilon^{-1})$, measured by
+its fundamental operations, is established for the first-order augmented
+Lagrangian method for finding an $\varepsilon$-KKT solution of the constrained
+minimax problems.

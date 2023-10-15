@@ -1,0 +1,17 @@
+Smartphones have recently gained significant popularity in heavy mobile
+processing while users are increasing their expectations toward rich computing
+experience. However, resource limitations and current mobile computing
+advancements hinder this vision. Therefore, resource-intensive application
+execution remains a challenging task in mobile computing that necessitates
+device augmentation. In this article, smartphone augmentation approaches are
+reviewed and classified in two main groups, namely hardware and software.
+Generating high-end hardware is a subset of hardware augmentation approaches,
+whereas conserving local resource and reducing resource requirements approaches
+are grouped under software augmentation methods. Our study advocates that
+consreving smartphones' native resources, which is mainly done via task
+offloading, is more appropriate for already-developed applications than new
+ones, due to costly re-development process. Cloud computing has recently
+obtained momentous ground as one of the major cornerstone technologies in
+augmenting smartphones. We present sample execution model for intensive mobile
+applications and devised taxonomy of augmentation approaches. For better
+comprehension, the results of this study are summarized in a table.

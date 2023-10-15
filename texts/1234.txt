@@ -1,0 +1,16 @@
+As the COVID-19 pandemic aggravated the excessive workload of doctors
+globally, the demand for computer aided methods in medical imaging analysis
+increased even further. Such tools can result in more robust diagnostic
+pipelines which are less prone to human errors. In our paper, we present a deep
+neural network to which we refer to as Attention BCDU-Net, and apply it to the
+task of lung and heart segmentation from chest X-ray (CXR) images, a basic but
+ardous step in the diagnostic pipeline, for instance for the detection of
+cardiomegaly. We show that the fine-tuned model exceeds previous
+state-of-the-art results, reaching $98.1\pm 0.1\%$ Dice score and $95.2\pm
+0.1\%$ IoU score on the dataset of Japanese Society of Radiological Technology
+(JSRT). Besides that, we demonstrate the relative simplicity of the task by
+attaining surprisingly strong results with training sets of size 10 and 20: in
+terms of Dice score, $97.0\pm 0.8\%$ and $97.3\pm 0.5$, respectively, while in
+terms of IoU score, $92.2\pm 1.2\%$ and $93.3\pm 0.4\%$, respectively. To
+achieve these scores, we capitalize on the mixup augmentation technique, which
+yields a remarkable gain above $4\%$ IoU score in the size 10 setup.

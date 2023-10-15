@@ -1,0 +1,22 @@
+Intermetallic compounds Zr7Ni10 and Hf7Ni10 have been studied by perturbed
+angular correlation (PAC) spectroscopy considering the fact that Zr7Ni10 has
+application as hydrogen storage material in fuel cell. In stoichiometric
+Zr7Ni10, the phase Zr2Ni7 is found to be dominant (~38%) while a fraction of
+~25% is found for the Zr7Ni10 phase at room temperature. In this compound, a
+phase due to Zr8Ni21 (~10%) is found from room temperature up to 773 K but,
+this is not found at 873 K and above. In the stoichiometric Hf7Ni10 sample, the
+phase due to Hf7Ni10 is found as a minor phase (~22%) at room temperature. In
+this system, no phase of Hf2Ni7 is observed but, a different phase due to HfNi3
+is found to be dominant (~62%). It is found that the site fraction of Hf7Ni10
+enhances with temperature at the expense of HfNi3 and this phase becomes
+predominant (~57%) at 673 K and above. The change of phase fractions of HfNi3
+and Hf7Ni10 with temperature is found to be reversible. The phase components in
+Zr7Ni10 and Hf7Ni10 have been determined also from X-ray powder diffraction
+(XRD) and transmission electron microscopy/selected area electron diffraction
+(TEM/SAED) measurements. Ab-initio calculations using the all electron full
+potential (linearized) augmented plane wave [FP-(L)APW] method, within the
+framework of the density functional theory (DFT), have been performed to
+determine the electric field gradients at the 181Ta impurity sites and
+therefrom to assign the different components observed from PAC measurements.
+Present experimental and calculated results of EFG support the Cmca space group
+for both Zr7Ni10 and Hf7Ni10 compounds.

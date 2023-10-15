@@ -1,0 +1,9 @@
+By using a relativistic linear augmented-plane-wave method, we clarify energy
+band structures and Fermi surfaces of recently discovered plutonium-based
+superconductor PuCoGa$_5$. We find several cylindrical sheets of Fermi surfaces
+with large volume, very similar to CeMIn$_5$ (M=Ir and Co) isostructural with
+PuCoGa$_5$, in spite of different $f$-electron numbers between Ce$^{3+}$ and
+Pu$^{3+}$ ions. The similarity is understood by a concept of electron-hole
+conversion in a tight binding model constructed based on the $j$-$j$ coupling
+scheme. Based on the present results, we provide a possible scenario to explain
+why a transition temperature is so high as 18.5K in PuCoGa$_5$.

@@ -1,0 +1,24 @@
+Nowadays, commonly-used authentication systems for mobile device users, e.g.
+password checking, face recognition or fingerprint scanning, are susceptible to
+various kinds of attacks. In order to prevent some of the possible attacks,
+these explicit authentication systems can be enhanced by considering a
+two-factor authentication scheme, in which the second factor is an implicit
+authentication system based on analyzing motion sensor data captured by
+accelerometers or gyroscopes. In order to avoid any additional burdens to the
+user, the registration process of the implicit authentication system must be
+performed quickly, i.e. the number of data samples collected from the user is
+typically small. In the context of designing a machine learning model for
+implicit user authentication based on motion signals, data augmentation can
+play an important role. In this paper, we study several data augmentation
+techniques in the quest of finding useful augmentation methods for motion
+sensor data. We propose a set of four research questions related to data
+augmentation in the context of few-shot user identification based on motion
+sensor signals. We conduct experiments on a benchmark data set, using two deep
+learning architectures, convolutional neural networks and Long Short-Term
+Memory networks, showing which and when data augmentation methods bring
+accuracy improvements. Interestingly, we find that data augmentation is not
+very helpful, most likely because the signal patterns useful to discriminate
+users are too sensitive to the transformations brought by certain data
+augmentation techniques. This result is somewhat contradictory to the common
+belief that data augmentation is expected to increase the accuracy of machine
+learning models.

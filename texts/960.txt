@@ -1,0 +1,19 @@
+We propose a new form for equations of state (EOS) of thermodynamic systems
+in the Ising universality class. The new EOS guarantees the correct
+universality and scaling behavior close to critical points and is formulated in
+terms of the scaling fields only -- unlike the traditional Schofield
+representation, which uses a parametric form. Close to a critical point, the
+new EOS expresses the square of the strong scaling field $\Sigma$ as an
+explicit function $\Sigma^2=D^{2e_{-1}}\Gamma(D^{-e_0}\Theta)$ of the thermal
+scaling field $\Theta$ and the dependent scaling field $D>0$, with a smooth,
+universal function $\Gamma$ and the universal exponents
+$e_{-1}=\delta/(\delta+1)$, $e_0=1/(2-\alpha)$. A numerical expression for
+$\Gamma$ is derived, valid close to critical points. As a consequence of the
+construction it is shown that the dependent scaling field can be written as an
+explicit function of the relevant scaling fields without causing strongly
+singular behavior of the thermodynamic potential in the one-phase region.
+Augmented by additional scaling correction fields, the new EOS also describes
+the state space further away from critical points. It is indicated how to use
+the new EOS to model multiphase fluid mixtures, in particular for
+vapor-liquid-liquid equilibrium (VLLE) where the traditional revised scaling
+approach fails.

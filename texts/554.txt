@@ -1,0 +1,16 @@
+Attention-based sequence-to-sequence (seq2seq) speech synthesis has achieved
+extraordinary performance. But a studio-quality corpus with manual
+transcription is necessary to train such seq2seq systems. In this paper, we
+propose an approach to build high-quality and stable seq2seq based speech
+synthesis system using challenging found data, where training speech contains
+noisy interferences (acoustic noise) and texts are imperfect speech recognition
+transcripts (textual noise). To deal with text-side noise, we propose a VQVAE
+based heuristic method to compensate erroneous linguistic feature with phonetic
+information learned directly from speech. As for the speech-side noise, we
+propose to learn a noise-independent feature in the auto-regressive decoder
+through adversarial training and data augmentation, which does not need an
+extra speech enhancement model. Experiments show the effectiveness of the
+proposed approach in dealing with text-side and speech-side noise. Surpassing
+the denoising approach based on a state-of-the-art speech enhancement model,
+our system built on noisy found data can synthesize clean and high-quality
+speech with MOS close to the system built on the clean counterpart.

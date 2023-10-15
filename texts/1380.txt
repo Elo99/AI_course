@@ -1,0 +1,13 @@
+We demonstrate that the spin state of solid-state emitters inside micropillar
+cavities can serve as measure qubits in syndrome measurements. The photons,
+acting as data qubits, interact with the spin state in the microcavity and the
+total state of the system evolves conditionally due to the resulting circular
+birefringence. By performing a quantum non-demolition measurement on the spin
+state, the syndrome of the optical state can be obtained. Furthermore, due to
+the symmetry of the interaction, we can alternatively choose to employ the
+optical states as measure qubits. This protocol can be adapted to various
+resource requirements, including spectral discrepancies between the data qubits
+and codes with modified connectivities, by considering entangled measure
+qubits. Finally, we show that spin-systems with dissimilar characteristic
+energies can still be entangled with high levels of fidelity and tolerance to
+cavity losses in the strong coupling regime.

@@ -1,0 +1,16 @@
+Esports, a sports competition using video games, has become one of the most
+important sporting events in recent years. Although the amount of esports data
+is increasing than ever, only a small fraction of those data accompanies text
+commentaries for the audience to retrieve and understand the plays. Therefore,
+in this study, we introduce a task of generating game commentaries from
+structured data records to address the problem. We first build a large-scale
+esports data-to-text dataset using structured data and commentaries from a
+popular esports game, League of Legends. On this dataset, we devise several
+data preprocessing methods including linearization and data splitting to
+augment its quality. We then introduce several baseline encoder-decoder models
+and propose a hierarchical model to generate game commentaries. Considering the
+characteristics of esports commentaries, we design evaluation metrics including
+three aspects of the output: correctness, fluency, and strategic depth.
+Experimental results on our large-scale esports dataset confirmed the advantage
+of the hierarchical model, and the results revealed several challenges of this
+novel task.

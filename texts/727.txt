@@ -1,0 +1,20 @@
+Natural Language Processing (NLP) is one of the core techniques in AI
+software. As AI is being applied to more and more domains, how to efficiently
+develop high-quality domain-specific language models becomes a critical
+question in AI software engineering. Existing domain-specific language model
+development processes mostly focus on learning a domain-specific pre-trained
+language model (PLM); when training the domain task-specific language model
+based on PLM, only a direct (and often unsatisfactory) fine-tuning strategy is
+adopted commonly. By enhancing the task-specific training procedure with domain
+knowledge graphs, we propose KnowledgeDA, a unified and low-code domain
+language model development service. Given domain-specific task texts input by a
+user, KnowledgeDA can automatically generate a domain-specific language model
+following three steps: (i) localize domain knowledge entities in texts via an
+embedding-similarity approach; (ii) generate augmented samples by retrieving
+replaceable domain entity pairs from two views of both knowledge graph and
+training data; (iii) select high-quality augmented samples for fine-tuning via
+confidence-based assessment. We implement a prototype of KnowledgeDA to learn
+language models for two domains, healthcare and software development.
+Experiments on five domain-specific NLP tasks verify the effectiveness and
+generalizability of KnowledgeDA. (Code is publicly available at
+https://github.com/RuiqingDing/KnowledgeDA.)

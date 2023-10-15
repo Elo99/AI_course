@@ -1,0 +1,9 @@
+We study the simplicity of map-germs obtained by the operation of
+augmentation and describe how to obtain their versal unfoldings. When the
+augmentation comes from an $\mathscr{A}_e$-codimension 1 germ or the augmenting
+function is a Morse function, we give a complete characterisation for
+simplicity. These characterisations yield all the simple augmentations in all
+explicitly obtained classifications of $\mathscr{A}$-simple monogerms except
+for one ($F_4$ in Mond's list from $\mathbb{C}^2$ to $\mathbb{C}^3$). Moreover,
+using our results we produce a list of simple augmentations from $\mathbb{C}^4$
+to $\mathbb{C}^4$.

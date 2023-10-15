@@ -1,0 +1,14 @@
+Translating natural language utterances to executable queries is a helpful
+technique in making the vast amount of data stored in relational databases
+accessible to a wider range of non-tech-savvy end users. Prior work in this
+area has largely focused on textual input that is linguistically correct and
+semantically unambiguous. However, real-world user queries are often succinct,
+colloquial, and noisy, resembling the input of a search engine. In this work,
+we introduce data augmentation techniques and a sampling-based content-aware
+BERT model (ColloQL) to achieve robust text-to-SQL modeling over natural
+language search (NLS) questions. Due to the lack of evaluation data, we curate
+a new dataset of NLS questions and demonstrate the efficacy of our approach.
+ColloQL's superior performance extends to well-formed text, achieving 84.9%
+(logical) and 90.7% (execution) accuracy on the WikiSQL dataset, making it, to
+the best of our knowledge, the highest performing model that does not use
+execution guided decoding.

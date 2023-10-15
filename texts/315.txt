@@ -1,0 +1,5 @@
+We introduce the supersymmetric version of YM-like theories with infinitely
+many spin fields in 4 dimension. The construction is carried out via the
+superfield method. The surprising feature of these models is that they describe
+in particular gauge and gravity in a supersymmetric form with no need of
+supergravity.

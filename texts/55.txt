@@ -1,0 +1,16 @@
+Data augmentation is commonly used for generating additional data from the
+available training data to achieve a robust estimation of the parameters of
+complex models like the one for speaker verification (SV), especially for
+under-resourced applications. SV involves training speaker-independent (SI)
+models and speaker-dependent models where speakers are represented by models
+derived from an SI model using the training data for the particular speaker
+during the enrollment phase. While data augmentation for training SI models is
+well studied, data augmentation for speaker enrollment is rarely explored. In
+this paper, we propose the use of data augmentation methods for generating
+extra data to empower speaker enrollment. Each data augmentation method
+generates a new data set. Two strategies of using the data sets are explored:
+the first one is to training separate systems and fuses them at the score level
+and the other is to conduct multi-conditional training. Furthermore, we study
+the effect of data augmentation under noisy conditions. Experiments are
+performed on RedDots challenge 2016 database, and the results validate the
+effectiveness of the proposed methods.

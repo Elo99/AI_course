@@ -1,0 +1,20 @@
+We present an efficient framework of corpus for sign language translation.
+Aided with a simple but dramatic data augmentation technique, our method
+converts text into annotated forms with minimum information loss. Sign
+languages are composed of manual signals, non-manual signals, and iconic
+features. According to professional sign language interpreters, non-manual
+signals such as facial expressions and gestures play an important role in
+conveying exact meaning. By considering the linguistic features of sign
+language, our proposed framework is a first and unique attempt to build a
+multimodal sign language augmentation corpus (hereinafter referred to as the
+KoSLA corpus) containing both manual and non-manual modalities. The corpus we
+built demonstrates confident results in the hospital context, showing improved
+performance with augmented datasets. To overcome data scarcity, we resorted to
+data augmentation techniques such as synonym replacement to boost the
+efficiency of our translation model and available data, while maintaining
+grammatical and semantic structures of sign language. For the experimental
+support, we verify the effectiveness of data augmentation technique and
+usefulness of our corpus by performing a translation task between normal
+sentences and sign language annotations on two tokenizers. The result was
+convincing, proving that the BLEU scores with the KoSLA corpus were
+significant.

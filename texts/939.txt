@@ -1,0 +1,17 @@
+This note addresses the problem of evaluating the impact of an attack on
+discrete-time nonlinear stochastic control systems. The problem is formulated
+as an optimal control problem with a joint chance constraint that forces the
+adversary to avoid detection throughout a given time period. Due to the joint
+constraint, the optimal control policy depends not only on the current state,
+but also on the entire history, leading to an explosion of the search space and
+making the problem generally intractable. However, we discover that the current
+state and whether an alarm has been triggered, or not, is sufficient for
+specifying the optimal decision at each time step. This information, which we
+refer to as the alarm flag, can be added to the state space to create an
+equivalent optimal control problem that can be solved with existing numerical
+approaches using a Markov policy. Additionally, we note that the formulation
+results in a policy that does not avoid detection once an alarm has been
+triggered. We extend the formulation to handle multi-alarm avoidance policies
+for more reasonable attack impact evaluations, and show that the idea of
+augmenting the state space with an alarm flag is valid in this extended
+formulation as well.

@@ -1,0 +1,20 @@
+Generating counterfactual test-cases is an important backbone for testing NLP
+models and making them as robust and reliable as traditional software. In
+generating the test-cases, a desired property is the ability to control the
+test-case generation in a flexible manner to test for a large variety of
+failure cases and to explain and repair them in a targeted manner. In this
+direction, significant progress has been made in the prior works by manually
+writing rules for generating controlled counterfactuals. However, this approach
+requires heavy manual supervision and lacks the flexibility to easily introduce
+new controls. Motivated by the impressive flexibility of the plug-and-play
+approach of PPLM, we propose bringing the framework of plug-and-play to
+counterfactual test case generation task. We introduce CASPer, a plug-and-play
+counterfactual generation framework to generate test cases that satisfy goal
+attributes on demand. Our plug-and-play model can steer the test case
+generation process given any attribute model without requiring
+attribute-specific training of the model. In experiments, we show that CASPer
+effectively generates counterfactual text that follow the steering provided by
+an attribute model while also being fluent, diverse and preserving the original
+content. We also show that the generated counterfactuals from CASPer can be
+used for augmenting the training data and thereby fixing and making the test
+model more robust.

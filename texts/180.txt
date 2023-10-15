@@ -1,0 +1,19 @@
+Scene text recognition (STR) enables computers to read text in natural scenes
+such as object labels, road signs and instructions. STR helps machines perform
+informed decisions such as what object to pick, which direction to go, and what
+is the next step of action. In the body of work on STR, the focus has always
+been on recognition accuracy. There is little emphasis placed on speed and
+computational efficiency which are equally important especially for
+energy-constrained mobile machines. In this paper we propose ViTSTR, an STR
+with a simple single stage model architecture built on a compute and parameter
+efficient vision transformer (ViT). On a comparable strong baseline method such
+as TRBA with accuracy of 84.3%, our small ViTSTR achieves a competitive
+accuracy of 82.6% (84.2% with data augmentation) at 2.4x speed up, using only
+43.4% of the number of parameters and 42.2% FLOPS. The tiny version of ViTSTR
+achieves 80.3% accuracy (82.1% with data augmentation), at 2.5x the speed,
+requiring only 10.9% of the number of parameters and 11.9% FLOPS. With data
+augmentation, our base ViTSTR outperforms TRBA at 85.2% accuracy (83.7% without
+augmentation) at 2.3x the speed but requires 73.2% more parameters and 61.5%
+more FLOPS. In terms of trade-offs, nearly all ViTSTR configurations are at or
+near the frontiers to maximize accuracy, speed and computational efficiency all
+at the same time.

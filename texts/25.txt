@@ -1,0 +1,17 @@
+Despite recent advancements in Machine Learning, many tasks still involve
+working in low-data regimes which can make solving natural language problems
+difficult. Recently, a number of text augmentation techniques have emerged in
+the field of Natural Language Processing (NLP) which can enrich the training
+data with new examples, though they are not without their caveats. For
+instance, simple rule-based heuristic methods are effective, but lack variation
+in semantic content and syntactic structure with respect to the original text.
+On the other hand, more complex deep learning approaches can cause extreme
+shifts in the intrinsic meaning of the text and introduce unwanted noise into
+the training data. To more reliably control the quality of the augmented
+examples, we introduce a state-of-the-art approach for Self-Controlled Text
+Augmentation (STA). Our approach tightly controls the generation process by
+introducing a self-checking procedure to ensure that generated examples retain
+the semantic content of the original text. Experimental results on multiple
+benchmarking datasets demonstrate that STA substantially outperforms existing
+state-of-the-art techniques, whilst qualitative analysis reveals that the
+generated examples are both lexically diverse and semantically reliable.

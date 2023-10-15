@@ -1,0 +1,13 @@
+It is oftentimes impossible to understand how machine learning models reach a
+decision. While recent research has proposed various technical approaches to
+provide some clues as to how a learning model makes individual decisions, they
+cannot provide users with ability to inspect a learning model as a complete
+entity. In this work, we propose a new technical approach that augments a
+Bayesian regression mixture model with multiple elastic nets. Using the
+enhanced mixture model, we extract explanations for a target model through
+global approximation. To demonstrate the utility of our approach, we evaluate
+it on different learning models covering the tasks of text mining and image
+recognition. Our results indicate that the proposed approach not only
+outperforms the state-of-the-art technique in explaining individual decisions
+but also provides users with an ability to discover the vulnerabilities of a
+learning model.

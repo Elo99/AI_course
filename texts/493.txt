@@ -1,0 +1,17 @@
+Learning to segment images purely by relying on the image-text alignment from
+web data can lead to sub-optimal performance due to noise in the data. The
+noise comes from the samples where the associated text does not correlate with
+the image's visual content. Instead of purely relying on the alignment from the
+noisy data, this paper proposes a novel loss function termed SimCon, which
+accounts for intra-modal similarities to determine the appropriate set of
+positive samples to align. Further, using multiple views of the image (created
+synthetically) for training and combining the SimCon loss with it makes the
+training more robust. This version of the loss is termed MV-SimCon. The
+empirical results demonstrate that using the proposed loss function leads to
+consistent improvements on zero-shot, text supervised semantic segmentation and
+outperforms state-of-the-art by $+3.0\%$, $+3.3\%$ and $+6.9\%$ on PASCAL VOC,
+PASCAL Context and MSCOCO, respectively. With test time augmentations, we set a
+new record by improving these results further to $58.7\%$, $26.6\%$, and
+$33.3\%$ on PASCAL VOC, PASCAL Context, and MSCOCO, respectively. In addition,
+using the proposed loss function leads to robust training and faster
+convergence.

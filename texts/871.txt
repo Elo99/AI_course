@@ -1,0 +1,19 @@
+Despite the success of the neural sequence-to-sequence model for abstractive
+text summarization, it has a few shortcomings, such as repeating inaccurate
+factual details and tending to repeat themselves. We propose a hybrid pointer
+generator network to solve the shortcomings of reproducing factual details
+inadequately and phrase repetition. We augment the attention-based
+sequence-to-sequence using a hybrid pointer generator network that can generate
+Out-of-Vocabulary words and enhance accuracy in reproducing authentic details
+and a coverage mechanism that discourages repetition. It produces a
+reasonable-sized output text that preserves the conceptual integrity and
+factual information of the input article. For evaluation, we primarily employed
+"BANSData" - a highly adopted publicly available Bengali dataset. Additionally,
+we prepared a large-scale dataset called "BANS-133" which consists of 133k
+Bangla news articles associated with human-generated summaries. Experimenting
+with the proposed model, we achieved ROUGE-1 and ROUGE-2 scores of 0.66, 0.41
+for the "BANSData" dataset and 0.67, 0.42 for the BANS-133k" dataset,
+respectively. We demonstrated that the proposed system surpasses previous
+state-of-the-art Bengali abstractive summarization techniques and its stability
+on a larger dataset. "BANS-133" datasets and code-base will be publicly
+available for research.

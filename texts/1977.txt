@@ -1,0 +1,12 @@
+In this paper, we present augmentation inside the network, a method that
+simulates data augmentation techniques for computer vision problems on
+intermediate features of a convolutional neural network. We perform these
+transformations, changing the data flow through the network, and sharing common
+computations when it is possible. Our method allows us to obtain smoother
+speed-accuracy trade-off adjustment and achieves better results than using
+standard test-time augmentation (TTA) techniques. Additionally, our approach
+can improve model performance even further when coupled with test-time
+augmentation. We validate our method on the ImageNet-2012 and CIFAR-100
+datasets for image classification. We propose a modification that is 30% faster
+than the flip test-time augmentation and achieves the same results for
+CIFAR-100.

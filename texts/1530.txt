@@ -1,0 +1,23 @@
+Deep clustering has attracted increasing attention in recent years due to its
+capability of joint representation learning and clustering via deep neural
+networks. In its latest developments, the contrastive learning has emerged as
+an effective technique to substantially enhance the deep clustering
+performance. However, the existing contrastive learning based deep clustering
+algorithms mostly focus on some carefully-designed augmentations (often with
+limited transformations to preserve the structure), referred to as weak
+augmentations, but cannot go beyond the weak augmentations to explore the more
+opportunities in stronger augmentations (with more aggressive transformations
+or even severe distortions). In this paper, we present an end-to-end deep
+clustering approach termed Strongly Augmented Contrastive Clustering (SACC),
+which extends the conventional two-augmentation-view paradigm to multiple views
+and jointly leverages strong and weak augmentations for strengthened deep
+clustering. Particularly, we utilize a backbone network with triply-shared
+weights, where a strongly augmented view and two weakly augmented views are
+incorporated. Based on the representations produced by the backbone, the
+weak-weak view pair and the strong-weak view pairs are simultaneously exploited
+for the instance-level contrastive learning (via an instance projector) and the
+cluster-level contrastive learning (via a cluster projector), which, together
+with the backbone, can be jointly optimized in a purely unsupervised manner.
+Experimental results on five challenging image datasets have shown the
+superiority of our SACC approach over the state-of-the-art. The code is
+available at https://github.com/dengxiaozhi/SACC.

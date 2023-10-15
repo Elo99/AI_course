@@ -1,0 +1,21 @@
+We propose modeling raw functional data as a mixture of a smooth function and
+a high-dimensional factor component. The conventional approach to retrieving
+the smooth function from the raw data is through various smoothing techniques.
+However, the smoothing model is inadequate to recover the smooth curve or
+capture the data variation in some situations. These include cases where there
+is a large amount of measurement error, the smoothing basis functions are
+incorrectly identified, or the step jumps in the functional mean levels are
+neglected. A factor-augmented smoothing model is proposed to address these
+challenges, and an iterative numerical estimation approach is implemented in
+practice. Including the factor model component in the proposed method solves
+the aforementioned problems since a few common factors often drive the
+variation that cannot be captured by the smoothing model. Asymptotic theorems
+are also established to demonstrate the effects of including factor structures
+on the smoothing results. Specifically, we show that the smoothing coefficients
+projected on the complement space of the factor loading matrix are
+asymptotically normal. As a byproduct of independent interest, an estimator for
+the population covariance matrix of the raw data is presented based on the
+proposed model. Extensive simulation studies illustrate that these factor
+adjustments are essential in improving estimation accuracy and avoiding the
+curse of dimensionality. The superiority of our model is also shown in modeling
+Australian temperature data.

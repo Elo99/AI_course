@@ -1,0 +1,24 @@
+Medical Visual Question Answering (Medical-VQA) aims to to answer clinical
+questions regarding radiology images, assisting doctors with decision-making
+options. Nevertheless, current Medical-VQA models learn cross-modal
+representations through residing vision and texture encoders in dual separate
+spaces, which lead to indirect semantic alignment. In this paper, we propose
+UnICLAM, a Unified and Interpretable Medical-VQA model through Contrastive
+Representation Learning with Adversarial Masking. Specifically, to learn an
+aligned image-text representation, we first establish a unified dual-stream
+pre-training structure with the gradually soft-parameter sharing strategy.
+Technically, the proposed strategy learns a constraint for the vision and
+texture encoders to be close in a same space, which is gradually loosened as
+the higher number of layers. Moreover, for grasping the unified semantic
+representation, we extend the adversarial masking data augmentation to the
+contrastive representation learning of vision and text in a unified manner.
+Concretely, while the encoder training minimizes the distance between original
+and masking samples, the adversarial masking module keeps adversarial learning
+to conversely maximize the distance. Furthermore, we also intuitively take a
+further exploration to the unified adversarial masking augmentation model,
+which improves the potential ante-hoc interpretability with remarkable
+performance and efficiency. Experimental results on VQA-RAD and SLAKE public
+benchmarks demonstrate that UnICLAM outperforms existing 11 state-of-the-art
+Medical-VQA models. More importantly, we make an additional discussion about
+the performance of UnICLAM in diagnosing heart failure, verifying that UnICLAM
+exhibits superior few-shot adaption performance in practical disease diagnosis.

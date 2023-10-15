@@ -1,0 +1,24 @@
+Training deep networks for semantic segmentation requires large amounts of
+labeled training data, which presents a major challenge in practice, as
+labeling segmentation masks is a highly labor-intensive process. To address
+this issue, we present a framework for semi-supervised and domain-adaptive
+semantic segmentation, which is enhanced by self-supervised monocular depth
+estimation (SDE) trained only on unlabeled image sequences.
+  In particular, we utilize SDE as an auxiliary task comprehensively across the
+entire learning framework: First, we automatically select the most useful
+samples to be annotated for semantic segmentation based on the correlation of
+sample diversity and difficulty between SDE and semantic segmentation. Second,
+we implement a strong data augmentation by mixing images and labels using the
+geometry of the scene. Third, we transfer knowledge from features learned
+during SDE to semantic segmentation by means of transfer and multi-task
+learning. And fourth, we exploit additional labeled synthetic data with
+Cross-Domain DepthMix and Matching Geometry Sampling to align synthetic and
+real data.
+  We validate the proposed model on the Cityscapes dataset, where all four
+contributions demonstrate significant performance gains, and achieve
+state-of-the-art results for semi-supervised semantic segmentation as well as
+for semi-supervised domain adaptation. In particular, with only 1/30 of the
+Cityscapes labels, our method achieves 92% of the fully-supervised baseline
+performance and even 97% when exploiting additional data from GTA. The source
+code is available at
+https://github.com/lhoyer/improving_segmentation_with_selfsupervised_depth.

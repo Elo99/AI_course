@@ -1,0 +1,15 @@
+The rapid development of large pretrained language models has revolutionized
+not only the field of Natural Language Generation (NLG) but also its
+evaluation. Inspired by the recent work of BARTScore: a metric leveraging the
+BART language model to evaluate the quality of generated text from various
+aspects, we introduce DATScore. DATScore uses data augmentation techniques to
+improve the evaluation of machine translation. Our main finding is that
+introducing data augmented translations of the source and reference texts is
+greatly helpful in evaluating the quality of the generated translation. We also
+propose two novel score averaging and term weighting strategies to improve the
+original score computing process of BARTScore. Experimental results on WMT show
+that DATScore correlates better with human meta-evaluations than the other
+recent state-of-the-art metrics, especially for low-resource languages.
+Ablation studies demonstrate the value added by our new scoring strategies.
+Moreover, we report in our extended experiments the performance of DATScore on
+3 NLG tasks other than translation.

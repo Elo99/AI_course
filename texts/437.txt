@@ -1,0 +1,16 @@
+Through anonymisation and accessibility, social media platforms have
+facilitated the proliferation of hate speech, prompting increased research in
+developing automatic methods to identify these texts. This paper explores the
+classification of sexism in text using a variety of deep neural network model
+architectures such as Long-Short-Term Memory (LSTMs) and Convolutional Neural
+Networks (CNNs). These networks are used in conjunction with transfer learning
+in the form of Bidirectional Encoder Representations from Transformers (BERT)
+and DistilBERT models, along with data augmentation, to perform binary and
+multiclass sexism classification on the dataset of tweets and gabs from the
+sEXism Identification in Social neTworks (EXIST) task in IberLEF 2021. The
+models are seen to perform comparatively to those from the competition, with
+the best performances seen using BERT and a multi-filter CNN model. Data
+augmentation further improves these results for the multi-class classification
+task. This paper also explores the errors made by the models and discusses the
+difficulty in automatically classifying sexism due to the subjectivity of the
+labels and the complexity of natural language used in social media.

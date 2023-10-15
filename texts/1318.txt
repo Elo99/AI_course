@@ -1,0 +1,12 @@
+Summarization of long-form text data is a problem especially pertinent in
+knowledge economy jobs such as medicine and finance, that require continuously
+remaining informed on a sophisticated and evolving body of knowledge. As such,
+isolating and summarizing key content automatically using Natural Language
+Processing (NLP) techniques holds the potential for extensive time savings in
+these industries. We explore applications of a state-of-the-art NLP model
+(BART), and explore strategies for tuning it to optimal performance using data
+augmentation and various fine-tuning strategies. We show that our end-to-end
+fine-tuning approach can result in a 5-6\% absolute ROUGE-1 improvement over an
+out-of-the-box pre-trained BART summarizer when tested on domain specific data,
+and make available our end-to-end pipeline to achieve these results on finance,
+medical, or other user-specified domains.

@@ -1,0 +1,23 @@
+Large-scale pretrained language models have shown thrilling generation
+capabilities, especially when they generate consistent long text in thousands
+of words with ease. However, users of these models can only control the prefix
+of sentences or certain global aspects of generated text. It is challenging to
+simultaneously achieve fine-grained controllability and preserve the
+state-of-the-art unconditional text generation capability. In this paper, we
+first propose a new task named "Outline to Story" (O2S) as a test bed for
+fine-grained controllable generation of long text, which generates a
+multi-paragraph story from cascaded events, i.e. a sequence of outline events
+that guide subsequent paragraph generation. We then create dedicate datasets
+for future benchmarks, built by state-of-the-art keyword extraction techniques.
+Finally, we propose an extremely simple yet strong baseline method for the O2S
+task, which fine tunes pre-trained language models on augmented sequences of
+outline-story pairs with simple language modeling objective. Our method does
+not introduce any new parameters or perform any architecture modification,
+except several special tokens as delimiters to build augmented sequences.
+Extensive experiments on various datasets demonstrate state-of-the-art
+conditional story generation performance with our model, achieving better
+fine-grained controllability and user flexibility. Our paper is among the first
+ones by our knowledge to propose a model and to create datasets for the task of
+"outline to story". Our work also instantiates research interest of
+fine-grained controllable generation of open-domain long text, where
+controlling inputs are represented by short text.

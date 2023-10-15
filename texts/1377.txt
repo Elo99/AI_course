@@ -1,0 +1,14 @@
+Intending to support new emerging applications with latency requirements
+below what can be offered by the cloud data centers, the edge and fog computing
+paradigms have reared. In such systems, the real-time instant data is processed
+closer to the edge of the network, instead of the remote data centers. With the
+advances in edge and fog computing systems, novel and efficient solutions based
+on Distributed Hash Tables (DHTs) emerge and play critical roles in system
+design. Several DHT-based solutions have been proposed to either augment the
+scalability and efficiency of edge and fog computing infrastructures or to
+enable application-specific functionalities such as task and resource
+management. This paper presents the first comprehensive study on the
+state-of-the-art DHT-based architectures in edge and fog computing systems from
+the lenses of infrastructure and application. Moreover, the paper details the
+open problems and discusses future research guidelines for the DHT-based edge
+and fog computing systems.

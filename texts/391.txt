@@ -1,0 +1,11 @@
+In this paper, we focus on video-to-text summarization and investigate how to
+best utilize multimodal information for summarizing long inputs (e.g., an
+hour-long TV show) into long outputs (e.g., a multi-sentence summary). We
+extend SummScreen (Chen et al., 2021), a dialogue summarization dataset
+consisting of transcripts of TV episodes with reference summaries, and create a
+multimodal variant by collecting corresponding full-length videos. We
+incorporate multimodal information into a pre-trained textual summarizer
+efficiently using adapter modules augmented with a hierarchical structure while
+tuning only 3.8\% of model parameters. Our experiments demonstrate that
+multimodal information offers superior performance over more memory-heavy and
+fully fine-tuned textual summarization methods.

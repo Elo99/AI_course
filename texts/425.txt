@@ -1,0 +1,11 @@
+This paper introduces PnG BERT, a new encoder model for neural TTS. This
+model is augmented from the original BERT model, by taking both phoneme and
+grapheme representations of text as input, as well as the word-level alignment
+between them. It can be pre-trained on a large text corpus in a self-supervised
+manner, and fine-tuned in a TTS task. Experimental results show that a neural
+TTS model using a pre-trained PnG BERT as its encoder yields more natural
+prosody and more accurate pronunciation than a baseline model using only
+phoneme input with no pre-training. Subjective side-by-side preference
+evaluations show that raters have no statistically significant preference
+between the speech synthesized using a PnG BERT and ground truth recordings
+from professional speakers.

@@ -1,0 +1,11 @@
+Data from the CPLEAR collaboration coupled with the assumption that the
+Bell-Steinberger relation holds have provided {\em direct} evidence for
+\ot~violation. In this note we investigate what we can say about \ot~violation
+{\em without} such an assumption.
+  We show that both the modulus and the phase of $\eta_{+-}$ can be reproduced
+with \ot~{\em invariant} dynamics through finetuning \cpt~breaking. The large
+\ot~odd correlation observed by the KTeV collaboration in $K_L \to \pi ^+\pi ^-
+e^+ e^-$ thus does not yield direct evidence for \ot~violation. In such a world
+the phase of $\frac{\epsilon'}{\epsilon}$ is $\delta_2-\delta_0-\phi_{SW}\sim
+-(85.5\pm 4)^\circ$. Also, $K^{\pm} \to \pi ^{\pm} \pi ^0$ could exhibit a
+\cpt~asymmetry of up to few$\times 10^{-3}$ without upsetting any known bound.

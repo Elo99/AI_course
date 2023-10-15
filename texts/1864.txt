@@ -1,0 +1,7 @@
+Navigation has been a popular area of research in both academia and industry.
+Combined with maps, and different localization technologies, navigation systems
+have become robust and more usable. By combining navigation with augmented
+reality, it can be improved further to become realistic and user friendly. This
+paper surveys existing researches carried out in this area, describes existing
+techniques for building augmented reality navigation systems, and the problems
+faced.

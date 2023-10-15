@@ -1,0 +1,10 @@
+Data augmentation uses artificially-created examples to support supervised
+machine learning, adding robustness to the resulting models and helping to
+account for limited availability of labelled data. We apply and evaluate a
+synthetic data approach to relationship classification in digital libraries,
+generating artificial books with relationships that are common in digital
+libraries but not easier inferred from existing metadata. We find that for
+classification on whole-part relationships between books, synthetic data
+improves a deep neural network classifier by 91%. Further, we consider the
+ability of synthetic data to learn a useful new text relationship class from
+fully artificial training data.

@@ -1,0 +1,11 @@
+This paper presents our solution for the ICDAR 2021 Competition on Scientific
+Table Image Recognition to LaTeX. This competition has two sub-tasks: Table
+Structure Reconstruction (TSR) and Table Content Reconstruction (TCR). We treat
+both sub-tasks as two individual image-to-sequence recognition problems. We
+leverage our previously proposed algorithm MASTER \cite{lu2019master}, which is
+originally proposed for scene text recognition. We optimize the MASTER model
+from several perspectives: network structure, optimizer, normalization method,
+pre-trained model, resolution of input image, data augmentation, and model
+ensemble. Our method achieves 0.7444 Exact Match and 0.8765 Exact Match @95\%
+on the TSR task, and obtains 0.5586 Exact Match and 0.7386 Exact Match 95\% on
+the TCR task.

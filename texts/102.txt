@@ -1,0 +1,8 @@
+We investigate methods of segmenting, visualizing, and indexing presentation
+videos by separately considering audio and visual data. The audio track is
+segmented by speaker, and augmented with key phrases which are extracted using
+an Automatic Speech Recognizer (ASR). The video track is segmented by visual
+dissimilarities and augmented by representative key frames. An interactive user
+interface combines a visual representation of audio, video, text, and key
+frames, and allows the user to navigate a presentation video. We also explore
+clustering and labeling of speaker data and present preliminary results.

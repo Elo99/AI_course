@@ -1,0 +1,8 @@
+The Muon g-2 experiment at FERMILAB has confirmed the muon anomalous magnetic
+moment anomaly with an error bar 15% smaller and a different central value
+compared with the previous Brookhaven result. The combined results from
+FERMILAB and Brookhaven show a difference with theory at a significance of
+$4.2\sigma$, strongly indicating the presence of new physics. In light of this
+new result, we discuss a Two Higgs Doublet model augmented by an Abelian gauge
+symmetry that can simultaneously accommodate a light dark matter candidate and
+$(g-2)_\mu$, in agreement with existing bounds.

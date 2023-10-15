@@ -1,0 +1,20 @@
+Fluid turbulence is an important problem for physics and engineering.
+Turbulence modeling deals with the development of simplified models that can
+act as surrogates for representing the effects of turbulence on flow evolution.
+Such models correspond to a range of different fidelities, from simple
+eddy-viscosity-based closures to Reynolds Stress Models. Till now the focus of
+the data-driven turbulence modeling efforts has focused on Machine Learning
+augmented eddy-viscosity models. In this communication, we illustrate the
+manner in which the eddy-viscosity framework delimits the efficacy and
+performance of Machine learning algorithms. Based on this foundation we carry
+out the first application of Machine learning algorithms for developing
+improved Reynolds Stress Modeling-based closures for turbulence. Different
+machine learning approaches are assessed for modeling the pressure strain
+correlation in turbulence, a longstanding problem of singular importance. We
+evaluate the performance of these algorithms in the learning dataset, as well
+as their ability to generalize to different flow cases where the inherent
+physical processes may vary. This explores the assertion that ML-based
+data-driven turbulence models can overcome the modeling limitations associated
+with the traditional turbulence models and ML models trained with large amounts
+of data with different classes of flows can predict flow field with reasonable
+accuracy for unknown flows with similar flow physics.

@@ -1,0 +1,12 @@
+In this paper we present an alternative method to symbolic segmentation: we
+approach symbolic segmentation as an algorithm selection problem. That is, let
+there be a set A of available algorithms for symbolic segmentation, a set of
+input features $F$, a set of image attribute $\mathbb{A}$ and a selection
+mechanism $S(F,\mathbb{A},A)$ that selects on a case by case basis the best
+algorithm. The semantic segmentation is then an optimization process that
+combines best component segments from multiple results into a single optimal
+result. The experiments compare three different algorithm selection mechanisms
+using three selected semantic segmentation algorithms. The results show that
+using the current state of art algorithms and relatively low accuracy of
+algorithm selection the accuracy of the semantic segmentation can be improved
+by 2\%.

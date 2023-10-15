@@ -1,0 +1,17 @@
+While domain-specific data augmentation can be useful in training neural
+networks for medical imaging tasks, such techniques have not been widely used
+to date. Here, we test whether domain-specific data augmentation is useful for
+medical imaging using a well-benchmarked task: view classification on fetal
+ultrasound FETAL-125 and OB-125 datasets. We found that using a
+context-preserving cut-paste strategy, we could create valid training data as
+measured by performance of the resulting trained model on the benchmark test
+dataset. When used in an online fashion, models trained on this data performed
+similarly to those trained using traditional data augmentation (FETAL-125
+F-score 85.33+/-0.24 vs 86.89+/-0.60, p-value 0.0139; OB-125 F-score
+74.60+/-0.11 vs 72.43+/-0.62, p-value 0.0039). Furthermore, the ability to
+perform augmentations during training time, as well as the ability to apply
+chosen augmentations equally across data classes, are important considerations
+in designing a bespoke data augmentation. Finally, we provide open-source code
+to facilitate running bespoke data augmentations in an online fashion. Taken
+together, this work expands the ability to design and apply domain-guided data
+augmentations for medical imaging tasks.

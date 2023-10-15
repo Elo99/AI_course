@@ -1,0 +1,15 @@
+Neural summarization models suffer from the fixed-size input limitation: if
+text length surpasses the model's maximal number of input tokens, some document
+content (possibly summary-relevant) gets truncated Independently summarizing
+windows of maximal input size disallows for information flow between windows
+and leads to incoherent summaries. We propose windowing models for neural
+abstractive summarization of (arbitrarily) long texts. We extend the
+sequence-to-sequence model augmented with pointer generator network by (1)
+allowing the encoder to slide over different windows of the input document and
+(2) sharing the decoder and retaining its state across different input windows.
+We explore two windowing variants: Static Windowing precomputes the number of
+tokens the decoder should generate from each window (based on training corpus
+statistics); in Dynamic Windowing the decoder learns to emit a token that
+signals encoder's shift to the next input window. Empirical results render our
+models effective in their intended use-case: summarizing long texts with
+relevant content not bound to the very document beginning.

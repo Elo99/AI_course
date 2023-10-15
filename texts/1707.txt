@@ -1,0 +1,20 @@
+Human affective behavior analysis has received much attention in
+human-computer interaction (HCI). In this paper, we introduce our submission to
+the CVPR 2022 Competition on Affective Behavior Analysis in-the-wild (ABAW). To
+fully exploit affective knowledge from multiple views, we utilize the
+multimodal features of spoken words, speech prosody, and facial expression,
+which are extracted from the video clips in the Aff-Wild2 dataset. Based on
+these features, we propose a unified transformer-based multimodal framework for
+Action Unit detection and also expression recognition. Specifically, the static
+vision feature is first encoded from the current frame image. At the same time,
+we clip its adjacent frames by a sliding window and extract three kinds of
+multimodal features from the sequence of images, audio, and text. Then, we
+introduce a transformer-based fusion module that integrates the static vision
+features and the dynamic multimodal features. The cross-attention module in the
+fusion module makes the output integrated features focus on the crucial parts
+that facilitate the downstream detection tasks. We also leverage some data
+balancing techniques, data augmentation techniques, and postprocessing methods
+to further improve the model performance. In the official test of ABAW3
+Competition, our model ranks first in the EXPR and AU tracks. The extensive
+quantitative evaluations, as well as ablation studies on the Aff-Wild2 dataset,
+prove the effectiveness of our proposed method.

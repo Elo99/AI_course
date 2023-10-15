@@ -1,0 +1,11 @@
+The habilitation thesis presents two main directions:
+  1. Exploiting data from social networks (Twitter, Facebook, Flickr, etc.) -
+creating resources for text and image processing (classification, retrieval,
+credibility, diversification, etc.);
+  2. Creating applications with new technologies : augmented reality
+(eLearning, games, smart museums, gastronomy, etc.), virtual reality (eLearning
+and games), speech processing with Amazon Alexa (eLearning, entertainment, IoT,
+etc.).
+  The work was validated with good results in evaluation campaigns like CLEF
+(Question Answering, Image CLEF, LifeCLEF, etc.), SemEval (Sentiment and
+Emotion in text, Anorexia, etc.).

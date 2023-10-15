@@ -1,0 +1,17 @@
+Recent state-of-the-art neural text-to-speech (TTS) synthesis models have
+dramatically improved intelligibility and naturalness of generated speech from
+text. However, building a good bilingual or code-switched TTS for a particular
+voice is still a challenge. The main reason is that it is not easy to obtain a
+bilingual corpus from a speaker who achieves native-level fluency in both
+languages. In this paper, we explore the use of Mandarin speech recordings from
+a Mandarin speaker, and English speech recordings from another English speaker
+to build high-quality bilingual and code-switched TTS for both speakers. A
+Tacotron2-based cross-lingual voice conversion system is employed to generate
+the Mandarin speaker's English speech and the English speaker's Mandarin
+speech, which show good naturalness and speaker similarity. The obtained
+bilingual data are then augmented with code-switched utterances synthesized
+using a Transformer model. With these data, three neural TTS models --
+Tacotron2, Transformer and FastSpeech are applied for building bilingual and
+code-switched TTS. Subjective evaluation results show that all the three
+systems can produce (near-)native-level speech in both languages for each of
+the speaker.

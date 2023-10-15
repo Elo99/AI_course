@@ -1,0 +1,17 @@
+Differentiable forest is an ensemble of decision trees with full
+differentiability. Its simple tree structure is easy to use and explain. With
+full differentiability, it would be trained in the end-to-end learning
+framework with gradient-based optimization method. In this paper, we propose
+tree attention block(TAB) in the framework of differentiable forest. TAB block
+has two operations, squeeze and regulate. The squeeze operation would extract
+the characteristic of each tree. The regulate operation would learn nonlinear
+relations between these trees. So TAB block would learn the importance of each
+tree and adjust its weight to improve accuracy. Our experiment on large tabular
+dataset shows attention augmented differentiable forest would get comparable
+accuracy with gradient boosted decision trees(GBDT), which is the
+state-of-the-art algorithm for tabular datasets. And on some datasets, our
+model has higher accuracy than best GBDT libs (LightGBM, Catboost, and
+XGBoost). Differentiable forest model supports batch training and batch size is
+much smaller than the size of training set. So on larger data sets, its memory
+usage is much lower than GBDT model. The source codes are available at
+https://github.com/closest-git/QuantumForest.

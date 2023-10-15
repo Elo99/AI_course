@@ -1,0 +1,17 @@
+Neural image classifiers are known to undergo severe performance degradation
+when exposed to input that exhibits covariate-shift with respect to the
+training distribution. Successful hand-crafted augmentation pipelines aim at
+either approximating the expected test domain conditions or to perturb the
+features that are specific to the training environment. The development of
+effective pipelines is typically cumbersome, and produce transformations whose
+impact on the classifier performance are hard to understand and control. In
+this paper, we show that recent Text-to-Image (T2I) generators' ability to
+simulate image interventions via natural-language prompts can be leveraged to
+train more robust models, offering a more interpretable and controllable
+alternative to traditional augmentation methods. We find that a variety of
+prompting mechanisms are effective for producing synthetic training data
+sufficient to achieve state-of-the-art performance in widely-adopted
+domain-generalization benchmarks and reduce classifiers' dependency on spurious
+features. Our work suggests that further progress in T2I generation and a
+tighter integration with other research fields may represent a significant step
+towards the development of more robust machine learning systems.

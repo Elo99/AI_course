@@ -1,0 +1,6 @@
+We prove that the augmentation variety of any positive braid Legendrian link
+carries a natural cluster $\mathrm{K}_2$ structure. We present an algorithm to
+calculate the cluster seeds that correspond to the admissible Lagrangian
+fillings of the positive braid Legendrian links. Utilizing augmentations and
+cluster algebras, we develop a new framework to distinguish exact Lagrangian
+fillings.

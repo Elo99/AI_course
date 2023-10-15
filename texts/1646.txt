@@ -1,0 +1,22 @@
+The emergence of communication systems between agents which learn to play
+referential signalling games with realistic images has attracted a lot of
+attention recently. The majority of work has focused on using fixed, pretrained
+image feature extraction networks which potentially bias the information the
+agents learn to communicate. In this work, we consider a signalling game
+setting in which a `sender' agent must communicate the information about an
+image to a `receiver' who must select the correct image from many distractors.
+We investigate the effect of the feature extractor's weights and of the task
+being solved on the visual semantics learned by the models. We first
+demonstrate to what extent the use of pretrained feature extraction networks
+inductively bias the visual semantics conveyed by emergent communication
+channel and quantify the visual semantics that are induced.
+  We then go on to explore ways in which inductive biases can be introduced to
+encourage the emergence of semantically meaningful communication without the
+need for any form of supervised pretraining of the visual feature extractor. We
+impose various augmentations to the input images and additional tasks in the
+game with the aim to induce visual representations which capture conceptual
+properties of images. Through our experiments, we demonstrate that
+communication systems which capture visual semantics can be learned in a
+completely self-supervised manner by playing the right types of game. Our work
+bridges a gap between emergent communication research and self-supervised
+feature learning.

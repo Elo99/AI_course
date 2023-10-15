@@ -1,0 +1,12 @@
+One of the most popular state-space reduction techniques for model checking
+is partial-order reduction (POR). Of the many different POR implementations,
+stubborn sets are a very versatile variant and have thus seen many different
+applications over the past 32 years. One of the early stubborn sets works shows
+how the basic conditions for reduction can be augmented to preserve
+stutter-trace equivalence, making stubborn sets suitable for model checking of
+linear-time properties. In this paper, we identify a flaw in the reasoning and
+show with a counter-example that stutter-trace equivalence is not necessarily
+preserved. We propose a stronger reduction condition and provide extensive new
+correctness proofs to ensure the issue is resolved. Furthermore, we analyse in
+which formalisms the problem may occur. The impact on practical implementations
+is limited, since they all compute a correct approximation of the theory.

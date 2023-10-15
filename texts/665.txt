@@ -1,0 +1,16 @@
+Recent semi-supervised and self-supervised methods have shown great success
+in the image and text domain by utilizing augmentation techniques. Despite such
+success, it is not easy to transfer this success to tabular domains. It is not
+easy to adapt domain-specific transformations from image and language to
+tabular data due to mixing of different data types (continuous data and
+categorical data) in the tabular domain. There are a few semi-supervised works
+on the tabular domain that have focused on proposing new augmentation
+techniques for tabular data. These approaches may have shown some improvement
+on datasets with low-cardinality in categorical data. However, the fundamental
+challenges have not been tackled. The proposed methods either do not apply to
+datasets with high-cardinality or do not use an efficient encoding of
+categorical data. We propose using conditional probability representation and
+an efficient progressively feature upgrading framework to effectively learn
+representations for tabular data in semi-supervised applications. The extensive
+experiments show superior performance of the proposed framework and the
+potential application in semi-supervised settings.

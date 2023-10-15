@@ -1,0 +1,8 @@
+Code-Mixing is a phenomenon of mixing two or more languages in a speech event
+and is prevalent in multilingual societies. Given the low-resource nature of
+Code-Mixing, machine generation of code-mixed text is a prevalent approach for
+data augmentation. However, evaluating the quality of such machine generated
+code-mixed text is an open problem. In our submission to HinglishEval, a
+shared-task collocated with INLG2022, we attempt to build models factors that
+impact the quality of synthetically generated code-mix text by predicting
+ratings for code-mix quality.

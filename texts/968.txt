@@ -1,0 +1,18 @@
+This paper presents a novel approach to generate synthetic dataset for
+handwritten word recognition systems. It is difficult to recognize handwritten
+scripts for which sufficient training data is not readily available or it may
+be expensive to collect such data. Hence, it becomes hard to train recognition
+systems owing to lack of proper dataset. To overcome such problems, synthetic
+data could be used to create or expand the existing training dataset to improve
+recognition performance. Any available digital data from online newspaper and
+such sources can be used to generate synthetic data. In this paper, we propose
+to add distortion/deformation to digital data in such a way that the underlying
+pattern is preserved, so that the image so produced bears a close similarity to
+actual handwritten samples. The images thus produced can be used independently
+to train the system or be combined with natural handwritten data to augment the
+original dataset and improve the recognition system. We experimented using
+synthetic data to improve the recognition accuracy of isolated characters and
+words. The framework is tested on 2 Indic scripts - Devanagari (Hindi) and
+Bengali (Bangla), for numeral, character and word recognition. We have obtained
+encouraging results from the experiment. Finally, the experiment with Latin
+text verifies the utility of the approach.

@@ -1,0 +1,19 @@
+Deep neural networks (DNNs) allow digital receivers to learn to operate in
+complex environments. To do so, DNNs should preferably be trained using large
+labeled data sets with a similar statistical relationship as the one under
+which they are to infer. For DNN-aided receivers, obtaining labeled data
+conventionally involves pilot signalling at the cost of reduced spectral
+efficiency, typically resulting in access to limited data sets. In this paper,
+we study how one can enrich a small set of labeled pilots data into a larger
+data set for training deep receivers. Motivated by the widespread use of data
+augmentation techniques for enriching visual and text data, we propose
+dedicated augmentation schemes that exploits the characteristics of digital
+communication data. We identify the key considerations in data augmentations
+for deep receivers as the need for domain orientation, class (constellation)
+diversity, and low complexity. Following these guidelines, we devise three
+complementing augmentations that exploit the geometric properties of digital
+constellations. Our combined augmentation approach builds on the merits of
+these different augmentations to synthesize reliable data from a momentary
+channel distribution, to be used for training deep receivers. Furthermore, we
+exploit previous channel realizations to increase the reliability of the
+augmented samples.

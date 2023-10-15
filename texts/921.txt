@@ -1,0 +1,20 @@
+Correlation has a critical role in the tracking field, especially in recent
+popular Siamese-based trackers. The correlation operation is a simple fusion
+method that considers the similarity between the template and the search
+region. However, the correlation operation is a local linear matching process,
+losing semantic information and easily falling into a local optimum, which may
+be the bottleneck in designing high-accuracy tracking algorithms. In this work,
+to determine whether a better feature fusion method exists than correlation, a
+novel attention-based feature fusion network, inspired by the transformer, is
+presented. This network effectively combines the template and search region
+features using attention. Specifically, the proposed method includes an
+ego-context augment module based on self-attention and a cross-feature augment
+module based on cross-attention. First, we present a transformer tracking
+(named TransT) method based on the Siamese-like feature extraction backbone,
+the designed attention-based fusion mechanism, and the classification and
+regression head. Based on the TransT baseline, we further design a segmentation
+branch to generate an accurate mask. Finally, we propose a stronger version of
+TransT by extending TransT with a multi-template scheme and an IoU prediction
+head, named TransT-M. Experiments show that our TransT and TransT-M methods
+achieve promising results on seven popular datasets. Code and models are
+available at https://github.com/chenxin-dlut/TransT-M.

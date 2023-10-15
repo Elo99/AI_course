@@ -1,0 +1,16 @@
+We perform a numerical simulation of a three-band Hubbard model with two
+CuO$_2$ planes and a single CuO chain layer for YBCO cuprates. The
+spin-fluctuation mediated pairing interaction is computed within the multiband
+random-phase approximation, and its pairing eigenvalues and eigenfunctions are
+solved as a function of chain state filling factor $n_c$. We find that for the
+intrinsic value of $n_c$ in YBCO samples, one obtains the usual $d$-wave
+pairing symmetry. However, if we dope the chain layers with holes, while
+keeping the plane states doping fixed, the leading pairing symmetry solution
+becomes an unconventional $f$-wave symmetry. The mechanism behind the $f$-wave
+pairing is the competition between the plane states antiferromagnetic nesting
+and chain states' uniaxial nesting. We also find that the pairing strength is
+strongly augmented when the flat band bottom of the chain state passes the
+Fermi level for a fixed plane states doping. The $f$-wave pairing symmetry can
+be realized in YBCO cuprates in future experiments where the self-doping
+mechanism between the chain and plane states can be minimized so that only
+chain state can be selectively hole doped.

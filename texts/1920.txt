@@ -1,0 +1,3 @@
+We consider $C^1$-continuous approximations of the Kirchhoff plate problem in
+combination with a mesh dependent augmented Lagrangian method on a simply
+supported Signorini boundary.

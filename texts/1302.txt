@@ -1,0 +1,13 @@
+We propose to deliberate the hypothesis alignment of a streaming RNN-T model
+with the previously proposed Align-Refine non-autoregressive decoding method
+and its improved versions. The method performs a few refinement steps, where
+each step shares a transformer decoder that attends to both text features
+(extracted from alignments) and audio features, and outputs complete updated
+alignments. The transformer decoder is trained with the CTC loss which
+facilitates parallel greedy decoding, and performs full-context attention to
+capture label dependencies. We improve Align-Refine by introducing cascaded
+encoder that captures more audio context before refinement, and alignment
+augmentation which enforces learning label dependency. We show that,
+conditioned on hypothesis alignments of a streaming RNN-T model, our method
+obtains significantly more accurate recognition results than the first-pass
+RNN-T, with only small amount of model parameters.

@@ -1,0 +1,10 @@
+Linear codes and $t$-designs are interactive with each other. It is well
+known that some $t$-designs have been constructed by using certain linear codes
+in recent years. However, only a small number of infinite families of the
+extended codes of linear codes holding an infinite family of $t$-designs with
+$t\geq 3$ are reported in the literature. In this paper, we study the extended
+codes of the augmented codes of a class of binary cyclic codes with three zeros
+and their dual codes, and show that those codes hold $3$-designs. Furthermore,
+we obtain some shortened codes from the studied cyclic codes and explicitly
+determine their parameters. Some of those shortened codes are optimal or almost
+optimal.

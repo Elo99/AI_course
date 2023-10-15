@@ -1,0 +1,7 @@
+In this note we construct augmentations of Chekanov-Eliashberg algebras of
+certain high dimensional Legendrian submanifolds that are not induced by exact
+Lagrangian fillings. The obstructions to the existence of exact Lagrangian
+fillings that we use are Seidel's isomorphism and the injectivity of a certain
+algebraic map between the corresponding augmentation varieties proven by Gao
+and Rutherford. To the best of the author's knowledge, these are the first high
+dimensional examples of this type.

@@ -1,0 +1,19 @@
+Data augmentation techniques have become standard practice in deep learning,
+as it has been shown to greatly improve the generalisation abilities of models.
+These techniques rely on different ideas such as invariance-preserving
+transformations (e.g, expert-defined augmentation), statistical heuristics
+(e.g, Mixup), and learning the data distribution (e.g, GANs). However, in the
+adversarial settings it remains unclear under what conditions such data
+augmentation methods reduce or even worsen the misclassification risk. In this
+paper, we therefore analyse the effect of different data augmentation
+techniques on the adversarial risk by three measures: (a) the well-known risk
+under adversarial attacks, (b) a new measure of prediction-change stress based
+on the Laplacian operator, and (c) the influence of training examples on
+prediction. The results of our empirical analysis disprove the hypothesis that
+an improvement in the classification performance induced by a data augmentation
+is always accompanied by an improvement in the risk under adversarial attack.
+Further, our results reveal that the augmented data has more influence than the
+non-augmented data, on the resulting models. Taken together, our results
+suggest that general-purpose data augmentations that do not take into the
+account the characteristics of the data and the task, must be applied with
+care.

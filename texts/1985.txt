@@ -1,0 +1,15 @@
+We propose a self-supervised contrastive learning approach for facial
+expression recognition (FER) in videos. We propose a novel temporal
+sampling-based augmentation scheme to be utilized in addition to standard
+spatial augmentations used for contrastive learning. Our proposed temporal
+augmentation scheme randomly picks from one of three temporal sampling
+techniques: (1) pure random sampling, (2) uniform sampling, and (3) sequential
+sampling. This is followed by a combination of up to three standard spatial
+augmentations. We then use a deep R(2+1)D network for FER, which we train in a
+self-supervised fashion based on the augmentations and subsequently fine-tune.
+Experiments are performed on the Oulu-CASIA dataset and the performance is
+compared to other works in FER. The results indicate that our method achieves
+an accuracy of 89.4%, setting a new state-of-the-art by outperforming other
+works. Additional experiments and analysis confirm the considerable
+contribution of the proposed temporal augmentation versus the existing spatial
+ones.

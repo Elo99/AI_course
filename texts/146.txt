@@ -1,0 +1,9 @@
+In this study, we experimented to examine the effect of adding the most
+frequent n phoneme bigrams to the basic vocabulary on the German phoneme
+recognition model using the text-to-phoneme data augmentation strategy. As a
+result, compared to the baseline model, the vowel30 model and the const20 model
+showed an increased BLEU score of more than 1 point, and the total30 model
+showed a significant decrease in the BLEU score of more than 20 points, showing
+that the phoneme bigrams could have a positive or negative effect on the model
+performance. In addition, we identified the types of errors that the models
+repeatedly showed through error analysis.

@@ -1,0 +1,8 @@
+In this paper, we show that two flat fully augmented links with homeomorphic
+complements must be equivalent as links in $\mathbb{S}^{3}$. This requires a
+careful analysis of how totally geodesic surfaces and cusps intersect in these
+link complements and behave under homeomorphism. One consequence of this
+analysis is a complete classification of flat fully augmented link complements
+that admit multiple reflection surfaces. In addition, our work classifies those
+symmetries of flat fully augmented link complements which are not induced by
+symmetries of the corresponding link.

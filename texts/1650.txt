@@ -1,0 +1,24 @@
+Misinformation of COVID-19 is prevalent on social media as the pandemic
+unfolds, and the associated risks are extremely high. Thus, it is critical to
+detect and combat such misinformation. Recently, deep learning models using
+natural language processing techniques, such as BERT (Bidirectional Encoder
+Representations from Transformers), have achieved great successes in detecting
+misinformation. In this paper, we proposed an explainable natural language
+processing model based on DistilBERT and SHAP (Shapley Additive exPlanations)
+to combat misinformation about COVID-19 due to their efficiency and
+effectiveness. First, we collected a dataset of 984 claims about COVID-19 with
+fact checking. By augmenting the data using back-translation, we doubled the
+sample size of the dataset and the DistilBERT model was able to obtain good
+performance (accuracy: 0.972; areas under the curve: 0.993) in detecting
+misinformation about COVID-19. Our model was also tested on a larger dataset
+for AAAI2021 - COVID-19 Fake News Detection Shared Task and obtained good
+performance (accuracy: 0.938; areas under the curve: 0.985). The performance on
+both datasets was better than traditional machine learning models. Second, in
+order to boost public trust in model prediction, we employed SHAP to improve
+model explainability, which was further evaluated using a between-subjects
+experiment with three conditions, i.e., text (T), text+SHAP explanation (TSE),
+and text+SHAP explanation+source and evidence (TSESE). The participants were
+significantly more likely to trust and share information related to COVID-19 in
+the TSE and TSESE conditions than in the T condition. Our results provided good
+implications in detecting misinformation about COVID-19 and improving public
+trust.

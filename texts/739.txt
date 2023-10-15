@@ -1,0 +1,23 @@
+PIDE is a general framework for document-oriented prover interaction and
+integration, based on a bilingual architecture that combines ML and Scala. The
+overall aim is to connect LCF-style provers like Isabelle (or Coq or HOL) with
+sophisticated front-end technology on the JVM platform, overcoming command-line
+interaction at last.
+  The present system description specifically covers Isabelle/jEdit as part of
+the official release of Isabelle2011-1 (October 2011). It is a concrete Prover
+IDE implementation based on Isabelle/PIDE library modules (implemented in
+Scala) on the one hand, and the well-known text editor framework of jEdit
+(implemented in Java) on the other hand.
+  The interaction model of our Prover IDE follows the idea of continuous proof
+checking: the theory source text is annotated by semantic information by the
+prover as it becomes available incrementally. This works via an asynchronous
+protocol that neither blocks the editor nor stops the prover from exploiting
+parallelism on multi-core hardware. The jEdit GUI provides standard metaphors
+for augmented text editing (highlighting, squiggles, tooltips, hyperlinks etc.)
+that we have instrumented to render the formal content from the prover context.
+Further refinement of the jEdit display engine via suitable plugins and fonts
+approximates mathematical rendering in the text buffer, including symbols from
+the TeX repertoire, and sub-/superscripts.
+  Isabelle/jEdit is presented here both as a usable interface for current
+Isabelle, and as a reference application to inspire further projects based on
+PIDE.

@@ -1,0 +1,9 @@
+In low resource settings, data augmentation strategies are commonly leveraged
+to improve performance. Numerous approaches have attempted document-level
+augmentation (e.g., text classification), but few studies have explored
+token-level augmentation. Performed naively, data augmentation can produce
+semantically incongruent and ungrammatical examples. In this work, we compare
+simple masked language model replacement and an augmentation method using
+constituency tree mutations to improve the performance of named entity
+recognition in low-resource settings with the aim of preserving linguistic
+cohesion of the augmented sentences.

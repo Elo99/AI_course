@@ -1,0 +1,14 @@
+Disfluencies is an under-studied topic in NLP, even though it is ubiquitous
+in human conversation. This is largely due to the lack of datasets containing
+disfluencies. In this paper, we present a new challenge question answering
+dataset, Disfl-QA, a derivative of SQuAD, where humans introduce contextual
+disfluencies in previously fluent questions. Disfl-QA contains a variety of
+challenging disfluencies that require a more comprehensive understanding of the
+text than what was necessary in prior datasets. Experiments show that the
+performance of existing state-of-the-art question answering models degrades
+significantly when tested on Disfl-QA in a zero-shot setting.We show data
+augmentation methods partially recover the loss in performance and also
+demonstrate the efficacy of using gold data for fine-tuning. We argue that we
+need large-scale disfluency datasets in order for NLP models to be robust to
+them. The dataset is publicly available at:
+https://github.com/google-research-datasets/disfl-qa.

@@ -1,0 +1,19 @@
+Emotion recognition is involved in several real-world applications. With an
+increase in available modalities, automatic understanding of emotions is being
+performed more accurately. The success in Multimodal Emotion Recognition (MER),
+primarily relies on the supervised learning paradigm. However, data annotation
+is expensive, time-consuming, and as emotion expression and perception depends
+on several factors (e.g., age, gender, culture) obtaining labels with a high
+reliability is hard. Motivated by these, we focus on unsupervised feature
+learning for MER. We consider discrete emotions, and as modalities text, audio
+and vision are used. Our method, as being based on contrastive loss between
+pairwise modalities, is the first attempt in MER literature. Our end-to-end
+feature learning approach has several differences (and advantages) compared to
+existing MER methods: i) it is unsupervised, so the learning is lack of data
+labelling cost; ii) it does not require data spatial augmentation, modality
+alignment, large number of batch size or epochs; iii) it applies data fusion
+only at inference; and iv) it does not require backbones pre-trained on emotion
+recognition task. The experiments on benchmark datasets show that our method
+outperforms several baseline approaches and unsupervised learning methods
+applied in MER. Particularly, it even surpasses a few supervised MER
+state-of-the-art.

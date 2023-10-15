@@ -1,0 +1,22 @@
+In aspect-based sentiment analysis (ABSA), many neural models are equipped
+with an attention mechanism to quantify the contribution of each context word
+to sentiment prediction. However, such a mechanism suffers from one drawback:
+only a few frequent words with sentiment polarities are tended to be taken into
+consideration for final sentiment decision while abundant infrequent sentiment
+words are ignored by models. To deal with this issue, we propose a progressive
+self-supervised attention learning approach for attentional ABSA models. In
+this approach, we iteratively perform sentiment prediction on all training
+instances, and continually learn useful attention supervision information in
+the meantime. During training, at each iteration, context words with the
+highest impact on sentiment prediction, identified based on their attention
+weights or gradients, are extracted as words with active/misleading influence
+on the correct/incorrect prediction for each instance. Words extracted in this
+way are masked for subsequent iterations. To exploit these extracted words for
+refining ABSA models, we augment the conventional training objective with a
+regularization term that encourages ABSA models to not only take full advantage
+of the extracted active context words but also decrease the weights of those
+misleading words. We integrate the proposed approach into three
+state-of-the-art neural ABSA models. Experiment results and in-depth analyses
+show that our approach yields better attention results and significantly
+enhances the performance of all three models. We release the source code and
+trained models at https://github.com/DeepLearnXMU/PSSAttention.

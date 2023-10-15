@@ -1,0 +1,19 @@
+To compute and analyze vibrationally resolved electronic spectra at zero
+temperature, we have recently implemented the on-the-fly ab initio extended
+thawed Gaussian approximation [A. Patoz et al., J. Phys. Chem. Lett. 9, 2367
+(2018)], which accounts for anharmonicity, mode-mode coupling, and
+Herzberg-Teller effects. Here, we generalize this method in order to evaluate
+spectra at non-zero temperature. In line with thermo-field dynamics, we
+transform the von Neumann evolution of the coherence component of the density
+matrix to the Schr\"{o}dinger evolution of a wavefunction in an augmented space
+with twice as many degrees of freedom. Due to the efficiency of the extended
+thawed Gaussian approximation, this increase in the number of coordinates
+results in nearly no additional computational cost. More specifically, compared
+to the original, zero-temperature approach, the finite-temperature method
+requires no additional ab initio electronic structure calculations. At the same
+time, the new approach allows for a clear distinction among finite-temperature,
+anharmonicity, and Herzberg-Teller effects on spectra. We show, on a model
+Morse system, the advantages of the finite-temperature thawed Gaussian
+approximation over the commonly used global harmonic methods and apply it to
+evaluate the symmetry-forbidden absorption spectrum of benzene, where all of
+the aforementioned effects contribute.

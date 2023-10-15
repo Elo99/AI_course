@@ -1,0 +1,12 @@
+Data augmentation has proven its usefulness to improve model generalization
+and performance. While it is commonly applied in computer vision application
+when it comes to multi-view systems, it is rarely used. Indeed geometric data
+augmentation can break the alignment among views. This is problematic since
+multi-view data tend to be scarce and it is expensive to annotate. In this work
+we propose to solve this issue by introducing a new multi-view data
+augmentation pipeline that preserves alignment among views. Additionally to
+traditional augmentation of the input image we also propose a second level of
+augmentation applied directly at the scene level. When combined with our simple
+multi-view detection model, our two-level augmentation pipeline outperforms all
+existing baselines by a significant margin on the two main multi-view
+multi-person detection datasets WILDTRACK and MultiviewX.

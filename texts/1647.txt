@@ -1,0 +1,17 @@
+Future deep learning systems call for techniques that can deal with the
+evolving nature of temporal data and scarcity of annotations when new problems
+occur. As a step towards this goal, we present FUSION (Few-shot UnSupervIsed
+cONtinual learning), a learning strategy that enables a neural network to learn
+quickly and continually on streams of unlabelled data and unbalanced tasks. The
+objective is to maximise the knowledge extracted from the unlabelled data
+stream (unsupervised), favor the forward transfer of previously learnt tasks
+and features (continual) and exploit as much as possible the supervised
+information when available (few-shot). The core of FUSION is MEML -
+Meta-Example Meta-Learning - that consolidates a meta-representation through
+the use of a self-attention mechanism during a single inner loop in the
+meta-optimisation stage. To further enhance the capability of MEML to
+generalise from few data, we extend it by creating various augmented surrogate
+tasks and by optimising over the hardest. An extensive experimental evaluation
+on public computer vision benchmarks shows that FUSION outperforms existing
+state-of-the-art solutions both in the few-shot and continual learning
+experimental settings.

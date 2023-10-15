@@ -1,0 +1,24 @@
+Objective: Social Determinants of Health (SDOH) influence personal health
+outcomes and health systems interactions. Health systems capture SDOH
+information through structured data and unstructured clinical notes; however,
+clinical notes often contain a more comprehensive representation of several key
+SDOH. The objective of this work is to assess the SDOH information gain
+achievable by extracting structured semantic representations of SDOH from the
+clinical narrative and combining these extracted representations with available
+structured data.
+  Materials and Methods: We developed a natural language processing (NLP)
+information extraction model for SDOH that utilizes a deep learning entity and
+relation extraction architecture. In an electronic health record (EHR) case
+study, we applied the SDOH extractor to a large existing clinical data set with
+over 200,000 patients and 400,000 notes and compared the extracted information
+with available structured data.
+  Results: The SDOH extractor achieved 0.86 F1 on a withheld test set. In the
+EHR case study, we found 19\% of current tobacco users, 10\% of drug users, and
+32\% of homeless patients only include documentation of these risk factors in
+the clinical narrative.
+  Conclusions: Patients who are at-risk for negative health outcomes due to
+SDOH may be better served if health systems are able to identify SDOH risk
+factors and associated social needs. Structured semantic representations of
+text-encoded SDOH information can augment existing structured, and this more
+comprehensive SDOH representation can assist health systems in identifying and
+addressing social needs.

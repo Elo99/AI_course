@@ -1,0 +1,8 @@
+The Hierarchical Redundancy Eliminated Tree Augmented Naive Bayes (HRE-TAN)
+classifier is a semi-naive Bayesian model that learns a type of hierarchical
+redundancy-free tree-like feature representation to estimate the data
+distribution. In this work, we propose two new types of positive feature values
+prioritized hierarchical redundancy eliminated tree augmented naive Bayes
+classifiers that focus on features bearing positive instance values. The two
+newly proposed methods are applied to 28 real-world bioinformatics datasets
+showing better predictive performance than the conventional HRE-TAN classifier.

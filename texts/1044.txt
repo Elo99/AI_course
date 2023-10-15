@@ -1,0 +1,11 @@
+We improve the lower bound on the amortized cost of the decrease-key
+operation in the pure heap model and show that any pure-heap-model heap (that
+has a \bigoh{\log n} amortized-time extract-min operation) must spend
+\bigom{\log\log n} amortized time on the decrease-key operation. Our result
+shows that sort heaps as well as pure-heap variants of numerous other heaps
+have asymptotically optimal decrease-key operations in the pure heap model. In
+addition, our improved lower bound matches the lower bound of Fredman [J. ACM
+46(4):473-501 (1999)] for pairing heaps [M.L. Fredman, R. Sedgewick, D.D.
+Sleator, and R.E. Tarjan. Algorithmica 1(1):111-129 (1986)] and surpasses it
+for pure-heap variants of numerous other heaps with augmented data such as
+pointer rank-pairing heaps.

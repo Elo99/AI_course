@@ -1,0 +1,16 @@
+Data augmentation methods enrich datasets with augmented data to improve the
+performance of neural networks. Recently, automated data augmentation methods
+have emerged, which automatically design augmentation strategies. Existing work
+focuses on image classification and object detection, whereas we provide the
+first study on semantic image segmentation and introduce two new approaches:
+\textit{SmartAugment} and \textit{SmartSamplingAugment}. SmartAugment uses
+Bayesian Optimization to search over a rich space of augmentation strategies
+and achieves a new state-of-the-art performance in all semantic segmentation
+tasks we consider. SmartSamplingAugment, a simple parameter-free approach with
+a fixed augmentation strategy competes in performance with the existing
+resource-intensive approaches and outperforms cheap state-of-the-art data
+augmentation methods. Further, we analyze the impact, interaction, and
+importance of data augmentation hyperparameters and perform ablation studies,
+which confirm our design choices behind SmartAugment and SmartSamplingAugment.
+Lastly, we will provide our source code for reproducibility and to facilitate
+further research.

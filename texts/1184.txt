@@ -1,0 +1,11 @@
+Convolutional neural networks have been achieving the best possible
+accuracies in many visual pattern classification problems. However, due to the
+model capacity required to capture such representations, they are often
+oversensitive to overfitting and therefore require proper regularization to
+generalize well. In this paper, we present a combination of regularization
+techniques which work together to get better performance, we built plain CNNs,
+and then we used data augmentation, dropout and customized early stopping
+function, we tested and evaluated these techniques by applying models on five
+famous datasets, MNIST, CIFAR10, CIFAR100, SVHN, STL10, and we achieved three
+state-of-the-art-of (MNIST, SVHN, STL10) and very high-Accuracy on the other
+two datasets.

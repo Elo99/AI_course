@@ -1,0 +1,21 @@
+Hyperspectral image is a substitution of more than a hundred images, called
+bands, of the same region. They are taken at juxtaposed frequencies. The
+reference image of the region is called Ground Truth map (GT). the problematic
+is how to find the good bands to classify the pixels of regions; because the
+bands can be not only redundant, but a source of confusion, and decreasing so
+the accuracy of classification. Some methods use Mutual Information (MI) and
+threshold, to select relevant bands. Recently there's an algorithm selection
+based on mutual information, using bandwidth rejection and a threshold to
+control and eliminate redundancy. The band top ranking the MI is selected, and
+if its neighbors have sensibly the same MI with the GT, they will be considered
+redundant and so discarded. This is the most inconvenient of this method,
+because this avoids the advantage of hyperspectral images: some precious
+information can be discarded. In this paper we'll make difference between
+useful and useless redundancy. A band contains useful redundancy if it
+contributes to decreasing error probability. According to this scheme, we
+introduce new algorithm using also mutual information, but it retains only the
+bands minimizing the error probability of classification. To control
+redundancy, we introduce a complementary threshold. So the good band candidate
+must contribute to decrease the last error probability augmented by the
+threshold. This process is a wrapper strategy; it gets high performance of
+classification accuracy but it is expensive than filter strategy.

@@ -1,0 +1,17 @@
+Here we present 1584 new southern proper motion systems with mu > 0.18 "/yr
+and 16.5 > R_59F > 18.0. This search complements the six previous
+SuperCOSMOS-RECONS (SCR) proper motion searches of the southern sky for stars
+within the same proper motion range, but with R_59F < 16.5. As in previous
+papers, we present distance estimates for these systems and find that three
+systems are estimated to be within 25 pc, including one, SCR 1546-5534,
+possibly within the RECONS 10 pc horizon at 6.7 pc, making it the second
+nearest discovery of the searches. We find 97 white dwarf candidates with
+distance estimates between 10 and 120 pc, as well as 557 cool subdwarf
+candidates. The subdwarfs found in this paper make up nearly half of the
+subdwarf systems reported from our SCR searches, and are significantly redder
+than those discovered thus far. The SCR searches have now found 155 red dwarfs
+estimated to be within 25 pc, including 10 within 10 pc. In addition, 143 white
+dwarf candidates and 1155 cool subdwarf candidates have been discovered. The
+1584 systems reported here augment the sample of 4724 systems previously
+discovered in our SCR searches, and imply that additional systems fainter than
+R_59F = 18.0 are yet to be discovered.

@@ -1,0 +1,16 @@
+The lack of well-structured annotations in a growing amount of RNA expression
+data complicates data interoperability and reusability. Commonly - used text
+mining methods extract annotations from existing unstructured data descriptions
+and often provide inaccurate output that requires manual curation. Automatic
+data-based augmentation (generation of annotations on the base of expression
+data) can considerably improve the annotation quality and has not been
+well-studied. We formulate an automatic augmentation of small RNA-seq
+expression data as a classification problem and investigate deep learning (DL)
+and random forest (RF) approaches to solve it. We generate tissue and sex
+annotations from small RNA-seq expression data for tissues and cell lines of
+homo sapiens. We validate our approach on 4243 annotated small RNA-seq samples
+from the Small RNA Expression Atlas (SEA) database. The average prediction
+accuracy for tissue groups is 98% (DL), for tissues - 96.5% (DL), and for sex -
+77% (DL). The "one dataset out" average accuracy for tissue group prediction is
+83% (DL) and 59% (RF). On average, DL provides better results as compared to
+RF, and considerably improves classification performance for 'unseen' datasets.

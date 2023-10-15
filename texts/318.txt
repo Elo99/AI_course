@@ -1,0 +1,16 @@
+Text mining approaches are being used increasingly for business analytics. In
+particular, such approaches are now central to understanding users' feedback
+regarding systems delivered via online application distribution platforms such
+as Google Play. In such settings, large volumes of reviews of potentially
+numerous apps and systems means that it is infeasible to use manual mechanisms
+to extract insights and knowledge that could inform product improvement. In
+this context of identifying software system improvement options, text mining
+techniques are used to reveal the features that are mentioned most often as
+being in need of correction (e.g., GPS), and topics that are associated with
+features perceived as being defective (e.g., inaccuracy of GPS). Other
+approaches may supplement such techniques to provide further insights for
+online communities and solution providers. In this work we augment text mining
+approaches with social network analysis to demonstrate the utility of using
+multiple techniques. Our outcomes suggest that text mining approaches may
+indeed be supplemented with other methods to deliver a broader range of
+insights.

@@ -1,0 +1,19 @@
+There are two reasons why uncertainty about the future yield of investments
+may not be adequately described by Probability Theory. The first one is due to
+unique or nearly-unique events, that either never realized or occurred too
+seldom for probabilities to be reliable. The second one arises when when one
+fears that something may happen, that one is not even able to figure out, e.g.,
+if one asks: "Climate change, financial crises, pandemic, war, what next?"
+  In both cases, simple one-to-one causal mappings between available
+alternatives and possible consequences eventually melt down. However, such
+destructions reflect into the changing narratives of business executives,
+employees and other stakeholders in specific, identifiable and differential
+ways. In particular, texts such as consultants' reports or letters to
+shareholders can be analysed in order to detect the impact of both sorts of
+uncertainty onto the causal relations that normally guide decision-making.
+  We propose structural measures of causal mappings as a means to measure
+non-probabilistic uncertainty, eventually suggesting that automated text
+analysis can greatly augment the possibilities offered by these techniques.
+Prospective applications may concern statistical institutes, stock market
+traders, as well as businesses wishing to compare their own vision to those
+prevailing in their industry.

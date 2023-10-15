@@ -1,0 +1,8 @@
+A nonlinear Schroedinger model in a square well and managed nonlinearity is
+shown to possess nonlinear states as continuous extensions of the linear
+levels. The solutions are remarkably stable up to a threshold amplitude where a
+soliton is emitted and propagates outside the well. The analytic expression of
+the threshold is given in terms of the well size for each level. This process
+of nonlinear tunneling results from an instability of the evanescent wave
+inside the walls and can find experimental realization in a proposed nonlinear
+fiber Bragg gratings resonator.

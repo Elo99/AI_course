@@ -1,0 +1,21 @@
+This work will incorporate a few related tools for addressing the conceptual
+difficulties arising from sewing together classical and quantum mechanics:
+deterministic operators, weak measurements and post-selection. Weak
+Measurement, based on a very weak von Neumann coupling, is a unique kind of
+quantum measurement with numerous theoretical and practical applications. In
+contrast to other measurement techniques, it allows to gather a small amount of
+information regarding the quantum system, with only a negligible probability of
+collapsing it. A single weak measurement yields an almost random outcome, but
+when performed repeatedly over a large ensemble, the averaged outcome becomes
+increasingly robust and accurate. Importantly, a long sequence of weak
+measurements can be thought of as a single projective measurement. I claim in
+this work that classical variables appearing in the macro-world, such as centre
+of mass, moment of inertia, pressure and average forces, result from a
+multitude of quantum weak measurements performed in the micro-world. Here
+again, the quantum outcomes are highly uncertain, but the law of large numbers
+obliges their convergence to the definite quantities we know from our everyday
+lives. By augmenting this description with a final boundary condition and
+employing the notion of "classical robustness under time-reversal" I will draw
+a quantitative borderline between the classical and quantum regimes. I will
+conclude by analyzing the role of macroscopic systems in amplifying and
+recording quantum outcomes.

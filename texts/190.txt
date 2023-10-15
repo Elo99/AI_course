@@ -1,0 +1,14 @@
+Total generalization variation (TGV) is a very powerful and important
+regularization for various inverse problems and computer vision tasks. In this
+paper, we proposed a semismooth Newton based augmented Lagrangian method to
+solve this problem. The augmented Lagrangian method (also called as method of
+multipliers) is widely used for lots of smooth or nonsmooth variational
+problems. However, its efficiency usually heavily depends on solving the
+coupled and nonlinear system together and simultaneously, which is very
+complicated and highly coupled for total generalization variation. With
+efficient primal-dual semismooth Newton methods for the complicated linear
+subproblems involving total generalized variation, we investigated a highly
+efficient and competitive algorithm compared to some efficient first-order
+method. With the analysis of the metric subregularities of the corresponding
+functions, we give both the global convergence and local linear convergence
+rate for the proposed augmented Lagrangian methods.

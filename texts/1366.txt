@@ -1,0 +1,14 @@
+This paper tackles an emerging and challenging vision-language task, namely
+3D visual grounding on point clouds. Many recent works benefit from Transformer
+with the well-known attention mechanism, leading to a tremendous breakthrough
+for this task. However, we find that they realize the achievement by using
+various pre-training or multi-stage processing. To simplify the pipeline, we
+carefully investigate 3D visual grounding and summarize three fundamental
+problems about how to develop an end-to-end model with high performance for
+this task. To address these problems, we especially introduce a novel
+Hierarchical Attention Model (HAM), offering multi-granularity representation
+and efficient augmentation for both given texts and multi-modal visual inputs.
+Extensive experimental results demonstrate the superiority of our proposed HAM
+model. Specifically, HAM ranks first on the large-scale ScanRefer challenge,
+which outperforms all the existing methods by a significant margin. Codes will
+be released after acceptance.

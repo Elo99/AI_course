@@ -1,0 +1,5 @@
+We present here an efficient method which systematically reduces the rank of
+the augmented space and thereby helps to implement augmented space recursion
+for any real calculation. Our method is based on the symmetry of the
+Hamiltonian in the augmented space and keeping recursion basis vectors in the
+irreducible subspace of the Hilbert space.

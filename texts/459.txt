@@ -1,0 +1,21 @@
+Synthesizing a realistic image from textual description is a major challenge
+in computer vision. Current text to image synthesis approaches falls short of
+producing a highresolution image that represent a text descriptor. Most
+existing studies rely either on Generative Adversarial Networks (GANs) or
+Variational Auto Encoders (VAEs). GANs has the capability to produce sharper
+images but lacks the diversity of outputs, whereas VAEs are good at producing a
+diverse range of outputs, but the images generated are often blurred. Taking
+into account the relative advantages of both GANs and VAEs, we proposed a new
+stacked Conditional VAE (CVAE) and Conditional GAN (CGAN) network architecture
+for synthesizing images conditioned on a text description. This study uses
+Conditional VAEs as an initial generator to produce a high-level sketch of the
+text descriptor. This high-level sketch output from first stage and a text
+descriptor is used as an input to the conditional GAN network. The second stage
+GAN produces a 256x256 high resolution image. The proposed architecture
+benefits from a conditioning augmentation and a residual block on the
+Conditional GAN network to achieve the results. Multiple experiments were
+conducted using CUB and Oxford-102 dataset and the result of the proposed
+approach is compared against state-ofthe-art techniques such as StackGAN. The
+experiments illustrate that the proposed method generates a high-resolution
+image conditioned on text descriptions and yield competitive results based on
+Inception and Frechet Inception Score using both datasets

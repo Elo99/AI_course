@@ -1,0 +1,11 @@
+K-means defines one of the most employed centroid-based clustering algorithms
+with performances tied to the data's embedding. Intricate data embeddings have
+been designed to push $K$-means performances at the cost of reduced theoretical
+guarantees and interpretability of the results. Instead, we propose preserving
+the intrinsic data space and augment K-means with a similarity measure
+invariant to non-rigid transformations. This enables (i) the reduction of
+intrinsic nuisances associated with the data, reducing the complexity of the
+clustering task and increasing performances and producing state-of-the-art
+results, (ii) clustering in the input space of the data, leading to a fully
+interpretable clustering algorithm, and (iii) the benefit of convergence
+guarantees.

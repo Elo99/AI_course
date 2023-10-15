@@ -1,0 +1,16 @@
+Successful training of convolutional neural networks (CNNs) requires a
+substantial amount of data. With small datasets networks generalize poorly.
+Data Augmentation techniques improve the generalizability of neural networks by
+using existing training data more effectively. Standard data augmentation
+methods, however, produce limited plausible alternative data. Generative
+Adversarial Networks (GANs) have been utilized to generate new data and improve
+the performance of CNNs. Nevertheless, data augmentation techniques for
+training GANs are under-explored compared to CNNs. In this work, we propose a
+new GAN architecture for augmentation of chest X-rays for semi-supervised
+detection of pneumonia and COVID-19 using generative models. We show that the
+proposed GAN can be used to effectively augment data and improve classification
+accuracy of disease in chest X-rays for pneumonia and COVID-19. We compare our
+augmentation GAN model with Deep Convolutional GAN and traditional augmentation
+methods (rotate, zoom, etc) on two different X-ray datasets and show our
+GAN-based augmentation method surpasses other augmentation methods for training
+a GAN in detecting anomalies in X-ray images.

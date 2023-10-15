@@ -1,0 +1,13 @@
+Test-time augmentation -- the aggregation of predictions across transformed
+examples of test inputs -- is an established technique to improve the
+performance of image classification models. Importantly, TTA can be used to
+improve model performance post-hoc, without additional training. Although
+test-time augmentation (TTA) can be applied to any data modality, it has seen
+limited adoption in NLP due in part to the difficulty of identifying
+label-preserving transformations. In this paper, we present augmentation
+policies that yield significant accuracy improvements with language models. A
+key finding is that augmentation policy design -- for instance, the number of
+samples generated from a single, non-deterministic augmentation -- has a
+considerable impact on the benefit of TTA. Experiments across a binary
+classification task and dataset show that test-time augmentation can deliver
+consistent improvements over current state-of-the-art approaches.

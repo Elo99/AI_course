@@ -1,0 +1,8 @@
+This paper presents our latest effort on improving Code-switching language
+models that suffer from data scarcity. We investigate methods to augment
+Code-switching training text data by artificially generating them. Concretely,
+we propose a cycle-consistent adversarial networks based framework to transfer
+monolingual text into Code-switching text, considering Code-switching as a
+speaking style. Our experimental results on the SEAME corpus show that
+utilising artificially generated Code-switching text data improves consistently
+the language model as well as the automatic speech recognition performance.

@@ -1,0 +1,24 @@
+Although pre-trained language models (PLMs) have shown impressive performance
+by text-only self-supervised training, they are found lack of visual semantics
+or commonsense, e.g., sizes, shapes, and colors of commonplace objects.
+Existing solutions often rely on explicit images for visual knowledge
+augmentation (requiring time-consuming retrieval or generation), and they also
+conduct the augmentation for the whole input text, without considering whether
+it is actually needed in specific inputs or tasks. To address these issues, we
+propose a novel visually-augmented fine-tuning approach that can be generally
+applied to various PLMs or NLP tasks, without using any retrieved or generated
+images, namely VAWI. Specifically, we first identify the visually-hungry words
+(VH-words) from input text via a token selector, where three different methods
+have been proposed, including syntax-, attention- and learning-based
+strategies. Then, we adopt a fixed CLIP text encoder to generate the
+visually-augmented representations of these VH-words. As it has been
+pre-trained by vision-language alignment task on the large-scale corpus, it is
+capable of injecting visual semantics into the aligned text representations.
+Finally, the visually-augmented features will be fused and transformed into the
+pre-designed visual prompts based on VH-words, which can be inserted into PLMs
+to enrich the visual semantics in word representations. We conduct extensive
+experiments on ten NLP tasks, i.e., GLUE benchmark, CommonsenseQA, CommonGen,
+and SNLI-VE. Experimental results show that our approach can consistently
+improve the performance of BERT, RoBERTa, BART, and T5 at different scales, and
+outperform several competitive baselines significantly. Our codes and data are
+publicly available at~\url{https://github.com/RUCAIBox/VAWI}.

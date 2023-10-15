@@ -1,0 +1,12 @@
+Although an object may appear in numerous contexts, we often describe it in a
+limited number of ways. This happens because language abstracts away visual
+variation to represent and communicate concepts. Building on this intuition, we
+propose an alternative approach to visual learning: using language similarity
+to sample semantically similar image pairs for contrastive learning. Our
+approach deviates from image-based contrastive learning by using language to
+sample pairs instead of hand-crafted augmentations or learned clusters. Our
+approach also deviates from image-text contrastive learning by relying on
+pre-trained language models to guide the learning rather than minimize a
+cross-modal similarity. Through a series of experiments, we show that
+language-guided learning can learn better features than both image-image and
+image-text representation learning approaches.

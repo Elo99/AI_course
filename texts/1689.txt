@@ -1,0 +1,17 @@
+In this note, a novel observer-based output feedback control approach is
+proposed to address the distributed optimal output consensus problem of
+uncertain nonlinear multi-agent systems in the normal form over unbalanced
+directed graphs. The main challenges of the concerned problem lie in unbalanced
+directed graphs and nonlinearities of multi-agent systems with their agent
+states not available for feedback control. Based on a two-layer controller
+structure, a distributed optimal coordinator is first designed to convert the
+considered problem into a reference-tracking problem. Then a decentralized
+output feedback controller is developed to stabilize the resulting augmented
+system. A high-gain observer is exploited in controller design to estimate the
+agent states in the presence of uncertainties and disturbances so that the
+proposed controller relies only on agent outputs. The semi-global convergence
+of the agent outputs toward the optimal solution that minimizes the sum of all
+local cost functions is proved under standard assumptions. A key feature of the
+obtained results is that the nonlinear agents under consideration are only
+required to be locally Lipschitz and possess globally asymptotically stable and
+locally exponentially stable zero dynamics.

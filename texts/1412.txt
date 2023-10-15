@@ -1,0 +1,10 @@
+In contrastive representation learning, data representation is trained so
+that it can classify the image instances even when the images are altered by
+augmentations. However, depending on the datasets, some augmentations can
+damage the information of the images beyond recognition, and such augmentations
+can result in collapsed representations. We present a partial solution to this
+problem by formalizing a stochastic encoding process in which there exist a
+tug-of-war between the data corruption introduced by the augmentations and the
+information preserved by the encoder. We show that, with the infoMax objective
+based on this framework, we can learn a data-dependent distribution of
+augmentations to avoid the collapse of the representation.

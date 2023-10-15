@@ -1,0 +1,10 @@
+This paper proposes a handwritten text recognition(HTR) system that
+outperforms current state-of-the-artmethods. The comparison was carried out on
+three of themost frequently used in HTR task datasets, namely Ben-tham, IAM,
+and Saint Gall. In addition, the results on tworecently presented datasets,
+Peter the Greats manuscriptsand HKR Dataset, are provided.The paper describes
+the architecture of the neural net-work and two ways of increasing the volume
+of train-ing data: augmentation that simulates strikethrough text(HandWritten
+Blots) and a new text generation method(StackMix), which proved to be very
+effective in HTR tasks.StackMix can also be applied to the standalone task of
+gen-erating handwritten text based on printed text.

@@ -1,0 +1,16 @@
+We address the problem of cross-speaker style transfer for text-to-speech
+(TTS) using data augmentation via voice conversion. We assume to have a corpus
+of neutral non-expressive data from a target speaker and supporting
+conversational expressive data from different speakers. Our goal is to build a
+TTS system that is expressive, while retaining the target speaker's identity.
+The proposed approach relies on voice conversion to first generate high-quality
+data from the set of supporting expressive speakers. The voice converted data
+is then pooled with natural data from the target speaker and used to train a
+single-speaker multi-style TTS system. We provide evidence that this approach
+is efficient, flexible, and scalable. The method is evaluated using one or more
+supporting speakers, as well as a variable amount of supporting data. We
+further provide evidence that this approach allows some controllability of
+speaking style, when using multiple supporting speakers. We conclude by scaling
+our proposed technology to a set of 14 speakers across 7 languages. Results
+indicate that our technology consistently improves synthetic samples in terms
+of style similarity, while retaining the target speaker's identity.

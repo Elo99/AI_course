@@ -1,0 +1,20 @@
+Data augmentation is one of the most important tools in training modern deep
+neural networks. Recently, great advances have been made in searching for
+optimal augmentation policies in the image classification domain. However, two
+key points related to data augmentation remain uncovered by the current
+methods. First is that most if not all modern augmentation search methods are
+offline and learning policies are isolated from their usage. The learned
+policies are mostly constant throughout the training process and are not
+adapted to the current training model state. Second, the policies rely on
+class-preserving image processing functions. Hence applying current offline
+methods to new tasks may require domain knowledge to specify such kind of
+operations. In this work, we offer an orthogonal online data augmentation
+scheme together with three new augmentation networks, co-trained with the
+target learning task. It is both more efficient, in the sense that it does not
+require expensive offline training when entering a new domain, and more
+adaptive as it adapts to the learner state. Our augmentation networks require
+less domain knowledge and are easily applicable to new tasks. Extensive
+experiments demonstrate that the proposed scheme alone performs on par with the
+state-of-the-art offline data augmentation methods, as well as improving upon
+the state-of-the-art in combination with those methods. Code is available at
+https://github.com/zhiqiangdon/online-augment .

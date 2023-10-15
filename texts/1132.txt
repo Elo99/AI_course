@@ -1,0 +1,18 @@
+Multistage ranking models, including the popular Plackett-Luce distribution
+(PL), rely on the assumption that the ranking process is performed
+sequentially, by assigning the positions from the top to the bottom one
+(forward order). A recent contribution to the ranking literature relaxed this
+assumption with the addition of the discrete-valued reference order parameter,
+yielding the novel Extended Plackett-Luce model (EPL). Inference on the EPL and
+its generalization into a finite mixture framework was originally addressed
+from the frequentist perspective. In this work, we propose the Bayesian
+estimation of the EPL with order constraints on the reference order parameter.
+The proposed restrictions reflect a meaningful rank assignment process. By
+combining the restrictions with the data augmentation strategy and the
+conjugacy of the Gamma prior distribution with the EPL, we facilitate the
+construction of a tuned joint Metropolis-Hastings algorithm within Gibbs
+sampling to simulate from the posterior distribution. The Bayesian approach
+allows to address more efficiently the inference on the additional
+discrete-valued parameter and the assessment of its estimation uncertainty. The
+usefulness of the proposal is illustrated with applications to simulated and
+real datasets.

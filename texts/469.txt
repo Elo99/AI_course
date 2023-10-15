@@ -1,0 +1,11 @@
+We present a novel model for text complexity analysis which can be fitted to
+ordered categorical data measured on multiple scales, e.g. a corpus with binary
+responses mixed with a corpus with more than two ordered outcomes. The multiple
+scales are assumed to be driven by the same underlying latent variable
+describing the complexity of the text. We propose an easily implemented Gibbs
+sampler to sample from the posterior distribution by a direct extension of
+established data augmentation schemes. By being able to combine multiple
+corpora with different annotation schemes we can get around the common problem
+of having more text features than annotated documents, i.e. an example of the
+$p>n$ problem. The predictive performance of the model is evaluated using both
+simulated and real world readability data with very promising results.

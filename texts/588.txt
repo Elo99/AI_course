@@ -1,0 +1,12 @@
+We propose an ensemble approach to predict the labels in linear programming
+word problems. The entity identification and the meaning representation are two
+types of tasks to be solved in the NL4Opt competition. We propose the
+ensembleCRF method to identify the named entities for the first task. We found
+that single models didn't improve for the given task in our analysis. A set of
+prediction models predict the entities. The generated results are combined to
+form a consensus result in the ensembleCRF method. We present an ensemble text
+generator to produce the representation sentences for the second task. We
+thought of dividing the problem into multiple small tasks due to the overflow
+in the output. A single model generates different representations based on the
+prompt. All the generated text is combined to form an ensemble and produce a
+mathematical meaning of a linear programming problem.

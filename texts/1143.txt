@@ -1,0 +1,8 @@
+We study the effects of including Yukawa-like dimension-5 operators in the
+Georgi-Machacek model where the Standard Model is augmented with triplet
+scalars. We focus only on the charged Higgs sector and investigate the
+constraints arising from radiative B-meson decays, neutral B-meson mixing and
+precision measurement of Zbb vertex. We observe that the inclusion of the
+dimension-5 operators causes substantial alteration of the limits on the
+charged Higgs masses and the vacuum expectation value of the triplets, derived
+otherwise using only the dimension-4 operators.

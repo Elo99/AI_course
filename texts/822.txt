@@ -1,0 +1,14 @@
+An independent ethical assessment of an artificial intelligence system is an
+impartial examination of the system's development, deployment, and use in
+alignment with ethical values. System-level qualitative frameworks that
+describe high-level requirements and component-level quantitative metrics that
+measure individual ethical dimensions have been developed over the past few
+years. However, there exists a gap between the two, which hinders the execution
+of independent ethical assessments in practice. This study bridges this gap and
+designs a holistic independent ethical assessment process for a text
+classification model with a special focus on the task of hate speech detection.
+The assessment is further augmented with protected attributes mining and
+counterfactual-based analysis to enhance bias assessment. It covers assessments
+of technical performance, data bias, embedding bias, classification bias, and
+interpretability. The proposed process is demonstrated through an assessment of
+a deep hate speech detection model.

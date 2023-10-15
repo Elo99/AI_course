@@ -1,0 +1,18 @@
+Explainable question answering systems should produce not only accurate
+answers but also rationales that justify their reasoning and allow humans to
+check their work. But what sorts of rationales are useful and how can we train
+systems to produce them? We propose a new style of rationale for open-book
+question answering, called \emph{markup-and-mask}, which combines aspects of
+extractive and free-text explanations. In the markup phase, the passage is
+augmented with free-text markup that enables each sentence to stand on its own
+outside the discourse context. In the masking phase, a sub-span of the
+marked-up passage is selected. To train a system to produce markup-and-mask
+rationales without annotations, we leverage in-context learning. Specifically,
+we generate silver annotated data by sending a series of prompts to a frozen
+pretrained language model, which acts as a teacher. We then fine-tune a smaller
+student model by training on the subset of rationales that led to correct
+answers. The student is "honest" in the sense that it is a pipeline: the
+rationale acts as a bottleneck between the passage and the answer, while the
+"untrusted" teacher operates under no such constraints. Thus, we offer a new
+way to build trustworthy pipeline systems from a combination of end-task
+annotations and frozen pretrained language models.

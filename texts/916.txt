@@ -1,0 +1,22 @@
+Quality control (QC) of MR images is essential to ensure that downstream
+analyses such as segmentation can be performed successfully. Currently, QC is
+predominantly performed visually and subjectively, at significant time and
+operator cost. We aim to automate the process using a probabilistic network
+that estimates segmentation uncertainty through a heteroscedastic noise model,
+providing a measure of task-specific quality. By augmenting training images
+with k-space artefacts, we propose a novel CNN architecture to decouple sources
+of uncertainty related to the task and different k-space artefacts in a
+self-supervised manner. This enables the prediction of separate uncertainties
+for different types of data degradation. While the uncertainty predictions
+reflect the presence and severity of artefacts, the network provides more
+robust and generalisable segmentation predictions given the quality of the
+data. We show that models trained with artefact augmentation provide
+informative measures of uncertainty on both simulated artefacts and problematic
+real-world images identified by human raters, both qualitatively and
+quantitatively in the form of error bars on volume measurements. Relating
+artefact uncertainty to segmentation Dice scores, we observe that our
+uncertainty predictions provide a better estimate of MRI quality from the point
+of view of the task (gray matter segmentation) compared to commonly used
+metrics of quality including signal-to-noise ratio (SNR) and contrast-to-noise
+ratio (CNR), hence providing a real-time quality metric indicative of
+segmentation quality.

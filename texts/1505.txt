@@ -1,0 +1,14 @@
+We are entering an era in which humans will increasingly work in partnership
+and collaboration with artificially intelligent entities. For millennia, tools
+have augmented human physical and mental performance but in the coming era of
+cognitive systems, human cognitive performance will be augmented. We are only
+just now beginning to define the fundamental concepts and metrics to describe,
+characterize, and measure augmented and collaborative cognition. In this paper,
+the results of a cognitive augmentation experiment are discussed and we
+calculate the increase in cognitive accuracy and cognitive precision. In the
+case study, cognitively augmented problem solvers show an increase of 74% in
+cognitive accuracy (the ability to synthesize desired answers) and a 27%
+increase in cognitive precision (the ability to synthesize only desired
+answers). We offer a formal treatment of the case study results and propose
+cognitive accuracy and cognitive precision as standard metrics to describe and
+measure human cognitive augmentation.

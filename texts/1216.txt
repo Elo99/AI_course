@@ -1,0 +1,12 @@
+This paper describes the system designed by ERNIE Team which achieved the
+first place in SemEval-2020 Task 10: Emphasis Selection For Written Text in
+Visual Media. Given a sentence, we are asked to find out the most important
+words as the suggestion for automated design. We leverage the unsupervised
+pre-training model and finetune these models on our task. After our
+investigation, we found that the following models achieved an excellent
+performance in this task: ERNIE 2.0, XLM-ROBERTA, ROBERTA and ALBERT. We
+combine a pointwise regression loss and a pairwise ranking loss which is more
+close to the final M atchm metric to finetune our models. And we also find that
+additional feature engineering and data augmentation can help improve the
+performance. Our best model achieves the highest score of 0.823 and ranks first
+for all kinds of metrics

@@ -1,0 +1,16 @@
+This work builds on the models and concepts presented in part 1 to learn
+approximate dictionary representations of Koopman operators from data. Part I
+of this paper presented a methodology for arguing the subspace invariance of a
+Koopman dictionary. This methodology was demonstrated on the state-inclusive
+logistic lifting (SILL) basis. This is an affine basis augmented with
+conjunctive logistic functions. The SILL dictionary's nonlinear functions are
+homogeneous, a norm in data-driven dictionary learning of Koopman operators. In
+this paper, we discover that structured mixing of heterogeneous dictionary
+functions drawn from different classes of nonlinear functions achieve the same
+accuracy and dimensional scaling as the deep-learning-based deepDMD algorithm.
+We specifically show this by building a heterogeneous dictionary comprised of
+SILL functions and conjunctive radial basis functions (RBFs). This mixed
+dictionary achieves the same accuracy and dimensional scaling as deepDMD with
+an order of magnitude reduction in parameters, while maintaining geometric
+interpretability. These results strengthen the viability of dictionary-based
+Koopman models to solving high-dimensional nonlinear learning problems.

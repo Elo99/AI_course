@@ -1,0 +1,13 @@
+This paper describes two novel complementary techniques that improve the
+detection of lexical stress errors in non-native (L2) English speech:
+attention-based feature extraction and data augmentation based on Neural
+Text-To-Speech (TTS). In a classical approach, audio features are usually
+extracted from fixed regions of speech such as the syllable nucleus. We propose
+an attention-based deep learning model that automatically derives optimal
+syllable-level representation from frame-level and phoneme-level audio
+features. Training this model is challenging because of the limited amount of
+incorrect stress patterns. To solve this problem, we propose to augment the
+training set with incorrectly stressed words generated with Neural TTS.
+Combining both techniques achieves 94.8% precision and 49.2% recall for the
+detection of incorrectly stressed words in L2 English speech of Slavic and
+Baltic speakers.

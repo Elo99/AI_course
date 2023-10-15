@@ -1,0 +1,16 @@
+Online social networks are ubiquitous and user-friendly. Nevertheless, it is
+vital to detect and moderate offensive content to maintain decency and empathy.
+However, mining social media texts is a complex task since users don't adhere
+to any fixed patterns. Comments can be written in any combination of languages
+and many of them may be low-resource.
+  In this paper, we present our system for the LT-EDI shared task on detecting
+homophobia and transphobia in social media comments. We experiment with a
+number of monolingual and multilingual transformer based models such as mBERT
+along with a data augmentation technique for tackling class imbalance. Such
+pretrained large models have recently shown tremendous success on a variety of
+benchmark tasks in natural language processing. We observe their performance on
+a carefully annotated, real life dataset of YouTube comments in English as well
+as Tamil.
+  Our submission achieved ranks 9, 6 and 3 with a macro-averaged F1-score of
+0.42, 0.64 and 0.58 in the English, Tamil and Tamil-English subtasks
+respectively. The code for the system has been open sourced.

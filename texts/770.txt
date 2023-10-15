@@ -1,0 +1,17 @@
+Supporting programming on touchscreen devices requires effective text input
+and editing methods. Unfortunately, the virtual keyboard can be inefficient and
+uses valuable screen space on already small devices. Recent advances in stylus
+input make handwriting a potentially viable text input solution for programming
+on touchscreen devices. The primary barrier, however, is that handwriting
+recognition systems are built to take advantage of the rules of natural
+language, not those of a programming language. In this paper, we explore this
+particular problem of handwriting recognition for source code. We collect and
+make publicly available a dataset of handwritten Python code samples from 15
+participants and we characterize the typical recognition errors for this
+handwritten Python source code when using a state-of-the-art handwriting
+recognition tool. We present an approach to improve the recognition accuracy by
+augmenting a handwriting recognizer with the programming language grammar
+rules. Our experiment on the collected dataset shows an 8.6% word error rate
+and a 3.6% character error rate which outperforms standard handwriting
+recognition systems and compares favorably to typing source code on virtual
+keyboards.

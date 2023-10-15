@@ -1,0 +1,17 @@
+Contrastive learning enables learning useful audio and speech representations
+without ground-truth labels by maximizing the similarity between latent
+representations of similar signal segments. In this framework various data
+augmentation techniques are usually exploited to help enforce desired
+invariances within the learned representations, improving performance on
+various audio tasks thanks to more robust embeddings. Now, selecting the most
+relevant augmentations has proven crucial for better downstream performances.
+Thus, this work introduces a conditional independance-based method which allows
+for automatically selecting a suitable distribution on the choice of
+augmentations and their parametrization from a set of predefined ones, for
+contrastive self-supervised pre-training. This is performed with respect to a
+downstream task of interest, hence saving a costly hyper-parameter search.
+Experiments performed on two different downstream tasks validate the proposed
+approach showing better results than experimenting without augmentation or with
+baseline augmentations. We furthermore conduct a qualitative analysis of the
+automatically selected augmentations and their variation according to the
+considered final downstream dataset.

@@ -1,0 +1,18 @@
+In this paper, a text-to-rapping/singing system is introduced, which can be
+adapted to any speaker's voice. It utilizes a Tacotron-based multispeaker
+acoustic model trained on read-only speech data and which provides prosody
+control at the phoneme level. Dataset augmentation and additional prosody
+manipulation based on traditional DSP algorithms are also investigated. The
+neural TTS model is fine-tuned to an unseen speaker's limited recordings,
+allowing rapping/singing synthesis with the target's speaker voice. The
+detailed pipeline of the system is described, which includes the extraction of
+the target pitch and duration values from an a capella song and their
+conversion into target speaker's valid range of notes before synthesis. An
+additional stage of prosodic manipulation of the output via WSOLA is also
+investigated for better matching the target duration values. The synthesized
+utterances can be mixed with an instrumental accompaniment track to produce a
+complete song. The proposed system is evaluated via subjective listening tests
+as well as in comparison to an available alternate system which also aims to
+produce synthetic singing voice from read-only training data. Results show that
+the proposed approach can produce high quality rapping/singing voice with
+increased naturalness.

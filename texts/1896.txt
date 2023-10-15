@@ -1,0 +1,6 @@
+In this paper, some enhanced error estimates are derived for the augmented
+subspace methods which are designed for solving eigenvalue problems. We will
+show that the augmented subspace methods have the second order convergence rate
+which is better than the existing results. These sharper estimates provide a
+new dependence of convergence rate on the coarse spaces in augmented subspace
+methods. These new results are also validated by some numerical examples.

@@ -1,0 +1,18 @@
+Chess game position analysis is important in improving ones game. It requires
+entry of moves into a chess engine which is, cumbersome and error prone. We
+present ARChessAnalyzer, a complete pipeline from live image capture of a
+physical chess game, to board and piece recognition, to move analysis and
+finally to Augmented Reality (AR) overlay of the chess diagram position and
+move on the physical board. ARChessAnalyzer is like a scene analyzer - it uses
+an ensemble of traditional image and vision techniques to segment the scene (ie
+the chess game) and uses Convolution Neural Networks (CNNs) to predict the
+segmented pieces and combine it together to analyze the game. This paper
+advances the state of the art in the first of its kind end to end integration
+of robust detection and segmentation of the board, chess piece detection using
+the fine-tuned AlexNet CNN and chess engine analyzer in a handheld device app.
+The accuracy of the entire chess position prediction pipeline is 93.45\% and
+takes 3-4.5sec from live capture to AR overlay. We also validated our
+hypothesis that ARChessAnalyzer, is faster at analysis than manual entry for
+all board positions for valid outcomes. Our hope is that the instantaneous
+feedback this app provides will help chess learners worldwide at all levels
+improve their game.

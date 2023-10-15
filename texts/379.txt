@@ -1,0 +1,13 @@
+Long text understanding is important yet challenging in natural language
+processing. A long article or essay usually contains many redundant words that
+are not pertinent to its gist and sometimes can be regarded as noise. In this
+paper, we consider the problem of how to disentangle the gist-relevant and
+irrelevant information for long text understanding. With distillation
+mechanism, we transfer the knowledge about how to focus the salient parts from
+the abstractive summarization model and further integrate the distilled model,
+named \emph{Gist Detector}, into existing models as a supplementary component
+to augment the long text understanding. Experiments on document classification,
+distantly supervised open-domain question answering (DS-QA) and non-parallel
+text style transfer show that our method can significantly improve the
+performance of the baseline models, and achieves state-of-the-art overall
+results for document classification.

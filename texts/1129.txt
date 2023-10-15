@@ -1,0 +1,14 @@
+Incremental improvements in accuracy of Convolutional Neural Networks are
+usually achieved through use of deeper and more complex models trained on
+larger datasets. However, enlarging dataset and models increases the
+computation and storage costs and cannot be done indefinitely. In this work, we
+seek to improve the identification and verification accuracy of a
+text-independent speaker recognition system without use of extra data or deeper
+and more complex models by augmenting the training and testing data, finding
+the optimal dimensionality of embedding space and use of more discriminative
+loss functions. Results of experiments on VoxCeleb dataset suggest that: (i)
+Simple repetition and random time-reversion of utterances can reduce prediction
+errors by up to 18%. (ii) Lower dimensional embeddings are more suitable for
+verification. (iii) Use of proposed logistic margin loss function leads to
+unified embeddings with state-of-the-art identification and competitive
+verification accuracies.

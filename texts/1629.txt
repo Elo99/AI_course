@@ -1,0 +1,22 @@
+Many articles have used voice analysis to detect Parkinson's disease (PD),
+but few have focused on the early stages of the disease and the gender effect.
+In this article, we have adapted the latest speaker recognition system, called
+x-vectors, in order to detect an early stage of PD from voice analysis.
+X-vectors are embeddings extracted from a deep neural network, which provide
+robust speaker representations and improve speaker recognition when large
+amounts of training data are used. Our goal was to assess whether, in the
+context of early PD detection, this technique would outperform the more
+standard classifier MFCC-GMM (Mel-Frequency Cepstral Coefficients - Gaussian
+Mixture Model) and, if so, under which conditions. We recorded 221 French
+speakers (including recently diagnosed PD subjects and healthy controls) with a
+high-quality microphone and with their own telephone. Men and women were
+analyzed separately in order to have more precise models and to assess a
+possible gender effect. Several experimental and methodological aspects were
+tested in order to analyze their impacts on classification performance. We
+assessed the impact of audio segment duration, data augmentation, type of
+dataset used for the neural network training, kind of speech tasks, and
+back-end analyses. X-vectors technique provided better classification
+performances than MFCC-GMM for text-independent tasks, and seemed to be
+particularly suited for the early detection of PD in women (7 to 15%
+improvement). This result was observed for both recording types (high-quality
+microphone and telephone).

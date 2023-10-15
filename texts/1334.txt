@@ -1,0 +1,12 @@
+In this paper, we introduce an unsupervised cancer segmentation framework for
+histology images. The framework involves an effective contrastive learning
+scheme for extracting distinctive visual representations for segmentation. The
+encoder is a Deep U-Net (DU-Net) structure that contains an extra fully
+convolution layer compared to the normal U-Net. A contrastive learning scheme
+is developed to solve the problem of lacking training sets with high-quality
+annotations on tumour boundaries. A specific set of data augmentation
+techniques are employed to improve the discriminability of the learned colour
+features from contrastive learning. Smoothing and noise elimination are
+conducted using convolutional Conditional Random Fields. The experiments
+demonstrate competitive performance in segmentation even better than some
+popular supervised networks.

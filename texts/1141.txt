@@ -1,0 +1,8 @@
+This technical report is a catalog of two applications that have been
+enhanced and developed to augment vehicular networking research. The first
+application is already described in our previous work [21], while the second
+one is a desktop application that was developed as a publicly-hosted web app
+which allows any Internet-connected device to remotely monitor a roadway
+intersection's state over HTTP. This collaborative work was completed under and
+for the utility of ETSU's Vehicular Networking Lab. It can serve as a basis for
+further development in the field of connected and autonomous vehicles.

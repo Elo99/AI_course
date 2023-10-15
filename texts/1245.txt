@@ -1,0 +1,16 @@
+Despite ongoing advancements in quantum computing, businesses are still faced
+with the problem to decide if they would benefit from investing into this novel
+technology for building a business critical application. This uncertainty is
+not only owing to the limitations in the current state of the technology but
+also due to the gap between the level at which business applications are
+analyzed (e.g., using high level semi-formal languages) and the level at which
+quantum computing related information is currently available (e.g., formally
+specified computational problems, their algorithmic solutions with
+computational complexity theoretic analysis) to make informed decisions. To
+fill the discourse gap, in this paper, we present design of an interactive
+advisor, which augments users while deciding to invest into quantum software
+development as a plausible future option in their application context. Towards
+that we apply business process modeling and natural language similarity
+analysis using text-embeddings to associated business context with
+computational problems and formulate constraints in terms of quantum speedup
+and resource requirements to select software development platforms.

@@ -1,0 +1,13 @@
+Understanding the internal process of ConvNets is commonly done using
+visualization techniques. However, these techniques do not usually provide a
+tool for estimating the stability of a ConvNet against noise. In this paper, we
+show how to analyze a ConvNet in the frequency domain using a 4-dimensional
+visualization technique. Using the frequency domain analysis, we show the
+reason that a ConvNet might be sensitive to a very low magnitude additive
+noise. Our experiments on a few ConvNets trained on different datasets revealed
+that convolution kernels of a trained ConvNet usually pass most of the
+frequencies and they are not able to effectively eliminate the effect of high
+frequencies. Our next experiments shows that a convolution kernel which has a
+more concentrated frequency response could be more stable. Finally, we show
+that fine-tuning a ConvNet using a training set augmented with noisy images can
+produce more stable ConvNets.

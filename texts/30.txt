@@ -1,0 +1,12 @@
+De-identification is the task of identifying protected health information
+(PHI) in the clinical text. Existing neural de-identification models often fail
+to generalize to a new dataset. We propose a simple yet effective data
+augmentation method PHICON to alleviate the generalization issue. PHICON
+consists of PHI augmentation and Context augmentation, which creates augmented
+training corpora by replacing PHI entities with named-entities sampled from
+external sources, and by changing background context with synonym replacement
+or random word insertion, respectively. Experimental results on the i2b2 2006
+and 2014 de-identification challenge datasets show that PHICON can help three
+selected de-identification models boost F1-score (by at most 8.6%) on
+cross-dataset test setting. We also discuss how much augmentation to use and
+how each augmentation method influences the performance.

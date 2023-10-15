@@ -1,0 +1,20 @@
+Clinical trials are essential for drug development but often suffer from
+expensive, inaccurate and insufficient patient recruitment. The core problem of
+patient-trial matching is to find qualified patients for a trial, where patient
+information is stored in electronic health records (EHR) while trial
+eligibility criteria (EC) are described in text documents available on the web.
+How to represent longitudinal patient EHR? How to extract complex logical rules
+from EC? Most existing works rely on manual rule-based extraction, which is
+time consuming and inflexible for complex inference. To address these
+challenges, we proposed DeepEnroll, a cross-modal inference learning model to
+jointly encode enrollment criteria (text) and patients records (tabular data)
+into a shared latent space for matching inference. DeepEnroll applies a
+pre-trained Bidirectional Encoder Representations from Transformers(BERT) model
+to encode clinical trial information into sentence embedding. And uses a
+hierarchical embedding model to represent patient longitudinal EHR. In
+addition, DeepEnroll is augmented by a numerical information embedding and
+entailment module to reason over numerical information in both EC and EHR.
+These encoders are trained jointly to optimize patient-trial matching score. We
+evaluated DeepEnroll on the trial-patient matching task with demonstrated on
+real world datasets. DeepEnroll outperformed the best baseline by up to 12.4%
+in average F1.

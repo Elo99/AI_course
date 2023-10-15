@@ -1,0 +1,15 @@
+Deep learning with noisy labels is challenging as deep neural networks have
+the high capacity to memorize the noisy labels. In this paper, we propose a
+learning algorithm called Co-matching, which balances the consistency and
+divergence between two networks by augmentation anchoring. Specifically, we
+have one network generate anchoring label from its prediction on a
+weakly-augmented image. Meanwhile, we force its peer network, taking the
+strongly-augmented version of the same image as input, to generate prediction
+close to the anchoring label. We then update two networks simultaneously by
+selecting small-loss instances to minimize both unsupervised matching loss
+(i.e., measure the consistency of the two networks) and supervised
+classification loss (i.e. measure the classification performance). Besides, the
+unsupervised matching loss makes our method not heavily rely on noisy labels,
+which prevents memorization of noisy labels. Experiments on three benchmark
+datasets demonstrate that Co-matching achieves results comparable to the
+state-of-the-art methods.

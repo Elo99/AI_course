@@ -1,0 +1,6 @@
+This note remarks that the correspondence between commutative non-unital
+algebras and augmented unital algebras can be derived from Hovey's Smith ideal
+theory. Applying Smith ideal theory of stable symmetric monoidal model
+category, we formulate non-unital commutative algebra objects of stable
+symmetric monoidal model categories and generalize the correspondence between
+non-unital commutative algebra objects and augmented algebra objects.

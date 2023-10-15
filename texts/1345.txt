@@ -1,0 +1,17 @@
+With the broad reach of the internet and smartphones, e-commerce platforms
+have an increasingly diversified user base. Since native language users are not
+conversant in English, their preferred browsing mode is their regional language
+or a combination of their regional language and English. From our recent study
+on the query data, we noticed that many of the queries we receive are code-mix,
+specifically Hinglish i.e. queries with one or more Hindi words written in
+English (Latin) script. We propose a transformer-based approach for code-mix
+query translation to enable users to search with these queries. We demonstrate
+the effectiveness of pre-trained encoder-decoder models trained on a large
+corpus of the unlabeled English text for this task. Using generic domain
+translation models, we created a pseudo-labelled dataset for training the model
+on the search queries and verified the effectiveness of various data
+augmentation techniques. Further, to reduce the latency of the model, we use
+knowledge distillation and weight quantization. Effectiveness of the proposed
+method has been validated through experimental evaluations and A/B testing. The
+model is currently live on Flipkart app and website, serving millions of
+queries.

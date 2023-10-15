@@ -1,0 +1,9 @@
+We have analytically studied bound states of the one-dimensional Dirac
+equation for scalar and vector double square-well potentials (DSPs), by using
+the transfer-matrix method. Detailed numerical calculations of the eigenvalue,
+wave function and density probability have been performed for the three cases:
+(1) vector DSP only, (2) scalar DSP only, and (3) scalar and vector DSPs with
+equal magnitudes. We discuss the difference and similarity among results of the
+cases (1)-(3) in the Dirac equation and that in the Schr\"{o}dinger equation.
+Motion of a wave packet is calculated for a study on quantum tunneling through
+the central barrier in the DSP.

@@ -1,0 +1,20 @@
+Adversarial attacks, e.g., adversarial perturbations of the input and
+adversarial samples, pose significant challenges to machine learning and deep
+learning techniques, including interactive recommendation systems. The latent
+embedding space of those techniques makes adversarial attacks difficult to
+detect at an early stage. Recent advance in causality shows that counterfactual
+can also be considered one of ways to generate the adversarial samples drawn
+from different distribution as the training samples. We propose to explore
+adversarial examples and attack agnostic detection on reinforcement
+learning-based interactive recommendation systems. We first craft different
+types of adversarial examples by adding perturbations to the input and
+intervening on the casual factors. Then, we augment recommendation systems by
+detecting potential attacks with a deep learning-based classifier based on the
+crafted data. Finally, we study the attack strength and frequency of
+adversarial examples and evaluate our model on standard datasets with multiple
+crafting methods. Our extensive experiments show that most adversarial attacks
+are effective, and both attack strength and attack frequency impact the attack
+performance. The strategically-timed attack achieves comparative attack
+performance with only 1/3 to 1/2 attack frequency. Besides, our black-box
+detector trained with one crafting method has the generalization ability over
+several other crafting methods.

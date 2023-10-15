@@ -1,0 +1,11 @@
+Active Learning (AL) has remained relatively unexplored for LiDAR perception
+tasks in autonomous driving datasets. In this study we evaluate Bayesian active
+learning methods applied to the task of dataset distillation or core subset
+selection (subset with near equivalent performance as full dataset). We also
+study the effect of application of data augmentation (DA) within Bayesian AL
+based dataset distillation. We perform these experiments on the full
+Semantic-KITTI dataset. We extend our study over our existing work only on
+1/4th of the same dataset. Addition of DA and BALD have a negative impact over
+the labeling efficiency and thus the capacity to distill datasets. We
+demonstrate key issues in designing a functional AL framework and finally
+conclude with a review of challenges in real world active learning.

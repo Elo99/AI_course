@@ -1,0 +1,21 @@
+We investigate the mobility of nonlinear localized modes in a generalized
+discrete Ginzburg-Landau type model, describing a one-dimensional waveguide
+array in an active Kerr medium with intrinsic, saturable gain and damping. It
+is shown that exponentially localized, traveling discrete dissipative
+breather-solitons may exist as stable attractors supported only by intrinsic
+properties of the medium, i.e., in absence of any external field or
+symmetry-breaking perturbations. Through an interplay by the gain and damping
+effects, the moving soliton may overcome the Peierls-Nabarro barrier, present
+in the corresponding conservative system, by self-induced time-periodic
+oscillations of its power (norm) and energy (Hamiltonian), yielding exponential
+decays to zero with different rates in the forward and backward directions. In
+certain parameter windows, bistability appears between fast modes with small
+oscillations, and slower, large-oscillation modes. The velocities and the
+oscillation periods are typically related by lattice commensurability, and
+exhibit period-doubling bifurcations to chaotically "walking" modes under
+parameter variations. If the model is augmented by inter-site Kerr
+nonlinearity, thereby reducing the Peierls-Nabarro barrier of the conservative
+system, the existence regime for moving solitons increases considerably, and a
+richer scenario appears including Hopf-bifurcations to incommensurately moving
+solutions and phase-locking intervals. Stable moving breathers also survive in
+presence of weak disorder.

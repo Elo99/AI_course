@@ -1,0 +1,13 @@
+In earlier work, a decentralized optimal control framework was established
+for coordinating online connected and automated vehicles (CAVs) in merging
+roadways, urban intersections, speed reduction zones, and roundabouts. The
+dynamics of each vehicle were represented by a double integrator and the
+Hamiltonian analysis was applied to derive an analytical solution that
+minimizes the L2-norm of the control input. However, the analytical solution
+did not consider the rear-end collision avoidance constraint. In this paper, we
+derive a complete, closed-form analytical solution that includes the rear-end
+safety constraint in addition to the state and control constraints. We augment
+the double integrator model that represents a vehicle with an additional state
+corresponding to the distance from its preceding vehicle. Thus, the rear-end
+collision avoidance constraint is included as a state constraint. The
+effectiveness of the solution is illustrated through simulation.

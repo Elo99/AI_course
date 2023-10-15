@@ -1,0 +1,19 @@
+Traffic for internet video streaming has been rapidly increasing and is
+further expected to increase with the higher definition videos and IoT
+applications, such as 360 degree videos and augmented virtual reality
+applications. While efficient management of heterogeneous cloud resources to
+optimize the quality of experience is important, existing work in this problem
+space often left out important factors. In this paper, we present a model for
+describing a today's representative system architecture for video streaming
+applications, typically composed of a centralized origin server and several CDN
+sites. Our model comprehensively considers the following factors: limited
+caching spaces at the CDN sites, allocation of CDN for a video request, choice
+of different ports from the CDN, and the central storage and bandwidth
+allocation. With the model, we focus on minimizing a performance metric, stall
+duration tail probability (SDTP), and present a novel, yet efficient, algorithm
+to solve the formulated optimization problem. The theoretical bounds with
+respect to the SDTP metric are also analyzed and presented. Our extensive
+simulation results demonstrate that the proposed algorithms can significantly
+improve the SDTP metric, compared to the baseline strategies. Small-scale video
+streaming system implementation in a real cloud environment further validates
+our results.

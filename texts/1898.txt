@@ -1,0 +1,10 @@
+In this paper, we present a crash frequency data augmentation method based on
+Conditional Generative Adversarial Networks to improve crash frequency models.
+The proposed method is evaluated by comparing the performance of Base SPFs
+(developed using original data) and Augmented SPFs (developed using original
+data plus synthesised data) in terms of hotspot identification performance,
+model prediction accuracy, and dispersion parameter estimation accuracy. The
+experiments are conducted using simulated and real-world crash data sets. The
+results indicate that the synthesised crash data by CGAN have the same
+distribution as the original data and the Augmented SPFs outperforms Base SPFs
+in almost all aspects especially when the dispersion parameter is low.

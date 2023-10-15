@@ -1,0 +1,9 @@
+Cold start knowledge base population (KBP) is the problem of populating a
+knowledge base from unstructured documents. While artificial neural networks
+have led to significant improvements in the different tasks that are part of
+KBP, the overall F1 of the end-to-end system remains quite low. This problem is
+more acute in personal knowledge bases, which present additional challenges
+with regard to data protection, fairness and privacy. In this work, we present
+a system that uses rule based annotators and a graph neural network for missing
+link prediction, to populate a more complete, fair and diverse knowledge base
+from the TACRED dataset.

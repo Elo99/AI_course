@@ -1,0 +1,12 @@
+Recent work in learning ontologies (hierarchical and partially-ordered
+structures) has leveraged the intrinsic geometry of spaces of learned
+representations to make predictions that automatically obey complex structural
+constraints. We explore two extensions of one such model, the order-embedding
+model for hierarchical relation learning, with an aim towards improved
+performance on text data for commonsense knowledge representation. Our first
+model jointly learns ordering relations and non-hierarchical knowledge in the
+form of raw text. Our second extension exploits the partial order structure of
+the training data to find long-distance triplet constraints among embeddings
+which are poorly enforced by the pairwise training procedure. We find that both
+incorporating free text and augmented training constraints improve over the
+original order-embedding model and other strong baselines.

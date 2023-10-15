@@ -1,0 +1,18 @@
+Intelligent Personal Assistants (IPAs) like Amazon Alexa, Apple Siri, and
+Google Assistant are increasingly becoming a part of our everyday. As IPAs
+become ubiquitous and their applications expand, users turn to them for not
+just routine tasks, but also intelligent conversations. In this study, we
+measure the emotional intelligence (EI) displayed by IPAs in the English and
+Hindi languages; to our knowledge, this is a pioneering effort in probing the
+emotional intelligence of IPAs in Indian languages. We pose utterances that
+convey the Sadness or Humor emotion and evaluate IPA responses. We build on
+previous research to propose a quantitative and qualitative evaluation scheme
+encompassing new criteria from social science perspectives (display of empathy,
+wit, understanding) and IPA-specific features (voice modulation, search
+redirects).
+  We find EI displayed by Google Assistant in Hindi is comparable to EI
+displayed in English, with the assistant employing both voice modulation and
+emojis in text. However, we do find that IPAs are unable to understand and
+respond intelligently to all queries, sometimes even offering
+counter-productive and problematic responses. Our experiment offers evidence
+and directions to augment the potential for EI in IPAs.

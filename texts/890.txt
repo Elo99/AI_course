@@ -1,0 +1,20 @@
+Lung Cancer is the most common cause of cancer-related death worldwide. Early
+and automatic diagnosis of Solitary Pulmonary Nodules (SPN) in Computer
+Tomography (CT) chest scans can provide early treatment as well as doctor
+liberation from time-consuming procedures. Deep Learning has been proven as a
+popular and influential method in many medical imaging diagnosis areas. In this
+study, we consider the problem of diagnostic classification between benign and
+malignant lung nodules in CT images derived from a PET/CT scanner. More
+specifically, we intend to develop experimental Convolutional Neural Network
+(CNN) architectures and conduct experiments, by tuning their parameters, to
+investigate their behavior, and to define the optimal setup for the accurate
+classification. For the experiments, we utilize PET/CT images obtained from the
+Laboratory of Nuclear Medicine of the University of Patras, and the publically
+available database called Lung Image Database Consortium Image Collection
+(LIDC-IDRI). Furthermore, we apply simple data augmentation to generate new
+instances and to inspect the performance of the developed networks.
+Classification accuracy of 91% and 93% on the PET/CT dataset and on a selection
+of nodule images form the LIDC-IDRI dataset, is achieved accordingly. The
+results demonstrate that CNNs are a trustworth method for nodule
+classification. Also, the experiment confirms that data augmentation enhances
+the robustness of the CNNs.

@@ -1,0 +1,20 @@
+To make Robotics and Augmented Reality applications robust to illumination
+changes, the current trend is to train a Deep Network with training images
+captured under many different lighting conditions. Unfortunately, creating such
+a training set is a very unwieldy and complex task. We therefore propose a
+novel illumination normalization method that can easily be used for different
+problems with challenging illumination conditions. Our preliminary experiments
+show that among current normalization methods, the Difference-of Gaussians
+method remains a very good baseline, and we introduce a novel illumination
+normalization model that generalizes it. Our key insight is then that the
+normalization parameters should depend on the input image, and we aim to train
+a Convolutional Neural Network to predict these parameters from the input
+image. This, however, cannot be done in a supervised manner, as the optimal
+parameters are not known a priori. We thus designed a method to train this
+network jointly with another network that aims to recognize objects under
+different illuminations: The latter network performs well when the former
+network predicts good values for the normalization parameters. We show that our
+method significantly outperforms standard normalization methods and would also
+be appear to be universal since it does not have to be re-trained for each new
+application. Our method improves the robustness to light changes of
+state-of-the-art 3D object detection and face recognition methods.

@@ -1,0 +1,20 @@
+We define the Augmentation property for binary matrices with respect to
+different rank functions. A matrix $A$ has the Augmentation property for a
+given rank function, if for any subset of column vectors $x_1,...,x_t$ for for
+which the rank of $A$ does not increase when augmented separately with each of
+the vectors $x_i$, $1\leq i \leq t$, it also holds that the rank does not
+increase when augmenting $A$ with all vectors $x_1,...,x_t$ simultaneously.
+This property holds trivially for the usual linear rank over the reals, but as
+we show, things change significantly when considering the binary and boolean
+rank of a matrix.
+  We prove a necessary and sufficient condition for this property to hold under
+the binary and boolean rank of binary matrices. Namely, a matrix has the
+Augmentation property for these rank functions if and only if it has a unique
+base that spans all other bases of the matrix with respect to the given rank
+function. For the binary rank, we also present a concrete characterization of a
+family of matrices that has the Augmentation property. This characterization is
+based on the possible types of linear dependencies between rows of $V$, in
+optimal binary decompositions of the matrix as $A=U\cdot V$.
+  Furthermore, we use the Augmentation property to construct simple families of
+matrices, for which there is a gap between their real and binary rank and
+between their real and boolean rank.

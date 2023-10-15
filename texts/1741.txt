@@ -1,0 +1,25 @@
+Electronic Health Records (EHRs) aggregate diverse information at the patient
+level, holding a trajectory representative of the evolution of the patient
+health status throughout time. Although this information provides context and
+can be leveraged by physicians to monitor patient health and make more accurate
+prognoses/diagnoses, patient records can contain information from very long
+time spans, which combined with the rapid generation rate of medical data makes
+clinical decision making more complex. Patient trajectory modelling can assist
+by exploring existing information in a scalable manner, and can contribute in
+augmenting health care quality by fostering preventive medicine practices. We
+propose a solution to model patient trajectories that combines different types
+of information and considers the temporal aspect of clinical data. This
+solution leverages two different architectures: one supporting flexible sets of
+input features, to convert patient admissions into dense representations; and a
+second exploring extracted admission representations in a recurrent-based
+architecture, where patient trajectories are processed in sub-sequences using a
+sliding window mechanism. The developed solution was evaluated on two different
+clinical outcomes, unexpected patient readmission and disease progression,
+using the publicly available MIMIC-III clinical database. The results obtained
+demonstrate the potential of the first architecture to model readmission and
+diagnoses prediction using single patient admissions. While information from
+clinical text did not show the discriminative power observed in other existing
+works, this may be explained by the need to fine-tune the clinicalBERT model.
+Finally, we demonstrate the potential of the sequence-based architecture using
+a sliding window mechanism to represent the input data, attaining comparable
+performances to other existing solutions.

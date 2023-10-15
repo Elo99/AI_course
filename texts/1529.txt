@@ -1,0 +1,20 @@
+Most of the recent few-shot learning (FSL) algorithms are based on transfer
+learning, where a model is pre-trained using a large amount of source data, and
+the pre-trained model is fine-tuned using a small amount of target data. In
+transfer learning-based FSL, sophisticated pre-training methods have been
+widely studied for universal representation. Therefore, it has become more
+important to utilize the universal representation for downstream tasks, but
+there are few studies on fine-tuning in FSL. In this paper, we focus on how to
+transfer pre-trained models to few-shot downstream tasks from the three
+perspectives: update, data augmentation, and test-time augmentation. First, we
+compare the two popular update methods, full fine-tuning (i.e., updating the
+entire network, FT) and linear probing (i.e., updating only a linear
+classifier, LP). We find that LP is better than FT with extremely few samples,
+whereas FT outperforms LP as training samples increase. Next, we show that data
+augmentation cannot guarantee few-shot performance improvement and investigate
+the effectiveness of data augmentation based on the intensity of augmentation.
+Finally, we adopt augmentation to both a support set for update (i.e., data
+augmentation) as well as a query set for prediction (i.e., test-time
+augmentation), considering support-query distribution shifts, and improve
+few-shot performance. The code is available at
+https://github.com/kimyuji/updating_FSL.

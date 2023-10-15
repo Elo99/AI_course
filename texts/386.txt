@@ -1,0 +1,23 @@
+Despite the rapid progress of automatic speech recognition (ASR) technologies
+targeting normal speech, accurate recognition of dysarthric and elderly speech
+remains highly challenging tasks to date. It is difficult to collect large
+quantities of such data for ASR system development due to the mobility issues
+often found among these users. To this end, data augmentation techniques play a
+vital role. In contrast to existing data augmentation techniques only modifying
+the speaking rate or overall shape of spectral contour, fine-grained
+spectro-temporal differences between dysarthric, elderly and normal speech are
+modelled using a novel set of speaker dependent (SD) generative adversarial
+networks (GAN) based data augmentation approaches in this paper. These flexibly
+allow both: a) temporal or speed perturbed normal speech spectra to be modified
+and closer to those of an impaired speaker when parallel speech data is
+available; and b) for non-parallel data, the SVD decomposed normal speech
+spectral basis features to be transformed into those of a target elderly
+speaker before being re-composed with the temporal bases to produce the
+augmented data for state-of-the-art TDNN and Conformer ASR system training.
+Experiments are conducted on four tasks: the English UASpeech and TORGO
+dysarthric speech corpora; the English DementiaBank Pitt and Cantonese JCCOCC
+MoCA elderly speech datasets. The proposed GAN based data augmentation
+approaches consistently outperform the baseline speed perturbation method by up
+to 0.91% and 3.0% absolute (9.61% and 6.4% relative) WER reduction on the TORGO
+and DementiaBank data respectively. Consistent performance improvements are
+retained after applying LHUC based speaker adaptation.

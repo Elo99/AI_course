@@ -1,0 +1,15 @@
+How to solve the data scarcity problem for end-to-end speech-to-text
+translation (ST)? It's well known that data augmentation is an efficient method
+to improve performance for many tasks by enlarging the dataset. In this paper,
+we propose Mix at three levels for Speech Translation (M^3ST) method to
+increase the diversity of the augmented training corpus. Specifically, we
+conduct two phases of fine-tuning based on a pre-trained model using external
+machine translation (MT) data. In the first stage of fine-tuning, we mix the
+training corpus at three levels, including word level, sentence level and frame
+level, and fine-tune the entire model with mixed data. At the second stage of
+fine-tuning, we take both original speech sequences and original text sequences
+in parallel into the model to fine-tune the network, and use Jensen-Shannon
+divergence to regularize their outputs. Experiments on MuST-C speech
+translation benchmark and analysis show that M^3ST outperforms current strong
+baselines and achieves state-of-the-art results on eight directions with an
+average BLEU of 29.9.

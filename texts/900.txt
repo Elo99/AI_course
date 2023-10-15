@@ -1,0 +1,18 @@
+Recent years have witnessed the emergence and increasing popularity of 3D
+medical imaging techniques with the development of 3D sensors and technology.
+However, achieving geometric invariance in the processing of 3D medical images
+is computationally expensive but nonetheless essential due to the presence of
+possible errors caused by rigid registration techniques. An alternative way to
+analyze medical imaging is by understanding the 3D shapes represented in terms
+of point-cloud. Though in the medical imaging community, 3D point-cloud
+processing is not a "go-to" choice, it is a canonical way to preserve rotation
+invariance. Unfortunately, due to the presence of discrete topology, one can
+not use the standard convolution operator on point-cloud. To the best of our
+knowledge, the existing ways to do "convolution" can not preserve the rotation
+invariance without explicit data augmentation. Therefore, we propose a rotation
+invariant convolution operator by inducing topology from hypersphere.
+Experimental validation has been performed on publicly available OASIS dataset
+in terms of classification accuracy between subjects with (without) dementia,
+demonstrating the usefulness of our proposed method in terms of model
+complexity, classification accuracy, and last but most important invariance to
+rotations.

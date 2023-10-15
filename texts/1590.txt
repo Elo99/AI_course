@@ -1,0 +1,21 @@
+The paper is a continuation of our earlier article where we developed a
+theory of active and non-active infinitesimals and intended to establish
+quantifier elimination in quasianalytic structures. That article, however, did
+not attain full generality, which refers to one of its results, namely the
+theorem on an active infinitesimal, playing an essential role in our
+non-standard analysis. The general case was covered in our subsequent preprint,
+which constitutes a basis for the approach presented here. We also provide a
+quasianalytic exposition of the results concerning rectilinearization of terms
+and of definable functions from our earlier research. It will be used to
+demonstrate a quasianalytic structure corresponding to a Denjoy-Carleman class
+which, unlike the classical analytic structure, does not admit quantifier
+elimination in the language of restricted quasianalytic functions augmented
+merely by the reciprocal function. More precisely, we construct a plane
+definable curve, which indicates both that the classical theorem by J. Denef
+and L. van den Dries as well as \L{}ojasiewicz's theorem that every subanalytic
+curve is semianalytic are no longer true for quasianalytic structures. Besides
+rectilinearization of terms, our construction makes use of some theorems on
+power substitution for Denjoy-Carleman classes and on non-extendability of
+quasianalytic function germs. The last result relies on Grothendieck's
+factorization and open mapping theorems for (LF)-spaces. Note finally that this
+paper comprises our earlier preprints on the subject from May 2012.

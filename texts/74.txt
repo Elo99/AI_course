@@ -1,0 +1,14 @@
+Text selection is a common and essential activity during text interaction in
+all interactive systems. As Augmented Reality (AR) head-mounted displays (HMDs)
+become more widespread, they will need to provide effective interaction
+techniques for text selection that ensure users can complete a range of text
+manipulation tasks (e.g., to highlight, copy, and paste text, send instant
+messages, and browse the web). As a relatively new platform, text selection in
+AR is largely unexplored and the suitability of interaction techniques
+supported by current AR HMDs for text selection tasks is unclear. This research
+aims to fill this gap and reports on an experiment with 12 participants, which
+compares the performance and usability (user experience and workload) of four
+possible techniques (Hand+Pinch, Hand+Dwell, Head+Pinch, and Head+Dwell). Our
+results suggest that Head+Dwell should be the default selection technique, as
+it is relatively fast, has the lowest error rate and workload, and has the
+highest-rated user experience and social acceptance.

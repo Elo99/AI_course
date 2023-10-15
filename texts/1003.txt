@@ -1,0 +1,19 @@
+Emotion recognition is one of the machine learning applications which can be
+done using text, speech, or image data gathered from social media spaces.
+Detecting emotion can help us in different fields, including opinion mining.
+With the spread of social media, different platforms like Twitter have become
+data sources, and the language used in these platforms is informal, making the
+emotion detection task difficult. EmoPars and ArmanEmo are two new
+human-labeled emotion datasets for the Persian language. These datasets,
+especially EmoPars, are suffering from inequality between several samples
+between two classes. In this paper, we evaluate EmoPars and compare them with
+ArmanEmo. Throughout this analysis, we use data augmentation techniques, data
+re-sampling, and class-weights with Transformer-based Pretrained Language
+Models(PLMs) to handle the imbalance problem of these datasets. Moreover,
+feature selection is used to enhance the models' performance by emphasizing the
+text's specific features. In addition, we provide a new policy for selecting
+data from EmoPars, which selects the high-confidence samples; as a result, the
+model does not see samples that do not have specific emotion during training.
+Our model reaches a Macro-averaged F1-score of 0.81 and 0.76 on ArmanEmo and
+EmoPars, respectively, which are new state-of-the-art results in these
+benchmarks.

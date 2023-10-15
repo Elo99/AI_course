@@ -1,0 +1,15 @@
+Owing to the rapid growth of touchscreen mobile terminals and pen-based
+interfaces, handwriting-based writer identification systems are attracting
+increasing attention for personal authentication, digital forensics, and other
+applications. However, most studies on writer identification have not been
+satisfying because of the insufficiency of data and difficulty of designing
+good features under various conditions of handwritings. Hence, we introduce an
+end-to-end system, namely DeepWriterID, employed a deep convolutional neural
+network (CNN) to address these problems. A key feature of DeepWriterID is a new
+method we are proposing, called DropSegment. It designs to achieve data
+augmentation and improve the generalized applicability of CNN. For sufficient
+feature representation, we further introduce path signature feature maps to
+improve performance. Experiments were conducted on the NLPR handwriting
+database. Even though we only use pen-position information in the pen-down
+state of the given handwriting samples, we achieved new state-of-the-art
+identification rates of 95.72% for Chinese text and 98.51% for English text.

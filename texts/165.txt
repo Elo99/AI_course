@@ -1,0 +1,12 @@
+In this paper, we focus on improving the performance of the text-dependent
+speaker verification system in the scenario of limited training data. The
+speaker verification system deep learning based text-dependent generally needs
+a large scale text-dependent training data set which could be labor and cost
+expensive, especially for customized new wake-up words. In recent studies,
+voice conversion systems that can generate high quality synthesized speech of
+seen and unseen speakers have been proposed. Inspired by those works, we adopt
+two different voice conversion methods as well as the very simple re-sampling
+approach to generate new text-dependent speech samples for data augmentation
+purposes. Experimental results show that the proposed method significantly
+improves the Equal Error Rare performance from 6.51% to 4.51% in the scenario
+of limited training data.

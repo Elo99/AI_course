@@ -1,0 +1,18 @@
+Text augmentation is one of the most effective techniques to solve the
+critical problem of insufficient data in text classification. Existing text
+augmentation methods achieve hopeful performance in few-shot text data
+augmentation. However, these methods usually lead to performance degeneration
+on public datasets due to poor quality augmentation instances. Our study shows
+that even employing pre-trained language models, existing text augmentation
+methods generate numerous low-quality instances and lead to the feature space
+shift problem in augmentation instances. However, we note that the pre-trained
+language model is good at finding low-quality instances provided that it has
+been fine-tuned on the target dataset. To alleviate the feature space shift and
+performance degeneration in existing text augmentation methods, we propose
+BOOSTAUG, which reconsiders the role of the language model in text augmentation
+and emphasizes the augmentation instance filtering rather than generation. We
+evaluate BOOSTAUG on both sentence-level text classification and aspect-based
+sentiment classification. The experimental results on seven commonly used text
+classification datasets show that our augmentation method obtains
+state-of-the-art performance. Moreover, BOOSTAUG is a flexible framework; we
+release the code which can help improve existing augmentation methods.

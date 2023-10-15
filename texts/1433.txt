@@ -1,0 +1,5 @@
+We study the relation between augmentations and sheaves in the context of
+framed oriented links. In this set up, we find slightly more sheaves than
+augmentations. After removing the sporadic sheaves, we construct a bijective
+correspondence between augmentations of the framed cord algebra and simple
+sheaves that are micro-supported along the conormal bundle of the link.

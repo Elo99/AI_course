@@ -1,0 +1,16 @@
+This paper considers continuous-time block-monotone Markov chains (BMMCs) and
+their block-augmented truncations. We first introduce the block monotonicity
+and block-wise dominance relation for continuous-time Markov chains, and then
+provide some fundamental results on the two notions. Using these results, we
+show that the stationary distribution vectors obtained by the block-augmented
+truncation converge to the stationary distribution vector of the original BMMC.
+We also show that the last-column-block-augmented truncation
+(LC-block-augmented truncation) provides the best (in a certain sense)
+approximation to the stationary distribution vector of a BMMC among all the
+block-augmented truncations. Furthermore, we present computable upper bounds
+for the total variation distance between the stationary distribution vectors of
+a Markov chain and its LC-block-augmented truncation, under the assumption that
+the original Markov chain itself may not be block-monotone but is block-wise
+dominated by a BMMC with exponential ergodicity. Finally, we apply the obtained
+bounds to a queue with a batch Markovian arrival process and state-dependent
+departure rates.

@@ -1,0 +1,15 @@
+Logical reasoning of text requires understanding critical logical information
+in the text and performing inference over them. Large-scale pre-trained models
+for logical reasoning mainly focus on word-level semantics of text while
+struggling to capture symbolic logic. In this paper, we propose to understand
+logical symbols and expressions in the text to arrive at the answer. Based on
+such logical information, we not only put forward a context extension framework
+but also propose a data augmentation algorithm. The former extends the context
+to cover implicit logical expressions following logical equivalence laws. The
+latter augments literally similar but logically different instances to better
+capture logical information, especially logical negative and conditional
+relationships. We conduct experiments on ReClor dataset. The results show that
+our method achieves the state-of-the-art performance, and both logic-driven
+context extension framework and data augmentation algorithm can help improve
+the accuracy. And our multi-model ensemble system is the first to surpass human
+performance on both EASY set and HARD set of ReClor.

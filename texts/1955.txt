@@ -1,0 +1,14 @@
+Source code written in textual programming languages is typically edited in
+integrated development environments or specialized code editors. These tools
+often display various visual items, such as icons, color highlights or more
+advanced graphical overlays directly in the main editable source code view. We
+call such visualizations source code editor augmentation.
+  In this paper, we present a first systematic mapping study of source code
+editor augmentation tools and approaches. We manually reviewed the metadata of
+5,553 articles published during the last twenty years in two phases -- keyword
+search and references search. The result is a list of 103 relevant articles and
+a taxonomy of source code editor augmentation tools with seven dimensions,
+which we used to categorize the resulting list of the surveyed articles.
+  We also provide the definition of the term source code editor augmentation,
+along with a brief overview of historical development and augmentations
+available in current industrial IDEs.

@@ -1,0 +1,12 @@
+We introduce two data augmentation techniques, which, used with a
+Resnet-BiLSTM-CTC network, significantly reduce Word Error Rate (WER) and
+Character Error Rate (CER) beyond best-reported results on handwriting text
+recognition (HTR) tasks. We apply a novel augmentation that simulates
+strikethrough text (HandWritten Blots) and a handwritten text generation method
+based on printed text (StackMix), which proved to be very effective in HTR
+tasks. StackMix uses weakly-supervised framework to get character boundaries.
+Because these data augmentation techniques are independent of the network used,
+they could also be applied to enhance the performance of other networks and
+approaches to HTR. Extensive experiments on ten handwritten text datasets show
+that HandWritten Blots augmentation and StackMix significantly improve the
+quality of HTR models

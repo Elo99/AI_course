@@ -1,0 +1,13 @@
+In this work, we propose a subspace-based algorithm for direction-of-arrival
+(DOA) estimation applied to the signals impinging on a two-level nested array,
+referred to as multi-step knowledge-aided iterative nested MUSIC method
+(MS-KAI-Nested-MUSIC), which significantly improves the accuracy of the
+original Nested-MUSIC. Differently from existing knowledge-aided methods
+applied to uniform linear arrays (ULAs), which make use of available known DOAs
+to improve the estimation of the covariance matrix of the input data, the
+proposed Multi-Step KAI-Nested-MU employs knowledge of the structure of the
+augmented sample covariance matrix, which is obtained by exploiting the
+difference co-array structure covariance matrix, and its perturbation terms and
+the gradual incorporation of prior knowledge, which is obtained on line. The
+effectiveness of the proposed technique can be noticed by simulations focusing
+on uncorrelated closely-spaced sources.

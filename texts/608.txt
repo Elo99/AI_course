@@ -1,0 +1,11 @@
+Linear augmentation has recently been shown to be effective in targeting
+desired stationary solutions, suppressing bistablity, in regulating the
+dynamics of drive response systems and in controlling the dynamics of hidden
+attractors. The simplicity of the procedure is the highlight of this scheme but
+at the same time questions related to its general applicability still need to
+be addressed. Focusing on the issue of targeting stationary solutions, this
+work demonstrates instances where the scheme fails to stabilize the required
+solutions and leads to other complicated dynamical scenarios. Appropriate
+examples from conservative as well as dissipative systems are presented in this
+regard and potential applications for relevant observations in dissipative
+predator--prey systems are also discussed.

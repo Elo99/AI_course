@@ -1,0 +1,19 @@
+Augmented Reality has been subject to various integration efforts within
+industries due to its ability to enhance human machine interaction and
+understanding. Neural networks have achieved remarkable results in areas of
+computer vision, which bear great potential to assist and facilitate an
+enhanced Augmented Reality experience. However, most neural networks are
+computationally intensive and demand huge processing power thus, are not
+suitable for deployment on Augmented Reality devices. In this work we propose a
+method to deploy state of the art neural networks for real time 3D object
+localization on augmented reality devices. As a result, we provide a more
+automated method of calibrating the AR devices with mobile robotic systems. To
+accelerate the calibration process and enhance user experience, we focus on
+fast 2D detection approaches which are extracting the 3D pose of the object
+fast and accurately by using only 2D input. The results are implemented into an
+Augmented Reality application for intuitive robot control and sensor data
+visualization. For the 6D annotation of 2D images, we developed an annotation
+tool, which is, to our knowledge, the first open source tool to be available.
+We achieve feasible results which are generally applicable to any AR device
+thus making this work promising for further research in combining high
+demanding neural networks with Internet of Things devices.

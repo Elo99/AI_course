@@ -1,0 +1,14 @@
+Automated offensive language detection is essential in combating the spread
+of hate speech, particularly in social media. This paper describes our work on
+Offensive Language Identification in low resource Indic language Marathi. The
+problem is formulated as a text classification task to identify a tweet as
+offensive or non-offensive. We evaluate different mono-lingual and
+multi-lingual BERT models on this classification task, focusing on BERT models
+pre-trained with social media datasets. We compare the performance of MuRIL,
+MahaTweetBERT, MahaTweetBERT-Hateful, and MahaBERT on the HASOC 2022 test set.
+We also explore external data augmentation from other existing Marathi hate
+speech corpus HASOC 2021 and L3Cube-MahaHate. The MahaTweetBERT, a BERT model,
+pre-trained on Marathi tweets when fine-tuned on the combined dataset (HASOC
+2021 + HASOC 2022 + MahaHate), outperforms all models with an F1 score of 98.43
+on the HASOC 2022 test set. With this, we also provide a new state-of-the-art
+result on HASOC 2022 / MOLD v2 test set.

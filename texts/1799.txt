@@ -1,0 +1,15 @@
+In this work, we shed light on different data augmentation techniques
+commonly used in Light Detection and Ranging (LiDAR) based 3D Object Detection.
+For the bulk of our experiments, we utilize the well known PointPillars
+pipeline and the well established KITTI dataset. We investigate a variety of
+global and local augmentation techniques, where global augmentation techniques
+are applied to the entire point cloud of a scene and local augmentation
+techniques are only applied to points belonging to individual objects in the
+scene. Our findings show that both types of data augmentation can lead to
+performance increases, but it also turns out, that some augmentation
+techniques, such as individual object translation, for example, can be
+counterproductive and can hurt the overall performance. We show that these
+findings transfer and generalize well to other state of the art 3D Object
+Detection methods and the challenging STF dataset. On the KITTI dataset we can
+gain up to 1.5% and on the STF dataset up to 1.7% in 3D mAP on the moderate car
+class.

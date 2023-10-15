@@ -1,0 +1,19 @@
+Automatic post-editing (APE) aims to reduce manual post-editing efforts by
+automatically correcting errors in machine-translated output. Due to the
+limited amount of human-annotated training data, data scarcity is one of the
+main challenges faced by all APE systems. To alleviate the lack of genuine
+training data, most of the current APE systems employ data augmentation methods
+to generate large-scale artificial corpora. In view of the importance of data
+augmentation in APE, we separately study the impact of the construction method
+of artificial corpora and artificial data domain on the performance of APE
+models. Moreover, the difficulty of APE varies between different machine
+translation (MT) systems. We study the outputs of the state-of-art APE model on
+a difficult APE dataset to analyze the problems in existing APE systems.
+Primarily, we find that 1) Artificial corpora with high-quality source text and
+machine-translated text more effectively improve the performance of APE models;
+2) In-domain artificial training data can better improve the performance of APE
+models, while irrelevant out-of-domain data actually interfere with the model;
+3) Existing APE model struggles with cases containing long source text or
+high-quality machine-translated text; 4) The state-of-art APE model works well
+on grammatical and semantic addition problems, but the output is prone to
+entity and semantic omission errors.

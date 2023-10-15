@@ -1,0 +1,16 @@
+For training the sequence-to-sequence voice conversion model, we need to
+handle an issue of insufficient data about the number of speech pairs which
+consist of the same utterance. This study experimentally investigated the
+effects of Mel-spectrogram augmentation on training the sequence-to-sequence
+voice conversion (VC) model from scratch. For Mel-spectrogram augmentation, we
+adopted the policies proposed in SpecAugment. In addition, we proposed new
+policies (i.e., frequency warping, loudness and time length control) for more
+data variations. Moreover, to find the appropriate hyperparameters of
+augmentation policies without training the VC model, we proposed hyperparameter
+search strategy and the new metric for reducing experimental cost, namely
+deformation per deteriorating ratio. We compared the effect of these
+Mel-spectrogram augmentation methods based on various sizes of training set and
+augmentation policies. In the experimental results, the time axis warping based
+policies (i.e., time length control and time warping.) showed better
+performance than other policies. These results indicate that the use of the
+Mel-spectrogram augmentation is more beneficial for training the VC model.

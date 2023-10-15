@@ -1,0 +1,13 @@
+Deep learning-based text classification models need abundant labeled data to
+obtain competitive performance. Unfortunately, annotating large-size corpus is
+time-consuming and laborious. To tackle this, multiple researches try to use
+data augmentation to expand the corpus size. However, data augmentation may
+potentially produce some noisy augmented samples. There are currently no works
+exploring sample selection for augmented samples in nature language processing
+field. In this paper, we propose a novel self-training selection framework with
+two selectors to select the high-quality samples from data augmentation.
+Specifically, we firstly use an entropy-based strategy and the model prediction
+to select augmented samples. Considering some samples with high quality at the
+above step may be wrongly filtered, we propose to recall them from two
+perspectives of word overlap and semantic similarity. Experimental results show
+the effectiveness and simplicity of our framework.

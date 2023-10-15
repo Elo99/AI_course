@@ -1,0 +1,16 @@
+Convolutional Neural Networks (CNN) have shown promising results for the task
+of Handwritten Text Recognition (HTR) but they still fall behind Recurrent
+Neural Networks (RNNs)/Transformer based models in terms of performance. In
+this paper, we propose a CNN based architecture that bridges this gap. Our
+work, Easter2.0, is composed of multiple layers of 1D Convolution, Batch
+Normalization, ReLU, Dropout, Dense Residual connection, Squeeze-and-Excitation
+module and make use of Connectionist Temporal Classification (CTC) loss. In
+addition to the Easter2.0 architecture, we propose a simple and effective data
+augmentation technique 'Tiling and Corruption (TACO)' relevant for the task of
+HTR/OCR. Our work achieves state-of-the-art results on IAM handwriting database
+when trained using only publicly available training data. In our experiments,
+we also present the impact of TACO augmentations and Squeeze-and-Excitation
+(SE) on text recognition accuracy. We further show that Easter2.0 is suitable
+for few-shot learning tasks and outperforms current best methods including
+Transformers when trained on limited amount of annotated data. Code and model
+is available at: https://github.com/kartikgill/Easter2

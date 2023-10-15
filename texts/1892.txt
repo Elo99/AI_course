@@ -1,0 +1,10 @@
+We propose automated augmented conjugate inference, a new inference method
+for non-conjugate Gaussian processes (GP) models. Our method automatically
+constructs an auxiliary variable augmentation that renders the GP model
+conditionally conjugate. Building on the conjugate structure of the augmented
+model, we develop two inference methods. First, a fast and scalable stochastic
+variational inference method that uses efficient block coordinate ascent
+updates, which are computed in closed form. Second, an asymptotically correct
+Gibbs sampler that is useful for small datasets. Our experiments show that our
+method are up two orders of magnitude faster and more robust than existing
+state-of-the-art black-box methods.

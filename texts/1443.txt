@@ -1,0 +1,21 @@
+Topic models are widely used unsupervised models capable of learning topics -
+weighted lists of words and documents - from large collections of text
+documents. When topic models are used for discovery of topics in text
+collections, a question that arises naturally is how well the model-induced
+topics correspond to topics of interest to the analyst. In this paper we
+revisit and extend a so far neglected approach to topic model evaluation based
+on measuring topic coverage - computationally matching model topics with a set
+of reference topics that models are expected to uncover. The approach is well
+suited for analyzing models' performance in topic discovery and for large-scale
+analysis of both topic models and measures of model quality. We propose new
+measures of coverage and evaluate, in a series of experiments, different types
+of topic models on two distinct text domains for which interest for topic
+discovery exists. The experiments include evaluation of model quality, analysis
+of coverage of distinct topic categories, and the analysis of the relationship
+between coverage and other methods of topic model evaluation. The paper
+contributes a new supervised measure of coverage, and the first unsupervised
+measure of coverage. The supervised measure achieves topic matching accuracy
+close to human agreement. The unsupervised measure correlates highly with the
+supervised one (Spearman's $\rho \geq 0.95$). Other contributions include
+insights into both topic models and different methods of model evaluation, and
+the datasets and code for facilitating future research on topic coverage.

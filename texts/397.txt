@@ -1,0 +1,22 @@
+In this paper, we propose a compositional framework for the construction of
+control barrier certificates for large-scale stochastic switched systems
+accepting multiple control barrier certificates with some dwell-time
+conditions. The proposed scheme is based on a notion of so-called augmented
+pseudo-barrier certificates computed for each switched subsystem, using which
+one can compositionally synthesize state-feedback controllers for
+interconnected systems enforcing safety specifications over a finite-time
+horizon. In particular, we first leverage sufficient max-type small-gain
+conditions to compositionally construct augmented control barrier certificates
+for interconnected systems based on the corresponding augmented pseudo-barrier
+certificates of subsystems. Then we quantify upper bounds on exit probabilities
+- the probability that an interconnected system reaches certain unsafe regions
+- in a finite-time horizon using the constructed augmented barrier
+certificates. We employ a technique based on a counter-example guided inductive
+synthesis (CEGIS) approach to search for control barrier certificates of each
+mode while synthesizing safety controllers providing switching signals. We
+demonstrate our proposed results by applying them first to a room temperature
+network containing 1000 rooms. Finally, we apply our techniques to a network of
+500 switched subsystems (totally 1000 dimensions) accepting multiple barrier
+certificates with a dwell-time condition, and provide upper bounds on the
+probability that the interconnected system reaches some unsafe region in a
+finite-time horizon.

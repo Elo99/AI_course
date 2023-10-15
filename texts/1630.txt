@@ -1,0 +1,14 @@
+In this paper, we explore different deep learning based approaches to detect
+driver fatigue. Drowsy driving results in approximately 72,000 crashes and
+44,000 injuries every year in the US and detecting drowsiness and alerting the
+driver can save many lives. There have been many approaches to detect fatigue,
+of which eye closedness detection is one. We propose a framework to detect eye
+closedness in a captured camera frame as a gateway for detecting drowsiness. We
+explore two different datasets to detect eye closedness. We develop an eye
+model by using new Eye-blink dataset and a face model by using the Closed Eyes
+in the Wild (CEW). We also explore different techniques to make the models more
+robust by adding noise. We achieve 95.84% accuracy on our eye model and 80.01%
+accuracy on our face model. We also see that we can improve our accuracy on the
+face model by 6% via adversarial training and data augmentation. We hope that
+our work will be useful to the field of driver fatigue detection to avoid
+potential vehicle accidents related to drowsy driving.

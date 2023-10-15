@@ -1,0 +1,23 @@
+While Graph Neural Networks (GNNs) are popular in the deep learning
+community, they suffer from several challenges including over-smoothing,
+over-squashing, and gradient vanishing. Recently, a series of models have
+attempted to relieve these issues by first augmenting the node features and
+then imposing node-wise functions based on Multi-Layer Perceptron (MLP), which
+are widely referred to as GA-MLP models. However, while GA-MLP models enjoy
+deeper architectures for better accuracy, their efficiency largely
+deteriorates. Moreover, popular acceleration techniques such as
+stochastic-version or data-parallelism cannot be effectively applied due to the
+dependency among samples (i.e., nodes) in graphs. To address these issues, in
+this paper, instead of data parallelism, we propose a parallel graph deep
+learning Alternating Direction Method of Multipliers (pdADMM-G) framework to
+achieve model parallelism: parameters in each layer of GA-MLP models can be
+updated in parallel. The extended pdADMM-G-Q algorithm reduces communication
+costs by introducing the quantization technique. Theoretical convergence to a
+(quantized) stationary point of the pdADMM-G algorithm and the pdADMM-G-Q
+algorithm is provided with a sublinear convergence rate $o(1/k)$, where $k$ is
+the number of iterations. Extensive experiments demonstrate the convergence of
+two proposed algorithms. Moreover, they lead to a more massive speedup and
+better performance than all state-of-the-art comparison methods on nine
+benchmark datasets. Last but not least, the proposed pdADMM-G-Q algorithm
+reduces communication overheads by up to $45\%$ without loss of performance.
+Our code is available at \url{https://github.com/xianggebenben/pdADMM-G}.

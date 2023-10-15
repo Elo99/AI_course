@@ -1,0 +1,15 @@
+Crystalline phases formed in stoichiometric Zr$_9$Ni$_{11}$ and
+Hf$_9$Ni$_{11}$ have been studied by perturbed angular correlation (PAC)
+spectroscopy, XRD and TEM/SAED measurements. In Zr$_9$Ni$_{11}$, the phases
+Zr$_9$Ni$_{11}$ ($\sim$89\%) and Zr$_8$Ni$_{21}$ ($\sim$11\%) have been found
+at room temperature from PAC measurements. At 773 K, Zr$_9$Ni$_{11}$ partially
+decomposes to Zr$_7$Ni$_{10}$ and at 973 K, it is completely decomposed to ZrNi
+and Zr$_7$Ni$_{10}$. In Hf$_9$Ni$_{11}$, a predominant phase ($\sim$81\%) due
+to HfNi is found at room temperature while the phase Hf$_9$Ni$_{11}$ is
+produced as a minor phase ($\sim$19\%). No compositional phase change at higher
+temperature is found in Hf$_9$Ni$_{11}$. Phase components found from XRD and
+TEM/SAED measurements are similar to those observed from PAC measurements.
+Electric field gradients in Zr$_9$Ni$_{11}$ and Hf$_9$Ni$_{11}$ have been
+calculated by density functional theory (DFT) using all electron full potential
+(linearized) augmented plane wave plus local orbitals [FP-(L)APW+lo] method in
+order to assign the phase components.

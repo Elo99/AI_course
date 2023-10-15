@@ -1,0 +1,19 @@
+Product description generation is a challenging and under-explored task. Most
+such work takes a set of product attributes as inputs then generates a
+description from scratch in a single pass. However, this widespread paradigm
+might be limited when facing the dynamic wishes of users on constraining the
+description, such as deleting or adding the content of a user-specified
+attribute based on the previous version. To address this challenge, we explore
+a new draft-command-edit manner in description generation, leading to the
+proposed new task-controllable text editing in E-commerce. More specifically,
+we allow systems to receive a command (deleting or adding) from the user and
+then generate a description by flexibly modifying the content based on the
+previous version. It is easier and more practical to meet the new needs by
+modifying previous versions than generating from scratch. Furthermore, we
+design a data augmentation method to remedy the low resource challenge in this
+task, which contains a model-based and a rule-based strategy to imitate the
+edit by humans. To accompany this new task, we present a human-written
+draft-command-edit dataset called E-cEdits and a new metric "Attribute Edit".
+Our experimental results show that using the new data augmentation method
+outperforms baselines to a greater extent in both automatic and human
+evaluations.

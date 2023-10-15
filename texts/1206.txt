@@ -1,0 +1,14 @@
+Making quantum mechanical equations and concepts come to life through
+interactive simulation and visualization are commonplace for augmenting
+learning and teaching. However, graphical visualizations nearly always exhibit
+a set of hard-coded functionalities while corresponding text-based codes offer
+a higher degree of flexibility at the expense of steep learning curves or time
+investments. We introduce Quantum Composer, which allows the user to build,
+expand, or explore quantum mechanical simulations by interacting with
+graphically connectable nodes, each corresponding to a physical concept,
+mathematical operation, visualization, etc. Abstracting away numerical and
+programming details while at the same time retaining accessibility, emphasis on
+understanding, and rapid feedback mechanisms, we illustrate through a series of
+examples its open-ended applicability in both introductory and advanced quantum
+mechanics courses, student projects, and for visual exploration within research
+environments.

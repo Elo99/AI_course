@@ -1,0 +1,15 @@
+Text generation from semantic parses is to generate textual descriptions for
+formal representation inputs such as logic forms and SQL queries. This is
+challenging due to two reasons: (1) the complex and intensive inner logic with
+the data scarcity constraint, (2) the lack of automatic evaluation metrics for
+logic consistency. To address these two challenges, this paper first proposes
+SNOWBALL, a framework for logic consistent text generation from semantic parses
+that employs an iterative training procedure by recursively augmenting the
+training set with quality control. Second, we propose a novel automatic metric,
+BLEC, for evaluating the logical consistency between the semantic parses and
+generated texts. The experimental results on two benchmark datasets, Logic2Text
+and Spider, demonstrate the SNOWBALL framework enhances the logic consistency
+on both BLEC and human evaluation. Furthermore, our statistical analysis
+reveals that BLEC is more logically consistent with human evaluation than
+general-purpose automatic metrics including BLEU, ROUGE and, BLEURT. Our data
+and code are available at https://github.com/Ciaranshu/relogic.

@@ -1,0 +1,16 @@
+We introduce a hybrid human-automated system that provides scalable
+entity-risk relation extractions across large data sets. Given an
+expert-defined keyword taxonomy, entities, and data sources, the system returns
+text extractions based on bidirectional token distances between entities and
+keywords and expands taxonomy coverage with word vector encodings. Our system
+represents a more simplified architecture compared to alerting focused systems
+- motivated by high coverage use cases in the risk mining space such as due
+diligence activities and intelligence gathering. We provide an overview of the
+system and expert evaluations for a range of token distances. We demonstrate
+that single and multi-sentence distance groups significantly outperform
+baseline extractions with shorter, single sentences being preferred by
+analysts. As the taxonomy expands, the amount of relevant information increases
+and multi-sentence extractions become more preferred, but this is tempered
+against entity-risk relations become more indirect. We discuss the implications
+of these observations on users, management of ambiguity and taxonomy expansion,
+and future system modifications.

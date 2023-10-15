@@ -1,0 +1,19 @@
+Morphology of mitochondria plays critical roles in mediating their
+physiological functions. Accurate segmentation of mitochondria from 3D electron
+microscopy (EM) images is essential to quantitative characterization of their
+morphology at the nanometer scale. Fully supervised deep learning models
+developed for this task achieve excellent performance but require substantial
+amounts of annotated data for training. However, manual annotation of EM images
+is laborious and time-consuming because of their large volumes, limited
+contrast, and low signal-to-noise ratios (SNRs). To overcome this challenge, we
+propose a semi-supervised deep learning model that segments mitochondria by
+leveraging the spatial continuity of their structural, morphological, and
+contextual information in both labeled and unlabeled images. We use random
+piecewise affine transformation to synthesize comprehensive and realistic
+mitochondrial morphology for augmentation of training data. Experiments on the
+EPFL dataset show that our model achieves performance similar as that of
+state-of-the-art fully supervised models but requires only ~20% of their
+annotated training data. Our semi-supervised model is versatile and can also
+accurately segment other spatially continuous structures from EM images. Data
+and code of this study are openly accessible at
+https://github.com/cbmi-group/MPP.

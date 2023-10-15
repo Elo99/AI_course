@@ -1,0 +1,16 @@
+Discrete abstractions have become a standard approach to assist control
+synthesis under complex specifications. Most techniques for the construction of
+a discrete abstraction for a continuous-time system require time-space
+discretization of the concrete system, which constitutes property satisfaction
+for the continuous-time system non-trivial. In this work, we aim at relaxing
+this requirement by introducing a control interface. Firstly, we connect the
+continuous-time uncertain concrete system with its discrete deterministic
+state-space abstraction with a control interface. Then, a novel stability
+notion called $\eta$-approximate controlled globally practically stable, and a
+new simulation relation called robust approximate simulation relation are
+proposed. It is shown that the uncertain concrete system, under the condition
+that there exists an admissible control interface such that the augmented
+system (composed of the concrete system and its abstraction) can be made
+$\eta$-approximate controlled globally practically stable, robustly
+approximately simulates its discrete abstraction. The effectiveness of the
+proposed results is illustrated by two simulation examples.

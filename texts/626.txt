@@ -1,0 +1,15 @@
+Code-switching (CS) is a common phenomenon and recognizing CS speech is
+challenging. But CS speech data is scarce and there' s no common testbed in
+relevant research. This paper describes the design and main outcomes of the
+ASRU 2019 Mandarin-English code-switching speech recognition challenge, which
+aims to improve the ASR performance in Mandarin-English code-switching
+situation. 500 hours Mandarin speech data and 240 hours Mandarin-English
+intra-sentencial CS data are released to the participants. Three tracks were
+set for advancing the AM and LM part in traditional DNN-HMM ASR system, as well
+as exploring the E2E models' performance. The paper then presents an overview
+of the results and system performance in the three tracks. It turns out that
+traditional ASR system benefits from pronunciation lexicon, CS text generating
+and data augmentation. In E2E track, however, the results highlight the
+importance of using language identification, building-up a rational set of
+modeling units and spec-augment. The other details in model training and method
+comparsion are discussed.

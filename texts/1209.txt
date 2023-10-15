@@ -1,0 +1,18 @@
+Recent advances in deep learning methods have elevated synthetic speech
+quality to human level, and the field is now moving towards addressing prosodic
+variation in synthetic speech.Despite successes in this effort, the
+state-of-the-art systems fall short of faithfully reproducing local prosodic
+events that give rise to, e.g., word-level emphasis and phrasal structure. This
+type of prosodic variation often reflects long-distance semantic relationships
+that are not accessible for end-to-end systems with a single sentence as their
+synthesis domain. One of the possible solutions might be conditioning the
+synthesized speech by explicit prosodic labels, potentially generated using
+longer portions of text. In this work we evaluate whether augmenting the
+textual input with such prosodic labels capturing word-level prominence and
+phrasal boundary strength can result in more accurate realization of sentence
+prosody. We use an automatic wavelet-based technique to extract such labels
+from speech material, and use them as an input to a tacotron-like synthesis
+system alongside textual information. The results of objective evaluation of
+synthesized speech show that using the prosodic labels significantly improves
+the output in terms of faithfulness of f0 and energy contours, in comparison
+with state-of-the-art implementations.

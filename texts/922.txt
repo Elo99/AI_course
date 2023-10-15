@@ -1,0 +1,23 @@
+In this paper we develop accelerated first-order methods for convex
+optimization with locally Lipschitz continuous gradient (LLCG), which is beyond
+the well-studied class of convex optimization with Lipschitz continuous
+gradient. In particular, we first consider unconstrained convex optimization
+with LLCG and propose accelerated proximal gradient (APG) methods for solving
+it. The proposed APG methods are equipped with a verifiable termination
+criterion and enjoy an operation complexity of ${\cal O}(\varepsilon^{-1/2}\log
+\varepsilon^{-1})$ and ${\cal O}(\log \varepsilon^{-1})$ for finding an
+$\varepsilon$-residual solution of an unconstrained convex and strongly convex
+optimization problem, respectively. We then consider constrained convex
+optimization with LLCG and propose an first-order proximal augmented Lagrangian
+method for solving it by applying one of our proposed APG methods to
+approximately solve a sequence of proximal augmented Lagrangian subproblems.
+The resulting method is equipped with a verifiable termination criterion and
+enjoys an operation complexity of ${\cal O}(\varepsilon^{-1}\log
+\varepsilon^{-1})$ and ${\cal O}(\varepsilon^{-1/2}\log \varepsilon^{-1})$ for
+finding an $\varepsilon$-KKT solution of a constrained convex and strongly
+convex optimization problem, respectively. All the proposed methods in this
+paper are parameter-free or almost parameter-free except that the knowledge on
+convexity parameter is required. To the best of our knowledge, no prior studies
+were conducted to investigate accelerated first-order methods with complexity
+guarantees for convex optimization with LLCG. All the complexity results
+obtained in this paper are entirely new.

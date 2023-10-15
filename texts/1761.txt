@@ -1,0 +1,21 @@
+The purpose of this paper is three-fold. Firstly we attack a nonlinear
+interface problem on an unbounded domain with nonmonotone set-valued
+transmission conditions. The investigated problem involves a nonlinear monotone
+partial differential equation in the interior domain and the Laplacian in the
+exterior domain. Such a scalar interface problem models nonmonotone frictional
+contact of elastic infinite media. The variational formulation of the interface
+problem leads to a hemivariational inequality (HVI), which however lives on the
+unbounded domain, and thus cannot analyzed in a reflexive Banach space setting.
+By boundary integral methods we obtain another HVI that is amenable to
+functional analytic methods using standard Sobolev spaces on the interior
+domain and Sobolev spaces of fractional order on the coupling boundary.
+Secondly broadening the scope of the paper, we consider extended real-valued
+HVIs augmented by convex extended real-valued functions. Under a smallness
+hypothesis, we provide existence and uniqueness results, also establish a
+stability result with respect to the extended real-valued function as
+parameter. Thirdly based on the latter stability result, we prove the existence
+of optimal controls for four kinds of optimal control problems: distributed
+control on the bounded domain, boundary control, simultaneous
+distributed-boundary control governed by the interface problem, as well as
+control of the obstacle driven by a related bilateral obstacle interface
+problem.

@@ -1,0 +1,10 @@
+The 4d-transition-metals carbides (ZrC, NbC) and nitrides (ZrN, NbN) in the
+rocksalt structure, as well as their ternary alloys, have been recently studied
+by means of a first-principles full potential linearized augmented plane waves
+method within the local density approximation. These materials are important
+because of their interesting mechanical and physical properties, which make
+them suitable for many technological applications. Here, by using a simple
+theoretical model, we estimate the bulk moduli of their ternary alloys
+Zr$_x$Nb$_{1-x}$C and Zr$_x$Nb$_{1-x}$N in terms of the bulk moduli of the end
+members alone. The results are comparable to those deduced from the
+first-principles calculations.

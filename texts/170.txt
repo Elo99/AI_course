@@ -1,0 +1,11 @@
+Convolutional Recurrent Neural Networks (CRNNs) excel at scene text
+recognition. Unfortunately, they are likely to suffer from vanishing/exploding
+gradient problems when processing long text images, which are commonly found in
+scanned documents. This poses a major challenge to goal of completely solving
+Optical Character Recognition (OCR) problem. Inspired by recently proposed
+memory-augmented neural networks (MANNs) for long-term sequential modeling, we
+present a new architecture dubbed Convolutional Multi-way Associative Memory
+(CMAM) to tackle the limitation of current CRNNs. By leveraging recent memory
+accessing mechanisms in MANNs, our architecture demonstrates superior
+performance against other CRNN counterparts in three real-world long text OCR
+datasets.

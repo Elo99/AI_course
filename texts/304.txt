@@ -1,0 +1,17 @@
+Handwritten Text Recognition has achieved an impressive performance in public
+benchmarks. However, due to the high inter- and intra-class variability between
+handwriting styles, such recognizers need to be trained using huge volumes of
+manually labeled training data. To alleviate this labor-consuming problem,
+synthetic data produced with TrueType fonts has been often used in the training
+loop to gain volume and augment the handwriting style variability. However,
+there is a significant style bias between synthetic and real data which hinders
+the improvement of recognition performance. To deal with such limitations, we
+propose a generative method for handwritten text-line images, which is
+conditioned on both visual appearance and textual content. Our method is able
+to produce long text-line samples with diverse handwriting styles. Once
+properly trained, our method can also be adapted to new target data by only
+accessing unlabeled text-line images to mimic handwritten styles and produce
+images with any textual content. Extensive experiments have been done on making
+use of the generated samples to boost Handwritten Text Recognition performance.
+Both qualitative and quantitative results demonstrate that the proposed
+approach outperforms the current state of the art.

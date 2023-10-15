@@ -1,0 +1,21 @@
+The development of spintronic technology with increasingly dense, high-speed,
+and complex devices will be accelerated by accessible microscopy techniques
+capable of probing magnetic phenomena on picosecond time scales and at deeply
+sub-micron length scales. A recently developed time-resolved magneto-thermal
+microscope provides a path towards this goal if it is augmented with a
+picosecond, nanoscale heat source. We theoretically study adiabatic
+nanofocusing and near-field heat induction using conical gold plasmonic
+antennas to generate sub-100 nm thermal gradients for time-resolved
+magneto-thermal imaging. Finite element calculations of antenna-sample
+interactions reveal focused electromagnetic loss profiles that are either
+peaked directly under the antenna or are annular, depending on the sample's
+conductivity, the antenna's apex radius, and the tip-sample separation. We find
+that the thermal gradient is confined to 40 nm to 60 nm full width at half
+maximum for realistic ranges of sample conductivity and apex radius. To
+mitigate this variation, which is undesirable for microscopy, we investigate
+the use of a platinum capping layer on top of the sample as a thermal
+transduction layer to produce heat uniformly across different sample materials.
+After determining the optimal capping layer thickness, we simulate the
+evolution of the thermal gradient in the underlying sample layer, and find that
+the temporal width is below 10 ps. These results lay a theoretical foundation
+for nanoscale, time-resolved magneto-thermal imaging.

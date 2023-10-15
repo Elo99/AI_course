@@ -1,0 +1,16 @@
+Modern object detection architectures are moving towards employing
+self-supervised learning (SSL) to improve performance detection with related
+pretext tasks. Pretext tasks for monocular 3D object detection have not yet
+been explored yet in literature. The paper studies the application of
+established self-supervised bounding box recycling by labeling random windows
+as the pretext task. The classifier head of the 3D detector is trained to
+classify random windows containing different proportions of the ground truth
+objects, thus handling the foreground-background imbalance. We evaluate the
+pretext task using the RTM3D detection model as baseline, with and without the
+application of data augmentation. We demonstrate improvements of between 2-3 %
+in mAP 3D and 0.9-1.5 % BEV scores using SSL over the baseline scores. We
+propose the inverse class frequency re-weighted (ICFW) mAP score that
+highlights improvements in detection for low frequency classes in a class
+imbalanced dataset with long tails. We demonstrate improvements in ICFW both
+mAP 3D and BEV scores to take into account the class imbalance in the KITTI
+validation dataset. We see 4-5 % increase in ICFW metric with the pretext task.

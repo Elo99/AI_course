@@ -1,0 +1,16 @@
+We discuss a platform that has both software and hardware components, and
+whose purpose is to support research into characterizing and mitigating the
+sim-to-real gap in robotics and vehicle autonomy engineering. The software is
+operating-system independent and has three main components: a simulation engine
+called Chrono, which supports high-fidelity vehicle and sensor simulation; an
+autonomy stack for algorithm design and testing; and a development environment
+that supports visualization and hardware-in-the-loop experimentation. The
+accompanying hardware platform is a 1/6th scale vehicle augmented with
+reconfigurable mountings for computing, sensing, and tracking. Since this
+vehicle platform has a digital twin within the simulation environment, one can
+test the same autonomy perception, state estimation, or controls algorithms, as
+well as the processors they run on, in both simulation and reality. A
+demonstration is provided to show the utilization of this platform for autonomy
+research. Future work will concentrate on augmenting ART/ATK with support for a
+full-sized Chevy Bolt EUV, which will be made available to this group in the
+immediate future.

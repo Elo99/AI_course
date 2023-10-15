@@ -1,0 +1,21 @@
+Reconfigurable morphing surfaces provide new opportunities for advanced
+human-machine interfaces and bio-inspired robotics. Morphing into arbitrary
+surfaces on demand requires a device with a sufficiently large number of
+actuators and an inverse control strategy that can calculate the actuator
+stimulation necessary to achieve a target surface. The programmability of a
+morphing surface can be improved by increasing the number of independent
+actuators, but this increases the complexity of the control system. Thus,
+developing compact and efficient control interfaces and control algorithms is a
+crucial knowledge gap for the adoption of morphing surfaces in broad
+applications. In this work, we describe a passively addressed robotic morphing
+surface (PARMS) composed of matrix-arranged ionic actuators. To reduce the
+complexity of the physical control interface, we introduce passive matrix
+addressing. Matrix addressing allows the control of independent actuators using
+only 2N control inputs, which is significantly lower than control inputs
+required for traditional direct addressing. Our control algorithm is based on
+machine learning using finite element simulations as the training data. This
+machine learning approach allows both forward and inverse control with high
+precision in real time. Inverse control demonstrations show that the PARMS can
+dynamically morph into arbitrary pre-defined surfaces on demand. These
+innovations in actuator matrix control may enable future implementation of
+PARMS in wearables, haptics, and augmented reality/virtual reality (AR/VR).

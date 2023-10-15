@@ -1,0 +1,17 @@
+Improving the accessibility and automation capabilities of mobile devices can
+have a significant positive impact on the daily lives of countless users. To
+stimulate research in this direction, we release a human-annotated dataset with
+approximately 500k unique annotations aimed at increasing the understanding of
+the functionality of UI elements. This dataset augments images and view
+hierarchies from RICO, a large dataset of mobile UIs, with annotations for
+icons based on their shapes and semantics, and associations between different
+elements and their corresponding text labels, resulting in a significant
+increase in the number of UI elements and the categories assigned to them. We
+also release models using image-only and multimodal inputs; we experiment with
+various architectures and study the benefits of using multimodal inputs on the
+new dataset. Our models demonstrate strong performance on an evaluation set of
+unseen apps, indicating their generalizability to newer screens. These models,
+combined with the new dataset, can enable innovative functionalities like
+referring to UI elements by their labels, improved coverage and better
+semantics for icons etc., which would go a long way in making UIs more usable
+for everyone.

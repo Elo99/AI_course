@@ -1,0 +1,11 @@
+Deep neural networks (DNN) are quickly becoming the de facto standard
+modeling method for many natural language generation (NLG) tasks. In order for
+such models to truly be useful, they must be capable of correctly generating
+utterances for novel meaning representations (MRs) at test time. In practice,
+even sophisticated DNNs with various forms of semantic control frequently fail
+to generate utterances faithful to the input MR. In this paper, we propose an
+architecture agnostic self-training method to sample novel MR/text utterance
+pairs to augment the original training data. Remarkably, after training on the
+augmented data, even simple encoder-decoder models with greedy decoding are
+capable of generating semantically correct utterances that are as good as
+state-of-the-art outputs in both automatic and human evaluations of quality.

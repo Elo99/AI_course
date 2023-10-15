@@ -1,0 +1,14 @@
+Legal argumentation is a vital cornerstone of justice, underpinning an
+adversarial form of law, and extensive research has attempted to augment or
+undertake legal argumentation via the use of computer-based automation
+including Artificial Intelligence (AI). AI advances in Natural Language
+Processing (NLP) and Machine Learning (ML) have especially furthered the
+capabilities of leveraging AI for aiding legal professionals, doing so in ways
+that are modeled here as CARE, namely Crafting, Assessing, Refining, and
+Engaging in legal argumentation. In addition to AI-enabled legal argumentation
+serving to augment human-based lawyering, an aspirational goal of this
+multi-disciplinary field consists of ultimately achieving autonomously effected
+human-equivalent legal argumentation. As such, an innovative meta-approach is
+proposed to apply the Levels of Autonomy (LoA) of AI Legal Reasoning (AILR) to
+the maturation of AI and Legal Argumentation (AILA), proffering a new means of
+gauging progress in this ever-evolving and rigorously sought domain.

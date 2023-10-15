@@ -1,0 +1,21 @@
+Route planning and navigation are common tasks that often require additional
+information on points of interest. Augmented Reality (AR) enables mobile users
+to utilize text labels, in order to provide a composite view associated with
+additional information in a real-world environment. Nonetheless, displaying all
+labels for points of interest on a mobile device will lead to unwanted overlaps
+between information, and thus a context-responsive strategy to properly arrange
+labels is expected. The technique should remove overlaps, show the right
+level-of-detail, and maintain label coherence. This is necessary as the viewing
+angle in an AR system may change rapidly due to users' behaviors. Coherence
+plays an essential role in retaining user experience and knowledge, as well as
+avoiding motion sickness. In this paper, we develop an approach that
+systematically manages label visibility and levels-of-detail, as well as
+eliminates unexpected incoherent movement. We introduce three label management
+strategies, including (1) occlusion management, (2) level-of-detail management,
+and (3) coherence management by balancing the usage of the mobile phone screen.
+A greedy approach is developed for fast occlusion handling in AR. A
+level-of-detail scheme is adopted to arrange various types of labels. A 3D
+scene manipulation is then built to simultaneously suppress the incoherent
+behaviors induced by viewing angle changes. Finally, we present the feasibility
+and applicability of our approach through one synthetic and two real-world
+scenarios, followed by a qualitative user study.

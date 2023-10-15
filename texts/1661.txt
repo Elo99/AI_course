@@ -1,0 +1,19 @@
+To aid humans in everyday tasks, robots need to know which objects exist in
+the scene, where they are, and how to grasp and manipulate them in different
+situations. Therefore, object recognition and grasping are two key
+functionalities for autonomous robots. Most state-of-the-art approaches treat
+object recognition and grasping as two separate problems, even though both use
+visual input. Furthermore, the knowledge of the robot is fixed after the
+training phase. In such cases, if the robot encounters new object categories,
+it must be retrained to incorporate new information without catastrophic
+forgetting. In order to resolve this problem, we propose a deep learning
+architecture with an augmented memory capacity to handle open-ended object
+recognition and grasping simultaneously. In particular, our approach takes
+multi-views of an object as input and jointly estimates pixel-wise grasp
+configuration as well as a deep scale- and rotation-invariant representation as
+output. The obtained representation is then used for open-ended object
+recognition through a meta-active learning technique. We demonstrate the
+ability of our approach to grasp never-seen-before objects and to rapidly learn
+new object categories using very few examples on-site in both simulation and
+real-world settings. A video of these experiments is available online at:
+https://youtu.be/n9SMpuEkOgk

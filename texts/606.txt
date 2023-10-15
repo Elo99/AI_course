@@ -1,0 +1,11 @@
+We introduce a biomedical information extraction (IE) pipeline that extracts
+biological relationships from text and demonstrate that its components, such as
+named entity recognition (NER) and relation extraction (RE), outperform
+state-of-the-art in BioNLP. We apply it to tens of millions of PubMed abstracts
+to extract protein-protein interactions (PPIs) and augment these extractions to
+a biomedical knowledge graph that already contains PPIs extracted from STRING,
+the leading structured PPI database. We show that, despite already containing
+PPIs from an established structured source, augmenting our own IE-based
+extractions to the graph allows us to predict novel disease-gene associations
+with a 20% relative increase in hit@30, an important step towards developing
+drug targets for uncured diseases.

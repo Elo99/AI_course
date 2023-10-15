@@ -1,0 +1,12 @@
+Neural-based models have achieved outstanding performance on slot filling and
+intent classification, when fairly large in-domain training data are available.
+However, as new domains are frequently added, creating sizeable data is
+expensive. We show that lightweight augmentation, a set of augmentation methods
+involving word span and sentence level operations, alleviates data scarcity
+problems. Our experiments on limited data settings show that lightweight
+augmentation yields significant performance improvement on slot filling on the
+ATIS and SNIPS datasets, and achieves competitive performance with respect to
+more complex, state-of-the-art, augmentation approaches. Furthermore,
+lightweight augmentation is also beneficial when combined with pre-trained
+LM-based models, as it improves BERT-based joint intent and slot filling
+models.

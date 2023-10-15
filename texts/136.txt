@@ -1,0 +1,16 @@
+End-to-end models have gradually become the preferred option for automatic
+speech recognition (ASR) applications. During the training of end-to-end ASR,
+data augmentation is a quite effective technique for regularizing the neural
+networks. This paper proposes a novel data augmentation technique based on
+semantic transposition of the transcriptions via syntax rules for end-to-end
+Mandarin ASR. Specifically, we first segment the transcriptions based on
+part-of-speech tags. Then transposition strategies, such as placing the object
+in front of the subject or swapping the subject and the object, are applied on
+the segmented sentences. Finally, the acoustic features corresponding to the
+transposed transcription are reassembled based on the audio-to-text
+forced-alignment produced by a pre-trained ASR system. The combination of
+original data and augmented one is used for training a new ASR system. The
+experiments are conducted on the Transformer[2] and Conformer[3] based ASR. The
+results show that the proposed method can give consistent performance gain to
+the system. Augmentation related issues, such as comparison of different
+strategies and ratios for data combination are also investigated.

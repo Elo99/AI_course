@@ -1,0 +1,16 @@
+We study the problem of designing interval-valued observers that
+simultaneously estimate the system state and learn an unknown dynamic model for
+partially unknown nonlinear systems with dynamic unknown inputs and bounded
+noise signals. Leveraging affine abstraction methods and the existence of
+nonlinear decomposition functions, as well as applying our previously developed
+data-driven function over-approximation/abstraction approach to over-estimate
+the unknown dynamic model, our proposed observer recursively computes the
+maximal and minimal elements of the estimate intervals that are proven to
+contain the true augmented states. Then, using observed output/measurement
+signals, the observer iteratively shrinks the intervals by eliminating
+estimates that are not compatible with the measurements. Finally, given new
+interval estimates, the observer updates the over-approximation of the unknown
+model dynamics. Moreover, we provide sufficient conditions for uniform
+boundedness of the sequence of estimate interval widths, i.e., stability of the
+designed observer, in the form of tractable (mixed-)integer programs with
+finitely countable feasible sets.

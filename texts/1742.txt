@@ -1,0 +1,21 @@
+We describe the orchestration of a decentralized swarm of rotary-wing
+UAV-relays, augmenting the coverage and service capabilities of a terrestrial
+base station. Our goal is to minimize the time-average service latencies
+involved in handling transmission requests from ground users under Poisson
+arrivals, subject to an average UAV power constraint. Equipped with rate
+adaptation to efficiently leverage air-to-ground channel stochastics, we first
+derive the optimal control policy for a single relay via a semi-Markov decision
+process formulation, with competitive swarm optimization for UAV trajectory
+design. Accordingly, we detail a multiscale decomposition of this construction:
+outer decisions on radial wait velocities and end positions optimize the
+expected long-term delay-power trade-off; consequently, inner decisions on
+angular wait velocities, service schedules, and UAV trajectories greedily
+minimize the instantaneous delay-power costs. Next, generalizing to UAV swarms
+via replication and consensus-driven command-and-control, this policy is
+embedded with spread maximization and conflict resolution heuristics. We
+demonstrate that our framework offers superior performance with respect to
+average service latencies and average per-UAV power consumption: 11x faster
+data payload delivery relative to static UAV-relay deployments and 2x faster
+than a deep-Q network solution; remarkably, one relay with our scheme
+outclasses three relays under a joint successive convex approximation policy by
+62%.

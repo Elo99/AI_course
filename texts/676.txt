@@ -1,0 +1,12 @@
+The Semantic Alliance (SAlly) Framework, first presented at MKM 2012, allows
+integration of Mathematical Knowledge Management services into typical
+applications and end-user workflows. From an architecture allowing invasion of
+spreadsheet programs, it grew into a middle-ware connecting spreadsheet, CAD,
+text and image processing environments with MKM services. The architecture
+presented in the original paper proved to be quite resilient as it is still
+used today with only minor changes.
+  This paper explores extensibility challenges we have encountered in the
+process of developing new services and maintaining the plugins invading
+end-user applications. After an analysis of the underlying problems, I present
+an augmented version of the SAlly architecture that addresses these issues and
+opens new opportunities for document type agnostic MKM services.

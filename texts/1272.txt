@@ -1,0 +1,15 @@
+Context-aware neural machine translation (NMT) incorporates contextual
+information of surrounding texts, that can improve the translation quality of
+document-level machine translation. Many existing works on context-aware NMT
+have focused on developing new model architectures for incorporating additional
+contexts and have shown some promising results. However, most existing works
+rely on cross-entropy loss, resulting in limited use of contextual information.
+In this paper, we propose CorefCL, a novel data augmentation and contrastive
+learning scheme based on coreference between the source and contextual
+sentences. By corrupting automatically detected coreference mentions in the
+contextual sentence, CorefCL can train the model to be sensitive to coreference
+inconsistency. We experimented with our method on common context-aware NMT
+models and two document-level translation tasks. In the experiments, our method
+consistently improved BLEU of compared models on English-German and
+English-Korean tasks. We also show that our method significantly improves
+coreference resolution in the English-German contrastive test suite.

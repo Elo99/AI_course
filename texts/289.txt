@@ -1,0 +1,19 @@
+This paper is a technical report to share our experience and findings
+building a Korean and English bilingual multimodal model. While many of the
+multimodal datasets focus on English and multilingual multimodal research uses
+machine-translated texts, employing such machine-translated texts is limited to
+describing unique expressions, cultural information, and proper noun in
+languages other than English. In this work, we collect 1.1 billion image-text
+pairs (708 million Korean and 476 million English) and train a bilingual
+multimodal model named KELIP. We introduce simple yet effective training
+schemes, including MAE pre-training and multi-crop augmentation. Extensive
+experiments demonstrate that a model trained with such training schemes shows
+competitive performance in both languages. Moreover, we discuss
+multimodal-related research questions: 1) strong augmentation-based methods can
+distract the model from learning proper multimodal relations; 2) training
+multimodal model without cross-lingual relation can learn the relation via
+visual semantics; 3) our bilingual KELIP can capture cultural differences of
+visual semantics for the same meaning of words; 4) a large-scale multimodal
+model can be used for multimodal feature analogy. We hope that this work will
+provide helpful experience and findings for future research. We provide an
+open-source pre-trained KELIP.

@@ -1,0 +1,15 @@
+We extend the recently developed hybrid quark-meson-nucleon model by
+augmenting a six-point scalar interaction and investigate the consequences for
+neutron-star sequences in the mass-radius diagram. The model has the
+characteristic feature that, at increasing baryon density, the chiral symmetry
+is restored within the hadronic phase by lifting the mass splitting between
+chiral partner states (parity doubling), before quark deconfinement takes
+place. At low temperature and finite baryon density, the model predicts a
+first-, second-order chiral phase transition, or a crossover, depending on the
+expectation value of the scalar field, and a first-order deconfinement phase
+transition. We discuss two sets of free parameters, which result in
+compact-star mass-radius relations that are at tension with the combined
+constraints for maximum-mass ($2~M_\odot$) and the compactness (GW170817). We
+find that the most preferable mass-radius relations result in isospin-symmetric
+phase diagram with rather low temperature for the critical point of the chiral
+phase transition.

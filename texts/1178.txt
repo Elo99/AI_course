@@ -1,0 +1,15 @@
+We investigate the problem of simultaneous machine translation of long-form
+speech content. We target a continuous speech-to-text scenario, generating
+translated captions for a live audio feed, such as a lecture or play-by-play
+commentary. As this scenario allows for revisions to our incremental
+translations, we adopt a re-translation approach to simultaneous translation,
+where the source is repeatedly translated from scratch as it grows. This
+approach naturally exhibits very low latency and high final quality, but at the
+cost of incremental instability as the output is continuously refined. We
+experiment with a pipeline of industry-grade speech recognition and translation
+tools, augmented with simple inference heuristics to improve stability. We use
+TED Talks as a source of multilingual test data, developing our techniques on
+English-to-German spoken language translation. Our minimalist approach to
+simultaneous translation allows us to easily scale our final evaluation to six
+more target languages, dramatically improving incremental stability for all of
+them.

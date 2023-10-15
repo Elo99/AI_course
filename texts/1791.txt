@@ -1,0 +1,16 @@
+This paper proposes a new algorithm for computing the stationary distribution
+vector in continuous-time upper block-Hessenberg Markov chains. To this end, we
+consider the last-block-column-linearly-augmented (LBCL-augmented) truncation
+of the (infinitesimal) generator of the upper block-Hessenberg Markov chain.
+The LBCL-augmented truncation is a linearly-augmented truncation such that the
+augmentation distribution has its probability mass only on the last block
+column. We first derive an upper bound for the total variation distance between
+the respective stationary distribution vectors of the original generator and
+its LBCL-augmented truncation. Based on the upper bound, we then establish a
+series of linear fractional programming (LFP) problems to obtain augmentation
+distribution vectors such that the bound converges to zero. Using the optimal
+solutions of the LFP problems, we construct a matrix-infinite-product (MIP)
+form of the original (i.e., not approximate) stationary distribution vector and
+develop a sequential update algorithm for computing the MIP form. Finally, we
+demonstrate the applicability of our algorithm to BMAP/M/$\infty$ queues and
+M/M/$s$ retrial queues.

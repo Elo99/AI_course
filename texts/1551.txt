@@ -1,0 +1,13 @@
+Robo-AO is the first autonomous laser adaptive optics system and science
+instrument operating on sky. With minimal human oversight, the system
+robotically executes large scale surveys, monitors long-term astrophysical
+dynamics and characterizes newly discovered transients, all at the visible
+diffraction limit. The average target-to target operational overhead, including
+slew time, is a mere 86 s, enabling up to ~20 observations per hour. The first
+of many envisioned systems went live in June 2012, and has since finished 78
+nights of science observing at the Palomar Observatory 60-inch (1.5 m)
+telescope, with over 9,000 robotic observations executed as of August 2013. The
+system will be augmented in 2014 with a low-noise wide field infrared camera,
+which will double as a tip-tilt sensor, to widen the spectral bandwidth of
+observations, increase available sky coverage as well as enable deeper visible
+imaging using adaptive-optics sharpened infrared tip-tilt guide sources.

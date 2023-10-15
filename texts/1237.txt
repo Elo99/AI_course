@@ -1,0 +1,14 @@
+Classical portfolio optimization methods typically determine an optimal
+capital allocation through the implicit, yet critical, assumption of
+statistical time-invariance. Such models are inadequate for real-world markets
+as they employ standard time-averaging based estimators which suffer
+significant information loss if the market observables are non-stationary. To
+this end, we reformulate the portfolio optimization problem in the spectral
+domain to cater for the nonstationarity inherent to asset price movements and,
+in this way, allow for optimal capital allocations to be time-varying. Unlike
+existing spectral portfolio techniques, the proposed framework employs
+augmented complex statistics in order to exploit the interactions between the
+real and imaginary parts of the complex spectral variables, which in turn
+allows for the modelling of both harmonics and cyclostationarity in the time
+domain. The advantages of the proposed framework over traditional methods are
+demonstrated through numerical simulations using real-world price data.

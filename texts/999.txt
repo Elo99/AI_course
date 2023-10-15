@@ -1,0 +1,19 @@
+In this paper, we present our solutions for the Multimodal Sentiment Analysis
+Challenge (MuSe) 2022, which includes MuSe-Humor, MuSe-Reaction and MuSe-Stress
+Sub-challenges. The MuSe 2022 focuses on humor detection, emotional reactions
+and multimodal emotional stress utilizing different modalities and data sets.
+In our work, different kinds of multimodal features are extracted, including
+acoustic, visual, text and biological features. These features are fused by
+TEMMA and GRU with self-attention mechanism frameworks. In this paper, 1)
+several new audio features, facial expression features and paragraph-level text
+embeddings are extracted for accuracy improvement. 2) we substantially improve
+the accuracy and reliability of multimodal sentiment prediction by mining and
+blending the multimodal features. 3) effective data augmentation strategies are
+applied in model training to alleviate the problem of sample imbalance and
+prevent the model from learning biased subject characters. For the MuSe-Humor
+sub-challenge, our model obtains the AUC score of 0.8932. For the MuSe-Reaction
+sub-challenge, the Pearson's Correlations Coefficient of our approach on the
+test set is 0.3879, which outperforms all other participants. For the
+MuSe-Stress sub-challenge, our approach outperforms the baseline in both
+arousal and valence on the test dataset, reaching a final combined result of
+0.5151.

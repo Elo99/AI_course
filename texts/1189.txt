@@ -1,0 +1,14 @@
+The ability to combine symbols to generate language is a defining
+characteristic of human intelligence, particularly in the context of artistic
+story-telling through lyrics. We develop a method for synthesizing a rap verse
+based on the content of any text (e.g., a news article), or for augmenting
+pre-existing rap lyrics. Our method, called Rapformer, is based on training a
+Transformer-based denoising autoencoder to reconstruct rap lyrics from content
+words extracted from the lyrics, trying to preserve the essential meaning,
+while matching the target style. Rapformer features a novel BERT-based
+paraphrasing scheme for rhyme enhancement which increases the average rhyme
+density of output lyrics by 10%. Experimental results on three diverse input
+domains show that Rapformer is capable of generating technically fluent verses
+that offer a good trade-off between content preservation and style transfer.
+Furthermore, a Turing-test-like experiment reveals that Rapformer fools human
+lyrics experts 25% of the time.

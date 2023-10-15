@@ -1,0 +1,15 @@
+We provide a distributed algorithm to learn a Nash equilibrium in a class of
+non-cooperative games with strongly monotone mappings and unconstrained action
+sets. Each player has access to her own smooth local cost function and can
+communicate to her neighbors in some undirected graph. We consider a
+distributed communication-based gradient algorithm. For this procedure, we
+prove geometric convergence to a Nash equilibrium. In contrast to our previous
+works [15], [16], where the proposed algorithms required two parameters to be
+set up and the analysis was based on a so called augmented game mapping, the
+procedure in this work corresponds to a standard distributed gradient play and,
+thus, only one constant step size parameter needs to be chosen appropriately to
+guarantee fast convergence to a game solution. Moreover, we provide a rigorous
+comparison between the convergence rate of the proposed distributed gradient
+play and the rate of the GRANE algorithm presented in [15]. It allows us to
+demonstrate that the distributed gradient play outperforms the GRANE in terms
+of convergence speed.

@@ -1,0 +1,18 @@
+As deep learning technologies advance, increasingly more data is necessary to
+generate general and robust models for various tasks. In the medical domain,
+however, large-scale and multi-parties data training and analyses are
+infeasible due to the privacy and data security concerns. In this paper, we
+propose an extendable and elastic learning framework to preserve privacy and
+security while enabling collaborative learning with efficient communication.
+The proposed framework is named distributed Asynchronized Discriminator
+Generative Adversarial Networks (AsynDGAN), which consists of a centralized
+generator and multiple distributed discriminators. The advantages of our
+proposed framework are five-fold: 1) the central generator could learn the real
+data distribution from multiple datasets implicitly without sharing the image
+data; 2) the framework is applicable for single-modality or multi-modality
+data; 3) the learned generator can be used to synthesize samples for
+down-stream learning tasks to achieve close-to-real performance as using actual
+samples collected from multiple data centers; 4) the synthetic samples can also
+be used to augment data or complete missing modalities for one single data
+center; 5) the learning process is more efficient and requires lower bandwidth
+than other distributed deep learning methods.

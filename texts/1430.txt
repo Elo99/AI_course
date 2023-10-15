@@ -1,0 +1,6 @@
+This work presents an analysis of the efficiency of image augmentations for
+the face recognition problem from limited data. We considered basic
+manipulations, generative methods, and their combinations for augmentations.
+Our results show that augmentations, in general, can considerably improve the
+quality of face recognition systems and the combination of generative and basic
+approaches performs better than the other tested techniques.

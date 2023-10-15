@@ -1,0 +1,14 @@
+This study discusses the effect of semi-supervised learning in combination
+with pretrained language models for data-to-text generation. It is not known
+whether semi-supervised learning is still helpful when a large-scale language
+model is also supplemented. This study aims to answer this question by
+comparing a data-to-text system only supplemented with a language model, to two
+data-to-text systems that are additionally enriched by a data augmentation or a
+pseudo-labeling semi-supervised learning approach.
+  Results show that semi-supervised learning results in higher scores on
+diversity metrics. In terms of output quality, extending the training set of a
+data-to-text system with a language model using the pseudo-labeling approach
+did increase text quality scores, but the data augmentation approach yielded
+similar scores to the system without training set extension. These results
+indicate that semi-supervised learning approaches can bolster output quality
+and diversity, even when a language model is also present.

@@ -1,0 +1,19 @@
+Healthcare AI holds the potential to increase patient safety, augment
+efficiency and improve patient outcomes, yet research is often limited by data
+access, cohort curation, and tooling for analysis. Collection and translation
+of electronic health record data, live data, and real-time high resolution
+device data can be challenging and time-consuming. The development of
+real-world AI tools requires overcoming challenges in data acquisition, scarce
+hospital resources and high needs for data governance. These bottlenecks may
+result in resource-heavy needs and long delays in research and development of
+AI systems. We present a system and methodology to accelerate data acquisition,
+dataset development and analysis, and AI model development. We created an
+interactive platform that relies on a scalable microservice backend. This
+system can ingest 15,000 patient records per hour, where each record represents
+thousands of multimodal measurements, text notes, and high resolution data.
+Collectively, these records can approach a terabyte of data. The system can
+further perform cohort generation and preliminary dataset analysis in 2-5
+minutes. As a result, multiple users can collaborate simultaneously to iterate
+on datasets and models in real time. We anticipate that this approach will
+drive real-world AI model development, and, in the long run, meaningfully
+improve healthcare delivery.

@@ -1,0 +1,14 @@
+Switching between different levels of resolution is essential for multiscale
+modeling, but restoring details at higher resolution remains challenging. In
+our previous study we have introduced deepBackmap: a deep neural-network-based
+approach to reverse-map equilibrated molecular structures for condensed-phase
+systems. Our method combines data-driven and physics-based aspects, leading to
+high-quality reconstructed structures. In this work, we expand the scope of our
+model and examine its chemical transferability. To this end, we train
+deepBackmap solely on homogeneous molecular liquids of small molecules, and
+apply it to a more challenging polymer melt. We augment the generator's
+objective with different force-field-based terms as prior to regularize the
+results. The best performing physical prior depends on whether we train for a
+specific chemistry, or transfer our model. Our local environment representation
+combined with the sequential reconstruction of fine-grained structures help
+reach transferability of the learned correlations.

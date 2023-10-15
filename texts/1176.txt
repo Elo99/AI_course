@@ -1,0 +1,19 @@
+Building conversational speech recognition systems for new languages is
+constrained by the availability of utterances that capture user-device
+interactions. Data collection is both expensive and limited by the speed of
+manual transcription. In order to address this, we advocate the use of neural
+machine translation as a data augmentation technique for bootstrapping language
+models. Machine translation (MT) offers a systematic way of incorporating
+collections from mature, resource-rich conversational systems that may be
+available for a different language. However, ingesting raw translations from a
+general purpose MT system may not be effective owing to the presence of named
+entities, intra sentential code-switching and the domain mismatch between the
+conversational data being translated and the parallel text used for MT
+training. To circumvent this, we explore the following domain adaptation
+techniques: (a) sentence embedding based data selection for MT training, (b)
+model finetuning, and (c) rescoring and filtering translated hypotheses. Using
+Hindi as the experimental testbed, we translate US English utterances to
+supplement the transcribed collections. We observe a relative word error rate
+reduction of 7.8-15.6%, depending on the bootstrapping phase. Fine grained
+analysis reveals that translation particularly aids the interaction scenarios
+which are underrepresented in the transcribed data.

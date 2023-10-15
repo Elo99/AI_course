@@ -1,0 +1,12 @@
+As of recent generative adversarial networks have allowed for big leaps in
+the realism of generated images in diverse domains, not the least of which
+being handwritten text generation. The generation of realistic-looking
+hand-written text is important because it can be used for data augmentation in
+handwritten text recognition (HTR) systems or human-computer interaction. We
+propose SmartPatch, a new technique increasing the performance of current
+state-of-the-art methods by augmenting the training feedback with a tailored
+solution to mitigate pen-level artifacts. We combine the well-known patch loss
+with information gathered from the parallel trained handwritten text
+recognition system and the separate characters of the word. This leads to a
+more enhanced local discriminator and results in more realistic and
+higher-quality generated handwritten words.

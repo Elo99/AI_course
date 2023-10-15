@@ -1,0 +1,16 @@
+Images shared on social media help crisis managers gain situational awareness
+and assess incurred damages, among other response tasks. As the volume and
+velocity of such content are typically high, real-time image classification has
+become an urgent need for a faster disaster response. Recent advances in
+computer vision and deep neural networks have enabled the development of models
+for real-time image classification for a number of tasks, including detecting
+crisis incidents, filtering irrelevant images, classifying images into specific
+humanitarian categories, and assessing the severity of the damage. To develop
+robust real-time models, it is necessary to understand the capability of the
+publicly available pre-trained models for these tasks, which remains to be
+under-explored in the crisis informatics literature. In this study, we address
+such limitations by investigating ten different network architectures for four
+different tasks using the largest publicly available datasets for these tasks.
+We also explore various data augmentation strategies, semi-supervised
+techniques, and a multitask learning setup. In our extensive experiments, we
+achieve promising results.

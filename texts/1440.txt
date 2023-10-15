@@ -1,0 +1,18 @@
+Data augmentation is a widely used technique and an essential ingredient in
+the recent advance in self-supervised representation learning. By preserving
+the similarity between augmented data, the resulting data representation can
+improve various downstream analyses and achieve state-of-art performance in
+many applications. To demystify the role of data augmentation, we develop a
+statistical framework on a low-dimension product manifold to theoretically
+understand why the unlabeled augmented data can lead to useful data
+representation. Under this framework, we propose a new representation learning
+method called augmentation invariant manifold learning and develop the
+corresponding loss function, which can work with a deep neural network to learn
+data representations. Compared with existing methods, the new data
+representation simultaneously exploits the manifold's geometric structure and
+invariant property of augmented data. Our theoretical investigation precisely
+characterizes how the data representation learned from augmented data can
+improve the $k$-nearest neighbor classifier in the downstream analysis, showing
+that a more complex data augmentation leads to more improvement in downstream
+analysis. Finally, numerical experiments on simulated and real datasets are
+presented to support the theoretical results in this paper.

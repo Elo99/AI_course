@@ -1,0 +1,14 @@
+Story generation aims to generate a long narrative conditioned on a given
+input. In spite of the success of prior works with the application of
+pre-trained models, current neural models for Chinese stories still struggle to
+generate high-quality long text narratives. We hypothesise that this stems from
+ambiguity in syntactically parsing the Chinese language, which does not have
+explicit delimiters for word segmentation. Consequently, neural models suffer
+from the inefficient capturing of features in Chinese narratives. In this
+paper, we present a new generation framework that enhances the feature
+capturing mechanism by informing the generation model of dependencies between
+words and additionally augmenting the semantic representation learning through
+synonym denoising training. We conduct a range of experiments, and the results
+demonstrate that our framework outperforms the state-of-the-art Chinese
+generation models on all evaluation metrics, demonstrating the benefits of
+enhanced dependency and semantic representation learning.

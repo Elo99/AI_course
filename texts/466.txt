@@ -1,0 +1,13 @@
+Static and dynamic hand movements are basic way for human-machine
+interactions. To recognize and classify these movements, first these movements
+are captured by the cameras mounted on the augmented reality (AR) or virtual
+reality (VR) wearable devices. The hand is segmented using segmentation method
+and its gestures are passed to hand gesture recognition algorithm, which
+depends on depth-wise separable convolutional neural network for training,
+testing and finally running smoothly on mobile AR/VR devices, while maintaining
+the accuracy and balancing the load. A number of gestures are processed for
+identification of right gesture and to classify the gesture and ignore the all
+intermittent gestures. With proposed method, a user can write letters and
+numbers in air by just moving his/her hand in air. Gesture based operations are
+performed, and trajectory of hand is recorded as handwritten text. Finally,
+that handwritten text is processed for the text recognition.

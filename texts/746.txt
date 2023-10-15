@@ -1,0 +1,19 @@
+Toxic online speech has become a crucial problem nowadays due to an
+exponential increase in the use of internet by people from different cultures
+and educational backgrounds. Differentiating if a text message belongs to hate
+speech and offensive language is a key challenge in automatic detection of
+toxic text content. In this paper, we propose an approach to automatically
+classify tweets into three classes: Hate, offensive and Neither. Using public
+tweet data set, we first perform experiments to build BI-LSTM models from empty
+embedding and then we also try the same neural network architecture with
+pre-trained Glove embedding. Next, we introduce a transfer learning approach
+for hate speech detection using an existing pre-trained language model BERT
+(Bidirectional Encoder Representations from Transformers), DistilBert
+(Distilled version of BERT) and GPT-2 (Generative Pre-Training). We perform
+hyper parameters tuning analysis of our best model (BI-LSTM) considering
+different neural network architectures, learn-ratings and normalization methods
+etc. After tuning the model and with the best combination of parameters, we
+achieve over 92 percent accuracy upon evaluating it on test data. We also
+create a class module which contains main functionality including text
+classification, sentiment checking and text data augmentation. This model could
+serve as an intermediate module between user and Twitter.

@@ -1,0 +1,11 @@
+Electrocardiogram (ECG) is the most crucial monitoring modality to diagnose
+cardiovascular events. Precise and automatic detection of abnormal ECG patterns
+is beneficial to both physicians and patients. In the automatic detection of
+abnormal ECG patterns, deep neural networks (DNNs) have shown significant
+achievements. However, DNNs require large amount of labeled data, which are
+often expensive to obtain. On the other hand, recent research have shown by
+randomly combining data augmentations can improve image classification
+accuracy. Thus, in this work we explore data augmentation suitable for ECG data
+and propose ECG Augment. We show by introducing ECG Augment, we can improve
+classification of atrial fibrillation with single lead ECG data, without
+changing an architecture of DNN.

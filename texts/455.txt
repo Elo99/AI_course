@@ -1,0 +1,20 @@
+Graph convolutional networks (GCNs), aiming to integrate high-order
+neighborhood information through stacked graph convolution layers, have
+demonstrated remarkable power in many network analysis tasks. However,
+topological limitations, including over-smoothing and local topology homophily,
+limit its capability to represent networks. Existing studies only perform
+feature convolution on network topology, which inevitably introduces unbalance
+between topology and features. Considering that in real world, the information
+network consists of not only the node-level citation information but also the
+local text-sequence information. We propose BiTe-GCN, a novel GCN architecture
+with bidirectional convolution of both topology and features on text-rich
+networks to solve these limitations. We first transform the original text-rich
+network into an augmented bi-typed heterogeneous network, capturing both the
+global node-level information and the local text-sequence information from
+texts. We then introduce discriminative convolution mechanisms to performs
+convolutions of both topology and features simultaneously. Extensive
+experiments on text-rich networks demonstrate that our new architecture
+outperforms state-of-the-art by a breakout improvement. Moreover, this
+architecture can also be applied to several e-commerce searching scenes such as
+JD searching. The experiments on the JD dataset validate the superiority of the
+proposed architecture over the related methods.

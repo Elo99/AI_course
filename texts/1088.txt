@@ -1,0 +1,12 @@
+In this paper we present a new 3D segmentation approach for the vertebrae of
+the lower thoracic and the lumbar spine in spiral computed tomography datasets.
+We implemented a multi-step procedure. Its main components are deformable
+models, volume growing, and morphological operations. The performance analysis
+that included an evaluation of accuracy using the European Spine Phantom, and
+of intra-operator precision using clinical CT datasets from 10 patients
+highlight the potential for clinical use. The intra-operator precision of the
+segmentation procedure was better than 1% for Bone Mineral Density (BMD) and
+better than 1.8% for volume. The long-term goal of this work is to enable
+better fracture prediction and improved patient monitoring in the field of
+osteoporosis. A true 3D segmentation also enables an accurate measurement of
+geometrical parameters that can augment the classical measurement of BMD.

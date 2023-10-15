@@ -1,0 +1,15 @@
+In view of the recent neutrino oscillation data pointing to a non-vanishing
+value for the smallest mixing angle ($\theta_z$), we derive and find explicit
+realizations of the $(Z_2)^3$ flavor symmetry which characterizes, for the
+neutrino mass matrix, uniquely a variant of the tripartite form, originally
+conceived to lead to the tri-bimaximal mixing with $\theta_z=0$, so that to
+allow now for a non-tri-bimaximal pattern with non-zero $\theta_z$. We impose
+this flavor symmetry in a setting including the charged leptons and we see that
+it can make room, through higher order terms involving new SM-singlet scalars,
+for the mass hierarchy of charged leptons. Moreover, within type-I seesaw
+mechanism augmented with the flavor symmetry, certain patterns occurring in
+both the Dirac and the Majorana neutrino mass matrices can accommodate all
+types of mass hierarchies in the effective neutrino mass matrix, but no
+lepton/baryon asymmetry can be generated. Finally, we discuss how type-II
+seesaw mechanism, when supplemented with the flavor symmetry, could be used to
+interpret the observed baryon asymmetry through leptogenesis.

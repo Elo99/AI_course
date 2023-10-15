@@ -1,0 +1,21 @@
+This paper presents an investigation of the age-dependent size effect and
+fracture characteristics of an ultra high performance concrete (UHPC). The
+study is based on a unique set of experimental data connecting aging tests for
+two curing protocols of one size and scaled size effect tests of one age. Both
+aging and size effect studies are performed on notched three point bending
+tests. Experimental data is augmented by state of the art simulations employing
+a recently developed discrete element based early-age computational framework.
+The framework is constructed by coupling a hygro-thermo-chemical (HTC) model
+and the Lattice Discrete Particle Model (LDPM) through a set of aging
+functions. The HTC component allows taking into account variable curing
+conditions and predicts the maturity of concrete. The mechanical component,
+LDPM, simulates the failure behavior of concrete at the length scale of major
+heterogeneities. After careful calibration and validation the mesoscale
+HTC-LDPM model is uniquely posed to perform predictive simulations. The
+ultimate flexural strengths from experiments and simulations are analyzed by
+the cohesive size effect curve (CSEC) method, and the classical size effect law
+(SEL). The fracture energies obtained by LDPM, CSEC, SEL, and cohesive crack
+analyses are compared and an aging formulation for fracture properties is
+proposed. Based on experiments, simulations, and size effect analyses, the
+age-dependence of size effect and the robustness of analytical size effect
+methods are evaluated.

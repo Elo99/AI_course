@@ -1,0 +1,21 @@
+Arbitrary-shaped text detection is a challenging task since curved texts in
+the wild are of the complex geometric layouts. Existing mainstream methods
+follow the instance segmentation pipeline to obtain the text regions. However,
+arbitraryshaped texts are difficult to be depicted through one single
+segmentation network because of the varying scales. In this paper, we propose a
+two-stage segmentation-based detector, termed as NASK (Need A Second looK), for
+arbitrary-shaped text detection. Compared to the traditional single-stage
+segmentation network, our NASK conducts the detection in a coarse-to-fine
+manner with the first stage segmentation spotting the rectangle text proposals
+and the second one retrieving compact representations. Specifically, NASK is
+composed of a Text Instance Segmentation (TIS) network (1st stage), a
+Geometry-aware Text RoI Alignment (GeoAlign) module, and a Fiducial pOint
+eXpression (FOX) module (2nd stage). Firstly, TIS extracts the augmented
+features with a novel Group Spatial and Channel Attention (GSCA) module and
+conducts instance segmentation to obtain rectangle proposals. Then, GeoAlign
+converts these rectangles into the fixed size and encodes RoI-wise feature
+representation. Finally, FOX disintegrates the text instance into serval
+pivotal geometrical attributes to refine the detection results. Extensive
+experimental results on three public benchmarks including Total-Text,
+SCUTCTW1500, and ICDAR 2015 verify that our NASK outperforms recent
+state-of-the-art methods.

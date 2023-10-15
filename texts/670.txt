@@ -1,0 +1,14 @@
+People suffering from Alzheimer's disease (AD) and their caregivers seek
+different approaches to cope with memory loss. Although AD patients want to
+live independently, they often need help from caregivers. In this situation,
+caregivers may attach notes on every single object or take out the contents of
+a drawer to make them visible before leaving the patient alone at home. This
+study reports preliminary results on an Ambient Assisted Living (AAL) real-time
+system, achieved through the Internet of Things (IoT) and Augmented Reality
+(AR) concepts, aimed at helping people suffering from AD. The system has two
+main sections: the smartphone or windows application allows caregivers to
+monitor patients' status at home and be notified if patients are at risk. The
+second part allows patients to use smart glasses to recognize QR codes in the
+environment and receive information related to tags in the form of audio, text,
+or three-dimensional image. This work presents preliminary results and
+investigates the possibility of implementing such a system.

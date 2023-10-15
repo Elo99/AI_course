@@ -1,0 +1,15 @@
+Medical image datasets are usually imbalanced, due to the high costs of
+obtaining the data and time-consuming annotations. Training deep neural network
+models on such datasets to accurately classify the medical condition does not
+yield desired results and often over-fits the data on majority class samples.
+In order to address this issue, data augmentation is often performed on
+training data by position augmentation techniques such as scaling, cropping,
+flipping, padding, rotation, translation, affine transformation, and color
+augmentation techniques such as brightness, contrast, saturation, and hue to
+increase the dataset sizes. These augmentation techniques are not guaranteed to
+be advantageous in domains with limited data, especially medical image data,
+and could lead to further overfitting. In this work, we performed data
+augmentation on the Chest X-rays dataset through generative modeling (deep
+convolutional generative adversarial network) which creates artificial
+instances retaining similar characteristics to the original data and evaluation
+of the model resulted in Fr\'echet Distance of Inception (FID) score of 1.289.

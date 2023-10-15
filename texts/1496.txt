@@ -1,0 +1,16 @@
+We study the augmented Bergman complex of a closure operator on a finite set,
+which interpolates between the order complex of proper flats and the
+independence complex of the operator. In 2020, Braden, Huh, Matherne,
+Proudfoot, and Wang showed that augmented Bergman complexes of matroids are
+always gallery-connected, and recently Bullock, Kelley, Reiner, Ren, Shemy,
+Shen, Sun, Tao, and Zhang strengthened "gallery-connected" to "shellable" by
+providing two classes of shelling orders: "flag-to-basis" shellings and
+"basis-to-flag" shellings.
+  We show that augmented Bergman complexes of matroids are vertex decomposable,
+a stronger property than shellable. We also prove that the augmented Bergman
+complex of any closure operator is shellable if and only if lattice of flats
+(that is, its non-augmented Bergman complex) is shellable. As a consequence, an
+augmented Bergman complex is shellable if and only if it admits a flag-to-basis
+shelling. Perhaps surprisingly, the same does not hold for basis-to-flag
+shellings: we describe a closure operator whose augmented Bergman complex is
+shellable, but has no shelling order with bases appearing first.

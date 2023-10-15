@@ -1,0 +1,20 @@
+The paradigm of data programming, which uses weak supervision in the form of
+rules/labelling functions, and semi-supervised learning, which augments small
+amounts of labelled data with a large unlabelled dataset, have shown great
+promise in several text classification scenarios. In this work, we argue that
+by not using any labelled data, data programming based approaches can yield
+sub-optimal performances, particularly when the labelling functions are noisy.
+The first contribution of this work is an introduction of a framework, \model
+which is a semi-supervised data programming paradigm that learns a \emph{joint
+model} that effectively uses the rules/labelling functions along with
+semi-supervised loss functions on the feature space. Next, we also study
+\modelss which additionally does subset selection on top of the joint
+semi-supervised data programming objective and \emph{selects} a set of examples
+that can be used as the labelled set by \model. The goal of \modelss is to
+ensure that the labelled data can \emph{complement} the labelling functions,
+thereby benefiting from both data-programming as well as appropriately selected
+data for human labelling. We demonstrate that by effectively combining
+semi-supervision, data-programming, and subset selection paradigms, we
+significantly outperform the current state-of-the-art on seven publicly
+available datasets. \footnote{The source code is available at
+\url{https://github.com/ayushbits/Semi-Supervised-LFs-Subset-Selection}}

@@ -1,0 +1,16 @@
+New algorithms for efficient decoding of polar codes (which may be
+CRC-augmented), transmitted over either a binary erasure channel (BEC) or an
+additive white Gaussian noise channel (AWGNC), are presented. We start by
+presenting a new efficient exact maximum likelihood decoding algorithm for the
+BEC based on inactivation decoding and analyze its computational complexity.
+This algorithm applies a matrix triangulation process on a sparse polar code
+parity check matrix, followed by solving a small size linear system over GF(2).
+We then consider efficient decoding of polar codes, transmitted over the AWGNC.
+The algorithm applies CRC-aided belief propagation list (CBPL) decoding,
+followed by ordered statistics decoding (OSD) of low order. Even when the
+reprocessing order of the OSD is as low as one, the new decoder is shown to
+significantly improve on plain CBPL. To implement the OSD efficiently, we adapt
+the matrix triangulation algorithm from the BEC case. We also indicate how the
+decoding algorithms can be implemented in parallel for low latency decoding.
+Numerical simulations are used to evaluate the performance and computational
+complexity of the new algorithms.

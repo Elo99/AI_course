@@ -1,0 +1,13 @@
+Learning self-supervised video representation predominantly focuses on
+discriminating instances generated from simple data augmentation schemes.
+However, the learned representation often fails to generalize over unseen
+camera viewpoints. To this end, we propose ViewCLR, that learns self-supervised
+video representation invariant to camera viewpoint changes. We introduce a
+view-generator that can be considered as a learnable augmentation for any
+self-supervised pre-text tasks, to generate latent viewpoint representation of
+a video. ViewCLR maximizes the similarities between the latent viewpoint
+representation with its representation from the original viewpoint, enabling
+the learned video encoder to generalize over unseen camera viewpoints.
+Experiments on cross-view benchmark datasets including NTU RGB+D dataset show
+that ViewCLR stands as a state-of-the-art viewpoint invariant self-supervised
+method.

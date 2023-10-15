@@ -1,0 +1,11 @@
+This report presents our 2nd place solution to ECCV 2022 challenge on
+Out-of-Vocabulary Scene Text Understanding (OOV-ST) : Cropped Word Recognition.
+This challenge is held in the context of ECCV 2022 workshop on Text in
+Everything (TiE), which aims to extract out-of-vocabulary words from natural
+scene images. In the competition, we first pre-train SCATTER on the synthetic
+datasets, then fine-tune the model on the training set with data augmentations.
+Meanwhile, two additional models are trained specifically for long and vertical
+texts. Finally, we combine the output from different models with different
+layers, different backbones, and different seeds as the final results. Our
+solution achieves a word accuracy of 59.45\% when considering out-of-vocabulary
+words only.

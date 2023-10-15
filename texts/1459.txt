@@ -1,0 +1,24 @@
+Deep Learning-based image synthesis techniques have been applied in
+healthcare research for generating medical images to support open research and
+augment medical datasets. Training generative adversarial neural networks
+(GANs) usually require large amounts of training data. Federated learning (FL)
+provides a way of training a central model using distributed data while keeping
+raw data locally. However, given that the FL server cannot access the raw data,
+it is vulnerable to backdoor attacks, an adversarial by poisoning training
+data. Most backdoor attack strategies focus on classification models and
+centralized domains. It is still an open question if the existing backdoor
+attacks can affect GAN training and, if so, how to defend against the attack in
+the FL setting. In this work, we investigate the overlooked issue of backdoor
+attacks in federated GANs (FedGANs). The success of this attack is subsequently
+determined to be the result of some local discriminators overfitting the
+poisoned data and corrupting the local GAN equilibrium, which then further
+contaminates other clients when averaging the generator's parameters and yields
+high generator loss. Therefore, we proposed FedDetect, an efficient and
+effective way of defending against the backdoor attack in the FL setting, which
+allows the server to detect the client's adversarial behavior based on their
+losses and block the malicious clients. Our extensive experiments on two
+medical datasets with different modalities demonstrate the backdoor attack on
+FedGANs can result in synthetic images with low fidelity. After detecting and
+suppressing the detected malicious clients using the proposed defense strategy,
+we show that FedGANs can synthesize high-quality medical datasets (with labels)
+for data augmentation to improve classification models' performance.

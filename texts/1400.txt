@@ -1,0 +1,17 @@
+Electron and scanning probe microscopy produce vast amounts of data in the
+form of images or hyperspectral data, such as EELS or 4D STEM, that contain
+information on a wide range of structural, physical, and chemical properties of
+materials. To extract valuable insights from these data, it is crucial to
+identify physically separate regions in the data, such as phases, ferroic
+variants, and boundaries between them. In order to derive an easily
+interpretable feature analysis, combining with well-defined boundaries in a
+principled and unsupervised manner, here we present a physics augmented machine
+learning method which combines the capability of Variational Autoencoders to
+disentangle factors of variability within the data and the physics driven loss
+function that seeks to minimize the total length of the discontinuities in
+images corresponding to latent representations. Our method is applied to
+various materials, including NiO-LSMO, BiFeO3, and graphene. The results
+demonstrate the effectiveness of our approach in extracting meaningful
+information from large volumes of imaging data. The fully notebook containing
+implementation of the code and analysis workflow is available at
+https://github.com/arpanbiswas52/PaperNotebooks

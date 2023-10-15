@@ -1,0 +1,6 @@
+A multiple conjugation quandle is an algebra whose axioms are motivated from
+handlebody-knot theory. Any linear extension of a multiple conjugation quandle
+can be described by using a pair of maps called an MCQ Alexander pair. In this
+paper, we show that any affine extension of a multiple conjugation quandle can
+be described by using a quadruple of maps, called an augmented MCQ Alexander
+pair.

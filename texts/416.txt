@@ -1,0 +1,17 @@
+The viability of an Augmentative and Alternative Communication device often
+depends on its ability to adapt to an individual user's unique abilities.
+Though human input can be noisy, there is often structure to our errors. For
+example, keyboard keys adjacent to a target may be more likely to be pressed in
+error. Furthermore, there can be structure in the input message itself (e.g.
+`u' is likely to follow `q'). In a previous work, `Recursive Bayesian Coding
+for BCIs' (IEEE Transactions on Neural Systems and Rehabilitation Engineering,
+2016), a query strategy considers these structures to offer an error-adaptive
+single-character text entry scheme. However, constraining ourselves to
+single-character entry limits performance. A single user input may be able to
+resolve more uncertainty than the next character has. In this work, we extend
+the previous framework to incorporate multi-character querying similar to word
+completion. During simulated spelling, our method requires $20\%$ fewer queries
+compared to single-character querying with no accuracy penalty. Most
+significantly, we show that this multi-character querying scheme converges to
+the information theoretic capacity of the discrete, memoryless user input
+model.

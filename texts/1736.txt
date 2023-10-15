@@ -1,0 +1,21 @@
+This paper mainly describes our winning solution (team name: www) to Amazon
+ESCI Challenge of KDD CUP 2022, which achieves a NDCG score of 0.9043 and wins
+the first place on task 1: the query-product ranking track.
+  In this competition, participants are provided with a real-world large-scale
+multilingual shopping queries data set and it contains query-product pairs in
+English, Japanese and Spanish. Three different tasks are proposed in this
+competition, including ranking the results list as task 1, classifying the
+query/product pairs into Exact, Substitute, Complement, or Irrelevant (ESCI)
+categories as task 2 and identifying substitute products for a given query as
+task 3.
+  We mainly focus on task 1 and propose a semantic alignment system for
+multilingual query-product retrieval. Pre-trained multilingual language models
+(LM) are adopted to get the semantic representation of queries and products.
+Our models are all trained with cross-entropy loss to classify the
+query-product pairs into ESCI 4 categories at first, and then we use weighted
+sum with the 4-class probabilities to get the score for ranking. To further
+boost the model, we also do elaborative data preprocessing, data augmentation
+by translation, specially handling English texts with English LMs, adversarial
+training with AWP and FGM, self distillation, pseudo labeling, label smoothing
+and ensemble. Finally, Our solution outperforms others both on public and
+private leaderboard.

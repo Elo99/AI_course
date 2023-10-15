@@ -1,0 +1,13 @@
+In this paper, we propose a new Self-Supervised Learning (SSL) algorithm
+called data2vec-aqc, for speech representation learning from unlabeled speech
+data. Our goal is to improve SSL for speech in domains where both unlabeled and
+labeled data are limited. Building on the recently introduced data2vec, we
+introduce additional modules to the data2vec framework that leverage the
+benefit of data augmentations, quantized representations, and clustering. The
+interaction between these modules helps solve the cross-contrastive loss as an
+additional self-supervised objective. data2vec-aqc achieves up to 14.1% and
+20.9% relative WER improvement over the existing state-of-the-art data2vec
+system on the test-clean and test-other sets, respectively, of LibriSpeech,
+without the use of any language model. Our proposed model also achieves up to
+17.8% relative WER improvement over the baseline data2vec when fine-tuned on
+Switchboard data.

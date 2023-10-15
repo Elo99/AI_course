@@ -1,0 +1,20 @@
+Getting machines to generate text perceived as creative is a long-pursued
+goal. A growing body of research directs this goal towards augmenting the
+creative writing abilities of human authors. In this paper, we pursue this
+objective by analyzing how observing examples of automatically generated text
+influences writing. In particular, we examine a task referred to as sentence
+infilling, which involves transforming a list of words into a complete
+sentence. We emphasize "storiability" as a desirable feature of the resulting
+sentences, where "storiable" sentences are those that suggest a story a reader
+would be curious to hear about. Both humans and an automated system (based on a
+neural language model) performed this sentence infilling task. In one setting,
+people wrote sentences on their own; in a different setting, people observed
+the sentences produced by the model while writing their own sentences. Readers
+then assigned storiability preferences to the resulting sentences in a
+subsequent evaluation. We find that human-authored sentences were judged as
+more storiable when authors observed the generated examples, and that
+storiability increased as authors derived more semantic content from the
+examples. This result gives evidence of an "inspiration through observation"
+paradigm for human-computer collaborative writing, through which human writing
+can be enhanced by text generation models without directly copying their
+output.

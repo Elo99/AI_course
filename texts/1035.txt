@@ -1,0 +1,13 @@
+For the low-energy anti-neutrino reaction, $\bar{\nu}_e + p \to e^+ + n$,
+which is of great current interest in connection with on-going high-precision
+neutrino-oscillation experiments, we calculate the differential cross section
+in a model-independent effective field theory (EFT), taking into account
+radiative corrections of order $\alpha$. In EFT, the short-distance radiative
+corrections are subsumed into well-defined low-energy constants the values of
+which can in principle be determined from the available neutron beta-decay
+data. In our low-energy EFT, the order-$\alpha$ radiative corrections are
+considered to be of the same order as the nucleon recoil corrections, which
+include the "weak magnetism" contribution. These recoil corrections have been
+evaluated as well. We emphasize that EFT allows for a systematic evaluation of
+higher order corrections, providing estimates of theoretical uncertainties in
+our results.

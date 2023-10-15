@@ -1,0 +1,19 @@
+All the current modern encryption algorithms utilize fixed symbols for
+plaintext and cyphertext. What I mean by fixed is that there is a set and
+limited number of symbols to represent the characters, numbers, and
+punctuations. In addition, they are usually the same (the plaintext symbols
+have the same and equivalent counterpart in the cyphertext symbols). Almost all
+the encryption algorithms rely on a predefined keyspace and length for the
+encryption/decription keys, and it is usually fixed (number of bits). In
+addition, the algorithms used by the encryptions are static. There is a
+predefined number of operatiors, and a predefined order (loops included) of
+operations. The algorithm stays the same, and the plaintext and cyphertext
+along with the key are churned through this cypherblock.
+  Base Encryption does the opposite: It utilizes the novel concepts of base
+conversion, symbol remapping, and dynamic algorithms (dynamic operators and
+dynamic operations). Base Encryption solves the weakness in todays encryption
+schemes, namely... Fixed symbols (base) Fixed keylengths Fixed algorithms
+(fixed number of operations and operators)
+  Unique features... Immune from plain-text-attacks. Immune from
+brute-force-attacks. Can utilize throwaway algorithms (as opposed to throw away
+keys). Plug-And-Play engine (other cyphers can be augmentated to it)

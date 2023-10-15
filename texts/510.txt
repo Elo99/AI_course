@@ -1,0 +1,21 @@
+Recently, social infrastructure is aging, and its predictive maintenance has
+become important issue. To monitor the state of infrastructures, bridge
+inspection is performed by human eye or bay drone. For diagnosis, primary
+damage region are recognized for repair targets. But, the degradation at worse
+level has rarely occurred, and the damage regions of interest are often narrow,
+so their ratio per image is extremely small pixel count, as experienced 0.6 to
+1.5 percent. The both scarcity and imbalance property on the damage region of
+interest influences limited performance to detect damage. If additional data
+set of damaged images can be generated, it may enable to improve accuracy in
+damage region segmentation algorithm. We propose a synthetic augmentation
+procedure to generate damaged images using the image-to-image translation
+mapping from the tri-categorical label that consists the both semantic label
+and structure edge to the real damage image. We use the Sobel gradient operator
+to enhance structure edge. Actually, in case of bridge inspection, we apply the
+RC concrete structure with the number of 208 eye-inspection photos that rebar
+exposure have occurred, which are prepared 840 block images with size 224 by
+224. We applied popular per-pixel segmentation algorithms such as the FCN-8s,
+SegNet, and DeepLabv3+Xception-v2. We demonstrates that re-training a data set
+added with synthetic augmentation procedure make higher accuracy based on
+indices the mean IoU, damage region of interest IoU, precision, recall, BF
+score when we predict test images.

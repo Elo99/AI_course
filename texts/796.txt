@@ -1,0 +1,14 @@
+Computing similarity between two legal case documents is an important and
+challenging task in Legal IR, for which text-based and network-based measures
+have been proposed in literature. All prior network-based similarity methods
+considered a precedent citation network among case documents only (PCNet).
+However, this approach misses an important source of legal knowledge -- the
+hierarchy of legal statutes that are applicable in a given legal jurisdiction
+(e.g., country). We propose to augment the PCNet with the hierarchy of legal
+statutes, to form a heterogeneous network Hier-SPCNet, having citation links
+between case documents and statutes, as well as citation and hierarchy links
+among the statutes. Experiments over a set of Indian Supreme Court case
+documents show that our proposed heterogeneous network enables significantly
+better document similarity estimation, as compared to existing approaches using
+PCNet. We also show that the proposed network-based method can complement
+text-based measures for better estimation of legal document similarity.

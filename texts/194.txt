@@ -1,0 +1,14 @@
+The recent advances in voice conversion (VC) and text-to-speech (TTS) make it
+possible to produce natural sounding speech that poses threat to automatic
+speaker verification (ASV) systems. To this end, research on spoofing
+countermeasures has gained attention to protect ASV systems from such attacks.
+While the advanced spoofing countermeasures are able to detect known nature of
+spoofing attacks, they are not that effective under unknown attacks. In this
+work, we propose a novel data augmentation technique using a-law and mu-law
+based signal companding. We believe that the proposed method has an edge over
+traditional data augmentation by adding small perturbation or quantization
+noise. The studies are conducted on ASVspoof 2019 logical access corpus using
+light convolutional neural network based system. We find that the proposed data
+augmentation technique based on signal companding outperforms the
+state-of-the-art spoofing countermeasures showing ability to handle unknown
+nature of attacks.

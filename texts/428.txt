@@ -1,0 +1,14 @@
+Disfluency detection models now approach high accuracy on English text.
+However, little exploration has been done in improving the size and inference
+time of the model. At the same time, automatic speech recognition (ASR) models
+are moving from server-side inference to local, on-device inference. Supporting
+models in the transcription pipeline (like disfluency detection) must follow
+suit. In this work we concentrate on the disfluency detection task, focusing on
+small, fast, on-device models based on the BERT architecture. We demonstrate it
+is possible to train disfluency detection models as small as 1.3 MiB, while
+retaining high performance. We build on previous work that showed the benefit
+of data augmentation approaches such as self-training. Then, we evaluate the
+effect of domain mismatch between conversational and written text on model
+performance. We find that domain adaptation and data augmentation strategies
+have a more pronounced effect on these smaller models, as compared to
+conventional BERT models.

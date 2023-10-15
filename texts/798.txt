@@ -1,0 +1,16 @@
+In this work, we explore a multimodal semi-supervised learning approach for
+punctuation prediction by learning representations from large amounts of
+unlabelled audio and text data. Conventional approaches in speech processing
+typically use forced alignment to encoder per frame acoustic features to word
+level features and perform multimodal fusion of the resulting acoustic and
+lexical representations. As an alternative, we explore attention based
+multimodal fusion and compare its performance with forced alignment based
+fusion. Experiments conducted on the Fisher corpus show that our proposed
+approach achieves ~6-9% and ~3-4% absolute improvement (F1 score) over the
+baseline BLSTM model on reference transcripts and ASR outputs respectively. We
+further improve the model robustness to ASR errors by performing data
+augmentation with N-best lists which achieves up to an additional ~2-6%
+improvement on ASR outputs. We also demonstrate the effectiveness of
+semi-supervised learning approach by performing ablation study on various sizes
+of the corpus. When trained on 1 hour of speech and text data, the proposed
+model achieved ~9-18% absolute improvement over baseline model.

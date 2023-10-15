@@ -1,0 +1,18 @@
+This work outlines a new three-dimensional diffuse interface finite volume
+method for the simulation of multiple solid and fluid components featuring
+large deformations, sliding and void opening. This is achieved by extending an
+existing reduced-equation diffuse interface method by means of a number of
+novel flux-modifiers and interface seeding routines that enable the application
+of different material boundary conditions. The method allows for slip boundary
+conditions across solid interfaces, material-void interaction, and interface
+separation. The method is designed to be straightforward to implement,
+inexpensive and highly parallelisable. This makes it suitable for use in large,
+multi-dimensional simulations that feature many complex materials and physical
+processes interacting over multiple levels of adaptive mesh refinement.
+Furthermore, the new method allows for the generation of new interfaces in a
+conservative fashion and therefore naturally facilitates the simulation of
+high-strain rate fracture. Hence, the governing model is augmented to include
+ductile damage to allow for validation of the method against demanding physical
+experiments. The method is shown to give excellent agreement with both
+experiment and existing Eulerian interface tracking algorithms that employ
+sharp interface methods.

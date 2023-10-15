@@ -1,0 +1,9 @@
+Predicting how Congressional legislators will vote is important for
+understanding their past and future behavior. However, previous work on
+roll-call prediction has been limited to single session settings, thus did not
+consider generalization across sessions. In this paper, we show that metadata
+is crucial for modeling voting outcomes in new contexts, as changes between
+sessions lead to changes in the underlying data generation process. We show how
+augmenting bill text with the sponsors' ideologies in a neural network model
+can achieve an average of a 4% boost in accuracy over the previous
+state-of-the-art.

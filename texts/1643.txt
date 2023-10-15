@@ -1,0 +1,22 @@
+Result relevance prediction is an essential task of e-commerce search engines
+to boost the utility of search engines and ensure smooth user experience. The
+last few years eyewitnessed a flurry of research on the use of
+Transformer-style models and deep text-match models to improve relevance.
+However, these two types of models ignored the inherent bipartite network
+structures that are ubiquitous in e-commerce search logs, making these models
+ineffective. We propose in this paper a novel Second-order Relevance, which is
+fundamentally different from the previous First-order Relevance, to improve
+result relevance prediction. We design, for the first time, an end-to-end
+First-and-Second-order Relevance prediction model for e-commerce item
+relevance. The model is augmented by the neighborhood structures of bipartite
+networks that are built using the information of user behavioral feedback,
+including clicks and purchases. To ensure that edges accurately encode
+relevance information, we introduce external knowledge generated from BERT to
+refine the network of user behaviors. This allows the new model to integrate
+information from neighboring items and queries, which are highly relevant to
+the focus query-item pair under consideration. Results of offline experiments
+showed that the new model significantly improved the prediction accuracy in
+terms of human relevance judgment. An ablation study showed that the
+First-and-Second-order model gained a 4.3% average gain over the First-order
+model. Results of an online A/B test revealed that the new model derived more
+commercial benefits compared to the base model.

@@ -1,0 +1,19 @@
+Augmenting training datasets has been shown to improve the learning
+effectiveness for several computer vision tasks. A good augmentation produces
+an augmented dataset that adds variability while retaining the statistical
+properties of the original dataset. Some techniques, such as AutoAugment and
+Fast AutoAugment, have introduced a search phase to find a set of suitable
+augmentation policies for a given model and dataset. This comes at the cost of
+great computational overhead, adding up to several thousand GPU hours. More
+recently RandAugment was proposed to substantially speedup the search phase by
+approximating the search space by a couple of hyperparameters, but still
+incurring non-negligible cost for tuning those. In this paper we show that,
+under the assumption that the augmentation space is approximately distribution
+invariant, a uniform sampling over the continuous space of augmentation
+transformations is sufficient to train highly effective models. Based on that
+result we propose UniformAugment, an automated data augmentation approach that
+completely avoids a search phase. In addition to discussing the theoretical
+underpinning supporting our approach, we also use the standard datasets, as
+well as established models for image classification, to show that
+UniformAugment's effectiveness is comparable to the aforementioned methods,
+while still being highly efficient by virtue of not requiring any search.

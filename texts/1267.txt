@@ -1,0 +1,15 @@
+Identifying political perspectives in news media has become an important task
+due to the rapid growth of political commentary and the increasingly polarized
+political ideologies. Previous approaches focus on textual content and leave
+out the rich social and political context that is essential in the perspective
+detection process. To address this limitation, we propose KGAP, a political
+perspective detection method that incorporates external domain knowledge.
+Specifically, we construct a political knowledge graph to serve as
+domain-specific external knowledge. We then construct heterogeneous information
+networks to represent news documents, which jointly model news text and
+external knowledge. Finally, we adopt relational graph neural networks and
+conduct political perspective detection as graph-level classification.
+Extensive experiments demonstrate that our method consistently achieves the
+best performance on two real-world perspective detection benchmarks. Ablation
+studies further bear out the necessity of external knowledge and the
+effectiveness of our graph-based approach.

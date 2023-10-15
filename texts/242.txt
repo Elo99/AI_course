@@ -1,0 +1,13 @@
+PatentTransformer is our codename for patent text generation based on
+Transformer-based models. Our goal is "Augmented Inventing." In this second
+version, we leverage more of the structural metadata in patents. The structural
+metadata includes patent title, abstract, and dependent claim, in addition to
+independent claim previously. Metadata controls what kind of patent text for
+the model to generate. Also, we leverage the relation between metadata to build
+a text-to-text generation flow, for example, from a few words to a title, the
+title to an abstract, the abstract to an independent claim, and the independent
+claim to multiple dependent claims. The text flow can go backward because the
+relation is trained bidirectionally. We release our GPT-2 models trained from
+scratch and our code for inference so that readers can verify and generate
+patent text on their own. As for generation quality, we measure it by both
+ROUGE and Google Universal Sentence Encoder.

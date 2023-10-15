@@ -1,0 +1,15 @@
+In this two-part study, we develop a general theory of the so-called exact
+augmented Lagrangians for constrained optimization problems in Hilbert spaces.
+In contrast to traditional nonsmooth exact penalty functions, these augmented
+Lagrangians are continuously differentiable for smooth problems and do not
+suffer from the Maratos effect, which makes them especially appealing for
+applications in numerical optimization. Our aim is to present a detailed study
+of various theoretical properties of exact augmented Lagrangians and discuss
+several applications of these functions to constrained variational problems,
+problems with PDE constraints, and optimal control problems.
+  The first paper is devoted to a theoretical analysis of an exact augmented
+Lagrangian for optimization problems in Hilbert spaces. We obtain several
+useful estimates of this augmented Lagrangian and its gradient, and present
+several types of sufficient conditions for KKT-points of a constrained problem
+corresponding to locally/globally optimal solutions to be local/global
+minimisers of the exact augmented Lagrangian.

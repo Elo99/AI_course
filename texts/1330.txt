@@ -1,0 +1,16 @@
+Manual testing, as a complement to automated GUI testing, is the last line of
+defense for app quality especially in spotting usability and accessibility
+issues. However, the repeated actions and easy missing of some functionalities
+make manual testing time-consuming, labor-extensive and inefficient. Inspired
+by the game candy crush with flashy candies as hint moves for players, we
+develop a tool named NaviDroid for navigating human testers via highlighted
+next operations for more effective and efficient testing. Within NaviDroid, it
+constructs an enriched state transition graph (STG) with the trigger actions as
+the edges for two involved states. Based on the STG, NaviDroid utilizes the
+dynamic programming algorithm to plan the exploration path, and augment the
+run-time GUI with visualized hint moves for testers to quickly explore untested
+states and avoid duplication. The automated experiments demonstrate the high
+coverage and efficient path planning of NaviDroid. A user study further
+confirms its usefulness in the participants covering more states and
+activities, detecting more bugs within less time compared with the control
+group. NaviDroid demo video: https://youtu.be/lShFyg_nTA0.

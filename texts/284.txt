@@ -1,0 +1,17 @@
+Topic models analyze text from a set of documents. Documents are modeled as a
+mixture of topics, with topics defined as probability distributions on words.
+Inferences of interest include the most probable topics and characterization of
+a topic by inspecting the topic's highest probability words. Motivated by a
+data set of web pages (documents) nested in web sites, we extend the Poisson
+factor analysis topic model to hierarchical topic presence models for analyzing
+text from documents nested in known groups. We incorporate an unknown binary
+topic presence parameter for each topic at the web site and/or the web page
+level to allow web sites and/or web pages to be sparse mixtures of topics and
+we propose logistic regression modeling of topic presence conditional on web
+site covariates. We introduce local topics into the Poisson factor analysis
+framework, where each web site has a local topic not found in other web sites.
+Two data augmentation methods, the Chinese table distribution and
+P\'{o}lya-Gamma augmentation, aid in constructing our sampler. We analyze text
+from web pages nested in United States local public health department web sites
+to abstract topical information and understand national patterns in topic
+presence.

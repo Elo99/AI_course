@@ -1,0 +1,16 @@
+We propose a method for synthesizing environmental sounds from visually
+represented onomatopoeias and sound sources. An onomatopoeia is a word that
+imitates a sound structure, i.e., the text representation of sound. From this
+perspective, onoma-to-wave has been proposed to synthesize environmental sounds
+from the desired onomatopoeia texts. Onomatopoeias have another representation:
+visual-text representations of sounds in comics, advertisements, and virtual
+reality. A visual onomatopoeia (visual text of onomatopoeia) contains rich
+information that is not present in the text, such as a long-short duration of
+the image, so the use of this representation is expected to synthesize diverse
+sounds. Therefore, we propose visual onoma-to-wave for environmental sound
+synthesis from visual onomatopoeia. The method can transfer visual concepts of
+the visual text and sound-source image to the synthesized sound. We also
+propose a data augmentation method focusing on the repetition of onomatopoeias
+to enhance the performance of our method. An experimental evaluation shows that
+the methods can synthesize diverse environmental sounds from visual text and
+sound-source images.

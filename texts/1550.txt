@@ -1,0 +1,15 @@
+In the Hausdorff Voronoi diagram of a set of clusters of points in the plane,
+the distance between a point t and a cluster P is the maximum Euclidean
+distance between t and a point in P. This diagram has direct applications in
+VLSI design. We consider so-called "non-crossing" clusters. The complexity of
+the Hausdorff diagram of m such clusters is linear in the total number n of
+points in the convex hulls of all clusters. We present randomized incremental
+constructions for computing efficiently the diagram, improving considerably
+previous results. Our best complexity algorithm runs in expected time O((n +
+m(log log(n))^2)log^2(n)) and worst-case space O(n). We also provide a more
+practical algorithm whose expected running time is O((n + m log(n))log^2(n))
+and expected space complexity is O(n). To achieve these bounds, we augment the
+randomized incremental paradigm for the construction of Voronoi diagrams with
+the ability to efficiently handle non-standard characteristics of generalized
+Voronoi diagrams, such as sites of non-constant complexity, sites that are not
+enclosed in their Voronoi regions, and empty Voronoi regions.

@@ -1,0 +1,25 @@
+Named Entity Recognition (NER) on social media refers to discovering and
+classifying entities from unstructured free-form content, and it plays an
+important role for various applications such as intention understanding and
+user recommendation. With social media posts tending to be multimodal,
+Multimodal Named Entity Recognition (MNER) for the text with its accompanying
+image is attracting more and more attention since some textual components can
+only be understood in combination with visual information. However, there are
+two drawbacks in existing approaches: 1) Meanings of the text and its
+accompanying image do not match always, so the text information still plays a
+major role. However, social media posts are usually shorter and more informal
+compared with other normal contents, which easily causes incomplete semantic
+description and the data sparsity problem. 2) Although the visual
+representations of whole images or objects are already used, existing methods
+ignore either fine-grained semantic correspondence between objects in images
+and words in text or the objective fact that there are misleading objects or no
+objects in some images. In this work, we solve the above two problems by
+introducing the multi-granularity cross-modality representation learning. To
+resolve the first problem, we enhance the representation by semantic
+augmentation for each word in text. As for the second issue, we perform the
+cross-modality semantic interaction between text and vision at the different
+vision granularity to get the most effective multimodal guidance representation
+for every word. Experiments show that our proposed approach can achieve the
+SOTA or approximate SOTA performance on two benchmark datasets of tweets. The
+code, data and the best performing models are available at
+https://github.com/LiuPeiP-CS/IIE4MNER

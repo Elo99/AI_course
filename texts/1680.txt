@@ -1,0 +1,17 @@
+A major question in the field of star formation is how molecular clouds form
+out of the diffuse Interstellar Medium (ISM). Recent advances in 3D dust
+mapping are revolutionizing our view of the structure of the ISM. Using the
+highest-resolution 3D dust map to date, we explore the structure of a nearby
+star-forming region, which includes the well-known Perseus and Taurus molecular
+clouds. We reveal an extended near-spherical shell, 156 pc in diameter,
+hereafter the "Per-Tau Shell", in which the Perseus and Taurus clouds are
+embedded. We also find a large ring structure at the location of Taurus,
+hereafter, the "Tau Ring". We discuss a formation scenario for the Per-Tau
+Shell, in which previous stellar and supernova (SN) feedback events formed a
+large expanding shell, where the swept-up ISM has condensed to form both the
+shell and the Perseus and Taurus molecular clouds within it. We present
+auxiliary observations of HI, H$\alpha$, $^{26}$Al, and X-rays that further
+support this scenario, and estimate Per-Tau Shell's age to be $\approx 6-22$
+Myrs. The Per-Tau shell offers the first three-dimensional observational view
+of a phenomenon long-hypothesized theoretically, molecular cloud formation and
+star formation triggered by previous stellar and SN feedback.

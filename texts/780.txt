@@ -1,0 +1,15 @@
+Spoken Language Understanding (SLU) is the problem of extracting the meaning
+from speech utterances. It is typically addressed as a two-step problem, where
+an Automatic Speech Recognition (ASR) model is employed to convert speech into
+text, followed by a Natural Language Understanding (NLU) model to extract
+meaning from the decoded text. Recently, end-to-end approaches were emerged,
+aiming at unifying the ASR and NLU into a single SLU deep neural architecture,
+trained using combinations of ASR and NLU-level recognition units. In this
+paper, we explore a set of recurrent architectures for intent classification,
+tailored to the recently introduced Fluent Speech Commands (FSC) dataset, where
+intents are formed as combinations of three slots (action, object, and
+location). We show that by combining deep recurrent architectures with standard
+data augmentation, state-of-the-art results can be attained, without using
+ASR-level targets or pretrained ASR models. We also investigate its
+generalizability to new wordings, and we show that the model can perform
+reasonably well on wordings unseen during training.

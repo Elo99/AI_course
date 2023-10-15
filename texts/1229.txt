@@ -1,0 +1,15 @@
+Na$_{0.5}$(Bi$_3$/4RE$_{1/4}$)$_{0.5}$TiO$_3$ (RENBT, RE = Nd, Gd, Dy, and
+Ho) compounds were investigated in the framework of first-principles
+calculations using the full potential linearized augmented plane wave (FP-LAPW)
+method based on the spin-polarized density functional theory implemented in the
+WIEN2k code. Combined charge density distribution and Ti K-edge x-ray
+absorption spectra revealed that the RENBT compositions with high polarization
+values were accompanied by a higher TiO$_6$ distortion, DyNBT, and NdNBT
+compounds. The effect of the rare-earth elements on the polarization were
+confirmed experimentally with the collection of the hysteresis loops. The
+investigation of the electronic properties of the compounds highlighted the
+emergence of a magnetization owing to the 4f orbital effect of the rare-earth
+elements. Besides, the investigation of the chemical ordering showed a
+short-range chemical ordering for the pure composition and an increased A-site
+disorder for dysprosium doped NBT system. The increased disorder may speak for
+increased relaxor properties in the RE doped compositions.

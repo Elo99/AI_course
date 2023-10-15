@@ -1,0 +1,13 @@
+Non-Abelian Vector Boson Dark Matter (VBDM), arising from an $SU(2)_N$
+extension of the Standard Model (SM) has been studied. The Dark Matter (DM) is
+stabilized by imposing an additional discrete global symmetry $S^{'}$ with
+charges, such that it satisfies $S=S^{'}+T_{3N}$ even when $SU(2)_N$ is
+completely broken. This model, apart from a single-component DM also offers a
+two-component DM augmented by a scalar and a vector boson, which lives over a
+large parameter space evading strong direct search bounds. Apart from potential
+DM candidates, this model also explains the smallness of neutrino masses
+through the $inverse$ $seesaw$ $mechanism$. We have computed tree-unitarity
+bound to limit the scalar mass spectrum in our model. Phenomenological aspects
+of the model have been discussed. Further, we have analyzed the possible
+collider signatures at the Large Hadron Collider (LHC) and its future
+implications.

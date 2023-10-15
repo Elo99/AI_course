@@ -1,0 +1,22 @@
+The last decade has experienced a vast interest in Blockchain-based
+cryptocurrencies with a specific focus on the applications of this technology.
+However, slow confirmation times of transactions and unforeseeable high fees
+hamper their wide adoption for micro-payments. The idea of establishing payment
+channel networks is one of the many proposed solutions to address this
+scalability issue where nodes, by utilizing smart contracting, establish
+payment channels between each other and perform off-chain transactions.
+However, due to the way these channels are created, both sides have a certain
+one-way capacity for making transactions. Consequently, if one sides exceeds
+this one-way capacity, the channel becomes useless in that particular
+direction, which causes failures of payments and eventually creates an
+imbalance in the overall network. To keep the payment channel network
+sustainable, in this paper, we aim to increase the overall success rate of
+payments by effectively exploiting the fact that end-users are usually
+connected to the network at multiple points (i.e., gateways) any of which can
+be used to initiate the payment. We propose an efficient method for selection
+of the gateway for a user by considering the gateway's inbound and outbound
+payment traffic ratio. We then augment this proposed method with split payment
+capability to further increase success rate especially for large transactions.
+The evaluation of the proposed method shows that compared to greedy and
+maxflow-based approaches, we can achieve much higher success rates, which are
+further improved with split payments.

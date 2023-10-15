@@ -1,0 +1,13 @@
+In this paper we analyze symmetries, hidden symmetries, and commensurability
+classes of $(\epsilon, d_L)$-twisted knot complements, which are the
+complements of knots that have a sufficiently large number of twists in each of
+their twist regions. These knot complements can be constructed via long Dehn
+fillings on fully augmented links complements. We show that such knot
+complements have no hidden symmetries, which implies that there are at most two
+other knot complements in their respective commensurability classes. Under mild
+additional hypotheses, we show that these knots have at most four
+(orientation-preserving) symmetries and are the only knot complements in their
+respective commensurability classes. Finally, we provide an infinite family of
+explicit examples of $(\epsilon, d_L)$-twisted knot complements that are the
+unique knot complements in their respective commensurability classes obtained
+by filling a fully augmented link with four crossing circles.

@@ -1,0 +1,17 @@
+Many applications of data-driven models demand transparency of decisions,
+especially in health care, criminal justice, and other high-stakes
+environments. Modern trends in machine learning research have led to algorithms
+that are increasingly intricate to the degree that they are considered to be
+black boxes. In an effort to reduce the opacity of decisions, methods have been
+proposed to construe the inner workings of such models in a
+human-comprehensible manner. These post hoc techniques are described as being
+universal explainers - capable of faithfully augmenting decisions with
+algorithmic insight. Unfortunately, there is little agreement about what
+constitutes a "good" explanation. Moreover, current methods of explanation
+evaluation are derived from either subjective or proxy means. In this work, we
+propose a framework for the evaluation of post hoc explainers on ground truth
+that is directly derived from the additive structure of a model. We demonstrate
+the efficacy of the framework in understanding explainers by evaluating popular
+explainers on thousands of synthetic and several real-world tasks. The
+framework unveils that explanations may be accurate but misattribute the
+importance of individual features.

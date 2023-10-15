@@ -1,0 +1,15 @@
+Text style transfer aims to alter the style of a sentence while preserving
+its content. Due to the lack of parallel corpora, most recent work focuses on
+unsupervised methods and often uses cycle construction to train models. Since
+cycle construction helps to improve the style transfer ability of the model by
+rebuilding transferred sentences back to original-style sentences, it brings
+about a content loss in unsupervised text style transfer tasks. In this paper,
+we propose a novel disentanglement-based style transfer model StyleFlow to
+enhance content preservation. Instead of the typical encoder-decoder scheme,
+StyleFlow can not only conduct the forward process to obtain the output, but
+also infer to the input through the output. We design an attention-aware
+coupling layers to disentangle the content representations and the style
+representations of a sentence. Besides, we propose a data augmentation method
+based on Normalizing Flow to improve the robustness of the model. Experiment
+results demonstrate that our model preserves content effectively and achieves
+the state-of-the-art performance on the most metrics.

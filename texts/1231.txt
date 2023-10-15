@@ -1,0 +1,15 @@
+Automation of brain tumor segmentation in 3D magnetic resonance images (MRIs)
+is key to assess the diagnostic and treatment of the disease. In recent years,
+convolutional neural networks (CNNs) have shown improved results in the task.
+However, high memory consumption is still a problem in 3D-CNNs. Moreover, most
+methods do not include uncertainty information, which is especially critical in
+medical diagnosis. This work studies 3D encoder-decoder architectures trained
+with patch-based techniques to reduce memory consumption and decrease the
+effect of unbalanced data. The different trained models are then used to create
+an ensemble that leverages the properties of each model, thus increasing the
+performance. We also introduce voxel-wise uncertainty information, both
+epistemic and aleatoric using test-time dropout (TTD) and data-augmentation
+(TTA) respectively. In addition, a hybrid approach is proposed that helps
+increase the accuracy of the segmentation. The model and uncertainty estimation
+measurements proposed in this work have been used in the BraTS'20 Challenge for
+task 1 and 3 regarding tumor segmentation and uncertainty estimation.

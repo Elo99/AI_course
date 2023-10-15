@@ -1,0 +1,19 @@
+We study how effective data augmentation is at capturing the inductive bias
+of carefully designed network architectures for spatial translation invariance.
+We evaluate various image classification architectures (antialiased,
+convolutional, vision transformer, and fully connected MLP networks) and data
+augmentation techniques towards generalization to large translation shifts. We
+observe that: (a) without data augmentation, all architectures, including
+convolutional networks with antialiased modification suffer some degradation in
+performance when evaluated on translated test distributions. Understandably,
+both the in-distribution accuracy and degradation to shifts is significantly
+worse for non-convolutional models. (b) The robustness of performance is
+improved by even a minimal augmentation of $4$ pixel random crop across all
+architectures. In some instances, even $1-2$ pixel random crop is sufficient.
+This suggests that there is a form of meta generalization from augmentation.
+For non-convolutional architectures, while the absolute accuracy is still low
+with this basic augmentation, we see substantial improvements in robustness to
+translation shifts. (c) With a sufficiently advanced augmentation pipeline ($4$
+pixel crop+RandAugmentation+Erasing+MixUp), all architectures can be trained to
+have competitive performance in terms of in-distribution accuracy as well as
+generalization to large translation shifts.

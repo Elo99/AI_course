@@ -1,0 +1,20 @@
+The study examines the problem of using augmented and virtual reality in the
+process of blended learning in general secondary education. The study analyzes
+the meaning of the concept of "blended learning". The conceptual principles of
+blended learning are considered. The definition of augmented and virtual
+reality is given. The mixed reality is considered as a separate kind of notion.
+Separate applications of virtual and augmented reality that can be used in the
+process of blended learning are considered. As a result of the study, the
+authors propose possible ways to use augmented reality in the educational
+process. The model of using augmented and virtual reality in blended learning
+in general secondary education institutions was designed. It consists of the
+following blocks: goal; teacher's activity; forms of education; teaching
+methods; teaching aids; organizational forms of education; pupil activity and
+results. Based on the model, the methodology of using augmented and virtual
+reality in blended learning in general secondary education was developed. The
+methodology contains the following components: target component, content
+component, technological component and resultant component. The methodology is
+quite universal and can be used for any subject in general secondary education.
+The types of lessons in which it is expedient to use augmented (AR) and virtual
+reality(VR) are determined. Recommendations are given at which stage of the
+lesson it is better to use AR and VR tools (depending on the type of lesson).

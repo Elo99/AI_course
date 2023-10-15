@@ -1,0 +1,20 @@
+Data augmentation (DA) is a widely used technique for enhancing the training
+of deep neural networks. Recent DA techniques which achieve state-of-the-art
+performance always meet the need for diversity in augmented training samples.
+However, an augmentation strategy that has a high diversity usually introduces
+out-of-distribution (OOD) augmented samples and these samples consequently
+impair the performance. To alleviate this issue, we propose ReSmooth, a
+framework that firstly detects OOD samples in augmented samples and then
+leverages them. To be specific, we first use a Gaussian mixture model to fit
+the loss distribution of both the original and augmented samples and
+accordingly split these samples into in-distribution (ID) samples and OOD
+samples. Then we start a new training where ID and OOD samples are incorporated
+with different smooth labels. By treating ID samples and OOD samples unequally,
+we can make better use of the diverse augmented data. Further, we incorporate
+our ReSmooth framework with negative data augmentation strategies. By properly
+handling their intentionally created OOD samples, the classification
+performance of negative data augmentations is largely ameliorated. Experiments
+on several classification benchmarks show that ReSmooth can be easily extended
+to existing augmentation strategies (such as RandAugment, rotate, and jigsaw)
+and improve on them. Our code is available at
+https://github.com/Chenyang4/ReSmooth.

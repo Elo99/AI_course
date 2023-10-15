@@ -1,0 +1,23 @@
+We determine the frequency dependence of four independent CdWO$_4$ Cartesian
+dielectric function tensor elements by generalized spectroscopic ellipsometry
+within mid-infrared and far-infrared spectral regions. Single crystal surfaces
+cut under different angles from a bulk crystal, (010) and (001), are
+investigated. From the spectral dependencies of the dielectric function tensor
+and its inverse we determine all long wavelength active transverse and
+longitudinal optic phonon modes with $A_u$ and $B_u$ symmetry as well as their
+eigenvectors within the monoclinic lattice. We thereby demonstrate that such
+information can be obtained completely without physical model line shape
+analysis in materials with monoclinic symmetry. We then augment the effect of
+lattice anharmonicity onto our recently described dielectric function tensor
+model approach for materials with monoclinic and triclinic crystal symmetries
+[Phys. Rev. B, 125209 (2016)], and we obtain excellent match between all
+measured and modeled dielectric function tensor elements. All phonon mode
+frequency and broadening parameters are determined in our model approach. We
+also perform density functional theory phonon mode calculations, and we compare
+our results obtained from theory, from direct dielectric function tensor
+analysis, and from model lineshape analysis, and we find excellent agreement
+between all approaches. We also discuss and present static and above
+reststrahlen spectral range dielectric constants. Our data for CdWO$_4$ are in
+excellent agreement with a recently proposed generalization of the
+Lyddane-Sachs-Teller relation for materials with low crystal symmetry [Phys.
+Rev. Lett. 117, 215502 (2016)].

@@ -1,0 +1,15 @@
+Fact-based dialogue generation is a task of generating a human-like response
+based on both dialogue context and factual texts. Various methods were proposed
+to focus on generating informative words that contain facts effectively.
+However, previous works implicitly assume a topic to be kept on a dialogue and
+usually converse passively, therefore the systems have a difficulty to generate
+diverse responses that provide meaningful information proactively. This paper
+proposes an end-to-end fact-based dialogue system augmented with the ability of
+convergent and divergent thinking over both context and facts, which can
+converse about the current topic or introduce a new topic. Specifically, our
+model incorporates a novel convergent and divergent decoding that can generate
+informative and diverse responses considering not only given inputs (context
+and facts) but also inputs-related topics. Both automatic and human evaluation
+results on DSTC7 dataset show that our model significantly outperforms
+state-of-the-art baselines, indicating that our model can generate more
+appropriate, informative, and diverse responses.

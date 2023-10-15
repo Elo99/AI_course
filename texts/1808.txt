@@ -1,0 +1,15 @@
+Data augmentation is a ubiquitous technique for improving image
+classification when labeled data is scarce. Constraining the model predictions
+to be invariant to diverse data augmentations effectively injects the desired
+representational invariances to the model (e.g., invariance to photometric
+variations) and helps improve accuracy. Compared to image data, the appearance
+variations in videos are far more complex due to the additional temporal
+dimension. Yet, data augmentation methods for videos remain under-explored.
+This paper investigates various data augmentation strategies that capture
+different video invariances, including photometric, geometric, temporal, and
+actor/scene augmentations. When integrated with existing semi-supervised
+learning frameworks, we show that our data augmentation strategy leads to
+promising performance on the Kinetics-100/400, Mini-Something-v2, UCF-101, and
+HMDB-51 datasets in the low-label regime. We also validate our data
+augmentation strategy in the fully supervised setting and demonstrate improved
+performance.

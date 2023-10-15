@@ -1,0 +1,18 @@
+Deep neural networks (DNNs) have been employed for designing wireless systems
+in many aspects, say transceiver design, resource optimization, and information
+prediction. Existing works either use the fully-connected DNN or the DNNs with
+particular architectures developed in other domains. While generating labels
+for supervised learning and gathering training samples are time-consuming or
+cost-prohibitive, how to develop DNNs with wireless priors for reducing
+training complexity remains open. In this paper, we show that two kinds of
+permutation invariant properties widely existed in wireless tasks can be
+harnessed to reduce the number of model parameters and hence the sample and
+computational complexity for training. We find special architecture of DNNs
+whose input-output relationships satisfy the properties, called permutation
+invariant DNN (PINN), and augment the data with the properties. By learning the
+impact of the scale of a wireless system, the size of the constructed PINNs can
+flexibly adapt to the input data dimension. We take predictive resource
+allocation and interference coordination as examples to show how the PINNs can
+be employed for learning the optimal policy with unsupervised and supervised
+learning. Simulations results demonstrate a dramatic gain of the proposed PINNs
+in terms of reducing training complexity.
